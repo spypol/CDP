@@ -17,7 +17,7 @@ $(document).ready(function(){
 	
 	$('#slider-homepage').nivoSlider({
 		controlNav: false,
-		pauseTime: 3000
+		pauseTime: 7000
 	});
 	
 	
@@ -66,17 +66,17 @@ $(document).ready(function(){
 	//MUSIC PLAYER
 	$('.progression-single').mediaelementplayer({
 		audioWidth: 250, // width of audio player
-		audioHeight:30, // height of audio player
+		audioHeight: 30, // height of audio player
 		startVolume: 0.8, // initial volume when the player starts
-		features: ['playpause','current','progress','duration','tracks','volume','fullscreen']
+		features: ['playpause', 'current', 'progress', 'duration', 'tracks', 'volume', 'fullscreen']
 	});
 	
 	$('.progression-playlist').mediaelementplayer({
 		audioWidth: 960, // width of audio player
-		audioHeight:30, // height of audio player
+		audioHeight: 30, // height of audio player
 		startVolume: 0.5, // initial volume when the player starts
 		loop: false, // useful for <audio> player loops
-		features: ['playlistfeature', 'prevtrack', 'playpause', 'nexttrack','current', 'progress', 'tracks', 'duration', 'volume', 'playlist'],
+		features: ['playlistfeature', 'prevtrack', 'playpause', 'nexttrack', 'current', 'progress', 'tracks', 'duration', 'volume', 'playlist'],
 		playlist: false, //Playlist Show
 		playlistposition: 'bottom' //Playlist Location
 	});

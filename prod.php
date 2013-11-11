@@ -36,7 +36,7 @@
 							<h1>L'&eacute;quipe</h1>
 							<ul class="js-masonry" data-masonry-options='{ "columnWidth": 255, "itemSelector": "li", "gutter": 25 }'>
 							
-								<li><span class="circular" id="juliengoetz"></span><h3>Julien Goetz</h3><h4>Pr&eacute;sident / Compositeur / Arrangeur</h4></h3>
+								<li><span class="circular" id="juliengoetz"></span><h3>Judedelien Goetz</h3><h4>Pr&eacute;sident / Compositeur / Arrangeur</h4></h3>
 								<p>
 									Autodidacte, sans formation musicale, c&rsquo;est en couplant vie professionnelle et passion artistique qu&rsquo;il parvient &agrave; composer des airs et des m&eacute;lodies qui restent en t&ecirc;te d&egrave;s la premi&egrave;re &eacute;coute. C&rsquo;est en se lan&ccedil;ant dans une adaptation de &ldquo;Notre-Dame de Paris&rdquo; en 1999 que lui vient le go&ucirc;t des com&eacute;dies musicales. Ainsi, il compose et cr&eacute;&eacute; &ldquo;Cl&eacute;op&acirc;tre, la l&eacute;gende d&rsquo;une reine&rdquo; en 2002, &ldquo;Souviens-toi, Pan!&rdquo; en 2006 et &ldquo;Troie&rdquo; en 2007. &ldquo;Alice&rdquo; est ainsi sa quatri&egrave;me cr&eacute;ation.
 								</p>
@@ -68,7 +68,7 @@
 								
 								<li><span class="circular" id="benjaminlandrot"></span><h3>Benjamin Landrot</h3><h4>Arrangeur / Mixeur</h4>
 									<p>
-								
+										D'abord musicien autodidacte adepte de la sc&egrave;ne, il nourrit depuis 15 ans une vraie passion pour les m&eacute;tiers de l'ombre du spectacle vivant. D&eacute;butant en 1998 avec l'apparition de la M.A.O. grand public, il se mesure ensuite aux d&eacute;fis de la sonorisation et des techniques audionum&eacute;riques en live et en home studio. Benjamin pr&ecirc;te aujourd'hui son exp&eacute;rience de musicien arrangeur et sa ma&icirc;trise du mixage pour mettre en musique le spectacle &quot;Alice&quot;.
 									</p>
 								</li>
 								
