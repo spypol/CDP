@@ -422,7 +422,7 @@ footer li h5{
 	Artistes styles
    ========================================================================== */
 #photo-vignettes{
-    color:#000;
+    color:#ccc;
 	min-height:250px;
 	padding:0 2%;
 	width:100%;
@@ -454,7 +454,7 @@ footer li h5{
 }
 
 .portrait{
-    width:100px;
+    width:160px;
 }
 
 #artiste-details{
