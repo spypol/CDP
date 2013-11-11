@@ -1,7 +1,11 @@
 _photos/*
 img/*
+wordpress/*
+bootstrap/*
 
 *.png
 *.jpg
 *.jpeg
 *.ico
+*.pdf
+*.DS_store

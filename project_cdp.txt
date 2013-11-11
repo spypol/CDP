@@ -1,0 +1,798 @@
+<NotepadPlus>
+    <Project name="CDP">
+        <Folder name="bootstrap">
+            <Folder name="css">
+                <File name="CDP\bootstrap\css\main.css" />
+                <File name="CDP\bootstrap\css\normalize.css" />
+            </Folder>
+            <Folder name="doc">
+                <File name="CDP\bootstrap\doc\crossdomain.md" />
+                <File name="CDP\bootstrap\doc\css.md" />
+                <File name="CDP\bootstrap\doc\extend.md" />
+                <File name="CDP\bootstrap\doc\faq.md" />
+                <File name="CDP\bootstrap\doc\html.md" />
+                <File name="CDP\bootstrap\doc\js.md" />
+                <File name="CDP\bootstrap\doc\misc.md" />
+                <File name="CDP\bootstrap\doc\TOC.md" />
+                <File name="CDP\bootstrap\doc\usage.md" />
+            </Folder>
+            <Folder name="img">
+                <File name="CDP\bootstrap\img\.gitignore" />
+            </Folder>
+            <Folder name="js">
+                <Folder name="vendor">
+                    <File name="CDP\bootstrap\js\vendor\jquery-1.9.1.min.js" />
+                    <File name="CDP\bootstrap\js\vendor\modernizr-2.6.2.min.js" />
+                </Folder>
+                <File name="CDP\bootstrap\js\main.js" />
+                <File name="CDP\bootstrap\js\plugins.js" />
+            </Folder>
+            <Folder name="yaml412-130728">
+                <Folder name="demos">
+                    <Folder name="css">
+                        <Folder name="screen">
+                            <File name="CDP\bootstrap\yaml412-130728\demos\css\screen\screen-custom-grids.css" />
+                            <File name="CDP\bootstrap\yaml412-130728\demos\css\screen\screen-rtl-support.css" />
+                        </Folder>
+                        <File name="CDP\bootstrap\yaml412-130728\demos\css\custom-grids.css" />
+                        <File name="CDP\bootstrap\yaml412-130728\demos\css\flexible-columns.css" />
+                        <File name="CDP\bootstrap\yaml412-130728\demos\css\flexible-grids.css" />
+                        <File name="CDP\bootstrap\yaml412-130728\demos\css\rtl-support.css" />
+                    </Folder>
+                    <File name="CDP\bootstrap\yaml412-130728\demos\custom-grid.html" />
+                    <File name="CDP\bootstrap\yaml412-130728\demos\flexible-columns.html" />
+                    <File name="CDP\bootstrap\yaml412-130728\demos\flexible-grid.html" />
+                    <File name="CDP\bootstrap\yaml412-130728\demos\rtl-support.html" />
+                </Folder>
+                <Folder name="docs">
+                    <Folder name="assets">
+                        <Folder name="css">
+                            <Folder name="icons">
+                                <Folder name="xfn">
+                                    <File name="CDP\bootstrap\yaml412-130728\docs\assets\css\icons\xfn\xfn-child.png" />
+                                    <File name="CDP\bootstrap\yaml412-130728\docs\assets\css\icons\xfn\xfn-colleague-met.png" />
+                                    <File name="CDP\bootstrap\yaml412-130728\docs\assets\css\icons\xfn\xfn-colleague.png" />
+                                    <File name="CDP\bootstrap\yaml412-130728\docs\assets\css\icons\xfn\xfn-friend-met.png" />
+                                    <File name="CDP\bootstrap\yaml412-130728\docs\assets\css\icons\xfn\xfn-friend.png" />
+                                    <File name="CDP\bootstrap\yaml412-130728\docs\assets\css\icons\xfn\xfn-me.png" />
+                                    <File name="CDP\bootstrap\yaml412-130728\docs\assets\css\icons\xfn\xfn-parent.png" />
+                                    <File name="CDP\bootstrap\yaml412-130728\docs\assets\css\icons\xfn\xfn-small.png" />
+                                    <File name="CDP\bootstrap\yaml412-130728\docs\assets\css\icons\xfn\xfn-spouse.png" />
+                                    <File name="CDP\bootstrap\yaml412-130728\docs\assets\css\icons\xfn\xfn-sweetheart-met.png" />
+                                    <File name="CDP\bootstrap\yaml412-130728\docs\assets\css\icons\xfn\xfn-sweetheart.png" />
+                                </Folder>
+                                <File name="CDP\bootstrap\yaml412-130728\docs\assets\css\icons\external_link.png" />
+                                <File name="CDP\bootstrap\yaml412-130728\docs\assets\css\icons\hcalendar.png" />
+                                <File name="CDP\bootstrap\yaml412-130728\docs\assets\css\icons\hcard.png" />
+                                <File name="CDP\bootstrap\yaml412-130728\docs\assets\css\icons\icon-geo.png" />
+                                <File name="CDP\bootstrap\yaml412-130728\docs\assets\css\icons\icon-hatom.png" />
+                                <File name="CDP\bootstrap\yaml412-130728\docs\assets\css\icons\icon-haudio.png" />
+                                <File name="CDP\bootstrap\yaml412-130728\docs\assets\css\icons\icon-hcalendar-add.png" />
+                                <File name="CDP\bootstrap\yaml412-130728\docs\assets\css\icons\icon-hcalendar-download.png" />
+                                <File name="CDP\bootstrap\yaml412-130728\docs\assets\css\icons\icon-hcalendar.png" />
+                                <File name="CDP\bootstrap\yaml412-130728\docs\assets\css\icons\icon-hcard-add.png" />
+                                <File name="CDP\bootstrap\yaml412-130728\docs\assets\css\icons\icon-hcard-download.png" />
+                                <File name="CDP\bootstrap\yaml412-130728\docs\assets\css\icons\icon-hcard.png" />
+                                <File name="CDP\bootstrap\yaml412-130728\docs\assets\css\icons\icon-hresume.png" />
+                                <File name="CDP\bootstrap\yaml412-130728\docs\assets\css\icons\icon-rel-tag.png" />
+                                <File name="CDP\bootstrap\yaml412-130728\docs\assets\css\icons\icon-xfn.png" />
+                            </Folder>
+                            <File name="CDP\bootstrap\yaml412-130728\docs\assets\css\layout-min.css" />
+                            <File name="CDP\bootstrap\yaml412-130728\docs\assets\css\layout.css" />
+                        </Folder>
+                        <Folder name="images">
+                            <File name="CDP\bootstrap\yaml412-130728\docs\assets\images\demo-custom-grid.png" />
+                            <File name="CDP\bootstrap\yaml412-130728\docs\assets\images\demo-flex-column.png" />
+                            <File name="CDP\bootstrap\yaml412-130728\docs\assets\images\demo-flex-grid.png" />
+                            <File name="CDP\bootstrap\yaml412-130728\docs\assets\images\demo-rtl.png" />
+                            <File name="CDP\bootstrap\yaml412-130728\docs\assets\images\yaml-solo-transparent-small.png" />
+                            <File name="CDP\bootstrap\yaml412-130728\docs\assets\images\yaml-solo-transparent.png" />
+                        </Folder>
+                        <Folder name="js">
+                            <Folder name="snippet">
+                                <File name="CDP\bootstrap\yaml412-130728\docs\assets\js\snippet\jquery.snippet.css" />
+                                <File name="CDP\bootstrap\yaml412-130728\docs\assets\js\snippet\jquery.snippet.js" />
+                                <File name="CDP\bootstrap\yaml412-130728\docs\assets\js\snippet\jquery.snippet.min.css" />
+                                <File name="CDP\bootstrap\yaml412-130728\docs\assets\js\snippet\jquery.snippet.min.js" />
+                                <File name="CDP\bootstrap\yaml412-130728\docs\assets\js\snippet\snippet.css" />
+                                <File name="CDP\bootstrap\yaml412-130728\docs\assets\js\snippet\ZeroClipboard.swf" />
+                            </Folder>
+                            <File name="CDP\bootstrap\yaml412-130728\docs\assets\js\domscript.js" />
+                            <File name="CDP\bootstrap\yaml412-130728\docs\assets\js\jquery.gridbuilder.js" />
+                        </Folder>
+                    </Folder>
+                    <File name="CDP\bootstrap\yaml412-130728\docs\index.html" />
+                </Folder>
+                <Folder name="lib">
+                    <Folder name="html5shiv">
+                        <File name="CDP\bootstrap\yaml412-130728\lib\html5shiv\html5shiv-printshiv.js" />
+                        <File name="CDP\bootstrap\yaml412-130728\lib\html5shiv\html5shiv.js" />
+                    </Folder>
+                    <File name="CDP\bootstrap\yaml412-130728\lib\jquery-1.10.1.min.js" />
+                    <File name="CDP\bootstrap\yaml412-130728\lib\jquery-migrate-1.2.1.min.js" />
+                </Folder>
+                <Folder name="sass">
+                    <Folder name="docs">
+                        <Folder name="assets">
+                            <Folder name="css">
+                                <File name="CDP\bootstrap\yaml412-130728\sass\docs\assets\css\layout.scss" />
+                                <File name="CDP\bootstrap\yaml412-130728\sass\docs\assets\css\_screen.scss" />
+                            </Folder>
+                        </Folder>
+                    </Folder>
+                    <Folder name="static-build">
+                        <Folder name="add-ons">
+                            <Folder name="accessible-tabs">
+                                <File name="CDP\bootstrap\yaml412-130728\sass\static-build\add-ons\accessible-tabs\tabs.scss" />
+                            </Folder>
+                            <Folder name="microformats">
+                                <File name="CDP\bootstrap\yaml412-130728\sass\static-build\add-ons\microformats\microformats.scss" />
+                            </Folder>
+                            <Folder name="rtl-support">
+                                <Folder name="core">
+                                    <File name="CDP\bootstrap\yaml412-130728\sass\static-build\add-ons\rtl-support\core\base-rtl.scss" />
+                                </Folder>
+                                <Folder name="forms">
+                                    <File name="CDP\bootstrap\yaml412-130728\sass\static-build\add-ons\rtl-support\forms\gray-theme-rtl.scss" />
+                                </Folder>
+                                <Folder name="navigation">
+                                    <File name="CDP\bootstrap\yaml412-130728\sass\static-build\add-ons\rtl-support\navigation\hlist-rtl.scss" />
+                                    <File name="CDP\bootstrap\yaml412-130728\sass\static-build\add-ons\rtl-support\navigation\vlist-rtl.scss" />
+                                </Folder>
+                                <Folder name="screen">
+                                    <File name="CDP\bootstrap\yaml412-130728\sass\static-build\add-ons\rtl-support\screen\typography-rtl.scss" />
+                                </Folder>
+                            </Folder>
+                        </Folder>
+                        <Folder name="core">
+                            <File name="CDP\bootstrap\yaml412-130728\sass\static-build\core\base.scss" />
+                            <File name="CDP\bootstrap\yaml412-130728\sass\static-build\core\iehacks.scss" />
+                        </Folder>
+                        <Folder name="forms">
+                            <File name="CDP\bootstrap\yaml412-130728\sass\static-build\forms\gray-theme.scss" />
+                        </Folder>
+                        <Folder name="navigation">
+                            <File name="CDP\bootstrap\yaml412-130728\sass\static-build\navigation\hlist.scss" />
+                            <File name="CDP\bootstrap\yaml412-130728\sass\static-build\navigation\vlist.scss" />
+                        </Folder>
+                        <Folder name="print">
+                            <File name="CDP\bootstrap\yaml412-130728\sass\static-build\print\print.scss" />
+                        </Folder>
+                        <Folder name="screen">
+                            <File name="CDP\bootstrap\yaml412-130728\sass\static-build\screen\grid-960gs-12.scss" />
+                            <File name="CDP\bootstrap\yaml412-130728\sass\static-build\screen\grid-960gs-16.scss" />
+                            <File name="CDP\bootstrap\yaml412-130728\sass\static-build\screen\grid-blueprint.scss" />
+                            <File name="CDP\bootstrap\yaml412-130728\sass\static-build\screen\grid-fluid-12col.scss" />
+                            <File name="CDP\bootstrap\yaml412-130728\sass\static-build\screen\screen-FULLPAGE-layout.scss" />
+                            <File name="CDP\bootstrap\yaml412-130728\sass\static-build\screen\screen-PAGE-layout.scss" />
+                            <File name="CDP\bootstrap\yaml412-130728\sass\static-build\screen\typography.scss" />
+                        </Folder>
+                    </Folder>
+                    <Folder name="yaml-sass">
+                        <Folder name="add-ons">
+                            <Folder name="accessible-tabs">
+                                <File name="CDP\bootstrap\yaml412-130728\sass\yaml-sass\add-ons\accessible-tabs\jquery.tabs.js" />
+                                <File name="CDP\bootstrap\yaml412-130728\sass\yaml-sass\add-ons\accessible-tabs\_tabs.scss" />
+                            </Folder>
+                            <Folder name="microformats">
+                                <Folder name="icons">
+                                    <Folder name="xfn">
+                                        <File name="CDP\bootstrap\yaml412-130728\sass\yaml-sass\add-ons\microformats\icons\xfn\xfn-child.png" />
+                                        <File name="CDP\bootstrap\yaml412-130728\sass\yaml-sass\add-ons\microformats\icons\xfn\xfn-colleague-met.png" />
+                                        <File name="CDP\bootstrap\yaml412-130728\sass\yaml-sass\add-ons\microformats\icons\xfn\xfn-colleague.png" />
+                                        <File name="CDP\bootstrap\yaml412-130728\sass\yaml-sass\add-ons\microformats\icons\xfn\xfn-friend-met.png" />
+                                        <File name="CDP\bootstrap\yaml412-130728\sass\yaml-sass\add-ons\microformats\icons\xfn\xfn-friend.png" />
+                                        <File name="CDP\bootstrap\yaml412-130728\sass\yaml-sass\add-ons\microformats\icons\xfn\xfn-me.png" />
+                                        <File name="CDP\bootstrap\yaml412-130728\sass\yaml-sass\add-ons\microformats\icons\xfn\xfn-parent.png" />
+                                        <File name="CDP\bootstrap\yaml412-130728\sass\yaml-sass\add-ons\microformats\icons\xfn\xfn-small.png" />
+                                        <File name="CDP\bootstrap\yaml412-130728\sass\yaml-sass\add-ons\microformats\icons\xfn\xfn-spouse.png" />
+                                        <File name="CDP\bootstrap\yaml412-130728\sass\yaml-sass\add-ons\microformats\icons\xfn\xfn-sweetheart-met.png" />
+                                        <File name="CDP\bootstrap\yaml412-130728\sass\yaml-sass\add-ons\microformats\icons\xfn\xfn-sweetheart.png" />
+                                    </Folder>
+                                    <File name="CDP\bootstrap\yaml412-130728\sass\yaml-sass\add-ons\microformats\icons\external_link.png" />
+                                    <File name="CDP\bootstrap\yaml412-130728\sass\yaml-sass\add-ons\microformats\icons\hcalendar.png" />
+                                    <File name="CDP\bootstrap\yaml412-130728\sass\yaml-sass\add-ons\microformats\icons\hcard.png" />
+                                    <File name="CDP\bootstrap\yaml412-130728\sass\yaml-sass\add-ons\microformats\icons\icon-geo.png" />
+                                    <File name="CDP\bootstrap\yaml412-130728\sass\yaml-sass\add-ons\microformats\icons\icon-hatom.png" />
+                                    <File name="CDP\bootstrap\yaml412-130728\sass\yaml-sass\add-ons\microformats\icons\icon-haudio.png" />
+                                    <File name="CDP\bootstrap\yaml412-130728\sass\yaml-sass\add-ons\microformats\icons\icon-hcalendar-add.png" />
+                                    <File name="CDP\bootstrap\yaml412-130728\sass\yaml-sass\add-ons\microformats\icons\icon-hcalendar-download.png" />
+                                    <File name="CDP\bootstrap\yaml412-130728\sass\yaml-sass\add-ons\microformats\icons\icon-hcalendar.png" />
+                                    <File name="CDP\bootstrap\yaml412-130728\sass\yaml-sass\add-ons\microformats\icons\icon-hcard-add.png" />
+                                    <File name="CDP\bootstrap\yaml412-130728\sass\yaml-sass\add-ons\microformats\icons\icon-hcard-download.png" />
+                                    <File name="CDP\bootstrap\yaml412-130728\sass\yaml-sass\add-ons\microformats\icons\icon-hcard.png" />
+                                    <File name="CDP\bootstrap\yaml412-130728\sass\yaml-sass\add-ons\microformats\icons\icon-hresume.png" />
+                                    <File name="CDP\bootstrap\yaml412-130728\sass\yaml-sass\add-ons\microformats\icons\icon-rel-tag.png" />
+                                    <File name="CDP\bootstrap\yaml412-130728\sass\yaml-sass\add-ons\microformats\icons\icon-xfn.png" />
+                                </Folder>
+                                <File name="CDP\bootstrap\yaml412-130728\sass\yaml-sass\add-ons\microformats\_microformats.scss" />
+                            </Folder>
+                            <Folder name="rtl-support">
+                                <Folder name="core">
+                                    <File name="CDP\bootstrap\yaml412-130728\sass\yaml-sass\add-ons\rtl-support\core\_base-rtl.scss" />
+                                </Folder>
+                                <Folder name="forms">
+                                    <File name="CDP\bootstrap\yaml412-130728\sass\yaml-sass\add-ons\rtl-support\forms\_gray-theme-rtl.scss" />
+                                </Folder>
+                                <Folder name="navigation">
+                                    <File name="CDP\bootstrap\yaml412-130728\sass\yaml-sass\add-ons\rtl-support\navigation\_hlist-rtl.scss" />
+                                    <File name="CDP\bootstrap\yaml412-130728\sass\yaml-sass\add-ons\rtl-support\navigation\_vlist-rtl.scss" />
+                                </Folder>
+                                <Folder name="screen">
+                                    <File name="CDP\bootstrap\yaml412-130728\sass\yaml-sass\add-ons\rtl-support\screen\_typography-rtl.scss" />
+                                </Folder>
+                            </Folder>
+                            <Folder name="syncheight">
+                                <File name="CDP\bootstrap\yaml412-130728\sass\yaml-sass\add-ons\syncheight\jquery.syncheight.js" />
+                            </Folder>
+                        </Folder>
+                        <Folder name="core">
+                            <Folder name="base-modules">
+                                <File name="CDP\bootstrap\yaml412-130728\sass\yaml-sass\core\base-modules\_accessibility.scss" />
+                                <File name="CDP\bootstrap\yaml412-130728\sass\yaml-sass\core\base-modules\_columns.scss" />
+                                <File name="CDP\bootstrap\yaml412-130728\sass\yaml-sass\core\base-modules\_float-handling.scss" />
+                                <File name="CDP\bootstrap\yaml412-130728\sass\yaml-sass\core\base-modules\_forms-core.scss" />
+                                <File name="CDP\bootstrap\yaml412-130728\sass\yaml-sass\core\base-modules\_grids-core.scss" />
+                                <File name="CDP\bootstrap\yaml412-130728\sass\yaml-sass\core\base-modules\_normalization.scss" />
+                                <File name="CDP\bootstrap\yaml412-130728\sass\yaml-sass\core\base-modules\_print-core.scss" />
+                            </Folder>
+                            <Folder name="js">
+                                <File name="CDP\bootstrap\yaml412-130728\sass\yaml-sass\core\js\yaml-focusfix.js" />
+                            </Folder>
+                            <File name="CDP\bootstrap\yaml412-130728\sass\yaml-sass\core\_base.scss" />
+                            <File name="CDP\bootstrap\yaml412-130728\sass\yaml-sass\core\_iehacks.scss" />
+                        </Folder>
+                        <Folder name="forms">
+                            <File name="CDP\bootstrap\yaml412-130728\sass\yaml-sass\forms\_gray-theme.scss" />
+                        </Folder>
+                        <Folder name="mixins">
+                            <File name="CDP\bootstrap\yaml412-130728\sass\yaml-sass\mixins\_yaml-mixins-core.scss" />
+                        </Folder>
+                        <Folder name="navigation">
+                            <File name="CDP\bootstrap\yaml412-130728\sass\yaml-sass\navigation\_hlist.scss" />
+                            <File name="CDP\bootstrap\yaml412-130728\sass\yaml-sass\navigation\_vlist.scss" />
+                        </Folder>
+                        <Folder name="print">
+                            <File name="CDP\bootstrap\yaml412-130728\sass\yaml-sass\print\_print.scss" />
+                        </Folder>
+                        <Folder name="screen">
+                            <File name="CDP\bootstrap\yaml412-130728\sass\yaml-sass\screen\_grid-960gs-12.scss" />
+                            <File name="CDP\bootstrap\yaml412-130728\sass\yaml-sass\screen\_grid-960gs-16.scss" />
+                            <File name="CDP\bootstrap\yaml412-130728\sass\yaml-sass\screen\_grid-blueprint.scss" />
+                            <File name="CDP\bootstrap\yaml412-130728\sass\yaml-sass\screen\_grid-fluid-12col.scss" />
+                            <File name="CDP\bootstrap\yaml412-130728\sass\yaml-sass\screen\_screen-FULLPAGE-layout.scss" />
+                            <File name="CDP\bootstrap\yaml412-130728\sass\yaml-sass\screen\_screen-PAGE-layout.scss" />
+                            <File name="CDP\bootstrap\yaml412-130728\sass\yaml-sass\screen\_typography.scss" />
+                        </Folder>
+                        <File name="CDP\bootstrap\yaml412-130728\sass\yaml-sass\_yaml-var-globals.scss" />
+                        <File name="CDP\bootstrap\yaml412-130728\sass\yaml-sass\_yaml-var-typography.scss" />
+                    </Folder>
+                </Folder>
+                <Folder name="yaml">
+                    <Folder name="add-ons">
+                        <Folder name="accessible-tabs">
+                            <File name="CDP\bootstrap\yaml412-130728\yaml\add-ons\accessible-tabs\jquery.tabs.js" />
+                            <File name="CDP\bootstrap\yaml412-130728\yaml\add-ons\accessible-tabs\tabs.css" />
+                        </Folder>
+                        <Folder name="microformats">
+                            <Folder name="icons">
+                                <Folder name="xfn">
+                                    <File name="CDP\bootstrap\yaml412-130728\yaml\add-ons\microformats\icons\xfn\xfn-child.png" />
+                                    <File name="CDP\bootstrap\yaml412-130728\yaml\add-ons\microformats\icons\xfn\xfn-colleague-met.png" />
+                                    <File name="CDP\bootstrap\yaml412-130728\yaml\add-ons\microformats\icons\xfn\xfn-colleague.png" />
+                                    <File name="CDP\bootstrap\yaml412-130728\yaml\add-ons\microformats\icons\xfn\xfn-friend-met.png" />
+                                    <File name="CDP\bootstrap\yaml412-130728\yaml\add-ons\microformats\icons\xfn\xfn-friend.png" />
+                                    <File name="CDP\bootstrap\yaml412-130728\yaml\add-ons\microformats\icons\xfn\xfn-me.png" />
+                                    <File name="CDP\bootstrap\yaml412-130728\yaml\add-ons\microformats\icons\xfn\xfn-parent.png" />
+                                    <File name="CDP\bootstrap\yaml412-130728\yaml\add-ons\microformats\icons\xfn\xfn-small.png" />
+                                    <File name="CDP\bootstrap\yaml412-130728\yaml\add-ons\microformats\icons\xfn\xfn-spouse.png" />
+                                    <File name="CDP\bootstrap\yaml412-130728\yaml\add-ons\microformats\icons\xfn\xfn-sweetheart-met.png" />
+                                    <File name="CDP\bootstrap\yaml412-130728\yaml\add-ons\microformats\icons\xfn\xfn-sweetheart.png" />
+                                </Folder>
+                                <File name="CDP\bootstrap\yaml412-130728\yaml\add-ons\microformats\icons\external_link.png" />
+                                <File name="CDP\bootstrap\yaml412-130728\yaml\add-ons\microformats\icons\hcalendar.png" />
+                                <File name="CDP\bootstrap\yaml412-130728\yaml\add-ons\microformats\icons\hcard.png" />
+                                <File name="CDP\bootstrap\yaml412-130728\yaml\add-ons\microformats\icons\icon-geo.png" />
+                                <File name="CDP\bootstrap\yaml412-130728\yaml\add-ons\microformats\icons\icon-hatom.png" />
+                                <File name="CDP\bootstrap\yaml412-130728\yaml\add-ons\microformats\icons\icon-haudio.png" />
+                                <File name="CDP\bootstrap\yaml412-130728\yaml\add-ons\microformats\icons\icon-hcalendar-add.png" />
+                                <File name="CDP\bootstrap\yaml412-130728\yaml\add-ons\microformats\icons\icon-hcalendar-download.png" />
+                                <File name="CDP\bootstrap\yaml412-130728\yaml\add-ons\microformats\icons\icon-hcalendar.png" />
+                                <File name="CDP\bootstrap\yaml412-130728\yaml\add-ons\microformats\icons\icon-hcard-add.png" />
+                                <File name="CDP\bootstrap\yaml412-130728\yaml\add-ons\microformats\icons\icon-hcard-download.png" />
+                                <File name="CDP\bootstrap\yaml412-130728\yaml\add-ons\microformats\icons\icon-hcard.png" />
+                                <File name="CDP\bootstrap\yaml412-130728\yaml\add-ons\microformats\icons\icon-hresume.png" />
+                                <File name="CDP\bootstrap\yaml412-130728\yaml\add-ons\microformats\icons\icon-rel-tag.png" />
+                                <File name="CDP\bootstrap\yaml412-130728\yaml\add-ons\microformats\icons\icon-xfn.png" />
+                            </Folder>
+                            <File name="CDP\bootstrap\yaml412-130728\yaml\add-ons\microformats\microformats.css" />
+                        </Folder>
+                        <Folder name="rtl-support">
+                            <Folder name="core">
+                                <File name="CDP\bootstrap\yaml412-130728\yaml\add-ons\rtl-support\core\base-rtl.css" />
+                                <File name="CDP\bootstrap\yaml412-130728\yaml\add-ons\rtl-support\core\base-rtl.min.css" />
+                            </Folder>
+                            <Folder name="forms">
+                                <File name="CDP\bootstrap\yaml412-130728\yaml\add-ons\rtl-support\forms\gray-theme-rtl.css" />
+                            </Folder>
+                            <Folder name="navigation">
+                                <File name="CDP\bootstrap\yaml412-130728\yaml\add-ons\rtl-support\navigation\hlist-rtl.css" />
+                                <File name="CDP\bootstrap\yaml412-130728\yaml\add-ons\rtl-support\navigation\vlist-rtl.css" />
+                            </Folder>
+                            <Folder name="screen">
+                                <File name="CDP\bootstrap\yaml412-130728\yaml\add-ons\rtl-support\screen\typography-rtl.css" />
+                            </Folder>
+                        </Folder>
+                        <Folder name="syncheight">
+                            <File name="CDP\bootstrap\yaml412-130728\yaml\add-ons\syncheight\jquery.syncheight.js" />
+                        </Folder>
+                    </Folder>
+                    <Folder name="core">
+                        <Folder name="js">
+                            <File name="CDP\bootstrap\yaml412-130728\yaml\core\js\yaml-focusfix.js" />
+                        </Folder>
+                        <File name="CDP\bootstrap\yaml412-130728\yaml\core\base.css" />
+                        <File name="CDP\bootstrap\yaml412-130728\yaml\core\base.min.css" />
+                        <File name="CDP\bootstrap\yaml412-130728\yaml\core\iehacks.css" />
+                        <File name="CDP\bootstrap\yaml412-130728\yaml\core\iehacks.min.css" />
+                    </Folder>
+                    <Folder name="forms">
+                        <File name="CDP\bootstrap\yaml412-130728\yaml\forms\gray-theme.css" />
+                    </Folder>
+                    <Folder name="navigation">
+                        <File name="CDP\bootstrap\yaml412-130728\yaml\navigation\hlist.css" />
+                        <File name="CDP\bootstrap\yaml412-130728\yaml\navigation\vlist.css" />
+                    </Folder>
+                    <Folder name="print">
+                        <File name="CDP\bootstrap\yaml412-130728\yaml\print\print.css" />
+                    </Folder>
+                    <Folder name="screen">
+                        <File name="CDP\bootstrap\yaml412-130728\yaml\screen\grid-960gs-12.css" />
+                        <File name="CDP\bootstrap\yaml412-130728\yaml\screen\grid-960gs-16.css" />
+                        <File name="CDP\bootstrap\yaml412-130728\yaml\screen\grid-blueprint.css" />
+                        <File name="CDP\bootstrap\yaml412-130728\yaml\screen\grid-fluid-12col.css" />
+                        <File name="CDP\bootstrap\yaml412-130728\yaml\screen\screen-FULLPAGE-layout.css" />
+                        <File name="CDP\bootstrap\yaml412-130728\yaml\screen\screen-PAGE-layout.css" />
+                        <File name="CDP\bootstrap\yaml412-130728\yaml\screen\typography.css" />
+                    </Folder>
+                </Folder>
+                <File name="CDP\bootstrap\yaml412-130728\.gitignore" />
+                <File name="CDP\bootstrap\yaml412-130728\changelog.md" />
+                <File name="CDP\bootstrap\yaml412-130728\config.rb" />
+                <File name="CDP\bootstrap\yaml412-130728\Gruntfile.js" />
+                <File name="CDP\bootstrap\yaml412-130728\License.txt" />
+                <File name="CDP\bootstrap\yaml412-130728\package.json" />
+                <File name="CDP\bootstrap\yaml412-130728\Readme.md" />
+            </Folder>
+            <Folder name="_MOBILE-FIRST2">
+                <Folder name="css">
+                    <Folder name="vendor">
+                        <Folder name="images">
+                            <File name="CDP\bootstrap\_MOBILE-FIRST2\css\vendor\images\bg_direction_nav.png" />
+                        </Folder>
+                        <File name="CDP\bootstrap\_MOBILE-FIRST2\css\vendor\flexslider.css" />
+                    </Folder>
+                    <File name="CDP\bootstrap\_MOBILE-FIRST2\css\main.css" />
+                    <File name="CDP\bootstrap\_MOBILE-FIRST2\css\normalize.css" />
+                    <File name="CDP\bootstrap\_MOBILE-FIRST2\css\normalize.min.css" />
+                </Folder>
+                <Folder name="img">
+                    <File name="CDP\bootstrap\_MOBILE-FIRST2\img\img1.png" />
+                    <File name="CDP\bootstrap\_MOBILE-FIRST2\img\img2.png" />
+                    <File name="CDP\bootstrap\_MOBILE-FIRST2\img\img3.png" />
+                    <File name="CDP\bootstrap\_MOBILE-FIRST2\img\logo_compote_de_prod.png" />
+                </Folder>
+                <Folder name="js">
+                    <Folder name="vendor">
+                        <File name="CDP\bootstrap\_MOBILE-FIRST2\js\vendor\jquery-1.10.1.min.js" />
+                        <File name="CDP\bootstrap\_MOBILE-FIRST2\js\vendor\jquery.flexslider-min.js" />
+                        <File name="CDP\bootstrap\_MOBILE-FIRST2\js\vendor\modernizr-2.6.2-respond-1.1.0.min.js" />
+                    </Folder>
+                    <File name="CDP\bootstrap\_MOBILE-FIRST2\js\main.js" />
+                </Folder>
+                <Folder name="sources">
+                    <Folder name="demo">
+                        <Folder name="css">
+                            <File name="CDP\bootstrap\_MOBILE-FIRST2\sources\demo\css\demo.css" />
+                            <File name="CDP\bootstrap\_MOBILE-FIRST2\sources\demo\css\shCore.css" />
+                            <File name="CDP\bootstrap\_MOBILE-FIRST2\sources\demo\css\shThemeDefault.css" />
+                        </Folder>
+                        <Folder name="fonts">
+                            <Folder name="webfonts">
+                                <Folder name="geo-medium">
+                                    <Folder name="eot">
+                                        <File name="CDP\bootstrap\_MOBILE-FIRST2\sources\demo\fonts\webfonts\geo-medium\eot\1110FC_0.eot" />
+                                    </Folder>
+                                    <Folder name="svg">
+                                        <File name="CDP\bootstrap\_MOBILE-FIRST2\sources\demo\fonts\webfonts\geo-medium\svg\1110FC_0.svg" />
+                                        <File name="CDP\bootstrap\_MOBILE-FIRST2\sources\demo\fonts\webfonts\geo-medium\svg\svg_test.html" />
+                                    </Folder>
+                                    <Folder name="ttf">
+                                        <File name="CDP\bootstrap\_MOBILE-FIRST2\sources\demo\fonts\webfonts\geo-medium\ttf\1110FC_0.ttf" />
+                                    </Folder>
+                                    <Folder name="woff">
+                                        <File name="CDP\bootstrap\_MOBILE-FIRST2\sources\demo\fonts\webfonts\geo-medium\woff\1110FC_0.woff" />
+                                    </Folder>
+                                </Folder>
+                                <Folder name="geo-regular">
+                                    <Folder name="eot">
+                                        <File name="CDP\bootstrap\_MOBILE-FIRST2\sources\demo\fonts\webfonts\geo-regular\eot\11014B_0.eot" />
+                                    </Folder>
+                                    <Folder name="svg">
+                                        <File name="CDP\bootstrap\_MOBILE-FIRST2\sources\demo\fonts\webfonts\geo-regular\svg\11014B_0.svg" />
+                                        <File name="CDP\bootstrap\_MOBILE-FIRST2\sources\demo\fonts\webfonts\geo-regular\svg\svg_test.html" />
+                                    </Folder>
+                                    <Folder name="ttf">
+                                        <File name="CDP\bootstrap\_MOBILE-FIRST2\sources\demo\fonts\webfonts\geo-regular\ttf\11014B_0.ttf" />
+                                    </Folder>
+                                    <Folder name="woff">
+                                        <File name="CDP\bootstrap\_MOBILE-FIRST2\sources\demo\fonts\webfonts\geo-regular\woff\11014B_0.woff" />
+                                    </Folder>
+                                </Folder>
+                                <Folder name="geo-semibold">
+                                    <Folder name="eot">
+                                        <File name="CDP\bootstrap\_MOBILE-FIRST2\sources\demo\fonts\webfonts\geo-semibold\eot\style_169898.eot" />
+                                    </Folder>
+                                    <Folder name="svg">
+                                        <File name="CDP\bootstrap\_MOBILE-FIRST2\sources\demo\fonts\webfonts\geo-semibold\svg\index.html" />
+                                        <File name="CDP\bootstrap\_MOBILE-FIRST2\sources\demo\fonts\webfonts\geo-semibold\svg\style_169898.svg" />
+                                    </Folder>
+                                    <Folder name="ttf">
+                                        <File name="CDP\bootstrap\_MOBILE-FIRST2\sources\demo\fonts\webfonts\geo-semibold\ttf\style_169898.ttf" />
+                                    </Folder>
+                                    <Folder name="woff">
+                                        <File name="CDP\bootstrap\_MOBILE-FIRST2\sources\demo\fonts\webfonts\geo-semibold\woff\style_169898.woff" />
+                                    </Folder>
+                                </Folder>
+                            </Folder>
+                        </Folder>
+                        <Folder name="images">
+                            <File name="CDP\bootstrap\_MOBILE-FIRST2\sources\demo\images\kitchen_adventurer_caramel.jpg" />
+                            <File name="CDP\bootstrap\_MOBILE-FIRST2\sources\demo\images\kitchen_adventurer_cheesecake_brownie.jpg" />
+                            <File name="CDP\bootstrap\_MOBILE-FIRST2\sources\demo\images\kitchen_adventurer_donut.jpg" />
+                            <File name="CDP\bootstrap\_MOBILE-FIRST2\sources\demo\images\kitchen_adventurer_lemon.jpg" />
+                            <File name="CDP\bootstrap\_MOBILE-FIRST2\sources\demo\images\logo.png" />
+                        </Folder>
+                        <Folder name="js">
+                            <File name="CDP\bootstrap\_MOBILE-FIRST2\sources\demo\js\demo.js" />
+                            <File name="CDP\bootstrap\_MOBILE-FIRST2\sources\demo\js\froogaloop.js" />
+                            <File name="CDP\bootstrap\_MOBILE-FIRST2\sources\demo\js\jquery.easing.js" />
+                            <File name="CDP\bootstrap\_MOBILE-FIRST2\sources\demo\js\jquery.fitvid.js" />
+                            <File name="CDP\bootstrap\_MOBILE-FIRST2\sources\demo\js\jquery.mousewheel.js" />
+                            <File name="CDP\bootstrap\_MOBILE-FIRST2\sources\demo\js\modernizr.js" />
+                            <File name="CDP\bootstrap\_MOBILE-FIRST2\sources\demo\js\shBrushCss.js" />
+                            <File name="CDP\bootstrap\_MOBILE-FIRST2\sources\demo\js\shBrushJScript.js" />
+                            <File name="CDP\bootstrap\_MOBILE-FIRST2\sources\demo\js\shBrushXml.js" />
+                            <File name="CDP\bootstrap\_MOBILE-FIRST2\sources\demo\js\shCore.js" />
+                        </Folder>
+                        <File name="CDP\bootstrap\_MOBILE-FIRST2\sources\demo\basic-carousel.html" />
+                        <File name="CDP\bootstrap\_MOBILE-FIRST2\sources\demo\carousel-min-max.html" />
+                        <File name="CDP\bootstrap\_MOBILE-FIRST2\sources\demo\index.html" />
+                        <File name="CDP\bootstrap\_MOBILE-FIRST2\sources\demo\thumbnail-controlnav.html" />
+                        <File name="CDP\bootstrap\_MOBILE-FIRST2\sources\demo\thumbnail-slider.html" />
+                        <File name="CDP\bootstrap\_MOBILE-FIRST2\sources\demo\video.html" />
+                    </Folder>
+                    <Folder name="images">
+                        <File name="CDP\bootstrap\_MOBILE-FIRST2\sources\images\bg_direction_nav.png" />
+                    </Folder>
+                    <File name="CDP\bootstrap\_MOBILE-FIRST2\sources\flexslider.css" />
+                    <File name="CDP\bootstrap\_MOBILE-FIRST2\sources\jquery.flexslider-min.js" />
+                    <File name="CDP\bootstrap\_MOBILE-FIRST2\sources\jquery.flexslider.js" />
+                    <File name="CDP\bootstrap\_MOBILE-FIRST2\sources\README.mdown" />
+                </Folder>
+                <File name="CDP\bootstrap\_MOBILE-FIRST2\apple-touch-icon-114x114-precomposed.png" />
+                <File name="CDP\bootstrap\_MOBILE-FIRST2\apple-touch-icon-144x144-precomposed.png" />
+                <File name="CDP\bootstrap\_MOBILE-FIRST2\apple-touch-icon-57x57-precomposed.png" />
+                <File name="CDP\bootstrap\_MOBILE-FIRST2\apple-touch-icon-72x72-precomposed.png" />
+                <File name="CDP\bootstrap\_MOBILE-FIRST2\apple-touch-icon-precomposed.png" />
+                <File name="CDP\bootstrap\_MOBILE-FIRST2\apple-touch-icon.png" />
+                <File name="CDP\bootstrap\_MOBILE-FIRST2\favicon.ico" />
+                <File name="CDP\bootstrap\_MOBILE-FIRST2\index.html" />
+            </Folder>
+            <File name="CDP\bootstrap\.gitattributes" />
+            <File name="CDP\bootstrap\.gitignore" />
+            <File name="CDP\bootstrap\.htaccess" />
+            <File name="CDP\bootstrap\404.html" />
+            <File name="CDP\bootstrap\apple-touch-icon-114x114-precomposed.png" />
+            <File name="CDP\bootstrap\apple-touch-icon-144x144-precomposed.png" />
+            <File name="CDP\bootstrap\apple-touch-icon-57x57-precomposed.png" />
+            <File name="CDP\bootstrap\apple-touch-icon-72x72-precomposed.png" />
+            <File name="CDP\bootstrap\apple-touch-icon-precomposed.png" />
+            <File name="CDP\bootstrap\apple-touch-icon.png" />
+            <File name="CDP\bootstrap\CHANGELOG.md" />
+            <File name="CDP\bootstrap\CONTRIBUTING.md" />
+            <File name="CDP\bootstrap\crossdomain.xml" />
+            <File name="CDP\bootstrap\favicon.ico" />
+            <File name="CDP\bootstrap\humans.txt" />
+            <File name="CDP\bootstrap\index.html" />
+            <File name="CDP\bootstrap\LICENSE.md" />
+            <File name="CDP\bootstrap\README.md" />
+            <File name="CDP\bootstrap\robots.txt" />
+        </Folder>
+        <Folder name="css">
+            <Folder name="vendor">
+                <Folder name="images">
+                    <File name="CDP\css\vendor\images\bg_direction_nav.png" />
+                </Folder>
+                <File name="CDP\css\vendor\flexslider.css" />
+                <File name="CDP\css\vendor\progression-player.css" />
+            </Folder>
+            <File name="CDP\css\main.css" />
+            <File name="CDP\css\normalize.css" />
+            <File name="CDP\css\normalize.min.css" />
+        </Folder>
+        <Folder name="img">
+            <File name="CDP\img\alice.png" />
+            <File name="CDP\img\ALICE_affiche.jpg" />
+            <File name="CDP\img\bouton-menu-white.png" />
+            <File name="CDP\img\bouton-menu.png" />
+            <File name="CDP\img\fond-menu.png" />
+            <File name="CDP\img\logo_compote_de_prod.png" />
+            <File name="CDP\img\mask-img.png" />
+            <File name="CDP\img\mooning.png" />
+            <File name="CDP\img\slide_alice1.jpg" />
+            <File name="CDP\img\slide_stp1.jpg" />
+            <File name="CDP\img\slide_stp2.jpg" />
+            <File name="CDP\img\STP_affiche.jpg" />
+        </Folder>
+        <Folder name="js">
+            <Folder name="vendor">
+                <File name="CDP\js\vendor\jquery-1.10.1.min.js" />
+                <File name="CDP\js\vendor\jquery.flexslider-min.js" />
+                <File name="CDP\js\vendor\modernizr-2.6.2-respond-1.1.0.min.js" />
+            </Folder>
+            <File name="CDP\js\main.js" />
+        </Folder>
+        <Folder name="media">
+            <File name="CDP\media\chanson1.mp3" />
+        </Folder>
+        <Folder name="player">
+            <Folder name="build">
+                <File name="CDP\player\build\.DS_Store" />
+                <File name="CDP\player\build\background.png" />
+                <File name="CDP\player\build\bigplay.png" />
+                <File name="CDP\player\build\bigplay.svg" />
+                <File name="CDP\player\build\controls-playlist.png" />
+                <File name="CDP\player\build\controls-ted.png" />
+                <File name="CDP\player\build\controls-wmp-bg.png" />
+                <File name="CDP\player\build\controls-wmp.png" />
+                <File name="CDP\player\build\controls.png" />
+                <File name="CDP\player\build\controls.svg" />
+                <File name="CDP\player\build\cream_pixels.png" />
+                <File name="CDP\player\build\cream_pixels_@2X.png" />
+                <File name="CDP\player\build\DO NOT CHANGE THESE FILES.txt" />
+                <File name="CDP\player\build\flashmediaelement.swf" />
+                <File name="CDP\player\build\jquery.js" />
+                <File name="CDP\player\build\loading.gif" />
+                <File name="CDP\player\build\mediaelement-and-player.js" />
+                <File name="CDP\player\build\mediaelement-and-player.min.js" />
+                <File name="CDP\player\build\mediaelement.js" />
+                <File name="CDP\player\build\mediaelement.min.js" />
+                <File name="CDP\player\build\mediaelementplayer.css" />
+                <File name="CDP\player\build\mediaelementplayer.js" />
+                <File name="CDP\player\build\mediaelementplayer.min.css" />
+                <File name="CDP\player\build\mediaelementplayer.min.js" />
+                <File name="CDP\player\build\mejs-skins.css" />
+                <File name="CDP\player\build\mep-feature-playlist.css" />
+                <File name="CDP\player\build\mep-feature-playlist.js" />
+                <File name="CDP\player\build\silverlightmediaelement.xap" />
+                <File name="CDP\player\build\timer-handle.png" />
+            </Folder>
+            <Folder name="css">
+                <File name="CDP\player\css\.DS_Store" />
+                <File name="CDP\player\css\progression-player.css" />
+                <File name="CDP\player\css\skin-default-dark.css" />
+                <File name="CDP\player\css\skin-default.css" />
+                <File name="CDP\player\css\skin-fancy.css" />
+                <File name="CDP\player\css\skin-minimal-dark.css" />
+                <File name="CDP\player\css\skin-minimal-light.css" />
+            </Folder>
+            <Folder name="font-awesome">
+                <Folder name="css">
+                    <File name="CDP\player\font-awesome\css\font-awesome-ie7.css" />
+                    <File name="CDP\player\font-awesome\css\font-awesome-ie7.min.css" />
+                    <File name="CDP\player\font-awesome\css\font-awesome.css" />
+                    <File name="CDP\player\font-awesome\css\font-awesome.min.css" />
+                </Folder>
+                <Folder name="font">
+                    <File name="CDP\player\font-awesome\font\fontawesome-webfont.eot" />
+                    <File name="CDP\player\font-awesome\font\fontawesome-webfont.svg" />
+                    <File name="CDP\player\font-awesome\font\fontawesome-webfont.ttf" />
+                    <File name="CDP\player\font-awesome\font\fontawesome-webfont.woff" />
+                    <File name="CDP\player\font-awesome\font\FontAwesome.otf" />
+                </Folder>
+                <File name="CDP\player\font-awesome\.DS_Store" />
+            </Folder>
+        </Folder>
+        <Folder name="sources">
+            <Folder name="flexslider">
+                <Folder name="demo">
+                    <Folder name="css">
+                        <File name="CDP\sources\flexslider\demo\css\demo.css" />
+                        <File name="CDP\sources\flexslider\demo\css\shCore.css" />
+                        <File name="CDP\sources\flexslider\demo\css\shThemeDefault.css" />
+                    </Folder>
+                    <Folder name="fonts">
+                        <Folder name="webfonts">
+                            <Folder name="geo-medium">
+                                <Folder name="eot">
+                                    <File name="CDP\sources\flexslider\demo\fonts\webfonts\geo-medium\eot\1110FC_0.eot" />
+                                </Folder>
+                                <Folder name="svg">
+                                    <File name="CDP\sources\flexslider\demo\fonts\webfonts\geo-medium\svg\1110FC_0.svg" />
+                                    <File name="CDP\sources\flexslider\demo\fonts\webfonts\geo-medium\svg\svg_test.html" />
+                                </Folder>
+                                <Folder name="ttf">
+                                    <File name="CDP\sources\flexslider\demo\fonts\webfonts\geo-medium\ttf\1110FC_0.ttf" />
+                                </Folder>
+                                <Folder name="woff">
+                                    <File name="CDP\sources\flexslider\demo\fonts\webfonts\geo-medium\woff\1110FC_0.woff" />
+                                </Folder>
+                            </Folder>
+                            <Folder name="geo-regular">
+                                <Folder name="eot">
+                                    <File name="CDP\sources\flexslider\demo\fonts\webfonts\geo-regular\eot\11014B_0.eot" />
+                                </Folder>
+                                <Folder name="svg">
+                                    <File name="CDP\sources\flexslider\demo\fonts\webfonts\geo-regular\svg\11014B_0.svg" />
+                                    <File name="CDP\sources\flexslider\demo\fonts\webfonts\geo-regular\svg\svg_test.html" />
+                                </Folder>
+                                <Folder name="ttf">
+                                    <File name="CDP\sources\flexslider\demo\fonts\webfonts\geo-regular\ttf\11014B_0.ttf" />
+                                </Folder>
+                                <Folder name="woff">
+                                    <File name="CDP\sources\flexslider\demo\fonts\webfonts\geo-regular\woff\11014B_0.woff" />
+                                </Folder>
+                            </Folder>
+                            <Folder name="geo-semibold">
+                                <Folder name="eot">
+                                    <File name="CDP\sources\flexslider\demo\fonts\webfonts\geo-semibold\eot\style_169898.eot" />
+                                </Folder>
+                                <Folder name="svg">
+                                    <File name="CDP\sources\flexslider\demo\fonts\webfonts\geo-semibold\svg\index.html" />
+                                    <File name="CDP\sources\flexslider\demo\fonts\webfonts\geo-semibold\svg\style_169898.svg" />
+                                </Folder>
+                                <Folder name="ttf">
+                                    <File name="CDP\sources\flexslider\demo\fonts\webfonts\geo-semibold\ttf\style_169898.ttf" />
+                                </Folder>
+                                <Folder name="woff">
+                                    <File name="CDP\sources\flexslider\demo\fonts\webfonts\geo-semibold\woff\style_169898.woff" />
+                                </Folder>
+                            </Folder>
+                        </Folder>
+                    </Folder>
+                    <Folder name="images">
+                        <File name="CDP\sources\flexslider\demo\images\kitchen_adventurer_caramel.jpg" />
+                        <File name="CDP\sources\flexslider\demo\images\kitchen_adventurer_cheesecake_brownie.jpg" />
+                        <File name="CDP\sources\flexslider\demo\images\kitchen_adventurer_donut.jpg" />
+                        <File name="CDP\sources\flexslider\demo\images\kitchen_adventurer_lemon.jpg" />
+                        <File name="CDP\sources\flexslider\demo\images\logo.png" />
+                    </Folder>
+                    <Folder name="js">
+                        <File name="CDP\sources\flexslider\demo\js\demo.js" />
+                        <File name="CDP\sources\flexslider\demo\js\froogaloop.js" />
+                        <File name="CDP\sources\flexslider\demo\js\jquery.easing.js" />
+                        <File name="CDP\sources\flexslider\demo\js\jquery.fitvid.js" />
+                        <File name="CDP\sources\flexslider\demo\js\jquery.mousewheel.js" />
+                        <File name="CDP\sources\flexslider\demo\js\modernizr.js" />
+                        <File name="CDP\sources\flexslider\demo\js\shBrushCss.js" />
+                        <File name="CDP\sources\flexslider\demo\js\shBrushJScript.js" />
+                        <File name="CDP\sources\flexslider\demo\js\shBrushXml.js" />
+                        <File name="CDP\sources\flexslider\demo\js\shCore.js" />
+                    </Folder>
+                    <File name="CDP\sources\flexslider\demo\basic-carousel.html" />
+                    <File name="CDP\sources\flexslider\demo\carousel-min-max.html" />
+                    <File name="CDP\sources\flexslider\demo\index.html" />
+                    <File name="CDP\sources\flexslider\demo\thumbnail-controlnav.html" />
+                    <File name="CDP\sources\flexslider\demo\thumbnail-slider.html" />
+                    <File name="CDP\sources\flexslider\demo\video.html" />
+                </Folder>
+                <Folder name="images">
+                    <File name="CDP\sources\flexslider\images\bg_direction_nav.png" />
+                </Folder>
+                <File name="CDP\sources\flexslider\flexslider.css" />
+                <File name="CDP\sources\flexslider\jquery.flexslider-min.js" />
+                <File name="CDP\sources\flexslider\jquery.flexslider.js" />
+                <File name="CDP\sources\flexslider\README.mdown" />
+            </Folder>
+            <Folder name="Player">
+                <Folder name="build">
+                    <File name="CDP\sources\Player\build\.DS_Store" />
+                    <File name="CDP\sources\Player\build\background.png" />
+                    <File name="CDP\sources\Player\build\bigplay.png" />
+                    <File name="CDP\sources\Player\build\bigplay.svg" />
+                    <File name="CDP\sources\Player\build\controls-playlist.png" />
+                    <File name="CDP\sources\Player\build\controls-ted.png" />
+                    <File name="CDP\sources\Player\build\controls-wmp-bg.png" />
+                    <File name="CDP\sources\Player\build\controls-wmp.png" />
+                    <File name="CDP\sources\Player\build\controls.png" />
+                    <File name="CDP\sources\Player\build\controls.svg" />
+                    <File name="CDP\sources\Player\build\cream_pixels.png" />
+                    <File name="CDP\sources\Player\build\cream_pixels_@2X.png" />
+                    <File name="CDP\sources\Player\build\DO NOT CHANGE THESE FILES.txt" />
+                    <File name="CDP\sources\Player\build\flashmediaelement.swf" />
+                    <File name="CDP\sources\Player\build\jquery.js" />
+                    <File name="CDP\sources\Player\build\loading.gif" />
+                    <File name="CDP\sources\Player\build\mediaelement-and-player.js" />
+                    <File name="CDP\sources\Player\build\mediaelement-and-player.min.js" />
+                    <File name="CDP\sources\Player\build\mediaelement.js" />
+                    <File name="CDP\sources\Player\build\mediaelement.min.js" />
+                    <File name="CDP\sources\Player\build\mediaelementplayer.css" />
+                    <File name="CDP\sources\Player\build\mediaelementplayer.js" />
+                    <File name="CDP\sources\Player\build\mediaelementplayer.min.css" />
+                    <File name="CDP\sources\Player\build\mediaelementplayer.min.js" />
+                    <File name="CDP\sources\Player\build\mejs-skins.css" />
+                    <File name="CDP\sources\Player\build\mep-feature-playlist.css" />
+                    <File name="CDP\sources\Player\build\mep-feature-playlist.js" />
+                    <File name="CDP\sources\Player\build\silverlightmediaelement.xap" />
+                    <File name="CDP\sources\Player\build\timer-handle.png" />
+                </Folder>
+                <Folder name="css">
+                    <File name="CDP\sources\Player\css\.DS_Store" />
+                    <File name="CDP\sources\Player\css\progression-player.css" />
+                    <File name="CDP\sources\Player\css\skin-default-dark.css" />
+                    <File name="CDP\sources\Player\css\skin-default.css" />
+                    <File name="CDP\sources\Player\css\skin-fancy.css" />
+                    <File name="CDP\sources\Player\css\skin-minimal-dark.css" />
+                    <File name="CDP\sources\Player\css\skin-minimal-light.css" />
+                </Folder>
+                <Folder name="demo">
+                    <File name="CDP\sources\Player\demo\.DS_Store" />
+                    <File name="CDP\sources\Player\demo\dark-skin.html" />
+                    <File name="CDP\sources\Player\demo\fancy-skin.html" />
+                    <File name="CDP\sources\Player\demo\index.html" />
+                    <File name="CDP\sources\Player\demo\minimal-dark-skin.html" />
+                    <File name="CDP\sources\Player\demo\minimal-light-skin.html" />
+                    <File name="CDP\sources\Player\demo\options.html" />
+                    <File name="CDP\sources\Player\demo\playlist.html" />
+                    <File name="CDP\sources\Player\demo\responsive-example.html" />
+                    <File name="CDP\sources\Player\demo\sizes.html" />
+                    <File name="CDP\sources\Player\demo\static-example.html" />
+                    <File name="CDP\sources\Player\demo\track-listing.html" />
+                    <File name="CDP\sources\Player\demo\youtube-example.html" />
+                </Folder>
+                <Folder name="font-awesome">
+                    <Folder name="css">
+                        <File name="CDP\sources\Player\font-awesome\css\font-awesome-ie7.css" />
+                        <File name="CDP\sources\Player\font-awesome\css\font-awesome-ie7.min.css" />
+                        <File name="CDP\sources\Player\font-awesome\css\font-awesome.css" />
+                        <File name="CDP\sources\Player\font-awesome\css\font-awesome.min.css" />
+                    </Folder>
+                    <Folder name="font">
+                        <File name="CDP\sources\Player\font-awesome\font\fontawesome-webfont.eot" />
+                        <File name="CDP\sources\Player\font-awesome\font\fontawesome-webfont.svg" />
+                        <File name="CDP\sources\Player\font-awesome\font\fontawesome-webfont.ttf" />
+                        <File name="CDP\sources\Player\font-awesome\font\fontawesome-webfont.woff" />
+                        <File name="CDP\sources\Player\font-awesome\font\FontAwesome.otf" />
+                    </Folder>
+                    <File name="CDP\sources\Player\font-awesome\.DS_Store" />
+                </Folder>
+                <Folder name="media">
+                    <File name="CDP\sources\Player\media\.DS_Store" />
+                    <File name="CDP\sources\Player\media\AirReview-Landmarks-02-ChasingCorporate.mp3" />
+                    <File name="CDP\sources\Player\media\big_buck_bunny.jpg" />
+                    <File name="CDP\sources\Player\media\big_buck_bunny.mp4" />
+                    <File name="CDP\sources\Player\media\big_buck_bunny.webm" />
+                    <File name="CDP\sources\Player\media\mediaelement.srt" />
+                    <File name="CDP\sources\Player\media\README.md" />
+                </Folder>
+                <File name="CDP\sources\Player\.DS_Store" />
+            </Folder>
+            <Folder name="PSD">
+                <File name="CDP\sources\PSD\logo_compote_white.psd" />
+                <File name="CDP\sources\PSD\slide_alice1.psd" />
+                <File name="CDP\sources\PSD\slide_stp1.psd" />
+                <File name="CDP\sources\PSD\slide_stp2.psd" />
+            </Folder>
+        </Folder>
+        <Folder name="WORDPRESS" />
+        <File name="CDP\apple-touch-icon-114x114-precomposed.png" />
+        <File name="CDP\apple-touch-icon-144x144-precomposed.png" />
+        <File name="CDP\apple-touch-icon-57x57-precomposed.png" />
+        <File name="CDP\apple-touch-icon-72x72-precomposed.png" />
+        <File name="CDP\apple-touch-icon-precomposed.png" />
+        <File name="CDP\apple-touch-icon.png" />
+        <File name="CDP\favicon.ico" />
+        <File name="CDP\index.html" />
+    </Project>
+</NotepadPlus>

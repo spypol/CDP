@@ -423,12 +423,12 @@ footer li h5{
    ========================================================================== */
 #photo-vignettes{
 	min-height:250px;
-	padding:0 10px;
+	padding:0 2%;
 	width:100%;
 }
 
 #details{
-	padding:10px;
+	padding:10px 2%;
 	width:100%;
 }
 
