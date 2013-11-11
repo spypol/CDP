@@ -418,6 +418,47 @@ footer li h5{
 }
 
 
+/* ==========================================================================
+	Artistes styles
+   ========================================================================== */
+#photo-vignettes{
+	min-height:250px;
+	padding:0 10px;
+	width:100%;
+}
+
+#details{
+	padding:10px;
+	width:100%;
+}
+
+#photo-comedies, #photo-creation, #photo-technique{
+	float:left;
+	margin-right:1%;
+	width:31%;
+}
+
+.vignette{
+	margin:3px;
+	width:80px;
+}
+
+#artiste-portrait, #artiste-details, #artiste-gallerie{
+	float:left;
+}
+
+#artiste-portrait{
+	width:20%
+}
+
+#artiste-details{
+	width:30%;
+}
+
+#artiste-gallerie{
+	width:50%;
+}
+
 
 
 /* ==========================================================================
