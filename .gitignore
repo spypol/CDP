@@ -1,0 +1,7 @@
+_photos/*
+img/*
+
+*.png
+*.jpg
+*.jpeg
+*.ico

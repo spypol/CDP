@@ -1,0 +1,66 @@
+body {	
+	background: url(../img/mooning_black.png) repeat;
+}
+
+.main article {
+	color: #bbb;
+}
+
+.main article h1, h2, h3, h4 {
+	color: #d274a6;
+	line-height:70px;
+	text-shadow: 0px 1px 1px #000;
+}
+
+.main .menu {
+	-webkit-box-shadow: 0 0 10px #d274a6;
+	-moz-box-shadow: 0 0 10px #d274a6;
+	box-shadow: 0 0 10px #d274a6;
+}
+
+.cdp-social:hover{
+	color: #d274a6;
+}
+
+.main #social {
+}
+
+.main article img {
+	/*border: 3px solid white;*/
+	width: 100%;
+}
+
+.main article {
+	background:rgba(255, 240, 251, 0.1);
+}
+
+
+@media only screen and (min-width: 1140px) {
+	
+
+	article p, footer{
+		margin-left:10px;
+		margin-right:10px;
+	}
+	
+	article footer{
+		margin-bottom:10px;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+
+    /*.main #articles {
+        float: right;
+		margin-right:2%;
+        width: 57%;
+    }
+	
+	.main article {
+        float: right;
+		margin-right:2%;
+        width: 100%;
+    }*/
+
+
+}

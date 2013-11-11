@@ -1,0 +1,125 @@
+body {	
+	background: url(../img/background_stp.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.main article h1 {
+	text-align: left;
+	text-shadow: 0px 1px 1px #000;
+}
+
+.main article h2, h3 {
+	text-shadow: none;
+}
+
+.main article {
+	color: #bbb;
+	text-shadow: 0px 1px 1px #000;
+}
+
+.main article p {
+	font-size:100%;
+	margin:10px 10px 0 10px;
+}
+
+.main article h2{
+	margin:10px 10px 0 10px;
+}
+
+.main article h1, h2, h3, h4, h5 {
+	color: #ddd;
+}
+
+
+.cdp-social:hover{
+	color: red;
+}
+.main article h2{
+	font-size:18px;
+}
+
+.main article h3{
+	font-size:16px;
+	line-height:30px;
+	margin:0;
+}
+
+.main article h4{
+	font-size:13px;
+	margin-left:10px;
+}
+
+.main article h4 a{
+	color: #bbb;
+}
+
+.vignette{
+	margin-bottom:10px;
+	width:200px;
+	
+	box-shadow: 0 0 2px rgba(220, 220, 220, .3);
+	-webkit-box-shadow: 0 0 2px rgba(220, 220, 220, .3);
+	-moz-box-shadow: 0 0 2px rgba(220, 220, 220, .3);	
+}
+
+.main article img {
+	/*border: 3px solid white;*/
+	float:left;
+	width: 100%;
+}
+
+#photos{
+	float:left;
+}
+
+@media only screen and (min-width: 768px) {
+    .main article {
+		background:rgba(255, 255, 255, 0.1);
+    }
+	
+	/*.main #articles {
+        float: right;
+		margin-right:2%;
+        width: 57%;
+    }
+	
+	.main article {
+        float: right;
+		margin-right:2%;
+        width: 100%;
+    }
+	
+	.main article img {
+		width:250px;
+		float: left;
+		margin-right:30px;
+	}*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
