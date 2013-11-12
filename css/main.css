@@ -437,7 +437,7 @@ footer li h5{
 #photo-comedies, #photo-creation, #photo-technique{
 	float:left;
 	margin-right:1%;
-	width:31%;
+	width:48%;
 }
 
 .vignette{
@@ -462,7 +462,8 @@ footer li h5{
 }
 
 #artiste-gallerie{
-	width:50%;
+	margin-left:5%;
+    width:40%;
 }
 
 
