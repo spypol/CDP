@@ -6,9 +6,9 @@ body {
 	color: #bbb;
 }
 
-.main article h1, h2, h3, h4 {
+.main article h1, h2, h3 {
 	color: #d274a6;
-	line-height:70px;
+	/*line-height:70px;*/
 	text-shadow: 0px 1px 1px #000;
 }
 

@@ -13,8 +13,6 @@
         <link rel="stylesheet" href="css/normalize.min.css">
 		<link rel="stylesheet" href="css/vendor/flexslider.css">
 		<link rel="stylesheet" href="css/vendor/meanmenu.min.css">
-		<link rel="stylesheet" href="css/main.css">
-		<link rel="stylesheet" href="css/stp.css">
 		
 		<!-- Nivo Slider-->
 		<link rel="stylesheet" href="css/vendor/nivoslider/default/default.css" type="text/css" media="screen" />
@@ -37,7 +35,10 @@
 		<link rel="stylesheet" href="player/css/skin-default-dark.css" /><!-- Minimal Dark Skin -->
 		<link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
 		<link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-		
+        
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/stp.css">
+        
     </head>
     <body>
         <!--[if lt IE 7]>

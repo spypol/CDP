@@ -22,7 +22,7 @@
 				
 				<div id="audioplayer">
 					<?php include('include/musicplayer-alice.php'); ?>
-				</div>>
+				</div>
 			
 				<!-------------------------- ***************** -------------------------->
 				<!-------------------------- MAIN ALICE COLUMN -------------------------->
