@@ -20,20 +20,22 @@ $(document).ready(function(){
 		pauseTime: 7000
 	});
 	
-	
 	$('#slider-alice').nivoSlider({
 		controlNav: false,
 		directionNav: false,
 		pauseTime: 3000
 	});
 	
-	
 	$('#slider-stp').nivoSlider({
 		controlNav: false,
 		directionNav: false,
 		pauseTime: 3000
 	});
-	
+    
+    $('#photos-artistes').nivoSlider({
+		controlNav: false,
+		pauseTime: 3000
+	});
 	
 	//NIVOLIGHTBOX
 	$('.preview-image').nivoLightbox();
@@ -85,4 +87,24 @@ $(document).ready(function(){
 	$('#histoire').readmore({maxHeight: 465, sectionCSS: 'display: inline-block;'});
 	$('#spectacle').readmore({maxHeight: 465, sectionCSS: 'display: inline-block;'});
   
+    //ARTISTES
+    function displayArtiste(artiste){
+		$("#details").html("<img src='img/preloader.gif' class='preloader'>");
+
+		$.ajax({
+		  url: "include/artistes/"+artiste+".php",
+		  cache: false,
+		  success: function(html){
+			$("#details").html(html);
+		  }
+		});
+
+		$("#details").fadeIn("slow");
+	}
+    
+    $(".vignette").click(function(e){
+		nom = this.id;
+		displayArtiste(nom);
+	});
+    
 });
