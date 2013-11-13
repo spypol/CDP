@@ -377,30 +377,33 @@ footer li h5{
 .main #contact #submit{
 	float:right;
 	width:20%;
-	font-family: 'Roboto Condensed', sans-serif;
-    color: white;
 	padding:0;
 }
 
-.main #contact #message_vert{
+.message_vert{
 	float:none;
 	font-size:200%;
 	font-family: 'Roboto Condensed', sans-serif;
 	color:#71e333;
 }
 
-.main #contact #message_rouge{
+.message_rouge{
 	float:none;
 	font-size:200%;
 	font-family: 'Roboto Condensed', sans-serif;
 	color:red;
 }
 
-.main #contact #submit:hover{
-	color:red;
+.bouton-rouge{
+    color:white;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
-.main #contact #submit{
+.bouton-rouge:hover{
+    color:red;
+}
+
+.bouton-rouge{
 	-moz-box-shadow:inset 0px 1px 0px 0px #f5978e;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #f5978e;
 	box-shadow:inset 0px 1px 0px 0px #f5978e;
@@ -422,7 +425,6 @@ footer li h5{
 	position:relative;
 	top:1px;
 }
-
 
 /* ==========================================================================
 	Artistes styles
@@ -967,6 +969,57 @@ footer li h5{
 	.main .smartphone{
 		display:none;
 	}
+
+/* ====================
+    ACHETER ARTICLE
+   ==================== */
+	#acheter-cd-stp, #acheter-cd-alice{
+        height:550px;
+    }
+
+    #acheter-cd-stp h1, #acheter-cd-alice h1{
+        font-size:2em;
+    }
+
+    #acheter-cd-stp #paypal{
+        margin:0 0 20px 25%;
+    }
+
+	#acheter-cd-stp img{
+        margin-left:15%;
+        width:auto;
+    }
+
+	#acheter-cd-alice #cd-alice{
+        margin-left:13%;
+        width:300px;
+    }
+
+    #acheter-cd-alice p{
+        margin-bottom:0;
+    }
+
+    #acheter-cd-alice input{
+        float:left;
+        font-size:100%;
+        height:30px;
+        width:57%;
+        margin:10px;
+    }
+
+    #acheter-cd-alice #submit{
+        float:left;
+        font-size:100%;
+        height:38px;
+        width:30%;
+        margin:10px;
+    }
+
+    #acheter-cd-alice .message_vert, .message_rouge{
+        float:left;
+        font-size:150%;
+        margin:10px;
+    }
 
 }
 

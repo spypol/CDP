@@ -48,7 +48,7 @@
 										
 								<textarea name="message" placeholder="Message"><?php echo $message; ?></textarea>
 									
-								<input id="submit" name="submit" type="submit" value="ENVOYER">
+								<input id="submit" class="bouton-rouge" name="submit" type="submit" value="ENVOYER">
 								
 								<input id="human" name="human" placeholder="Combien font 2+2 ? (Anti-spam)" value="<?php echo $human; ?>">
 								
@@ -59,15 +59,15 @@
 									if ($name != '' && $email != '') {
 										if ($human == '4') {				 
 											if (mail ($to, $subject, $body, $from)) { 
-											echo "<span id='message_vert'>Votre message a bien &eacute;t&eacute; envoy&eacute; !</span>";
+											echo "<span class='message_vert'>Votre message a bien &eacute;t&eacute; envoy&eacute; !</span>";
 										} else { 
-											echo "<span id='message_rouge'>Oops, nous avons eu un probl&egrave;me, essayez d'envoyer directement un message &agrave; contact@compotedeprod.com!</span>"; 
+											echo "<span class='message_rouge'>Oops, nous avons eu un probl&egrave;me, essayez d'envoyer directement un message &agrave; contact@compotedeprod.com !</span>"; 
 										} 
 									} else if ($_POST['submit'] && $human != '4') {
-										echo "<span id='message_rouge'>Vous n'avez pas v&eacute;rifi&eacute; la question anti-spam !</span>";
+										echo "<span class='message_rouge'>Vous n'avez pas v&eacute;rifi&eacute; la question anti-spam !</span>";
 									}
 									} else {
-										echo "<span id='message_rouge'>Vous devez remplir tous les champs, merci !</span>";
+										echo "<span class='message_rouge'>Vous devez remplir tous les champs, merci !</span>";
 									}
 								}
 							?>

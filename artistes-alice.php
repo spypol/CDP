@@ -14,7 +14,7 @@
 				<div id="photo-vignettes">					
 					<!-------------------------- COMEDIES COLUMN -------------------------->
 					<div id="photo-comedies">
-						<h1>Les Com&eacute;dies</h1>
+						<h1>Les Com&eacute;diens</h1>
 						<img src="_photos/troupe/alice/avatars/antonio.jpg" class="vignette" id="antonio" title="antonio" />
                         <img src="_photos/troupe/alice/avatars/julie.jpg" class="vignette" id="julie" title="julie" />
                         <img src="_photos/troupe/alice/avatars/marie.jpg" class="vignette" id="marie" title="marie" />

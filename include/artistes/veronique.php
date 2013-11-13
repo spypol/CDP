@@ -1,6 +1,6 @@
 <!-------------------------- Photo -------------------------->
 <article id="artiste-details">
-    <img src="_photos/troupe/alice/avatars/marie.jpg" class="portrait"/>
+    <img src="_photos/troupe/alice/avatars/veronique.jpg" class="portrait"/>
     <span class="details-infos">Véronique Hatat</span>
     <span class="details-infos">Role</span>
     <span class="details-infos">Single</span>
