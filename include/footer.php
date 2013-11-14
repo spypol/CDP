@@ -7,7 +7,7 @@
 					<li><a href="goodies.php">Goodies</a></li>
 					<li><a href="contact.php">Contact</a></li>
 					<li><a href="partenaires.php">Partenaires</a></li>
-					<li><a href="">Presse</a></li>
+					<li><a href="presse.php">Presse</a></li>
 					<li><h5>Compote de Prod - Copyright 2012/2013</h5></li>
 				</ul>
             </footer>

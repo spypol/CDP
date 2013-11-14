@@ -7,7 +7,7 @@
     <span class="details-infos">Facebook</span>
     <span class="details-infos">Souviens-toi Pan !</span>
     
-    <p>Cours de chant et musique depuis ses 5 ans, instructeur en danse latine (salsa) depuis ses 17 ans, formation d'acteur depuis ses 18 ans, Antonio arrive en France en 2009 pour développer ses compétences artistiques et professionnelles (journaliste de formation académique) sans parler la langue. Ayant une bonne expérience en comédies musicales et concerts au Venezuela (12 ans d'expériences sur scène), Antonio décroche son premier rôle principal en français, à Paris, en 2011; et sa première nomination en tant que meilleur comédien dans un second rôle en 2013 (Petits Molières). Il continue à exploiter ses envies de scène à travers différents projets professionnels et académiques afin d'exercer le constant enrichissement de l'artiste.</p>
+    <p>Cours de chant et musique depuis ses 5 ans, instructeur en danse latine (salsa) depuis ses 17 ans, formation d'acteur depuis ses 18 ans, Antonio arrive en France en 2009 pour développer ses compétences artistiques et professionnelles (journaliste de formation académique) sans parler la langue. Ayant une bonne expérience en comédies musicales et concerts au Venezuela (12 ans d'expériences sur scène), Antonio décroche son premier rôle principal en français, à Paris, en 2011; et sa première nomination en tant que meilleur comédien dans un second rôle en 2013 (Petits Molières). Aujourd'hui, Antonio continue d'assouvir ses envies de scène et à évoluer en tant qu'artiste à travers différents projets professionnels et académiques</p>
 </article>
 
 <!-------------------------- Photo -------------------------->

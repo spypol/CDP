@@ -8,8 +8,8 @@
     <span class="details-infos">Souviens-toi Pan !</span>
     
     <p>Depuis son plus jeune âge, Vincent se passionne pour la musique sous toutes ses formes. Il apprend la guitare, le piano et le ukulélé en autodidacte. 
-Lors de nombreuses occasions, il se produit sur scène en tant que chanteur et/ou accompagnateur, seul ou à plusieurs, gardant toujours un œil sur le répertoire comédie musicale américaine. C'est finalement en 2010 qu'il rejoint le conservatoire de Lausanne en section comédie musicale. 
-Vincent prend alors des cours de danse et s'initie au théâtre lors de divers projets de spectacles musicaux en Suisse, tel que "Jésus-Christ Superstar" au théâtre Barnabé. Cette révélation le mène à Paris où il commence une formation en 2012 à l'ECM de Paris. 
+Lors de nombreuses occasions, il se produit sur scène en tant que chanteur et/ou accompagnateur, seul ou à plusieurs, gardant toujours un œil sur le répertoire des comédies musicales américaines. C'est finalement en 2010 qu'il rejoint le conservatoire de Lausanne en section comédie musicale. 
+Vincent prend alors des cours de danse et s'initie au théâtre lors de divers spectacles musicaux en Suisse, tel que "Jésus-Christ Superstar" au théâtre Barnabé. Cette révélation le mène à Paris où il commence une formation en 2012 à l'ECM de Paris. 
 Lors de sa première année à Paris, Vincent a la chance de collaborer avec l'association "American Musical Théâtre Live! Paris" qui lui permet de travailler avec divers comédiens, compositeurs et directeurs de Broadway ou Londres, ainsi que de participer à la première production parisienne de "EDGES" à l'Auguste théâtre.
 </p>
 </article>

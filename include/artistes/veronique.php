@@ -7,7 +7,7 @@
     <span class="details-infos">Facebook</span>
     <span class="details-infos">Souviens-toi Pan !</span>
     
-    <p>Après une formation de danse classique et de théâtre, Véronique intègre en 2010 l’Académie Internationale de Comédie Musicale à Paris, afin de se former au chant et d'enrichir ses techniques de danse et de jeu.
+    <p>Après une formation de danse classique et de théâtre, Véronique intègre en 2010 l’Académie Internationale de Comédie Musicale à Paris, afin de se former au chant et enrichir ses techniques de danse et de jeu.
 Parallèlement à sa formation, elle joue dans les spectacles musicaux "Paris-Broadway" et "1939", ainsi qu'en première partie des films "Glee on Tour" et "Grease" au Gaumont Parnasse.
 Depuis 2012, elle varie les rôles en jouant dans "La Revanche d’une Blonde", "La Vie Rêvée de Norma", ainsi que dans les spectacles jeune public "Nono et les Couleurs de l'Amitié" et "Symphonia".
 Elle rejoint cette année l'équipe du spectacle "Twins" et de "La Petite Souris", et signe sa première mise en scène avec "Crime, le musical".
