@@ -79,9 +79,9 @@
 							<li><a href="artistes-stp.php" class="bouton_artiste">Nos Artistes - Souviens-toi, Pan !</a></li>
 							<li><a href="http://www.theatre-clavel.com/" alt="Theatre Clavel" title="Clavel" target="_blank" class="bouton_theatre">Th&eacute;&acirc;tre Clavel</a></li>
 							<li><a href="http://www.vingtiemetheatre.com/" alt="Theatre Le Vingt" title="Le Vingtieme" target="_blank" class="bouton_theatre">Le Vingti&egrave;me th&eacute;&acirc;tre </a></li>		
-							<li><a href="#" class="bouton_prod">La Prod</a></li>
-							<li><a href="#" class="bouton_contact">Contact</a></li>
-							<li><a href="#" class="bouton_reserver">R&eacute;servez en ligne</a></li>
+							<li><a href="prod.php" class="bouton_prod">La Prod</a></li>
+							<li><a href="contact.php" class="bouton_contact">Contact</a></li>
+							<li><a href="acheter-cd.php" class="bouton_reserver">R&eacute;servez en ligne</a></li>
 						</ul>
 					</nav>
                 </div>

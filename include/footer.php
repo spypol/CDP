@@ -34,9 +34,6 @@
 		<!-------------------------- PLAYER -------------------------->
 		<script src="player/build/mediaelement-and-player.min.js"></script><!-- Audio/Video Player jQuery -->
 		<script src="player/build/mep-feature-playlist.js"></script><!-- Playlist JavaSCript -->
-
-		<!-------------------------- FLEXSLIDER -------------------------->
-		<!--<script defer src="js/vendor/jquery.flexslider-min.js"></script>-->
 		
 		<!-------------------------- FITVIDS -------------------------->
 		<script src="js/vendor/jquery.fitvids.js"></script>

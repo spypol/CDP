@@ -7,34 +7,34 @@ $(document).ready(function(){
 	//NIVOSLIDER
 	$('#photos-stp').nivoSlider({
 		controlNav: false,
-		pauseTime: 3000
+		pauseTime: 300000
 	});
 	
 	$('#photos-alice').nivoSlider({
 		controlNav: false,
-		pauseTime: 3000
+		pauseTime: 300000
 	});
 	
 	$('#slider-homepage').nivoSlider({
 		controlNav: false,
-		pauseTime: 7000
+		pauseTime: 700000
 	});
 	
 	$('#slider-alice').nivoSlider({
 		controlNav: false,
 		directionNav: false,
-		pauseTime: 3000
+		pauseTime: 300000
 	});
 	
 	$('#slider-stp').nivoSlider({
 		controlNav: false,
 		directionNav: false,
-		pauseTime: 3000
+		pauseTime: 300000
 	});
     
     $('#photos-artistes').nivoSlider({
 		controlNav: false,
-		pauseTime: 3000
+		pauseTime: 300000
 	});
 	
 	//NIVOLIGHTBOX

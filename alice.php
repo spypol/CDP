@@ -87,4 +87,4 @@
             </div> <!-- #main -->
         </div> <!-- #main-container -->
 		
-<?php include('include/footer.php'); ?>
+<?php include_once('include/footer.php');
