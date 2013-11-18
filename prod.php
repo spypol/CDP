@@ -50,7 +50,7 @@
 								
 								<li><span class="circular" id="julienbonneau"></span><h3>Julien Bonneau</h3><h4>Secr&eacute;taire / Directeur de la Communication</h4>
 									<p>
-										Chanteur et compositeur lors de plusieurs spectacles musicaux par le pass&eacute;, Julien est actuellement chef de projet en strat&eacute;gie dans le secteur des m&eacute;dias. C&rsquo;est donc avec enthousiasme qu&rsquo;il s&rsquo;est lanc&eacute; dans <a href="alice.php" title="Alice">Alice</a>, afin de mettre sa connaissance au service de sa passion.
+										Chanteur et compositeur lors de plusieurs spectacles musicaux par le passé, Julien est actuellement chef de projet en stratégie dans le secteur des médias. C’est donc avec enthousiasme, qu’après le succès de <a href="stp.php" title="Souviens toi Pan">Souviens-toi, Pan !</a>,  il a replongé dans l’aventure <a href="alice.php" title="Alice">Alice</a>, afin de mettre sa connaissance au service de sa passion.
 									</p>
 								</li>
 								
