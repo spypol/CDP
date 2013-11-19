@@ -14,7 +14,7 @@
 				
 				<div class="slider-wrapper theme-default">
 					<div id="slider-stp" class="nivoSlider">
-						 <img src="img/slide_stp1.jpg" />
+						 <a href="acheter-cd.php">><img src="img/slide_stp1.jpg" /></a>
 					</div>
 				</div>
 

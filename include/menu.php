@@ -58,7 +58,7 @@
 						</div>-->
 						
 						<div class="menu-item">
-						  <h4><a href="#" class="bouton_reserver">R&eacute;servez en ligne</a></h4>
+						  <h4><a href="acheter-cd" class="bouton_reserver">Achetez votre CD</a></h4>
 						</div>
 						
 					</nav>
@@ -81,7 +81,7 @@
 							<li><a href="http://www.vingtiemetheatre.com/" alt="Theatre Le Vingt" title="Le Vingtieme" target="_blank" class="bouton_theatre">Le Vingti&egrave;me th&eacute;&acirc;tre </a></li>		
 							<li><a href="prod.php" class="bouton_prod">La Prod</a></li>
 							<li><a href="contact.php" class="bouton_contact">Contact</a></li>
-							<li><a href="acheter-cd.php" class="bouton_reserver">R&eacute;servez en ligne</a></li>
+							<li><a href="acheter-cd.php" class="bouton_reserver">Achetez votre CD</a></li>
 						</ul>
 					</nav>
                 </div>

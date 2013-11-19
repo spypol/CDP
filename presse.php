@@ -34,11 +34,11 @@
                         
                         <section id="dossier-de-presse">
                             
-                            <a href="media/partenaire/CP 30.10.2013 Annonce de la Troupe Alice.pdf" title="Dossier de partenariat" target="_blank">
+                            <a href="media/presse/CP 30.10.2013 Annonce de la Troupe Alice.pdf" title="Dossier de partenariat" target="_blank">
                                 <img src="img/logos/pdf-small.png" title="Dossier de Presse" id="dossier-presse-image" />
                             </a>
                             <h5>
-                                <a href="media/partenaire/CP 30.10.2013 Annonce de la Troupe Alice.pdf" title="Dossier de partenariat" target="_blank">
+                                <a href="media/presse/CP 30.10.2013 Annonce de la Troupe Alice.pdf" title="Dossier de partenariat" target="_blank">
                                     30.10: La troupe de la comédie musicale "Alice" est dévoilée
                                 </a>  
                             </h5>
@@ -47,11 +47,11 @@
     artistes sont consultables sur le site internet, www.compotedeprod.com...
                             </p>
                             
-                            <a href="media/partenaire/CP 10.07.2013 Compote de Prod presente Alice.pdf" title="Dossier de Presse 10.07" target="_blank">
+                            <a href="media/presse/CP 10.07.2013 Compote de Prod presente Alice.pdf" title="Dossier de Presse 10.07" target="_blank">
                                 <img src="img/logos/pdf-small.png" title="Dossier de Presse" id="dossier-presse-image" />
                             </a>
                             <h5>
-                                <a href="media/partenaire/CP 10.07.2013 Compote de Prod presente Alice.pdf" title="Dossier de Presse 10.07" target="_blank">
+                                <a href="media/presse/CP 10.07.2013 Compote de Prod presente Alice.pdf" title="Dossier de Presse 10.07" target="_blank">
                                     10.07: Compote de Prod présente sa nouvelle comédie musicale, Alice
                                 </a>
                             </h5>
