@@ -10,17 +10,5 @@
 						<a href="acheter-cd.php">><img src="img/slide_stp1.jpg" /></a>
 					</div>
 				</div>
-				
-				<!--<div id="topslider" class="flexslider">
-				  <ul class="slides">
-					<li>
-					  <a href="stp.php"><img src="img/slide_stp1.jpg" /></a>
-					</li>
-					<li>
-					  <a href="alice.php"><img src="img/slide_alice1.jpg" /></a>
-					</li>
-				  </ul>
-				</div>-->
-
             </header>
         </div>

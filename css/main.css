@@ -217,6 +217,10 @@ nav a:hover{
    Paul Pinier's custom styles
    ========================================================================== */
 
+body {
+    padding:0;
+}
+
 #logo{
 	float:none;
 	width:50%;
@@ -430,10 +434,22 @@ footer li h5{
 	Artistes styles
    ========================================================================== */
 #photo-vignettes{
-    color:#ccc;
-	min-height:180px;
-	padding:0 2%;
-	width:100%;
+	height:auto;
+    margin-bottom:15px;
+}
+
+#photo-vignettes img{
+	width:132px;
+}
+
+.vignette{
+    cursor:pointer;
+	margin:10px;
+}
+
+.vignette:hover{
+    border:2px solid white;
+    margin:8px;
 }
 
 #details{
@@ -447,12 +463,6 @@ footer li h5{
 	float:left;
 	margin-right:1%;
 	width:48%;
-}
-
-.vignette{
-    cursor:pointer;
-	margin:3px;
-	width:80px;
 }
 
 #artiste-portrait, #artiste-details, #artiste-gallerie{
@@ -475,10 +485,14 @@ footer li h5{
 
 #artiste-details .details-infos{
     font-family: 'Roboto Condensed', sans-serif;
-    font-size:150%;
+    font-size:130%;
     float:left;
     margin:10px 0 0 10px;
     width:50%;
+}
+#artiste-details #details-name{
+    font-size:240%;
+    margin:15px 0 10px 10px;
 }
 
 #artiste-details p{

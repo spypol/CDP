@@ -1,11 +1,11 @@
 <!-------------------------- Photo -------------------------->
 <article id="artiste-details">
     <img src="_photos/troupe/alice/avatars/vincent.jpg" class="portrait"/>
-    <span class="details-infos">Vincent Gilliéron</span>
-    <span class="details-infos">Role</span>
-    <span class="details-infos">Single</span>
-    <span class="details-infos">Facebook</span>
-    <span class="details-infos">Souviens-toi Pan !</span>
+    <span class="details-infos" id="details-name">Vincent Gilliéron</span>
+    <span class="details-infos">Le Lapin Blanc</span>
+    <span class="details-infos"><a href="https://www.facebook.com/VinS187">Facebook</a></span>
+    <span class="details-infos"><a href="https://twitter.com/Vincent_Gill">Twitter</a></span>
+    
     
     <p>Depuis son plus jeune âge, Vincent se passionne pour la musique sous toutes ses formes. Il apprend la guitare, le piano et le ukulélé en autodidacte. 
 Lors de nombreuses occasions, il se produit sur scène en tant que chanteur et/ou accompagnateur, seul ou à plusieurs, gardant toujours un œil sur le répertoire des comédies musicales américaines. C'est finalement en 2010 qu'il rejoint le conservatoire de Lausanne en section comédie musicale. 

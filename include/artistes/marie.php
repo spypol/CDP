@@ -1,11 +1,8 @@
 <!-------------------------- Photo -------------------------->
 <article id="artiste-details">
     <img src="_photos/troupe/alice/avatars/marie.jpg" class="portrait"/>
-    <span class="details-infos">Marie Oppert</span>
-    <span class="details-infos">Role</span>
-    <span class="details-infos">Single</span>
-    <span class="details-infos">Facebook</span>
-    <span class="details-infos">Souviens-toi Pan !</span>
+    <span class="details-infos" id="details-name">Marie Oppert</span>
+    <span class="details-infos">Alice</span>
     
     <p>Marie commence la musique à l’âge de 6 ans en débutant le piano, bercée dans un milieu musical familial. A l’âge de 9 ans, elle entre au CRR de Paris, dans un cursus à horaires aménagés qui lui permet d’aller à l’école le matin et d’étudier la musique l’après-midi (chœur, cours de chant particulier, piano, clarinette, solfège etc. …). 
 Marie suit également des cours de danse classique, modern jazz et claquettes et participe à de nombreuses productions, concerts et enregistrements professionnels dans de grandes salles parisiennes (Zénith, Théâtre du Châtelet, Salle Pleyel … ). 

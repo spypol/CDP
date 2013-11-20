@@ -1,11 +1,8 @@
 <!-------------------------- Photo -------------------------->
 <article id="artiste-details">
     <img src="_photos/troupe/alice/avatars/veronique.jpg" class="portrait"/>
-    <span class="details-infos">Véronique Hatat</span>
-    <span class="details-infos">Role</span>
-    <span class="details-infos">Single</span>
-    <span class="details-infos">Facebook</span>
-    <span class="details-infos">Souviens-toi Pan !</span>
+    <span class="details-infos" id="details-name">Véronique Hatat</span>
+    <span class="details-infos">La Chenille</span>
     
     <p>Après une formation de danse classique et de théâtre, Véronique intègre en 2010 l’Académie Internationale de Comédie Musicale à Paris, afin de se former au chant et enrichir ses techniques de danse et de jeu.
 Parallèlement à sa formation, elle joue dans les spectacles musicaux "Paris-Broadway" et "1939", ainsi qu'en première partie des films "Glee on Tour" et "Grease" au Gaumont Parnasse.

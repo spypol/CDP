@@ -12,7 +12,7 @@ $(document).ready(function(){
 	
 	$('#photos-alice').nivoSlider({
 		controlNav: false,
-		pauseTime: 300000
+		pauseTime: 3000
 	});
 	
 	$('#slider-homepage').nivoSlider({
@@ -32,7 +32,7 @@ $(document).ready(function(){
 		pauseTime: 3000
 	});
     
-    $('#photos-artistes').nivoSlider({
+    $('#photos-artiste').nivoSlider({
 		controlNav: false,
 		pauseTime: 3000
 	});

@@ -14,10 +14,6 @@
 						  </ul>
 						</div>
 						
-						<!--<div class="menu-item">
-						  <h4><a href="#">Billeterie</a></h4>
-						</div>-->
-						
 						<div class="menu-item menu-item-2">
 						  <h4><a>Nos Artistes</a></h4>
 						   <ul>
@@ -34,15 +30,8 @@
 						  </ul>
 						</div>
 						
-						<div class="menu-item menu-item-5">
+						<div class="menu-item">
 						  <h4><a href="prod.php">La Prod</a></h4>
-						  <!--<ul>
-							<li><a href="#">Pr&eacute;sentation</a></li>
-							<li><a href="#">L'&eacute;quipe</a></li>		
-							<li><a href="#">Participer</a></li>		
-							<li><a href="#">Les Auditions</a></li>		
-							<li><a href="#">L'&eacute;quipe</a></li>		
-						  </ul>-->
 						</div>
 					
 						<div class="menu-item">
@@ -52,10 +41,6 @@
 						<div class="menu-item">
 						  <h4><a href="contact.php">Contact</a></h4>
 						</div>
-						
-						<!--<div class="menu-item">
-						  <h4><a href="#">Nos partenaires</a></h4>
-						</div>-->
 						
 						<div class="menu-item">
 						  <h4><a href="acheter-cd" class="bouton_reserver">Achetez votre CD</a></h4>
@@ -73,9 +58,13 @@
 				
 					<nav>
 						<ul>
-							<li><a href="alice.php" class="bouton_spectacle">Nos Spectacles - Alice</a></li>
-							<li><a href="stp.php" class="bouton_spectacle">Nos Spectacles - Souviens-toi, Pan !</a></li>
-							<li><a href="artistes-alice.php" class="bouton_artiste">Nos Artistes - Alice</a></li>
+                            <li>
+                                <ul>
+                                    <li><a href="alice.php" class="bouton_spectacle">Nos Spectacles - Alice</a></li>
+							        <li><a href="stp.php" class="bouton_spectacle">Nos Spectacles - Souviens-toi, Pan !</a></li>
+                                </ul>
+                            </li>
+							<li><div id="coucou"><a href="artistes-alice.php" class="bouton_artiste">Nos Artistes - Alice</a></div></li>
 							<li><a href="artistes-stp.php" class="bouton_artiste">Nos Artistes - Souviens-toi, Pan !</a></li>
 							<li><a href="http://www.theatre-clavel.com/" alt="Theatre Clavel" title="Clavel" target="_blank" class="bouton_theatre">Th&eacute;&acirc;tre Clavel</a></li>
 							<li><a href="http://www.vingtiemetheatre.com/" alt="Theatre Le Vingt" title="Le Vingtieme" target="_blank" class="bouton_theatre">Le Vingti&egrave;me th&eacute;&acirc;tre </a></li>		
