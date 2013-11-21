@@ -24,7 +24,10 @@
 								<li><span class="circular" id="joe"></span><h3>Joe Marshall</h3><h4>Joe est Wendy</h4>
 									<p>Joe a commenc&eacute; le chant &agrave; l&rsquo;&acirc;ge de 8 ans &agrave; L&rsquo;Acad&eacute;mie du Chant Moderne. Form&eacute;e et coach&eacute;e en studio par Chris Vincent, elle parfait sa formation lors de plusieurs Master Classes avec Richard Cross. Apr&egrave;s avoir chant&eacute; sur sc&egrave;ne notamment aupr&egrave;s de Julie Zenatti et Dave, Joe pr&eacute;pare actuellement la sortie de son 3e single. L&rsquo;exp&eacute;rience &laquo; Souviens-toi Pan &raquo; est pour elle une occasion de plus de progresser artistiquement et de partager sa passion au sein d&rsquo;une troupe enthousiaste. Elle interpr&egrave;te le r&ocirc;le de Wendy. </p></li>
 								<li><span class="circular" id="julie"></span><h3>Julie Lemas</h3><h4>Julie est Mouche</h4>
-									<p>Chant, Th&eacute;atre, Danse, tous sont naturels pour Julie qui, avec sa sensibilit&eacute; et sa voix, a d&eacute;j&agrave; une exp&eacute;rience sc&eacute;nique et artistique vari&eacute;e. Son portfolio inclut &laquo; Le No&euml;l de Monsieur Scroodge &raquo;, spectacle musical bas&eacute; sur le conte de Charles Dickens et &laquo; La Galette des Rois &raquo;, com&eacute;die d&rsquo;apr&egrave;s Roger-Ferdinand avec la compagnie Le Grenier de Bruy&egrave;res. C&rsquo;est sa rencontre avec Philippe Padovani, son professeur depuis 10 ans, qui lui ouvre les portes du chant. Suivront &laquo; Show Show Broadway &raquo; et &laquo; La Beloboidormant &raquo;, spectacle pour enfants adapt&eacute;e du conte de Charles Perrault par la compagnie des Lutins Oranges. Apr&egrave;s une ann&eacute;e au sein de l'AICOM o&ugrave; Julie perfectionne son talent, c'est en 2008 qu'elle monte sur les planches d'une sc&egrave;ne parisienne avec la Com&eacute;die Musicale &quot;Je m'voyais d&eacute;j&agrave;&quot;. Spectacle de Laurent Ruquier autour des chansons de Charles Aznavour, jou&eacute; au Th&eacute;&acirc;tre du Gymnase, au Th&eacute;&acirc;tre Comedia et en Tourn&eacute;e en France.</p></li>
+									<p>
+                                        Julie se forme très tôt aux différents domaines artistiques : solfège, piano, danse modern jazz. Très jeune, elle se découvre également une passion pour le théâtre aux côtés de ses parents qui ont monté une troupe en Essonne. Mais ce n'est qu'à l'âge de 16 ans que Julie ose intégrer un cours de théâtre pour apprendre le métier de comédien. En 2002, sa rencontre avec Philippe Padovani, professeur de chant, marque un tournant dans sa vie artistique. <br /><a href="artistes-alice">Lire la suite</a>
+                                    </p>
+                                </li>
 								<li><span class="circular" id="ludo"></span><h3>Ludovic Fert</h3><h4>Ludovic est Jean</h4>
 									<p>Ludovic, qui interpr&egrave;te le r&ocirc;le du petit fr&egrave;re dans &laquo; Souviens-toi Pan &raquo;, est un autodidacte qui poursuit des &eacute;tudes scientifiques lorsqu&rsquo;il est s&eacute;lectionn&eacute; dans la troupe de Souviens-toi-Pan en 2005. L&rsquo;ann&eacute;e suivante, il renouvelle l&rsquo;aventure en s&rsquo;impliquant dans une autre com&eacute;die musicale et participe &agrave; plusieurs spectacles de danse en parall&egrave;le. Quelques ann&eacute;es plus tard, la sc&egrave;ne lui manque et il saisit l&rsquo;opportunit&eacute; de la r&eacute;&eacute;criture du spectacle &laquo; Souviens-toi Pan &raquo; pour se lancer dans l&rsquo;aventure.</p></li>
 								<li><span class="circular" id="maeva"></span><h3>Ma&euml;va Clamaron</h3><h4>Ma&euml;va est Clochette</h4>
@@ -39,6 +42,26 @@
 									<p>C&rsquo;est lors de sa formation comme com&eacute;dien au Cours Florent qu&rsquo;il se passionne pour la com&eacute;die musicale. Il se forme alors intensivement en danse et en chant, puis devient, au terme de son cursus, assistant de la section &laquo; Dancing &raquo; au Cours Florent. Avec &laquo; Hair &raquo;, il a obtenu  son premier r&ocirc;le important en com&eacute;die musicale, il jouera ensuite dans le &quot;Rocky Horror Pictures show&quot; et &quot;Evita&quot; puis il jonglera avec le th&eacute;&acirc;tre dans des pi&egrave;ces tel que &quot;Embrassons nous Folleville&quot;, &quot;Demain on se marie&quot; mais aussi avec des spectacles musicaux &quot;PBA&quot;, &quot;Changer de vie&quot;, &quot;La chanson c'est pas d'la chansonnette&quot;... et enfin &quot;Souviens Toi Pan&quot;, o&ugrave; il interpr&egrave;te le personnage du Capitaine Crochet. </p></li>
 								<li><span class="circular" id="raphaelle"></span><h3>Rapha&euml;lle Raimon</h3><h4>Rapha&euml;lle est la chef Indienne</h4>
 									<p>Rapha&euml;lle a commenc&eacute; la musique en jouant de la clarinette, pour se tourner plus tard vers le chant lyrique. Son m&eacute;tier de professeur de musique au coll&egrave;ge lui a permis de bousculer sa formation classique, pour se rapprocher de l&rsquo;univers musical de Peter Pan. Elle interpr&egrave;te le r&ocirc;le de la Chef Indienne dans la com&eacute;die musicale, une nouvelle exp&eacute;rience qui lui permet d&rsquo;allier danse et chant.</p></li>
+							</ul>
+                        </section>
+                        <section>
+							<h1>La Création</h1>
+							<ul class="js-masonry" data-masonry-options='{ "columnWidth": 255, "itemSelector": "li", "gutter": 40 }'>
+								<li><span class="circular" id="rita"></span><h3>Rita Lalle</h3><h4>Chorégraphe</h4></h3>
+									<p>
+                                        Form&eacute;e aux arts du spectacle, d&rsquo;abord par sa m&egrave;re depuis l&rsquo;&acirc;ge de 5 ans, puis &agrave; travers de cours de danse et de th&eacute;&acirc;tre. Son &eacute;nergie et sa sensibilit&eacute; s&rsquo;exprime dans ses cr&eacute;ations qui m&ecirc;lent harmonieusement ses influences traditionnelles, classiques et modernes. &laquo; Dans mon travail, mon seul objectif est d&rsquo;arriver &agrave; transmettre des &eacute;motions. &raquo;
+                                    </p>
+                                </li>
+								<li><span class="circular" id="greg"></span><h3>Gregory Pennaneac'h</h3><h4>Chorégraphe / Metteur en scène</h4></h3>
+									<p>
+                                        Autodidacte et passionn&eacute; de danse depuis l'adolescence, il monte rapidement son propre groupe de danse et d&eacute;veloppe ses qualit&eacute;s de chor&eacute;graphe. Il s'investit ensuite dans le premier projet &laquo; Souviens-toi, Pan ! &raquo;. Il perfectionne ses techniques de danses et s&rsquo;ouvre &agrave; de nouveaux horizons comme le Street Jazz et la Capoeira. Sa cr&eacute;ativit&eacute; et ses r&eacute;f&eacute;rences &eacute;clectiques contribueront &agrave; la r&eacute;ussite artistique et &agrave; l'originalit&eacute; du spectacle.
+                                    </p>
+                                </li>
+								<li><span class="circular" id="patrick"></span><h3>Patrick Bernard</h3><h4>Auteur / Scripte spectacle</h4></h3>
+									<p>
+                                        Sa passion pour les mots a fait de lui le parolier de la com&eacute;die musicale. Ce conquis de l&rsquo;&eacute;criture &eacute;crit et r&eacute;alise un court m&eacute;trage en 2005 &laquo; Entre ciel et terre &raquo; et &eacute;crit notamment pour la com&eacute;die musicale &laquo; Troie &raquo; en 2007. Il a acquis par son m&eacute;tier la rigueur n&eacute;cessaire &agrave; la gestion d'un projet de cette envergure. 
+                                    </p>
+                                </li>
 							</ul>
 						</section>
 					</article>

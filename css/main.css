@@ -536,9 +536,9 @@ footer li h5{
 }
 
 #troupe a{
-    color: #333333;
-    font-weight:bold;
+    color: #bbb;
     text-decoration: none;
+    font-style:italic;
 }
 
 #troupe a:hover{
@@ -577,8 +577,10 @@ footer li h5{
 #nico{background: url('../_photos/troupe/STP/170/nico.jpg') no-repeat;}
 #ralph{background: url('../_photos/troupe/STP/170/ralph.jpg') no-repeat;}
 #raphaelle{background: url('../_photos/troupe/STP/170/raphaelle.jpg') no-repeat;}
+#rita{background: url('../_photos/troupe/STP/170/rita.jpg') no-repeat;}
+#greg{background: url('../_photos/troupe/STP/170/greg.jpg') no-repeat;}
+#patrick{background: url('../_photos/troupe/STP/170/patrick.jpg') no-repeat;}
 
-/*TROUPE CDP*/
 
 /*PRODUCTION*/
 #juliengoetz{background: url('../_photos/prod2013/juliengoetz.jpg') no-repeat;}
