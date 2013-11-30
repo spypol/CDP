@@ -15,16 +15,14 @@
 <article id="artiste-gallerie">
     <div class="slider-wrapper theme-default">
         <div id="photos-artiste" class="nivoSlider">
-            <a href="_photos/troupe/alice/Antonio Macipe.jpg" data-lightbox-gallery="gallery-stp" class="preview-image">
-                <img src="_photos/troupe/alice/Antonio-Macipe.jpg" alt=""/></a>
-            <a href="_photos/troupe/alice/Antonio-Macipe-(2).jpg" data-lightbox-gallery="gallery-stp" class="preview-image">
-                <img src="_photos/troupe/alice/Antonio-Macipe-(2).jpg" alt=""/></a>
-            <a href="_photos/troupe/alice/Antonio-Macipe-(3).jpg" data-lightbox-gallery="gallery-stp" class="preview-image">
-                <img src="_photos/troupe/alice/Antonio-Macipe-(3).jpg" alt=""/></a>
-            <a href="_photos/troupe/alice/Antonio-Macipe-(4).jpg" data-lightbox-gallery="gallery-stp" class="preview-image">
-                <img src="_photos/troupe/alice/Antonio-Macipe-(4).jpg" alt=""/></a>
-            <a href="_photos/troupe/alice/Antonio-Macipe-(5).jpg" data-lightbox-gallery="gallery-stp" class="preview-image">
-                <img src="_photos/troupe/alice/Antonio-Macipe-(5).jpg" alt=""/></a>
+            <a href="_photos/troupe/alice/herve.jpg" data-lightbox-gallery="gallery-stp" class="preview-image">
+                <img src="_photos/troupe/alice/herve.jpg" alt=""/></a>
+            <a href="_photos/troupe/alice/herve1.jpg" data-lightbox-gallery="gallery-stp" class="preview-image">
+                <img src="_photos/troupe/alice/herve1.jpg" alt=""/></a>
+            <a href="_photos/troupe/alice/herve2.jpg" data-lightbox-gallery="gallery-stp" class="preview-image">
+                <img src="_photos/troupe/alice/herve2.jpg" alt=""/></a>
+            <a href="_photos/troupe/alice/herve3.jpg" data-lightbox-gallery="gallery-stp" class="preview-image">
+                <img src="_photos/troupe/alice/herve3.jpg" alt=""/></a>
         </div>
     </div>
 </article>

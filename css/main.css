@@ -232,6 +232,12 @@ body {
 	width:140%;
 }
 
+.theme-default .nivoSlider {
+    background:none;
+    -webkit-box-shadow:none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
 
 .cdp-social{
 	cursor: pointer;
@@ -298,11 +304,15 @@ body {
 	padding:0;
 }
 
+.mean-container .mean-bar {
+    float:none;   
+}
+
 .main #social {
 	margin:15px 0 0 0;
 }
 
-footer ul{
+ul{
 	color: #444;
 	margin:10px 0;
 	font-family: 'Roboto Condensed', sans-serif;
@@ -508,7 +518,7 @@ footer li h5{
 
 
 /* ==========================================================================
-   Troupe styles
+   Troupe style s
    ========================================================================== */
 .circular {
 	width: 170px;
@@ -536,6 +546,12 @@ footer li h5{
 }
 
 #troupe a{
+    color: #333333;
+    font-weight:bold;
+    text-decoration: none;
+}
+
+#troupe #lirelasuite{
     color: #bbb;
     text-decoration: none;
     font-style:italic;

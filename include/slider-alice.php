@@ -14,7 +14,7 @@
 				
 				<div class="slider-wrapper theme-default">
 					<div id="slider-alice" class="nivoSlider">
-						 <img src="img/slide_alice1.jpg" />
+						 <img src="img/slide_alice1.png" />
 					</div>
 				</div>
 

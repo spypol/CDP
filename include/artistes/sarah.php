@@ -3,6 +3,7 @@
     <img src="_photos/troupe/alice/avatars/sarah.jpg" class="portrait"/>
     <span class="details-infos" id="details-name">Sarah Perahim</span>
     <span class="details-infos">Assistante mise en scène</span>
+    <span class="details-infos">Assistante de production</span>
     
     <p>
         Formée dès l'âge de 6 ans au Conservatoire de Paris en chant, piano et danse classique, c'est après le bac que Sarah se lance dans le théâtre. Elle fera ses premiers pas sur scène avec « Les larmes amères de Petra Von Kant » de R.W. Fassbinder au théâtre du Marais et à l'Aktéon en 2010, ainsi qu'au théâtre du Marsoulan dans « L'envol 1946 » en 2012.

@@ -28,6 +28,7 @@
                     <img src="_photos/troupe/alice/avatars/sarah.jpg" class="vignette" id="sarah" title="Sarah Perahim"/>
                     <img src="_photos/troupe/alice/avatars/nicolaslaustriat.jpg" class="vignette" id="nicolas" title="Nicolas Laustriat"/>
                     <img src="_photos/troupe/alice/avatars/benjaminlandrot.jpg" class="vignette" id="benjamin" title="Benjamin Landrot"/>
+                    <img src="_photos/troupe/alice/avatars/beatrice.jpg" class="vignette" id="beatrice" title="Béatrice Han Ching"/>
                     
 					<!--<div id="photo-comedies">
 						<h1>Les Com&eacute;diens</h1>
