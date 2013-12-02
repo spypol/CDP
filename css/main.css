@@ -312,7 +312,7 @@ body {
 	margin:15px 0 0 0;
 }
 
-ul{
+footer ul{
 	color: #444;
 	margin:10px 0;
 	font-family: 'Roboto Condensed', sans-serif;
@@ -444,7 +444,7 @@ footer li h5{
 	Artistes styles
    ========================================================================== */
 #photo-vignettes{
-	height:auto;
+	height:375px;
     margin-bottom:15px;
 }
 
@@ -462,11 +462,30 @@ footer li h5{
     margin:8px;
 }
 
+#photo-vignettes .small{
+    margin: 10px 10px 7px 40px;
+    width:85px;
+}
+
+#photo-vignettes .small:hover{
+    margin: 10px 10px 7px 40px;
+    border:2px solid white;
+    margin:8px 8px 5px 38px;
+}
+
 #details{
-    color:#ccc;
+    color:#cccccc;
     min-height:750px;
 	/*padding:10px 2%;*/
 	width:100%;
+}
+
+#details .dark-text{
+    color:#333333;
+}
+
+#details #social{
+    margin-top:0;
 }
 
 #photo-comedies, #photo-creation, #photo-technique{
@@ -491,6 +510,7 @@ footer li h5{
 
 #artiste-details{
     height:auto;
+    min-height: 400px;
 }
 
 #artiste-details .details-infos{

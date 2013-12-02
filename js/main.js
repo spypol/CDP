@@ -102,9 +102,29 @@ $(document).ready(function(){
 		$("#details").fadeIn("slow");
 	}
     
-    $(".vignette").click(function(e){
+    $(".artistes").click(function(e){
 		nom = this.id;
 		displayArtiste(nom);
+	});
+    
+    //PRODUCTION
+    function displayProd(artiste){
+		$("#artiste-details").html("<img src='img/preloader.gif' class='preloader'>");
+
+		$.ajax({
+		  url: "include/artistes/"+artiste+".php",
+		  cache: false,
+		  success: function(html){
+			$("#artiste-details").html(html);
+		  }
+		});
+
+		$("#artiste-details").fadeIn("slow");
+	}
+    
+    $(".prod").click(function(e){
+		nom = this.id;
+		displayProd(nom);
 	});
     
 });

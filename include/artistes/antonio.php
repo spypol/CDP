@@ -11,7 +11,7 @@
 <article id="artiste-gallerie">
     <div class="slider-wrapper theme-default">
         <div id="photos-artiste" class="nivoSlider">
-            <a href="_photos/troupe/alice/Antonio Macipe.jpg" data-lightbox-gallery="gallery-stp" class="preview-image">
+            <a href="_photos/troupe/alice/Antonio-Macipe.jpg" data-lightbox-gallery="gallery-stp" class="preview-image">
                 <img src="_photos/troupe/alice/Antonio-Macipe.jpg" data-thumb="_photos/troupe/alice/Antonio-Macipe.jpg" alt=""/></a>
             <a href="_photos/troupe/alice/Antonio-Macipe-(2).jpg" data-lightbox-gallery="gallery-stp" class="preview-image">
                 <img src="_photos/troupe/alice/Antonio-Macipe-(2).jpg" data-thumb="_photos/troupe/alice/Antonio-Macipe-(2).jpg" alt=""/></a>
