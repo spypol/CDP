@@ -15,7 +15,11 @@
     <div class="slider-wrapper theme-default">
         <div id="photos-artiste" class="nivoSlider">
             <a href="_photos/troupe/alice/benjamin1.jpg" data-lightbox-gallery="gallery-stp" class="preview-image">
-                <img src="_photos/troupe/alice/benjamin1.jpg" alt=""/></a>
+                <img src="_photos/troupe/alice/benjamin1.jpg" alt=""/></a>            
+            <a href="_photos/troupe/alice/benjamin2.jpg" data-lightbox-gallery="gallery-stp" class="preview-image">
+                <img src="_photos/troupe/alice/benjamin2.jpg" alt=""/></a>            
+            <a href="_photos/troupe/alice/benjamin3.jpg" data-lightbox-gallery="gallery-stp" class="preview-image">
+                <img src="_photos/troupe/alice/benjamin3.jpg" alt=""/></a>
         </div>
     </div>
 </article>

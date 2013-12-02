@@ -468,9 +468,18 @@ footer li h5{
 }
 
 #photo-vignettes .small:hover{
-    margin: 10px 10px 7px 40px;
     border:2px solid white;
     margin:8px 8px 5px 38px;
+}
+
+#photo-vignettes .xsmall{
+    margin: 10px 10px 7px 20px;
+    width:85px;
+}
+
+#photo-vignettes .xsmall:hover{
+    border:2px solid white;
+    margin:8px 8px 5px 18px;
 }
 
 #details{
@@ -601,35 +610,6 @@ footer li h5{
 	text-shadow: none;
 	margin-top:200px;
 }
-
-/*TROUPE STP*/
-#antonio{background: url('../_photos/troupe/STP/170/antonio.jpg') no-repeat;}
-#joe{background: url('../_photos/troupe/STP/170/joe.jpg') no-repeat;}
-#julie{background: url('../_photos/troupe/STP/170/julie.jpg') no-repeat;}
-#ludo{background: url('../_photos/troupe/STP/170/ludo.jpg') no-repeat;}
-#maeva{background: url('../_photos/troupe/STP/170/maeva.jpg') no-repeat;}
-#maud{background: url('../_photos/troupe/STP/170/maud.jpg') no-repeat;}
-#melanie{background: url('../_photos/troupe/STP/170/melanie.jpg') no-repeat;}
-#nico{background: url('../_photos/troupe/STP/170/nico.jpg') no-repeat;}
-#ralph{background: url('../_photos/troupe/STP/170/ralph.jpg') no-repeat;}
-#raphaelle{background: url('../_photos/troupe/STP/170/raphaelle.jpg') no-repeat;}
-#rita{background: url('../_photos/troupe/STP/170/rita.jpg') no-repeat;}
-#greg{background: url('../_photos/troupe/STP/170/greg.jpg') no-repeat;}
-#patrick{background: url('../_photos/troupe/STP/170/patrick.jpg') no-repeat;}
-
-
-/*PRODUCTION*/
-#juliengoetz{background: url('../_photos/prod2013/juliengoetz.jpg') no-repeat;}
-#julieniscache{background: url('../_photos/prod2013/julieniscache.jpg') no-repeat;}
-#julienbonneau{background: url('../_photos/prod2013/julienbonneau.jpg') no-repeat;}
-#luciefoineau{background: url('../_photos/prod2013/luciefoineau.jpg') no-repeat;}
-#nicolaslaustriat{background: url('../_photos/prod2013/nicolaslaustriat.jpg') no-repeat;}
-#benjaminlandrot{background: url('../_photos/prod2013/benjaminlandrot.jpg') no-repeat;}
-#paulpinier{background: url('../_photos/prod2013/paulpinier.jpg') no-repeat;}
-#carolinegoetz{background: url('../_photos/prod2013/carolinegoetz.jpg') no-repeat;}
-
-
-
 
 
 /* ==========================================================================

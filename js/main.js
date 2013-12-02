@@ -87,8 +87,8 @@ $(document).ready(function(){
 	$('#histoire').readmore({maxHeight: 465, sectionCSS: 'display: inline-block;'});
 	$('#spectacle').readmore({maxHeight: 465, sectionCSS: 'display: inline-block;'});
   
-    //ARTISTES
-    function displayArtiste(artiste){
+    //ARTISTES-ALICE
+    function displayArtisteAlice(artiste){
 		$("#details").html("<img src='img/preloader.gif' class='preloader'>");
 
 		$.ajax({
@@ -102,9 +102,29 @@ $(document).ready(function(){
 		$("#details").fadeIn("slow");
 	}
     
-    $(".artistes").click(function(e){
+    $(".artistes-alice").click(function(e){
 		nom = this.id;
-		displayArtiste(nom);
+		displayArtisteAlice(nom);
+	});
+    
+    //ARTISTES-STP
+    function displayArtisteSTP(artiste){
+		$("#artiste-details").html("<img src='img/preloader.gif' class='preloader'>");
+
+		$.ajax({
+		  url: "include/artistes/stp/"+artiste+".php",
+		  cache: false,
+		  success: function(html){
+			$("#artiste-details").html(html);
+		  }
+		});
+
+		$("#artiste-details").fadeIn("slow");
+	}
+    
+    $(".artistes-stp").click(function(e){
+		nom = this.id;
+		displayArtisteSTP(nom);
 	});
     
     //PRODUCTION
