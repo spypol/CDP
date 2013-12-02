@@ -4,7 +4,7 @@
 	if (isset($_POST['email'])) { $email = $_POST['email']; }
     
     $from = 'From: compotedeprod.com'; 
-    $to = 'paulpinier@gmail.com'; 
+    $to = 'contact@compotedeprod.com'; 
     $subject = 'Réservation CD Alice';
 
     $body = "$email\n vient de réserver un CD Alice";

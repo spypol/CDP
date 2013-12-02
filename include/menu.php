@@ -58,13 +58,9 @@
 				
 					<nav>
 						<ul>
-                            <li>
-                                <ul>
-                                    <li><a href="alice.php" class="bouton_spectacle">Nos Spectacles - Alice</a></li>
-							        <li><a href="stp.php" class="bouton_spectacle">Nos Spectacles - Souviens-toi, Pan !</a></li>
-                                </ul>
-                            </li>
-							<li><div id="coucou"><a href="artistes-alice.php" class="bouton_artiste">Nos Artistes - Alice</a></div></li>
+                            <li><a href="alice.php" class="bouton_spectacle">Nos Spectacles - Alice</a></li>
+							<li><a href="stp.php" class="bouton_spectacle">Nos Spectacles - Souviens-toi, Pan !</a></li>
+							<li><a href="artistes-alice.php" class="bouton_artiste">Nos Artistes - Alice</a></li>
 							<li><a href="artistes-stp.php" class="bouton_artiste">Nos Artistes - Souviens-toi, Pan !</a></li>
 							<li><a href="http://www.theatre-clavel.com/" alt="Theatre Clavel" title="Clavel" target="_blank" class="bouton_theatre">Th&eacute;&acirc;tre Clavel</a></li>
 							<li><a href="http://www.vingtiemetheatre.com/" alt="Theatre Le Vingt" title="Le Vingtieme" target="_blank" class="bouton_theatre">Le Vingti&egrave;me th&eacute;&acirc;tre </a></li>		
