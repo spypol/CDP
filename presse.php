@@ -88,12 +88,9 @@ musical adapté aux petits comme aux grands...
 				            <h1>Ils en parlent</h1>
                             
                             <div class="slider-wrapper theme-default gallery">
-								<div id="photos-stp" class="nivoSlider">
-                            
-                                    <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0572.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0572.jpg" /></a>
-                                    <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0606.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0606.jpg" /></a>
-                                    <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0653.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0653.jpg" /></a>
-                                    <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0655.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0655.jpg" /></a>
+								<div id="photos-alice" class="nivoSlider">
+                                    <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0772.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0772.jpg" /></a>
+                                    <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0719.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0719.jpg" /></a>
                                     <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0671.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0671.jpg" /></a>
                                     <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0675.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0675.jpg" /></a>
                                     <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0679.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0679.jpg" /></a>
@@ -102,9 +99,7 @@ musical adapté aux petits comme aux grands...
                                     <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0700.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0700.jpg" /></a>
                                     <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0701.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0701.jpg" /></a>
                                     <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0716.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0716.jpg" /></a>
-                                    <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0719.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0719.jpg" /></a>
                                     <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0766.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0766.jpg" /></a>
-                                    <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0772.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0772.jpg" /></a>
                                     <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0773.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0773.jpg" /></a>
                                     <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0776.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0776.jpg" /></a>
                                     <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0781.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0781.jpg" /></a>
@@ -115,14 +110,17 @@ musical adapté aux petits comme aux grands...
                                     <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0844.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0844.jpg" /></a>
                                     <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0848.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0848.jpg" /></a>
                                     <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0853.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0853.jpg" /></a>
+                                    <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0572.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0572.jpg" /></a>
+                                    <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0606.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0606.jpg" /></a>
+                                    <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0653.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0653.jpg" /></a>
+                                    <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0655.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0655.jpg" /></a>
                                     <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0854.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0854.jpg" /></a>
                                     <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0855.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0855.jpg" /></a>
                                     <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0858.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0858.jpg" /></a>
                                     <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0861.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0861.jpg" /></a>
                                     <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0863.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0863.jpg" /></a>
                                     <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0880.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0880.jpg" /></a>
-                            
-                                </div>
+								</div>
 							</div>
                             
                             

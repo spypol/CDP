@@ -1,4 +1,4 @@
-<div class="responsive-audio progression-small responsive-wrapper" style="max-width:960px;">
+<div class="responsive-audio progression-small responsive-wrapper" style="max-width:99%;">
 	<audio class="progression-playlist progression-skin progression-default-dark progression-audio-player" controls="controls" preload="none">
 		
         <source src="media/alice/La pour Chat - extrait web.mp3" title="Là pour Chat !" type="audio/mp3"/>

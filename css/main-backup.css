@@ -84,7 +84,7 @@ body {
 .footer-container{
 	background: #ccc;
 	border-top: 5px solid #bbb;
-	height: 70px;
+	height: 50px;
 }
 
 .title {
@@ -106,22 +106,22 @@ nav ul {
 }
 
 .bouton_reserver{
-	background-color:#252525;		
+	background-color:#f24537;		
 }
 .bouton_spectacle{
-	background-color:#252525;		
+	background-color:#99583D;		
 }
 .bouton_artiste{
-	background-color:#252525;		
+	background-color:#FF4C4C;		
 }
 .bouton_theatre{
-	background-color:#252525;		
+	background-color:#0971B2;		
 }
 .bouton_prod{
-	background-color:#252525;		
+	background-color:#54CC14;		
 }
 .bouton_contact{
-	background-color:#252525;		
+	background-color:#54CC14;		
 }
 
 nav a{
@@ -292,7 +292,7 @@ body {
 }
 
 .main #audioplayer{
-	margin-left:1%;
+	margin-left:17%;
 	margin-bottom:25px;
 }
 
@@ -310,7 +310,6 @@ body {
 
 .main #social {
 	margin:15px 0 0 0;
-    display:none;
 }
 
 footer ul{
@@ -359,8 +358,7 @@ footer li h5{
 .main #contact{
 	background:none;
     min-height:550px;
-    margin:0 0 0 2%;
-	width:95%;
+	width:98%;
 }
 
 .main #contact input, textarea{
@@ -386,13 +384,13 @@ footer li h5{
 	height:20px;
 	padding-top:0;
 	margin-right:10px;
-	width:43%;
+	width:25%;
 	float:right;
 }
 
 .main #contact #submit{
 	float:right;
-	width:40%;
+	width:20%;
 	padding:0;
 }
 
@@ -446,14 +444,10 @@ footer li h5{
 	Artistes styles
    ========================================================================== */
 #photo-vignettes{
-	min-height:375px;
+	height:375px;
     margin-bottom:15px;
 }
 
-.photo-vignettes-light{
-    background: rgba(255, 255, 255, 0.5);
-}
-    
 #photo-vignettes img{
 	width:132px;
 }
@@ -469,16 +463,13 @@ footer li h5{
 }
 
 #photo-vignettes .small{
-    margin: 10px 3% 7px 4%;
+    margin: 10px 10px 7px 40px;
     width:85px;
 }
 
 #photo-vignettes .small:hover{
-    border-color: white;
-    
-   -moz-box-sizing:    border-box;
-   -webkit-box-sizing: border-box;
-   box-sizing:         border-box;
+    border:2px solid white;
+    margin:8px 8px 5px 38px;
 }
 
 #photo-vignettes .xsmall{
@@ -514,10 +505,6 @@ footer li h5{
 
 #artiste-portrait, #artiste-details, #artiste-gallerie{
 	float:left;
-}
-
-.artiste-details-light{
-    background: rgba(255, 255, 255, 0.5);
 }
 
 #artiste-portrait{
@@ -625,284 +612,6 @@ footer li h5{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.main #articles-left, #articles-right{
-    width:100%;
-}
-
-.main #articles-left article, #articles-right article{
-    width:100%;
-}
-
-
-
-.main article h1, p, .infos{
-    margin-left:10px;
-    margin-right:10px;
-}
-
-.main article h1, p{
-    margin-top:10px;
-}
-
-/* ====================
-    READMORE
-==================== */
-.readmore-js-toggle{
-    text-align:right;
-    padding-top:0;
-    float:right;
-    width:100%;
-    background: rgba(255, 255, 255, 0.1);
-}
-
-.main #articles-left .readmore-js-toggle{
-    float:left;
-    margin-left:9px;
-}
-
-/* ====================
-PARTENAIRE/PRESSE ARTICLE
-==================== */
-#partenaires-left{
-    height:auto;
-}
-
-#partenaires-left img{
-    width:150px;
-}
-
-#partenaires-left h4{
-    margin:10px;
-}
-
-#partenaires-left h5{
-    margin-top:20px;
-}
-
-#dossier-de-partenariat{
-    text-align:center;
-    margin:35px 0 20px 0;
-}
-
-#partenaires-left #dossier-de-presse{
-    margin-bottom:15px;
-    margin-top:0;
-    padding-top:1px;
-}
-
-#partenaires-left #dossier-de-presse p{
-    font-style:italic;
-}
-
-#partenaires-left #dossier-de-presse h5{
-    float:none;
-    margin:0 0 0 10%;
-    padding-top:3px;
-    width:89%;
-}
-
-#partenaires-left #dossier-de-presse #dossier-presse-image{
-    float:left;
-    width:40px;
-}
-
-#partenaires-right{
-    float:right;
-}
-
-#partenaires-right h4{
-   text-align:center;
-}
-
-#partenaires-right a{
-    color: #333333;
-    text-decoration: none;
-}
-
-#partenaires-right a:hover{
-    color:red;
-    text-decoration: none;
-}
-
-#partenaires-right #partenaires-logos{
-    margin:20px;
-}
-
-
-/* ====================
-    SOCIAL ARTICLE
-==================== */
-.main #social {
-    margin-left:auto;
-    height:auto;
-}
-
-/* ====================
-    HISTOIRE ARTICLE
-==================== */
-.main #histoire {
-    height:auto;
-}
-
-.main #histoire #elp_histoire {
-    cursor:pointer;
-}
-
-/* ====================
-    SPECTACLE ARTICLE
-==================== */
-.main #spectacle {
-    height:auto;
-    float:right;
-}
-
-/* ====================
-  GOODIES ARTICLE
-==================== */
-.main #goodies {
-    height:auto;
-    width:98%;
-}
-
-.main #goodies img {
-    margin:10px;
-    width:30%;
-}
-
-.main #goodies-stp{
-    margin-top:15px;
-    height:auto;
-}
-
-.main #goodies-stp img {
-    margin:7px;
-    width:30%;
-}
-
-/* ====================
-    VIDEO ARTICLE
-==================== */
-.main #video {
-    /*border:1px solid #aaa;*/
-    margin-top:15px;
-    float:right;
-    height:auto;
-}
-
-/* ====================
-    PHOTO ARTICLE
-==================== */
-.main #photos {
-    /*margin-top:15px;
-    height:auto;*/
-    float:right;
-}
-
-.main article img {
-    width:100%;
-}
-
-.main .laptop{
-    display:block;
-}
-
-.main .smartphone{
-    display:none;
-}
-
-/* ====================
-ACHETER ARTICLE
-==================== */
-#acheter-cd-stp, #acheter-cd-alice{
-    min-height:560px;
-    height:auto;
-}
-
-#acheter-cd-stp h1, #acheter-cd-alice h1{
-    font-size:2em;
-}
-
-#acheter-cd-stp #paypal{
-    margin:0 0 20px 10%;
-}
-
-#acheter-cd-stp img{
-    margin-left:15%;
-    width:70%;
-}
-
-#acheter-cd-stp #paypalsmall{
-    width:1px;
-}
-
-#acheter-cd-alice #cd-alice{
-    margin-left:13%;
-    width:70%;
-}
-
-#acheter-cd-alice p{
-    margin-bottom:0;
-}
-
-#acheter-cd-alice input{
-    float:left;
-    font-size:100%;
-    height:30px;
-    width:50%;
-    margin:10px;
-}
-
-#acheter-cd-alice #submit{
-    float:left;
-    font-size:100%;
-    height:38px;
-    width:30%;
-    margin:10px;
-}
-
-#acheter-cd-alice .message_vert, .message_rouge{
-    float:left;
-    font-size:150%;
-    margin:10px;
-}
-
-.div-smartphone{
-    display:block;
-    margin-top:15px;
-}
-
-.div-laptop{
-    display:none;
-}
-
-
-
-
-
-
-
-
-
-
-
-
 /* ==========================================================================
    Media Queries
    ========================================================================== */
@@ -966,73 +675,6 @@ ACHETER ARTICLE
         font-weight: normal;
         font-style: italic;
     }
-
-
-    .main #articles {
-        width:95%;
-        float:right;
-        margin:0 3% 0 0;
-    }
-    
-    .main #articles-left{
-        float:left;
-        margin-left:10px;
-    }
-
-    .main article {
-        float: left;
-        margin: 0 0 0 2%;
-        width: 48%;
-        background:rgba(255, 255, 255, 0.5);
-        height:491px;
-    }
-
-    .main #articles-left, #articles-right{
-        width:47%;
-    }
-    
-    .main #articles-right{
-        float:right;
-        margin-right:2%;
-    }
-
-    .main #social {
-        margin-left:2%;
-        display:none;
-    }
-
-    #acheter-cd-alice input{
-        width:57%;
-    }
-    
-    #acheter-cd-alice #submit{
-        width:30%;
-    }
-
-    .main #contact{
-        width:98%;
-    }
-
-    .main #contact #submit{
-        width:20%;
-    }
-
-    .main #contact #human{
-        width:25%;
-    }
-
-    #photo-vignettes{
-        height:auto;
-    }
-
-    .div-smartphone{
-        display:none;
-    }
-
-    .div-laptop{
-        display:block;
-    }
-
    
 }
 
@@ -1066,9 +708,7 @@ ACHETER ARTICLE
 /* ============
     WIDE: Main
    ============ */
-	#acheter-cd-stp #paypal{
-        margin:0 0 20px 25%;
-    }
+	
     
 
 /* ============
@@ -1078,16 +718,7 @@ ACHETER ARTICLE
 	.main #social {
 		margin-right:0;
 		text-align:right;
-	}
-
-    #photo-vignettes{
-        height:475px;
-    }
-
-    .main #social {
-        margin-left:2%;
-        display:block;
-    }
+	}	
 }
 
 @media only screen and (max-width: 1140px) {
@@ -1203,37 +834,267 @@ ACHETER ARTICLE
 		background:url('../img/bouton-menu.png');
 		height:30px;
 	}
-
-    .main #articles-left, #articles-right{
-        width:41%;
+	
+	.main #articles {
+		width:85%;
+		float:right;
+		margin:0;
+	}
+	
+	.main #articles-left, #articles-right{
+		width:41%;
+	}
+	
+	.main #articles-left{
+		float:left;
+		margin-left:10px;
+	}
+	
+	.main #articles-left article, #articles-right article{
+		width:100%;
+	}
+	
+	.main #articles-right{
+		float:right;
+	}
+	
+	
+	
+	.main article {
+        float: left;
+		margin: 0 0 0 2%;
+        width: 48%;
+		display:block;
+		background:rgba(255, 255, 255, 0.5);
+		height:491px;
+    }
+	
+	.main article h1, p, .infos{
+		margin-left:10px;
+		margin-right:10px;
+	}
+	
+	.main article h1, p{
+		margin-top:10px;
+	}
+	
+	/* ====================
+		READMORE
+   ==================== */
+   .readmore-js-toggle{
+		text-align:right;
+		padding-top:0;
+		float:right;
+		width:100%;
+		background: rgba(255, 255, 255, 0.1);
+   }
+   
+   .main #articles-left .readmore-js-toggle{
+		float:left;
+		margin-left:9px;
+   }
+   
+   /* ====================
+    PARTENAIRE/PRESSE ARTICLE
+   ==================== */
+    #partenaires-left{
+        height:auto;
+    }
+    
+    #partenaires-left img{
+        width:150px;
     }
 
-    .main #articles-right{
-        margin-right:auto;
+    #partenaires-left h4{
+        margin:10px;
     }
 
-    .main #articles {
-        width:85%;
-        float:right;
+    #partenaires-left h5{
+        margin-top:20px;
+    }
+
+    #dossier-de-partenariat{
+        text-align:center;
+        margin:35px 0 20px 0;
+    }
+
+    #partenaires-left #dossier-de-presse{
+        margin-bottom:15px;
+        margin-top:0;
+        padding-top:1px;
+    }
+
+    #partenaires-left #dossier-de-presse p{
+        font-style:italic;
+    }
+
+    #partenaires-left #dossier-de-presse h5{
+        float:left;
         margin:0;
+        padding-top:3px;
+        width:89%;
     }
 
-    .footer-container{
-        height: 50px;
+    #partenaires-left #dossier-de-presse #dossier-presse-image{
+        float:left;
+        width:40px;
     }
 
-    .main #audioplayer{
-        margin-left:17%;
-        margin-bottom:25px;
+    #partenaires-right{
+		float:right;
     }
 
-    #photo-vignettes{
-        height:375px;
+    #partenaires-right h4{
+       text-align:center;
     }
 
-    #photo-vignettes .small{
-        margin: 10px 4% 7px 7%;
+    #partenaires-right a{
+        color: #333333;
+        text-decoration: none;
     }
+
+    #partenaires-right a:hover{
+        color:red;
+        text-decoration: none;
+    }
+
+    #partenaires-right #partenaires-logos{
+        margin:20px;
+    }
+
+   
+   /* ====================
+		SOCIAL ARTICLE
+   ==================== */
+	.main #social {
+		margin-left:2%;
+		height:auto;
+    }
+	
+   /* ====================
+		HISTOIRE ARTICLE
+   ==================== */
+	.main #histoire {
+		height:auto;
+	}
+	
+	.main #histoire #elp_histoire {
+		cursor:pointer;
+    }
+	
+   /* ====================
+		SPECTACLE ARTICLE
+   ==================== */
+	.main #spectacle {
+		height:auto;
+		float:right;
+    }
+	
+	/* ====================
+      GOODIES ARTICLE
+   ==================== */
+	.main #goodies {
+		height:auto;
+		width:98%;
+    }
+	
+	.main #goodies img {
+		margin:10px;
+		width:30%;
+    }
+	
+	.main #goodies-stp{
+		margin-top:15px;
+		height:auto;
+	}
+	
+	.main #goodies-stp img {
+		margin:7px;
+		width:30%;
+    }
+	
+	/* ====================
+		VIDEO ARTICLE
+   ==================== */
+	.main #video {
+		/*border:1px solid #aaa;*/
+		margin-top:15px;
+		float:right;
+		height:auto;
+    }
+	
+	/* ====================
+		PHOTO ARTICLE
+   ==================== */
+	.main #photos {
+		/*margin-top:15px;
+		height:auto;*/
+		float:right;
+    }
+	
+	.main article img {
+		width:100%;
+	}
+	
+	.main .laptop{
+		display:block;
+	}
+	
+	.main .smartphone{
+		display:none;
+	}
+
+/* ====================
+    ACHETER ARTICLE
+   ==================== */
+	#acheter-cd-stp, #acheter-cd-alice{
+        min-height:560px;
+    }
+
+    #acheter-cd-stp h1, #acheter-cd-alice h1{
+        font-size:2em;
+    }
+
+    #acheter-cd-stp #paypal{
+        margin:0 0 20px 25%;
+    }
+
+	#acheter-cd-stp img{
+        margin-left:15%;
+        width:auto;
+    }
+
+	#acheter-cd-alice #cd-alice{
+        margin-left:13%;
+        width:300px;
+    }
+
+    #acheter-cd-alice p{
+        margin-bottom:0;
+    }
+
+    #acheter-cd-alice input{
+        float:left;
+        font-size:100%;
+        height:30px;
+        width:57%;
+        margin:10px;
+    }
+
+    #acheter-cd-alice #submit{
+        float:left;
+        font-size:100%;
+        height:38px;
+        width:30%;
+        margin:10px;
+    }
+
+    #acheter-cd-alice .message_vert, .message_rouge{
+        float:left;
+        font-size:150%;
+        margin:10px;
+    }
+
 }
 
 /* ==========================================================================

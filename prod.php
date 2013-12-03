@@ -11,7 +11,7 @@
 				<!-------------------------- PROD COLUMN -------------------------->
 				<!-------------------------- *********** -------------------------->
                 <div id="articles">
-                    <article id="photo-vignettes">
+                    <article id="photo-vignettes" class="photo-vignettes-light">
 							<h1>Nos valeurs</h1>
 							<p>
 								<a href="index.php" title="Compote de Prod">Compote de Prod</a> est l&rsquo;occasion d&rsquo;assouvir nos passions artistiques ; pour la musique, l&rsquo;&eacute;criture ou tout autre domaine artistique rentrant dans son champ d&rsquo;action. Mais ce n&rsquo;est pas que &ccedil;a, c&rsquo;est aussi pour nous l&rsquo;occasion de mettre au service de nos cr&eacute;ations nos comp&eacute;tences professionnelles acquises dans le monde du conseil, de la communication ou de la finance.
@@ -24,7 +24,7 @@
 							</p>
                     </article>
                     
-                    <article id="photo-vignettes">
+                    <article id="photo-vignettes" class="photo-vignettes-light div-laptop">
                         <h1>L'équipe</h1>
                         <img src="_photos/PROD2013/juliengoetz.jpg" class="vignette small prod" id="juliengoetz" title="Julien Goetz"/>
                         <img src="_photos/PROD2013/julieniscache.jpg" class="vignette small prod" id="julieniscache" title="Julien Iscache"/>
@@ -42,8 +42,40 @@
                         <?php include('include/social.php'); ?>
                         
                         <!-------------------------- Photo -------------------------->
-                        <article id="artiste-details" class="dark-text">
+                        <article id="artiste-details" class="dark-text div-laptop">
                             <?php include('include/artistes/juliengoetz.php'); ?>
+                        </article>
+                        
+                        <article id="artiste-details" class="dark-text div-smartphone artiste-details-light">
+                            <?php include('include/artistes/juliengoetz.php'); ?>
+                        </article>
+                        
+                        <article id="artiste-details" class="dark-text div-smartphone artiste-details-light">
+                            <?php include('include/artistes/julieniscache.php'); ?>
+                        </article>
+                        
+                        <article id="artiste-details" class="dark-text div-smartphone artiste-details-light">
+                            <?php include('include/artistes/julienbonneau.php'); ?>
+                        </article>
+                        
+                        <article id="artiste-details" class="dark-text div-smartphone artiste-details-light">
+                            <?php include('include/artistes/luciefoineau.php'); ?>
+                        </article>
+                        
+                        <article id="artiste-details" class="dark-text div-smartphone artiste-details-light">
+                            <?php include('include/artistes/nicolaslaustriat.php'); ?>
+                        </article>
+                        
+                        <article id="artiste-details" class="dark-text div-smartphone artiste-details-light">
+                            <?php include('include/artistes/benjaminlandrot.php'); ?>
+                        </article>
+                        
+                        <article id="artiste-details" class="dark-text div-smartphone artiste-details-light">
+                            <?php include('include/artistes/paulpinier.php'); ?>
+                        </article>
+                        
+                        <article id="artiste-details" class="dark-text div-smartphone artiste-details-light">
+                            <?php include('include/artistes/carolinegoetz.php'); ?>
                         </article>
                         
                     </div>

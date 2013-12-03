@@ -49,9 +49,8 @@
 						</section>
 						
 						<footer>
-							<a href="https://www.facebook.com/pages/Alice-la-com%C3%A9die-musicale/159036774295626" title="Alice sur Facebook"><i class="icon-facebook icon-2x cdp-social"></i></a>
-							<a href="https://twitter.com/SouviensToiPan" title="Alice sur Twitter"><i class="icon-twitter icon-2x cdp-social"></i></a>
-							<i class="icon-youtube-play icon-2x cdp-social"></i>
+							<a href="https://www.facebook.com/pages/Alice-la-com%C3%A9die-musicale/159036774295626" title="Alice sur Facebook"><i class="fa fa-facebook fa-2x cdp-social"></i></a>
+							<a href="https://twitter.com/SouviensToiPan" title="Alice sur Twitter"><i class="fa fa-twitter fa-2x cdp-social"></i></a>
 						</footer>
 					</article>
 					
@@ -69,10 +68,8 @@
 														
 							<div class="slider-wrapper theme-default gallery">
 								<div id="photos-alice" class="nivoSlider">
-									<a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0572.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0572.jpg" /></a>
-                                    <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0606.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0606.jpg" /></a>
-                                    <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0653.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0653.jpg" /></a>
-                                    <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0655.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0655.jpg" /></a>
+                                    <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0772.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0772.jpg" /></a>
+                                    <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0719.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0719.jpg" /></a>
                                     <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0671.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0671.jpg" /></a>
                                     <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0675.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0675.jpg" /></a>
                                     <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0679.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0679.jpg" /></a>
@@ -81,9 +78,7 @@
                                     <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0700.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0700.jpg" /></a>
                                     <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0701.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0701.jpg" /></a>
                                     <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0716.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0716.jpg" /></a>
-                                    <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0719.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0719.jpg" /></a>
                                     <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0766.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0766.jpg" /></a>
-                                    <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0772.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0772.jpg" /></a>
                                     <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0773.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0773.jpg" /></a>
                                     <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0776.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0776.jpg" /></a>
                                     <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0781.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0781.jpg" /></a>
@@ -94,6 +89,10 @@
                                     <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0844.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0844.jpg" /></a>
                                     <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0848.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0848.jpg" /></a>
                                     <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0853.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0853.jpg" /></a>
+                                    <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0572.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0572.jpg" /></a>
+                                    <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0606.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0606.jpg" /></a>
+                                    <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0653.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0653.jpg" /></a>
+                                    <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0655.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0655.jpg" /></a>
                                     <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0854.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0854.jpg" /></a>
                                     <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0855.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0855.jpg" /></a>
                                     <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0858.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0858.jpg" /></a>

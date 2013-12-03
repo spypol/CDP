@@ -24,7 +24,46 @@
 				</div>-->
 				
 				<div id="articles" style="margin-bottom:140px;">
+							                 
+                    <!-------------------------- *************** -------------------------->
+					<!-------------------------- CD ALICE COLUMN -------------------------->
+					<!-------------------------- *************** -------------------------->
+					<article id="acheter-cd-alice">
+						<section>
+							<h1>Bientôt le CD 2 titres de Alice !</h1>
+                            
+                            <p>Comme Alice, laissez-vous guider par le Chat du Cheshire et la Chenille, jazzy et sensuelle. Saurez-vous reconnaitre et attraper le Lapin Blanc ? Pour le savoir achetez le CD 2 titres de la comédie musicale "Alice" et découvrez les toutes premières chansons interprétées par la troupe.</p>
+                            <img src="img/cd-alice.png" title="CD Alice" id="cd-alice" />
+                            
+                            <?php
+								if (isset($_POST['submit'])) {
+									if ($email != '') {			 
+                                         if (mail ($to, $subject, $body, $from)) { 
+                                             echo "<span class='message_vert'>Votre r&eacute;servation a bien &eacute;t&eacute; envoy&eacute;e !</span>";
+                                         } else { 
+                                             echo "<span class='message_rouge'>Oops, nous avons eu un probl&egrave;me, essayez d'envoyer directement un message &agrave; contact@compotedeprod.com !</span>"; 
+                                         }
+									} else {
+										echo "<span class='message_rouge'>Vous devez remplir tous les champs, merci !</span>";
+									}
+								} else {?>
+                            
+                                    <p><i>Envoyez-nous votre email pour rester au courant de la sortie du CD</i></p>
+                            
+                                    <form method="post" action="acheter-cd.php">
+                                                
+                                        <input name="email" type="email" placeholder="Email" value="<?php echo $email; ?>">
+                                                
+                                        <input id="submit" class="bouton-rouge" name="submit" type="submit" value="ENVOYER">
+                                        
+                                    </form>
+                            
+                                <?php }
+							?>
 							
+						</section>
+					</article>
+					
 					<!-------------------------- ************** -------------------------->
 					<!-------------------------- CD STP COLUMN -------------------------->
 					<!-------------------------- ************** -------------------------->
@@ -47,53 +86,12 @@
                                 </table>
                                 <input type="hidden" name="currency_code" value="EUR">
                                 <input type="image" src="https://www.paypalobjects.com/fr_FR/FR/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - la solution de paiement en ligne la plus simple et la plus sécurisée !">
-                                <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+                                <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1" id="paypalsmall">
                             </form>
 
                           
 						</section>
 					</article>
-                    
-                    <!-------------------------- *************** -------------------------->
-					<!-------------------------- CD ALICE COLUMN -------------------------->
-					<!-------------------------- *************** -------------------------->
-					<article id="acheter-cd-alice">
-						<section>
-							<h1>Bientôt le CD 2 titres de Alice !</h1>
-                            
-                            <p>Comme Alice, laissez-vous guider par la Chat du Cheshire et la Chenille, jazzy et sensuelle. Saurez-vous reconnaitre et attraper le Lapin Blanc ? Pour le savoir acheter le CD 2 titres de la comédie musicale "Alice" et découvrez les toutes premières chansons interprétées par la troupe.</p>
-                            <img src="img/cd-alice.png" title="CD Alice" id="cd-alice" />
-                            
-                            <?php
-								if (isset($_POST['submit'])) {
-									if ($email != '') {			 
-                                         if (mail ($to, $subject, $body, $from)) { 
-                                             echo "<span class='message_vert'>Votre r&eacute;servation a bien &eacute;t&eacute; envoy&eacute;e !</span>";
-                                         } else { 
-                                             echo "<span class='message_rouge'>Oops, nous avons eu un probl&egrave;me, essayez d'envoyer directement un message &agrave; contact@compotedeprod.com !</span>"; 
-                                         }
-									} else {
-										echo "<span class='message_rouge'>Vous devez remplir tous les champs, merci !</span>";
-									}
-								} else {?>
-                            
-                                    <p><i>Envoyer nous votre email pour rester au courant de la sortie du CD</i></p>
-                            
-                                    <form method="post" action="acheter-cd.php">
-                                                
-                                        <input name="email" type="email" placeholder="Email" value="<?php echo $email; ?>">
-                                                
-                                        <input id="submit" class="bouton-rouge" name="submit" type="submit" value="ENVOYER">
-                                        
-                                    </form>
-                            
-                                <?php }
-							?>
-							
-						</section>
-					</article>
-					
-					
 									
 			</div>	
 				

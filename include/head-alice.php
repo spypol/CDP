@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
+        <title>Compote de Prod - Alice</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
 
@@ -34,7 +34,7 @@
 		<link rel="stylesheet" href="player/css/progression-player.css" /><!-- Default Player Styles -->
 		<link rel="stylesheet" href="player/css/skin-default-dark.css" /><!-- Minimal Dark Skin -->
 		<link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
-		<link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+		<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 		
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/alice.css">

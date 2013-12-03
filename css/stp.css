@@ -75,28 +75,8 @@ body {
 	float:left;
 }
 
-@media only screen and (min-width: 768px) {
-    .main article {
-		background:rgba(255, 255, 255, 0.1);
-    }
-	
-	/*.main #articles {
-        float: right;
-		margin-right:2%;
-        width: 57%;
-    }
-	
-	.main article {
-        float: right;
-		margin-right:2%;
-        width: 100%;
-    }
-	
-	.main article img {
-		width:250px;
-		float: left;
-		margin-right:30px;
-	}*/
+.main article {
+    background:rgba(255, 255, 255, 0.1);
 }
 
 
