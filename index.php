@@ -18,7 +18,7 @@
 					<!-------------------------- ******************* -------------------------->
 					<article id="alice">
 						<section>
-							<h1 class="homepage"><a href="alice.php" alt="Alice" title="Alice">Alice</a></h1>
+							<h1 class="homepage"><a href="alice" alt="Alice" title="Alice">Alice</a></h1>
 							<span class="infos">1er Avril 2014</span>
 							<!--<a href="alice.php" alt="Alice" title="Alice"><img src="img/ALICE_affiche.jpg" class="img_header" /></a>-->
 							<iframe src="//player.vimeo.com/video/78148571?title=0&amp;byline=0&amp;portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
@@ -42,9 +42,9 @@
 					<!-------------------------- *************** -------------------------->
 					<article id="stp">
 						<section>
-							<h1 class="homepage"><a href="stp.php" alt="Souvienstoipan" title="Souviens-toi, Pan!">Souviens-toi, Pan !</a></h1>
+							<h1 class="homepage"><a href="stp" alt="Souvienstoipan" title="Souviens-toi, Pan!">Souviens-toi, Pan !</a></h1>
 							<span class="infos">Juin 2011</span>
-							<a href="stp.php" alt="Souvienstoipan" title="Souviens-toi, Pan!"><img src="img/STP_encart.jpg" class="img_header" /></a>
+							<a href="stp" alt="Souvienstoipan" title="Souviens-toi, Pan!"><img src="img/STP_encart.jpg" class="img_header" /></a>
 														
 							<p>
 								2 ans apr&egrave;s la fin de l&rsquo;aventure <b>&quot;Souviens-toi, Pan !&quot;</b>, venez red&eacute;couvrir les aventures de Peter au travers des chansons de ce spectacle. Un pur moment d&rsquo;&eacute;vasion qui emportera les petits comme les grands au pays de Nulle Part.

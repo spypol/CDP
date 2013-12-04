@@ -11,21 +11,15 @@
         <meta name="viewport" content="width=device-width">
 
         <link rel="stylesheet" href="css/normalize.min.css">
-		<link rel="stylesheet" href="css/vendor/flexslider.css">
 		<link rel="stylesheet" href="css/vendor/meanmenu.min.css">
 		
 		<!-- Nivo Slider-->
 		<link rel="stylesheet" href="css/vendor/nivoslider/default/default.css" type="text/css" media="screen" />
-		<link rel="stylesheet" href="css/vendor/nivoslider/light/light.css" type="text/css" media="screen" />
-		<link rel="stylesheet" href="css/vendor/nivoslider/dark/dark.css" type="text/css" media="screen" />
-		<link rel="stylesheet" href="css/vendor/nivoslider/bar/bar.css" type="text/css" media="screen" />
 		<link rel="stylesheet" href="css/vendor/nivoslider/nivo-slider.css" type="text/css" media="screen" />
 		
 		<!-- Nivo Lightbox-->
 		<link rel="stylesheet" href="css/vendor/nivolightbox/nivo-lightbox.css" type="text/css" />
 		<link rel="stylesheet" href="css/vendor/nivolightbox/themes/default/default.css" type="text/css" />
-		
-        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 		
 		<!-- FONTS -->
 		<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400italic,400|Roboto:400,400italic,700' rel='stylesheet' type='text/css'>
@@ -38,6 +32,11 @@
 		
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/alice.css">
+        
+        <!-- Adaptive Images -->
+        <script>document.cookie='resolution='+Math.max(screen.width,screen.height)+'; path=/';</script>
+        
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
         
     </head>
     <body>

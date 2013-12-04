@@ -1,0 +1,36 @@
+Options +FollowSymlinks
+RewriteEngine On
+RewriteBase /cdp_temp/
+
+AddType x-mapp-php5 .php
+#AddHandler application/x-httpd-php53 .php .php5 .php4 .php3
+
+RewriteRule    ^alice/?$    alice.php    [NC,L]
+RewriteRule    ^acheter-cd/?$    acheter-cd.php    [NC,L]    
+RewriteRule    ^artistes-alice/?$    artistes-alice.php    [NC,L]  
+RewriteRule    ^artistes-souviens-toi-pan/?$    artistes-stp.php    [NC,L]  
+RewriteRule    ^contact/?$    contact.php    [NC,L]  
+RewriteRule    ^goodies/?$    goodies.php    [NC,L]  
+RewriteRule    ^partenaires/?$    partenaires.php    [NC,L]  
+RewriteRule    ^production/?$    prod.php    [NC,L]  
+RewriteRule    ^souviens-toi-pan/?$    stp.php    [NC,L]  
+
+<IfModule mod_rewrite.c>
+  Options +FollowSymlinks
+  RewriteEngine On
+
+  # Adaptive-Images -----------------------------------------------------------------------------------
+
+  # Add any directories you wish to omit from the Adaptive-Images process on a new line, as follows:
+  # RewriteCond %{REQUEST_URI} !some-directory
+  # RewriteCond %{REQUEST_URI} !another-directory
+
+  RewriteCond %{REQUEST_URI} !img
+  RewriteCond %{REQUEST_URI} !_photos
+
+  # Send any GIF, JPG, or PNG request that IS NOT stored inside one of the above directories
+  # to adaptive-images.php so we can select appropriately sized versions
+  RewriteRule \.(?:jpe?g|gif|png)$ adaptive-images.php
+
+  # END Adaptive-Images -------------------------------------------------------------------------------
+</IfModule>

@@ -4,10 +4,10 @@
         <div class="footer-container">
             <footer class="wrapper">
 				<ul>
-					<li><a href="goodies.php">Goodies</a></li>
-					<li><a href="contact.php">Contact</a></li>
-					<li><a href="partenaires.php">Partenaires</a></li>
-					<li><a href="presse.php">Presse</a></li>
+					<li><a href="goodies">Goodies</a></li>
+					<li><a href="contact">Contact</a></li>
+					<li><a href="partenaires">Partenaires</a></li>
+					<li><a href="presse">Presse</a></li>
 					<li><h5>Compote de Prod - Copyright 2012/2013</h5></li>
 				</ul>
             </footer>
