@@ -33,8 +33,8 @@
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/stp.css">
         
-        <!-- Adaptive Images -->
-        <script>document.cookie='resolution='+Math.max(screen.width,screen.height)+'; path=/';</script>
+        <!-- Adaptive Images 
+        <script>document.cookie='resolution='+Math.max(screen.width,screen.height)+'; path=/';</script>-->
         
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
         

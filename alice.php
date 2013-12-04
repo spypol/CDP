@@ -49,8 +49,8 @@
 						</section>
 						
 						<footer>
-							<a href="https://www.facebook.com/pages/Alice-la-com%C3%A9die-musicale/159036774295626" title="Alice sur Facebook"><i class="fa fa-facebook fa-2x cdp-social"></i></a>
-							<a href="https://twitter.com/SouviensToiPan" title="Alice sur Twitter"><i class="fa fa-twitter fa-2x cdp-social"></i></a>
+							<a href="https://www.facebook.com/pages/Alice-la-com%C3%A9die-musicale/159036774295626" title="Alice sur Facebook" target="_blank"><i class="fa fa-facebook fa-2x cdp-social"></i></a>
+							<a href="https://twitter.com/SouviensToiPan" title="Alice sur Twitter" target="_blank"><i class="fa fa-twitter fa-2x cdp-social"></i></a>
 						</footer>
 					</article>
 					

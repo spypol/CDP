@@ -28,6 +28,7 @@
                     
                     <article id="photo-vignettes" class="div-laptop">
                         <h1>La Cr&eacute;ation</h1>
+                        <img src="_photos/troupe/ALICE/avatars/juliengoetz.jpg" class="vignette artistes-stp" id="julien" title="Julien Goetz"/>
                         <img src="_photos/troupe/STP/170/rita.jpg" class="vignette artistes-stp" id="rita" title="Rita Lalle"/>
                         <img src="_photos/troupe/STP/170/greg.jpg" class="vignette artistes-stp" id="greg" title="Gregory Pennaneac'h"/>
                         <img src="_photos/troupe/STP/170/patrick.jpg" class="vignette artistes-stp" id="patrick" title="Patrick Bernard"/>
@@ -111,6 +112,9 @@
                         
                         <h1>La Cr&eacute;ation</h1>
                         
+                        <article id="artiste-details">
+                            <?php include('include/artistes/stp/julien.php'); ?>
+                        </article> 
                         <article id="artiste-details">
                             <?php include('include/artistes/stp/rita.php'); ?>
                         </article>
