@@ -46,6 +46,7 @@
                             <?php include('include/artistes/juliengoetz.php'); ?>
                         </article>
                         
+                        <!-------------------------- Smartphone -------------------------->
                         <article id="artiste-details" class="dark-text div-smartphone artiste-details-light">
                             <?php include('include/artistes/juliengoetz.php'); ?>
                         </article>

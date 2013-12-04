@@ -455,17 +455,19 @@ footer li h5{
 }
     
 #photo-vignettes img{
-	width:132px;
+	width:100px;
 }
 
 .vignette{
     cursor:pointer;
-	margin:10px;
+	margin:3% 1% 2% 3%;
 }
 
 .vignette:hover{
-    border:2px solid white;
-    margin:8px;
+    border-color: white;
+    -moz-box-sizing:    border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing:         border-box;
 }
 
 #photo-vignettes .small{
@@ -475,10 +477,9 @@ footer li h5{
 
 #photo-vignettes .small:hover{
     border-color: white;
-    
-   -moz-box-sizing:    border-box;
-   -webkit-box-sizing: border-box;
-   box-sizing:         border-box;
+    -moz-box-sizing:    border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing:         border-box;
 }
 
 #photo-vignettes .xsmall{
@@ -487,8 +488,8 @@ footer li h5{
 }
 
 #photo-vignettes .xsmall:hover{
-    border:2px solid white;
-    margin:8px 8px 5px 18px;
+    /*border:2px solid white;
+    margin:8px 8px 5px 18px;*/
 }
 
 #details{
@@ -527,7 +528,7 @@ footer li h5{
 #artiste-details img{
     float:left;
     margin:10px;
-    width:170px;
+    width:130px;
 }
 
 #artiste-details{
@@ -555,6 +556,7 @@ footer li h5{
 #artiste-gallerie{
     height:auto;
     background:none;
+    display:none;
 }
 
 
@@ -892,6 +894,22 @@ ACHETER ARTICLE
     display:none;
 }
 
+#details-smartphone{
+    display:block;
+}
+
+#details-smartphone #artiste-details{
+    margin-top:2px;
+    margin-bottom:13px;
+}
+
+#details-smartphone h1{
+    color:white;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-shadow: 0px 1px 1px #000;
+    margin:10px;
+}
+
 
 
 
@@ -1033,6 +1051,17 @@ ACHETER ARTICLE
         display:block;
     }
 
+    #details-smartphone{
+        display:none;
+    }
+
+    #artiste-gallerie{
+        display:block;
+    }
+
+    #artiste-details img{
+        width:170px;
+    }
    
 }
 
@@ -1081,12 +1110,20 @@ ACHETER ARTICLE
 	}
 
     #photo-vignettes{
-        height:475px;
+        height:405px;
     }
 
     .main #social {
         margin-left:2%;
         display:block;
+    }
+
+    #photo-vignettes img{
+        width:105px;
+    }
+
+    #photo-vignettes .xsmall{
+        width:65px;
     }
 }
 
@@ -1185,13 +1222,13 @@ ACHETER ARTICLE
 			  transition: height 1s ease;
 	}
 
-	.menu-item-2:hover ul {
+	/*.menu-item-2:hover ul {
 	  height: 90px;
 	}
 
 	.menu-item-5:hover ul {
 	  height: 218px;
-	}
+	}*/
 	
 	.main .menu {
 		background: url('../img/fond-menu.png');
@@ -1233,6 +1270,14 @@ ACHETER ARTICLE
 
     #photo-vignettes .small{
         margin: 10px 4% 7px 7%;
+    }
+
+    #photo-vignettes img{
+        width:125px;
+    }
+
+    #photo-vignettes .xsmall{
+        width:85px;
     }
 }
 

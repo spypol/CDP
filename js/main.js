@@ -3,7 +3,17 @@ $(document).ready(function(){
 	$('.smartphone nav').meanmenu({
 		meanScreenWidth: "1140"
 	});
- 
+    
+    //MENU LAPTOP
+    $(".menu-item-2").click(function(e){ 
+        $ul = $(this).children("ul");
+        if($ul.height() > 0){
+            $ul.css("height", "0px");
+        } else {
+            $ul.css("height", "90px");
+        }
+    });
+    
 	//NIVOSLIDER
 	$('#photos-stp').nivoSlider({
 		controlNav: false,

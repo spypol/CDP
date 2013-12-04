@@ -12,7 +12,7 @@
 				<!-------------------------- MAIN STP ARTISTS COLUMN -------------------------->
 				<!-------------------------- *********************** -------------------------->
                 <div id="articles">
-                    <article id="photo-vignettes">					
+                    <article id="photo-vignettes" class="div-laptop">					
                         <h1>Les Com&eacute;diens</h1>
                         <img src="_photos/troupe/STP/170/antonio.jpg" class="vignette artistes-stp xsmall" id="antonio" title="Antonio Macipe" />
                         <img src="_photos/troupe/STP/170/joe.jpg" class="vignette artistes-stp xsmall" id="joe" title="Joe Marshall" />
@@ -26,14 +26,14 @@
                         <img src="_photos/troupe/STP/170/raphaelle.jpg" class="vignette artistes-stp xsmall" id="raphaelle" title="Rapha&euml;lle Raimon" />
                     </article>
                     
-                    <article id="photo-vignettes">
+                    <article id="photo-vignettes" class="div-laptop">
                         <h1>La Cr&eacute;ation</h1>
                         <img src="_photos/troupe/STP/170/rita.jpg" class="vignette artistes-stp" id="rita" title="Rita Lalle"/>
                         <img src="_photos/troupe/STP/170/greg.jpg" class="vignette artistes-stp" id="greg" title="Gregory Pennaneac'h"/>
                         <img src="_photos/troupe/STP/170/patrick.jpg" class="vignette artistes-stp" id="patrick" title="Patrick Bernard"/>
                     </article>
                     
-                    <div id="details">
+                    <div id="details" class="div-laptop">
                         <!-------------------------- Photo -------------------------->
                         <article id="artiste-details">
                             <?php include('include/artistes/stp/antonio.php'); ?>
@@ -75,6 +75,52 @@
 							</div>
                         </article>
                         
+                    </div>
+                    
+                    
+                    <!-------------------------- Smartphone -------------------------->
+                    <div id="details-smartphone">
+                        <h1>Les Com&eacute;diens</h1>
+                        <article id="artiste-details">
+                            <?php include('include/artistes/stp/antonio.php'); ?>
+                        </article>
+                        <article id="artiste-details">    
+                            <?php include('include/artistes/stp/joe.php'); ?>
+                        </article>
+                        <article id="artiste-details">
+                            <?php include('include/artistes/stp/julie.php'); ?>
+                        </article>
+                        <article id="artiste-details">
+                            <?php include('include/artistes/stp/ludo.php'); ?>
+                        </article>
+                        <article id="artiste-details">
+                            <?php include('include/artistes/stp/maeva.php'); ?>
+                        </article>
+                        <article id="artiste-details">
+                            <?php include('include/artistes/stp/maud.php'); ?>
+                        </article>
+                        <article id="artiste-details">
+                            <?php include('include/artistes/stp/nico.php'); ?>
+                        </article>
+                        <article id="artiste-details">
+                            <?php include('include/artistes/stp/ralph.php'); ?>
+                        </article>
+                        <article id="artiste-details">
+                            <?php include('include/artistes/stp/raphaelle.php'); ?>
+                        </article>
+                        
+                        <h1>La Cr&eacute;ation</h1>
+                        
+                        <article id="artiste-details">
+                            <?php include('include/artistes/stp/rita.php'); ?>
+                        </article>
+                        <article id="artiste-details">
+                            <?php include('include/artistes/stp/greg.php'); ?>
+                        </article>
+                        <article id="artiste-details">
+                            <?php include('include/artistes/stp/patrick.php'); ?>
+                        </article>
+                        <article id="artiste-details">
                     </div>
                 </div>    
             </div> <!-- #main -->

@@ -7,7 +7,8 @@
     <p>Marie commence la musique à l’âge de 6 ans en débutant le piano, bercée dans un milieu musical familial. A l’âge de 9 ans, elle entre au CRR de Paris, dans un cursus à horaires aménagés qui lui permet d’aller à l’école le matin et d’étudier la musique l’après-midi (chœur, cours de chant particulier, piano, clarinette, solfège etc. …). 
 Marie suit également des cours de danse classique, modern jazz et claquettes et participe à de nombreuses productions, concerts et enregistrements professionnels dans de grandes salles parisiennes (Zénith, Théâtre du Châtelet, Salle Pleyel … ). 
 Sa vocation pour la scène naît lorsqu’elle joue dans « Le voyage de Pinocchio » (mise en scène de Sandrine Anglade, tournée nationale en 2008). Elle interprète ensuite Marta, en 2009 puis Brigitta en 2011 dans "The Sound of Music" au Théâtre du Châtelet. 
-En 2013, Marie joue le rôle de la violoniste dans l'opéra de Kurt Weill "Street Scene" au Théâtre du Châtelet. Ces expériences renforcent cette profonde passion qu’elle a pour la comédie musicale et lui  confirme son envie d'en faire son métier.
+En 2013, Marie joue le rôle de la violoniste dans l'opéra de Kurt Weill "Street Scene" au Théâtre du Châtelet. Ces expériences renforcent cette profonde passion qu’elle a pour la comédie musicale et lui  confirme son envie d'en faire son métier. <br />
+        <i>Crédits photos: Marie-Noëlle Robert/Théâtre du Châtelet</i>
 </p>
 </article>
 

@@ -37,6 +37,9 @@
 		<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 		
 		<link rel="stylesheet" href="css/main.css">
+        
+        <!-- Adaptive Images -->
+        <script>document.cookie='resolution='+Math.max(screen.width,screen.height)+'; path=/';</script>
 		
     </head>
     <body>

@@ -11,7 +11,7 @@
 			<!-------------------------- MAIN ARTISTES ALICE COLUMN -------------------------->
 			<!-------------------------- ************************** -------------------------->
 			<div id="articles">
-				<article id="photo-vignettes">					
+				<article id="photo-vignettes" class="div-laptop">					
 				    <h1>Les Com&eacute;diens</h1>
                     <img src="_photos/troupe/alice/avatars/antonio.jpg" class="vignette artistes-alice" id="antonio" title="Antonio Macipe" />
                     <img src="_photos/troupe/alice/avatars/julie.jpg" class="vignette artistes-alice" id="julie" title="Julie Lemas" />
@@ -21,7 +21,7 @@
                     <img src="_photos/troupe/alice/avatars/herve.jpg" class="vignette artistes-alice" id="herve" title="Hervé Lewandowski" />
                 </article>
                 
-                <article id="photo-vignettes">
+                <article id="photo-vignettes" class="div-laptop">
                     <h1>La Cr&eacute;ation</h1>
                     <img src="_photos/troupe/alice/avatars/juliengoetz.jpg" class="vignette artistes-alice small" id="julien" title="Julien Goetz"/>
                     <img src="_photos/troupe/alice/avatars/marina.jpg" class="vignette artistes-alice small" id="marina" title="Marina Pangos"/>
@@ -34,11 +34,32 @@
                     <img src="_photos/troupe/alice/avatars/caroline.jpg" class="vignette artistes-alice small" id="caroline" title="Caroline Goetz"/>
 				</article>
                 
-				<div id="details">
-					
+				<div id="details" class="div-laptop">
                     <?php include('include/artistes/antonio.php'); ?>
-                    
 				</div>
+                
+                <!-------------------------- Smartphone -------------------------->
+                <div id="details-smartphone">
+                    <h1>Les Com&eacute;diens</h1>
+                    <?php include('include/artistes/antonio.php'); ?>
+                    <?php include('include/artistes/julie.php'); ?>
+                    <?php include('include/artistes/marie.php'); ?>
+                    <?php include('include/artistes/veronique.php'); ?>
+                    <?php include('include/artistes/vincent.php'); ?>
+                    <?php include('include/artistes/herve.php'); ?>
+                    
+                    <h1>La Cr&eacute;ation</h1>
+                    <?php include('include/artistes/julien.php'); ?>
+                    <?php include('include/artistes/marina.php'); ?>
+                    <?php include('include/artistes/sarah.php'); ?>
+                    <?php include('include/artistes/nicolas.php'); ?>
+                    <?php include('include/artistes/benjamin.php'); ?>
+                    <?php include('include/artistes/beatrice.php'); ?>
+                    <?php include('include/artistes/vincentp.php'); ?>
+                    <?php include('include/artistes/cecile.php'); ?>
+                    <?php include('include/artistes/caroline.php'); ?>
+                </div>
+                
 			</div>
 		</div> <!-- #main -->
 	</div> <!-- #main-container -->
