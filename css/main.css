@@ -347,7 +347,13 @@ footer li h5{
 	margin-top:50px;
 }
 
-.preloader{
+#details #artiste-details .preloader{
+    margin-left:200px;
+    margin-top:100px;
+    width:30px;
+}
+
+#details .preloader{
     margin-left:450px;
     margin-top:100px;
     width:30px;
@@ -841,17 +847,17 @@ ACHETER ARTICLE
     font-size:2em;
 }
 
-#acheter-cd-stp #paypal{
-    margin:0 0 20px 10%;
+.paypal{
+    margin:20px 0 20px 15%;
+}
+
+#acheter-cd-stp .paypal img, #acheter-cd-alice .paypal img{
+    width:1px;
 }
 
 #acheter-cd-stp img{
     margin-left:15%;
     width:70%;
-}
-
-#acheter-cd-stp #paypalsmall{
-    width:1px;
 }
 
 #acheter-cd-alice #cd-alice{
@@ -866,8 +872,8 @@ ACHETER ARTICLE
 #acheter-cd-alice input{
     float:left;
     font-size:100%;
-    height:30px;
-    width:50%;
+    /*height:30px;*/
+    /*width:50%;*/
     margin:10px;
 }
 
@@ -1019,9 +1025,9 @@ ACHETER ARTICLE
         display:none;
     }
 
-    #acheter-cd-alice input{
+    /*#acheter-cd-alice input{
         width:57%;
-    }
+    }*/
     
     #acheter-cd-alice #submit{
         width:30%;
@@ -1061,6 +1067,10 @@ ACHETER ARTICLE
 
     #artiste-details img{
         width:170px;
+    }
+
+    .paypal{
+        margin:20px 0 20px 5%;
     }
    
 }
@@ -1125,7 +1135,14 @@ ACHETER ARTICLE
     #photo-vignettes .xsmall{
         width:65px;
     }
+
+    .paypal{
+        margin:20px 0 20px 20%;
+    }
 }
+
+
+
 
 @media only screen and (max-width: 1140px) {
 	.main .laptop{
@@ -1278,6 +1295,14 @@ ACHETER ARTICLE
 
     #photo-vignettes .xsmall{
         width:85px;
+    }
+
+    #acheter-cd-stp, #acheter-cd-alice{
+        height:635px;
+    }
+
+    .paypal{
+        margin:20px 0 20px 25%;
     }
 }
 
