@@ -839,8 +839,9 @@ PARTENAIRE/PRESSE ARTICLE
 ACHETER ARTICLE
 ==================== */
 #acheter-cd-stp, #acheter-cd-alice{
-    min-height:560px;
+    min-height:580px;
     height:auto;
+    background:rgba(255, 255, 255, 0.5);
 }
 
 #acheter-cd-stp h1, #acheter-cd-alice h1{
@@ -865,9 +866,9 @@ ACHETER ARTICLE
     width:70%;
 }
 
-#acheter-cd-alice p{
+/*#acheter-cd-alice p{
     margin-bottom:0;
-}
+}*/
 
 #acheter-cd-alice input{
     float:left;
@@ -1298,7 +1299,7 @@ ACHETER ARTICLE
     }
 
     #acheter-cd-stp, #acheter-cd-alice{
-        height:635px;
+        height:655px;
     }
 
     .paypal{

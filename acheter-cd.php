@@ -35,13 +35,14 @@
                             <p>Comme Alice, laissez-vous guider par le Chat du Cheshire et la Chenille, jazzy et sensuelle. Saurez-vous reconnaitre et attraper le Lapin Blanc ? Pour le savoir achetez le CD 2 titres de la comédie musicale "Alice" et découvrez les toutes premières chansons interprétées par la troupe.</p>
                             <img src="img/cd-alice.png" title="CD Alice" id="cd-alice" />
                             
-                            
                             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" class="paypal">
+                                <label>Prix unitaire: 5€ (frais d'envoi offerts)</label>
                                 <input type="hidden" name="cmd" value="_s-xclick">
-                                <input type="hidden" name="hosted_button_id" value="9EBBMUGWFUKYG">
+                                <input type="hidden" name="hosted_button_id" value="4CNCW9MCVYCGJ">
                                 <input type="image" src="https://www.paypalobjects.com/fr_FR/FR/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - la solution de paiement en ligne la plus simple et la plus sécurisée !">
                                 <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1" class="paypalsmall">
                             </form>
+
 
                             
                             
@@ -82,12 +83,13 @@
 						<section>
 							<h1>Achetez votre CD Souviens-toi Pan !</h1>
                             
-                            <p>Afin de découvrir l'univers de "Souviens-toi, Pan!", achetez le CD live de la comédie musicale !</p>
+                            <p>Afin de découvrir l'univers de "Souviens-toi, Pan!", achetez le CD live de la comédie musicale ! L'intégralité du spectacle est disponible sur cette album (ainsi que deux bonus enregistrés en studio). Laissez les artistes de cette belle troupe vous conduire au Pays de Nulle Part...</p>
                             <img src="img/cd-stp.png" title="CD Souviens toi Pan" />
+                            
                             
                             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" class="paypal">
                                 <input type="hidden" name="cmd" value="_s-xclick">
-                                <input type="hidden" name="hosted_button_id" value="DA7MM57C4M2EA">
+                                <input type="hidden" name="hosted_button_id" value="PU7D9VWQGUUS2">
                                 <table>
                                 <tr><td><input type="hidden" name="on0" value="Nombre de CD">Nombre de CD</td></tr><tr><td><select name="os0">
                                     <option value="1 CD">1 CD €8,90 EUR</option>
@@ -99,8 +101,8 @@
                                 <input type="image" src="https://www.paypalobjects.com/fr_FR/FR/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - la solution de paiement en ligne la plus simple et la plus sécurisée !">
                                 <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1" class="paypalsmall">
                             </form>
-
-                          
+                            
+                            
 						</section>
 					</article>
 									
