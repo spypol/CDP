@@ -14,7 +14,7 @@
 		$heureSeance = trim($_POST['heureSeance']);
 		$minuteSeance = trim($_POST['minuteSeance']);
 		
-		$sql = 'INSERT INTO T_SEANCE (SEANCE_SALLE_ID, SEANCE_DATE, SEANCE_HEURE) VALUES ('.$idSalle.', "'.trim(switchDate($dateSeance)).'", "'.$heureSeance.':'.$minuteSeance.'")';
+		$sql = 'INSERT INTO T_SEANCE (SEANCE_SALLE_ID, SEANCE_DATE, SEANCE_HEURE) VALUES ('.$idSalle.', "'.trim($dateSeance).'", "'.$heureSeance.':'.$minuteSeance.'")';
 		mysql_query ($sql) or die ('Erreur SQL !'.$sql.'<br />'.mysql_error());
 		mysql_close();
 	}

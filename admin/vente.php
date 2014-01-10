@@ -23,8 +23,7 @@
 
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
 	<script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/jquery-ui.min.js'></script>
-	<script src='http://jquery-ui.googlecode.com/svn/trunk/ui/jquery.ui.datepicker.js'></script>
-	<script src='http://jquery-ui.googlecode.com/svn/trunk/ui/i18n/jquery.ui.datepicker-fr.js'></script>
+	<script src='http://www.kelvinluck.com/assets/jquery/datePicker/v2/demo/scripts/jquery.datePicker.js'></script>
 	
 	<script type="text/javascript" src="_js/iutil.js"></script> 
 	<script type="text/javascript" src="_js/idrag.js"></script>
@@ -36,18 +35,17 @@
 <body id="accueil">
 	
 	<!--- LES FORMS DE CREATION -->
-	<?php #include('_forms/forms_vente_creation.php') ?> 
+	<?php include('_forms/forms_vente_creation.php') ?> 
 	<!--- LES FORMS DE SEANCE -->
-	<?php #include('_forms/forms_vente_seance.php') ?>
+	<?php include('_forms/forms_vente_seance.php') ?>
 	<!--- LE FORM DE PlACE ACHETEE-->
-	<?php #include('_forms/forms_vente_creationplace.php') ?>
+	<?php include('_forms/forms_vente_creationplace.php') ?>
 
 	<!-- MISE EN PAGE -->
-	<img src="images/titreback.png" border="0" width="350" style="float:none;" />
+	<img src="../img/logo_compote_de_prod.png" border="0" width="350" style="float:none;" />
 
 	<div id="title" style="position:absolute; top:5px; right:5px;float:left;color:#EEE;font-size:30px; text-align:right;">
 		VENTE<br />
-		<?php if($isAdmin == 1){ ?><span style="font-size:16px;"><a href="cms.php" style="color:#CCC; text-decoration:none;">CMS</a></span><?php } ?><br />
 		<?php if($isAdmin == 1){ ?><span style="font-size:16px;"><a href="accueil.php" style="color:#CCC; text-decoration:none;">Intranet</a></span><?php } ?>
 	</div>
 	<span id="date" style="position:absolute; top:5px; right:165px; float:right;color:#EEE;font-size:10px;">
@@ -65,7 +63,7 @@
 
    <div align="center">
 		<!--LA GESTION DES ELEMENTS DE REFERENCE -->
-		<?php if($isAdmin == 1 && 0==1){ ?>
+		<?php if($isAdmin == 1){ ?>
 			 <div class="box" id="box_gestion" style="width:170px; height:120px; min-height:120px;">
 				<img src="images/vente.png" name="AdministrationReferences" style="float:left; margin:3px 0 0 3px;" width="32"/>
 				<h1 style="float:left;">Cr&eacute;ation</h1>
@@ -95,7 +93,7 @@
 		<?php } ?>
 		
 		<!--LA GESTION DES SEANCES -->
-		<?php if($isAdmin == 1 && 0==1){ ?>
+		<?php if($isAdmin == 1){ ?>
 			<div class="box" id="box_gestion" style="width:190px; height:120px; min-height:120px;">
 				<img src="images/vente.png" name="AdministrationSeances" style="float:left; margin:3px 0 0 3px;" width="32"/>
 				<h1 style="float:left;">S&eacute;ances</h1>
@@ -113,7 +111,7 @@
 		
 		<!--LA GESTION DES VENTES -->
 		<?php 
-			if($isAdmin == 1 && 0==1){ 
+			if($isAdmin == 1){ 
 				include('requetesventes/getSeance.php');
 		?>
 			<div class="box" id="box_gestion" style="width:490px; height:120px; min-height:120px;">
@@ -264,7 +262,7 @@
 			<br /><br /><br />		
 			<table>
 				<tr>
-					<th>N° de r&eacute;servation</th>
+					<th>NÂ° de r&eacute;servation</th>
 					<th>Paiement</th>
 					<th>Spectateur</th>
 					<th>Email</th>

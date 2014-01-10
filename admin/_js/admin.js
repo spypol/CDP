@@ -99,6 +99,15 @@ $(document).ready(function(){
 	);
 	
 	//Choisir entre lien et fichier
+	$('#fichierselectedmodification').bind('click', function() {
+	  $("#lienDocument").hide("fast");
+	  $("#fichierDocument").show("fast");
+	});
+	$('#lienselectedmodification').bind('click', function() {
+	  $("#lienDocument").show("fast");
+	  $("#fichierDocument").hide("fast");
+	});
+    //Choisir entre lien et fichier
 	$('#fichierselecteddocument').bind('click', function() {
 	  $("#lienDocument").hide("fast");
 	  $("#fichierDocument").show("fast");

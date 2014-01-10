@@ -13,7 +13,7 @@ if(isset($_SESSION['login'])) {
 	<link rel="shortcut icon" href="/images/favicon.ico" />
 	<link href="images/logos/peter.png" rel="apple-touch-icon" />
 	<link href="_css/style.css" rel="stylesheet" type="text/css" media="screen" />
-	<title>Administration - Souviens-toi Pan !</title>
+	<title>Administration - Compote de Prod</title>
 
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
 	<script type="text/javascript">
@@ -50,7 +50,7 @@ if(isset($_SESSION['login'])) {
 <body onload="document.form1.login.focus()" id="accueil">
     <div align="center">
     	<div id="box_identification">
-    		<img src="images/titreback.png" border="0" width="250">
+    		<img src="../img/logo_compote_de_prod.png" border="0" width="250">
     		<br><br>
 
             <form name="form1" id="form1" action="login.php" method="post">

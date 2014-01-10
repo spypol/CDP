@@ -157,4 +157,61 @@ $(document).ready(function(){
 		displayProd(nom);
 	});
     
+    
+    //ACHAT TICKET
+    //Formulaire d'achat
+    $("#validAchat").click(function(event){
+    
+        event.preventDefault();
+
+        var i = 0; var j = 0;
+        var champs = '';
+        if($("#nomSpectateur").val() == ''){
+            i++;
+            champs += 'Nom ';
+        }
+        if($("#prenomSpectateur").val() == ''){
+            i++;
+            champs += 'Prénom ';
+        }
+        if($("#mailSpectateur").val() == ''){
+            i++;
+            champs += 'Mail ';
+        }
+        if($("#nbtarifadulte").val() + $("#nbtarifenfant").val() + $("#nbtarifreduit").val() == 0){
+            j++;
+        }
+        
+        if(i>0 && j>0){
+            $("#champsAlert").css('display', 'block');
+            if(i==1){
+                $("#champsAlert").html('Veuillez remplir le champs : ' + champs);
+            }elseif(i>1){
+                $("#champsAlert").html('Veuillez remplir les champs : ' + champs);
+            }
+            
+            if(j==1){
+                $("#champsAlert").html('Veuillez sélectionner au moins une place');
+            }
+        }else{
+            
+            $.ajax({
+              type: "GET",
+              url: "include/validAchat.php",
+              data: "nomSpectateur=" + $("#nomSpectateur").val() + 
+            "&prenomSpectateur=" + $("#prenomSpectateur").val() + 
+            "&mailSpectateur=" + $("#mailSpectateur").val() + 
+            "&telSpectateur=" + $("#telSpectateur").val() + 
+            "&nbtarifadulte=" + $("#nbtarifadulte").val() + 
+            "&nbtarifenfant=" + $("#nbtarifenfant").val() + 
+            "&nbtarifreduit=" + $("#nbtarifreduit").val() + 
+            "&idseance=" + $("#idseance").val(),
+              success: function(msg){
+                $("#acheter-cd").html(msg);
+              }
+            });
+        }
+    });
+    
+    
 });

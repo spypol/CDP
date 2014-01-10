@@ -7,7 +7,7 @@
 	
 		//traitement du fichier joint
 		$tempFile = $_FILES['lienFichier']['tmp_name'];
-		$target_path = $_SERVER['DOCUMENT_ROOT'] . "/admin/communication/";;
+		$target_path = $_SERVER['DOCUMENT_ROOT'] . "/admin/MEDIA/communication/";;
 
 		//$targetFile =  str_replace('//','/',$target_path) . $_FILES['Filedata']['name'];
 
@@ -15,8 +15,7 @@
 		$elementsChemin = pathinfo($currentFile);
 		$extensionFichier = $elementsChemin['extension'];
 	
-		$nomFichierLien = strtr($currentFile, ' ¡¿¬ƒ√≈«…» ÀÕœŒÃ—”“‘÷’⁄Ÿ€‹›', '-AAAAAACEEEEEIIIINOOOOOUUUUY');
-		$nomFichierLien = strtr($nomFichierLien, '·‡‚‰„ÂÁÈËÍÎÌÏÓÔÒÛÚÙˆı˙˘˚¸˝ˇ', 'aaaaaaceeeeiiiinooooouuuuyy');
+		$nomFichierLien = strtr($currentFile, ' ≈†≈Ω≈°≈æ≈∏√Ä√Å√Ç√É√Ñ√Ö√á√à√â√ä√ã√å√ç√é√è√ë√í√ì√î√ï√ñ√ò√ô√ö√õ√ú√ù√†√°√¢√£√§√•√ß√®√©√™√´√¨√≠√Æ√Ø√±√≤√≥√¥√µ√∂√∏√π√∫√ª√º√Ω√ø', '-SZszYAAAAAACEEEEIIIINOOOOOOUUUUYaaaaaaceeeeiiiinoooooouuuuyy');
 
 		$targetFile =  str_replace('//','/',$target_path) . $nomFichierLien;
 
@@ -35,7 +34,7 @@
 
 		$nom = trim($_POST['nomFichier']);
 		if($isLien == 0){
-			$lien = 'http://www.souvienstoipan.com/admin/communication/' . $nomFichierLien;
+			$lien = 'http://www.compotedeprod.com/admin/MEDIA/communication/' . $nomFichierLien;
 			$sql = 'INSERT INTO T_COMMUNICATION (communication_NOM, communication_FICHIER, communication_VALIDE, communication_CAT) VALUES ("'.$nom.'", "'.$lien.'", 1, 0)';
 		}else{
 			$lien = $nomFichierLien;
@@ -47,20 +46,20 @@
 		//ENVOI DU MAIL DAJOUT
 		$headers  = 'MIME-Version: 1.0' . "\r\n";
 		$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-		$headers .= 'From: contact@souvienstoipan.com' . "\r\n";
-		$destinataires = 'paulpinier@gmail.com, julien.iscache@gmail.com, goetz.julien@gmail.com, gregory.pennaneach@gmail.com, rita.lalle@gmail.com, nicolas.laustriat@gmail.com, patrickbernardster@gmail.com, annesophie.chanu@yahoo.fr';
+		$headers .= 'From: contact@compotedeprod.com' . "\r\n";
+		$destinataires = 'paulpinier@gmail.com, julien.iscache@gmail.com, goetz.julien@gmail.com, jul1bonneau@gmail.com';
 		$destinatairesTest = 'paulpinier@gmail.com';
 
 		$message = "<html>
 		<head>
-		  <title>[Souviens-toi Pan !] Nouveau document de communication uploadÈ sur l'intranet</title>
+		  <title>[CDP] Nouveau document de communication upload√© sur l'intranet</title>
 		</head>
 		<body>
 		  <table>
 		  	<tr><td></td></tr>
 		    <tr>
 		      <td style='font-size:12px;font-weight:bold;font-family: Arial, Helvetica,sans-serif;'>
-		      	Un nouveau document de communication a ÈtÈ uploadÈ sur le backoffice :<br />
+		      	Un nouveau document de communication a √©t√© upload√© sur le backoffice :<br />
 				<a href='$lien' name='$nom' style='font-size:12px;font-weight:normal;font-family: Arial, Helvetica,sans-serif;'>$nom</a>
 				<br />
 				<br />
@@ -70,6 +69,6 @@
 		</body>
 		</html>";
 
-		mail($destinataires,"[Souviens-toi Pan !] Document de communication ajoutÈ ‡ l'intranet", $message, $headers);
+		mail($destinataires,"[CDP] Document de communication ajout√© √† l'intranet", $message, $headers);
 	}
 ?>

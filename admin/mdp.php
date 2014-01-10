@@ -13,13 +13,13 @@
 			//ENVOI DU MAIL DAJOUT
 			$headers  = 'MIME-Version: 1.0' . "\r\n";
 			$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-			$headers .= 'From: contact@souvienstoipan.com' . "\r\n";
+			$headers .= 'From: contact@compotedeprod.com' . "\r\n";
 			$destinataires = $email;
 			$destinatairesTest = 'paulpinier@gmail.com';
 
 			$message = "<html>
 			<head>
-			  <title>[Souviens-toi Pan !] Votre mot de passe</title>
+			  <title>[CDP] Votre mot de passe</title>
 			</head>
 			<body>
 			  <table>
@@ -36,7 +36,7 @@
 			</body>
 			</html>";
 
-			mail($destinataires,'[Souviens-toi Pan !] Votre mot de passe', $message, $headers);
+			mail($destinataires,'[CDP] Votre mot de passe', $message, $headers);
 			Header("Location: index.php");
 		}else{
 			Header("Location: mdp.php?ok=0");

@@ -1,7 +1,11 @@
 body {
 	height:100%;
 	margin-top:16px;
-	background: #000 url('../../admin/images/fond.jpg') repeat-x; 
+	background:url('../../img/background_alice.jpg') repeat;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	text-align:left;
 }
 
@@ -9,7 +13,7 @@ body {
 }
 
 #box_identification {
-	height:230px;
+	height:auto;
 	margin-top:100px;
 	padding:5px 0 10px 0;
 	width:270px;

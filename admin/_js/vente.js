@@ -115,13 +115,12 @@ $(document).ready(function(){
 	});
 	
 	//Calendrier
-	$(function() {
-		$( "#datepicker" ).datepicker({
-			changeMonth: true,
-			changeYear: true,
-			showOtherMonths: true,
-			selectOtherMonths: true
-		});
-	});
+    $( "#datepicker" ).datepicker({
+        dateFormat: "yy-mm-dd",
+        changeMonth: true,
+        changeYear: true,
+        showOtherMonths: true,
+        selectOtherMonths: true
+    });
 	
  });

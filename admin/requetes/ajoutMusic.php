@@ -3,7 +3,7 @@
 	
 	//traitement du fichier joint
 	$tempFile = $_FILES['lienMusique']['tmp_name'];
-	$target_path = $_SERVER['DOCUMENT_ROOT'] . "/admin/musique/";;
+	$target_path = $_SERVER['DOCUMENT_ROOT'] . "/admin/MEDIA/musique/";;
 
 	//$targetFile =  str_replace('//','/',$target_path) . $_FILES['Filedata']['name'];
 
@@ -11,8 +11,7 @@
 	$elementsChemin = pathinfo($currentFile);
 	$extensionFichier = $elementsChemin['extension'];
 
-	$nomFichierLien = strtr($currentFile, ' ÁÀÂÄÃÅÇÉÈÊËÍÏÎÌÑÓÒÔÖÕÚÙÛÜÝ', '-AAAAAACEEEEEIIIINOOOOOUUUUY');
-	$nomFichierLien = strtr($nomFichierLien, 'áàâäãåçéèêëíìîïñóòôöõúùûüýÿ', 'aaaaaaceeeeiiiinooooouuuuyy');
+	$nomFichierLien = strtr($currentFile, ' ŠŽšžŸÀÁÂÃÄÅÇÈÉÊËÌÍÎÏÑÒÓÔÕÖØÙÚÛÜÝàáâãäåçèéêëìíîïñòóôõöøùúûüýÿ', '-SZszYAAAAAACEEEEIIIINOOOOOOUUUUYaaaaaaceeeeiiiinoooooouuuuyy');
 
 	$targetFile =  str_replace('//','/',$target_path) . $nomFichierLien;
 
@@ -24,7 +23,7 @@
 	if(isset($_POST['nomMusique'])) {
 
 		$nom = trim($_POST['nomMusique']);
-		$lien = 'http://www.souvienstoipan.com/admin/musique/' . $nomFichierLien;
+		$lien = 'http://www.compotedeprod.com/admin/MEDIA/musique/' . $nomFichierLien;
 
 		$sql = 'INSERT INTO T_MUSIQUE (MUSIQUE_NOM, MUSIQUE_LIEN, MUSIQUE_VALIDE) VALUES ("'.$nom.'", "'.$lien.'", 1)';
 		mysql_query ($sql) or die ('Erreur SQL !'.$sql.'<br />'.mysql_error());
@@ -33,13 +32,13 @@
 		//ENVOI DU MAIL DAJOUT
 		$headers  = 'MIME-Version: 1.0' . "\r\n";
 		$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-		$headers .= 'From: contact@souvienstoipan.com' . "\r\n";
-		$destinataires = 'paulpinier@gmail.com, julien.iscache@gmail.com, goetz.julien@gmail.com, gregory.pennaneach@gmail.com, rita.lalle@gmail.com, nicolas.laustriat@gmail.com, patrickbernardster@gmail.com, annesophie.chanu@yahoo.fr';
+		$headers .= 'From: contact@compotedeprod.com' . "\r\n";
+		$destinataires = 'paulpinier@gmail.com, julien.iscache@gmail.com, goetz.julien@gmail.com, jul1bonneau@gmail.com';
 		$destinatairesTest = 'paulpinier@gmail.com';
 
 		$message = "<html>
 		<head>
-		  <title>[Souviens-toi Pan !] Nouveau track uploadé sur l'intranet</title>
+		  <title>[CDP] Nouveau track uploadé sur l'intranet</title>
 		</head>
 		<body>
 		  <table>
@@ -56,6 +55,6 @@
 		</body>
 		</html>";
 
-		mail($destinataires,"[Souviens-toi Pan !] Document ajouté à l'intranet", $message, $headers);
+		mail($destinataires,"[CDP] Document ajouté à l'intranet", $message, $headers);
 	}
 ?>

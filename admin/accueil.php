@@ -14,10 +14,9 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
 	<link rel="shortcut icon" href="/images/favicon.ico" />
-	<link href="images/logos/peter.png" rel="apple-touch-icon" />
 	<link href="_css/style.css" rel="stylesheet" type="text/css" media="screen" />
 
-	<title>Administration - Souviens-toi Pan !</title>
+	<title>Administration - Compote de Prod</title>
 
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
 	<script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/jquery-ui.min.js'></script>
@@ -31,7 +30,7 @@
 	
 	<!--- LES FORMS CACHES -->
 	<!--- FORM DE MODIFICATION -->
-	<form action="/admin/requetes/modifierform.php" class='puForm' method="post" id="modifierform" enctype="multipart/form-data" >
+	<!---<form action="/admin/requetes/modifierform.php" class='puForm' method="post" id="modifierform" enctype="multipart/form-data" >
 	        <img src="images/delete.gif" name="fermer" alt="Fermer" width="15" class="closeBox"/>
 				<h3 class="titreform"></h3>
 
@@ -39,7 +38,7 @@
 				<input type="hidden" name="elementid" id="elementid" value="">
 				<input type="hidden" name="elementnom" id="elementnom" value="">
 	        	<label>Nom :<input type="text" name="nomFichier" size="40" id="nomFichier" value=""/></label>
-				Lien<input type="radio" name="lienactif" value="1" id="lienselecteddocument" checked> ou Fichier<input type="radio" name="lienactif" id="fichierselecteddocument" value="0">
+				Lien<input type="radio" name="lienactif" value="1" id="lienselectedmodification" checked> ou Fichier<input type="radio" name="lienactif" id="fichierselectedmodification" value="0">
 	
 	 			<label id="lienDocument" style="display:block;">Lien :&nbsp;<input type="text" name="nomLien" size="40"/></label>
 	        	<label id="fichierDocument" style="display:none;">Fichier :<input type="file" name="lienFichier" id="lienFichier" /></label>
@@ -47,7 +46,7 @@
 	        <div style="float:right;">
 	            <button type='submit'>Enregistrer</button>
 	        </div>
-    </form>
+    </form>-->
 
 	<!--- LES DOCUMENTS -->
 	<form action="/admin/requetes/ajoutDoc.php" class='puForm' method="post" id="documentform" enctype="multipart/form-data" >
@@ -60,6 +59,22 @@
 	
 	 			<label id="lienDocument" style="display:block;">Lien :&nbsp;<input type="text" name="nomLien" size="40"/></label>
 	        	<label id="fichierDocument" style="display:none;">Fichier :<input type="file" name="lienFichier" id="lienFichier" /></label>
+	        </div>
+	        <div style="float:right;">
+	            <button type='submit'>Enregistrer</button>
+	        </div>
+    </form>
+    <!--- LA CULTURE -->
+	<form action="/admin/requetes/ajoutCulture.php" class='puForm' method="post" id="cultureform" enctype="multipart/form-data" >
+	        <img src="images/delete.gif" name="fermer" alt="Fermer" width="15" class="closeBox"/>
+				<h3>Ajouter un lien ou un doc</h3>
+
+	        <div id="contact">
+	        	<label>Nom :<input type="text" name="nomFichier" size="40" id="nomFichier" /></label>
+				Lien<input type="radio" name="lienactif" value="1" id="lienselectedculture" checked> ou Fichier<input type="radio" name="lienactif" id="fichierselectedculture" value="0">
+	
+	 			<label id="lienCulture" style="display:block;">Lien :&nbsp;<input type="text" name="nomLien" size="40"/></label>
+	        	<label id="fichierCulture" style="display:none;">Fichier :<input type="file" name="lienFichier" id="lienFichier" /></label>
 	        </div>
 	        <div style="float:right;">
 	            <button type='submit'>Enregistrer</button>
@@ -123,22 +138,6 @@
 	            <button type='submit'>Enregistrer</button>
 	        </div>
     </form>
-    <!--- LA CULTURE -->
-	<form action="/admin/requetes/ajoutCulture.php" class='puForm' method="post" id="cultureform" enctype="multipart/form-data" >
-	        <img src="images/delete.gif" name="fermer" alt="Fermer" width="15" class="closeBox"/>
-				<h3>Ajouter un lien ou un doc</h3>
-
-	        <div id="contact">
-	        	<label>Nom :<input type="text" name="nomFichier" size="40" id="nomFichier" /></label>
-				Lien<input type="radio" name="lienactif" value="1" id="lienselectedculture" checked> ou Fichier<input type="radio" name="lienactif" id="fichierselectedculture" value="0">
-	
-	 			<label id="lienCulture" style="display:block;">Lien :&nbsp;<input type="text" name="nomLien" size="40"/></label>
-	        	<label id="fichierCulture" style="display:none;">Fichier :<input type="file" name="lienFichier" id="lienFichier" /></label>
-	        </div>
-	        <div style="float:right;">
-	            <button type='submit'>Enregistrer</button>
-	        </div>
-    </form>
     <!--- LES VIDEOS -->
 	<form action="/admin/requetes/ajoutVideo.php" class='puForm' method="post" id="videoform">
 			<img src="images/delete.gif" name="fermer" alt="Fermer" width="15" class="closeBox"/>
@@ -170,12 +169,11 @@
     </form>
 
 	<!-- MISE EN PAGE -->
-	<img src="images/titreback.png" border="0" width="350" style="float:none;">
+	<img src="../img/logo_compote_de_prod.png" border="0" width="350" style="float:none;">
 
 	<div id="title" style="position:absolute; top:5px; right:5px;float:left;color:#EEE;font-size:30px; text-align:right;">
 		INTRANET<br />
 		<?php if($isAdmin == 1){ ?><span style="font-size:16px;"><a href="vente.php" style="color:#CCC; text-decoration:none;">Ventes</a></span><?php } ?><br />
-		<?php if($isAdmin == 1){ ?><span style="font-size:16px;"><a href="cms.php" style="color:#CCC; text-decoration:none;">CMS</a></span><?php } ?>
 	</div>
 	<span id="date" style="position:absolute; top:5px; right:160px;float:right;color:#EEE;font-size:10px;">
 		<?php
@@ -336,7 +334,7 @@
 				<br /><br /><br />
 				<ul>
 					<li>
-						<a href="vente.php" >Acc&egrave;der à l'interface de gestion des places</a>
+						<a href="vente.php" >Acc&egrave;der ï¿½ l'interface de gestion des places</a>
 					</li>
 				</ul>
 	      </div>

@@ -360,13 +360,17 @@ footer li h5{
 }
 
 /* ==========================================================================
-   Contact styles
+   Contact styles + Acheter CD
    ========================================================================== */
-.main #contact{
+.main #contact, #acheter-cd{
 	background:none;
     min-height:550px;
     margin:0 0 0 2%;
 	width:95%;
+}
+
+.main #acheter-cd{
+    height:auto;
 }
 
 .main #contact input, textarea{
@@ -374,6 +378,51 @@ footer li h5{
 	height:50px;
 	width:96%;
 	padding:3px 2% 0 2%;
+}
+
+.main #acheter-cd input, textarea{
+	font-size:200%;
+	height:50px;
+	width:96%;
+	padding:3px 2% 0 2%;
+}
+
+.main #acheter-cd #mailSpectateur{
+    margin-bottom:0px;
+}
+
+.main #acheter-cd .explication{
+    font-style:italic;
+}
+
+.main #acheter-cd #champsAlert{
+    font-size:150%;
+    color:red;
+}
+
+.main #acheter-cd #validAchat{
+    width:100%;
+    padding:3px 0 0 0;
+}
+
+.main #acheter-cd #imagePaypal{
+    width:auto;
+}
+
+.main #acheter-cd .paypalsmall{
+    width:auto;
+}
+
+.main #acheter-cd .form-acheter-ticket input{
+       font-size:150%;
+}
+
+
+
+.main #acheter-cd label{
+	float:left;
+    margin-right:1%;
+    padding-top:5px;
 }
 
 .main #contact input{

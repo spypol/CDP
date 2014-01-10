@@ -37,12 +37,16 @@ $reponseSeances = mysql_query ($sqlseances) or die ('Erreur SQL !'.$sqlseances.'
 		<select name="heureSeance" id="heureSeance" style="margin-left:15px; float:left;">
 			<?php
 				for($i=9 ; $i<=22 ; $i++){
-					echo '<option value="'.$i.'">'.$i.'</option>'; 
+                    if($i == 19){
+				        echo '<option value="'.$i.'" selected>'.$i.'</option>';
+                    }else{
+                        echo '<option value="'.$i.'">'.$i.'</option>';
+                    }
 				}
 			?>
 		</select>h
 		<select name="minuteSeance" id="minuteSeance" style="margin-left:5px;">
-				<option value="00">00</option><option value="15">15</option><option value="30">30</option><option value="45">45</option>
+				<option value="00">00</option><option value="15">15</option><option value="30" selected>30</option><option value="45">45</option>
 		</select>m
      </div>
      

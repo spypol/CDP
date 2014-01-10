@@ -3,7 +3,7 @@
 	
 	//traitement du fichier joint
 	$tempFile = $_FILES['lienFichier']['tmp_name'];
-	$target_path = $_SERVER['DOCUMENT_ROOT'] . "/albums/";;
+	$target_path = $_SERVER['DOCUMENT_ROOT'] . "/admin/MEDIA/album/";;
 
 	//$targetFile =  str_replace('//','/',$target_path) . $_FILES['Filedata']['name'];
 
@@ -11,8 +11,7 @@
 	$elementsChemin = pathinfo($currentFile);
 	$extensionFichier = $elementsChemin['extension'];
 	
-	$nomFichierLien = strtr($currentFile, ' ÁÀÂÄÃÅÇÉÈÊËÍÏÎÌÑÓÒÔÖÕÚÙÛÜİ', '-AAAAAACEEEEEIIIINOOOOOUUUUY');
-	$nomFichierLien = strtr($nomFichierLien, 'áàâäãåçéèêëíìîïñóòôöõúùûüıÿ', 'aaaaaaceeeeiiiinooooouuuuyy');
+	$nomFichierLien = strtr($currentFile, ' Å Å½Å¡Å¾Å¸Ã€ÃÃ‚ÃƒÃ„Ã…Ã‡ÃˆÃ‰ÃŠÃ‹ÃŒÃÃÃÃ‘Ã’Ã“Ã”Ã•Ã–Ã˜Ã™ÃšÃ›ÃœÃÃ Ã¡Ã¢Ã£Ã¤Ã¥Ã§Ã¨Ã©ÃªÃ«Ã¬Ã­Ã®Ã¯Ã±Ã²Ã³Ã´ÃµÃ¶Ã¸Ã¹ÃºÃ»Ã¼Ã½Ã¿', '-SZszYAAAAAACEEEEIIIINOOOOOOUUUUYaaaaaaceeeeiiiinoooooouuuuyy');
 
 	$targetFile =  str_replace('//','/',$target_path) . $nomFichierLien;
 
@@ -24,7 +23,7 @@
 	if(isset($_POST['nomFichier'])) {
 
 		$nom = trim($_POST['nomFichier']);
-		$lien = 'http://www.souvienstoipan.com/albums/' . $nomFichierLien;
+		$lien = 'http://www.compotedeprod.com/admin/MEDIA/album/' . $nomFichierLien;
 
 		$sql = 'INSERT INTO T_PHOTO (PHOTO_NOM, PHOTO_FICHIER, PHOTO_VALIDE) VALUES ("'.$nom.'", "'.$lien.'", 1)';
 		mysql_query ($sql) or die ('Erreur SQL !'.$sql.'<br />'.mysql_error());
@@ -33,20 +32,20 @@
 		//ENVOI DU MAIL DAJOUT
 		$headers  = 'MIME-Version: 1.0' . "\r\n";
 		$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-		$headers .= 'From: contact@souvienstoipan.com' . "\r\n";
-		$destinataires = 'paulpinier@gmail.com, julien.iscache@gmail.com, goetz.julien@gmail.com, gregory.pennaneach@gmail.com, rita.lalle@gmail.com, nicolas.laustriat@gmail.com, patrickbernardster@gmail.com, annesophie.chanu@yahoo.fr';
+		$headers .= 'From: contact@compotedeprod.com' . "\r\n";
+		$destinataires = 'paulpinier@gmail.com, julien.iscache@gmail.com, goetz.julien@gmail.com, jul1bonneau@gmail.com';
 		$destinatairesTest = 'paulpinier@gmail.com';
 
 		$message = "<html>
 		<head>
-		  <title>[Souviens-toi Pan !] Nouveau zip de photos uploadé sur l'intranet</title>
+		  <title>[CDP] Nouveau zip de photos uploadÃ© sur l'intranet</title>
 		</head>
 		<body>
 		  <table>
 		  	<tr><td></td></tr>
 		    <tr>
 		      <td style='font-size:12px;font-weight:bold;font-family: Arial, Helvetica,sans-serif;'>
-		      	De nouvelles photos ont été uploadées sur l'intranet :<br />
+		      	De nouvelles photos ont Ã©tÃ© uploadÃ©es sur l'intranet :<br />
 				<a href='$lien' name='$nom' style='font-size:12px;font-weight:normal;font-family: Arial, Helvetica,sans-serif;'>$nom</a>
 				<br />
 				<br />
@@ -56,6 +55,6 @@
 		</body>
 		</html>";
 
-		mail($destinataires,"[Souviens-toi Pan !] Nouveau zip de photos ajouté à l'intranet", $message, $headers);
+		mail($destinataires,"[CDP] Nouveau zip de photos ajoutÃ© Ã  l'intranet", $message, $headers);
 	}
 ?>
