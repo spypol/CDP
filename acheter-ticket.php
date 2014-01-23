@@ -1,7 +1,9 @@
 <?php
     function switchDate($usDate){
-        $usDate = explode('-', $usDate);
+        setlocale(LC_TIME, 'fr_FR.utf8');
+        //$usDate = explode('-', $usDate);
         $dates = $usDate[2].'/'.$usDate[1].'/'.$usDate[0];
+        $dates = strftime("%A %d %B %Y", strtotime($usDate));
         return $dates;
     }
     
@@ -39,7 +41,7 @@
 ?>
 
 <?php include('include/head.php'); ?>
-	<?php include('include/slider.php'); ?>
+	<?php include('include/slider-alice-static.php'); ?>
 
         <div class="main-container">
             <div class="main wrapper clearfix">
@@ -55,16 +57,20 @@
 						
                         <section>
                         
-                                <h2>Réservez vos tickets !</h2>
+                                <h1>Réservez vos tickets !</h1>
                                 <form action="achatValider.php" class='form-acheter-ticket' method="post" id="achat" enctype="multipart/form-data" >
+                                        <label for="nomSpectateur" class="lt-ie9 label-ticket">*Nom</label>
                                         <input type="text" name="nomSpectateur" size="40" id="nomSpectateur" placeholder="*Nom" value=""/>
+                                        <label for="prenomSpectateur" class="lt-ie9 label-ticket">*Prénom</label>
                                         <input type="text" name="prenomSpectateur" size="40" id="prenomSpectateur" value="" placeholder="*Prénom" />
+                                        <label for="mailSpectateur" class="lt-ie9 label-ticket">*Email</label>
                                         <input type="email" name="mailSpectateur" size="40" id="mailSpectateur" value="" placeholder="*Email" />
                                         <span class="explication">Entrez un mail valide pour pouvoir recevoir votre ticket &eacute;lectronique</span>
+                                        <label for="telSpectateur" class="lt-ie9 label-ticket">*Numéro de téléphone</label>
                                         <input type="tel" name="telSpectateur" size="40" id="telSpectateur" value="" placeholder="Numéro de téléphone" />
                                         
                                         <div class="dropdowns">
-                                            <label for="nbtarifadulte"> Nombre de places adulte : </label>
+                                            <label for="nbtarifadulte"> Nombre de places adulte - <?php echo $prixAdulte.' €'; ?></label>
                                             <select name="nbtarifadulte" id="nbtarifadulte">
                                                 <option value="0">0</option>
                                                 <option value="1">1</option>
@@ -78,11 +84,10 @@
                                                 <option value="9">9</option>
                                                 <option value="10">10</option>
                                             </select>
-                                            <?php echo 'x '.$prixAdulte.' €'; ?>
                                         </div>
                                         
                                         <div class="dropdowns">
-                                            <label for="nbtarifreduit"> Nombre de places tarif réduit (étudiants, chômeurs) : </label>
+                                            <label for="nbtarifreduit"> Nombre de places tarif réduit (étudiants, chômeurs - un justificatif vous sera demandé sur place) - <?php echo $prixReduit.' €'; ?></label>
                                             <select name="nbtarifreduit" id="nbtarifreduit">
                                                 <option value="0">0</option>
                                                 <option value="1">1</option>
@@ -96,11 +101,10 @@
                                                 <option value="9">9</option>
                                                 <option value="10">10</option>
                                             </select>
-                                            <?php echo 'x '.$prixReduit.' €'; ?>
                                         </div>
                                     
                                         <div class="dropdowns">
-                                            <label for="nbtarifenfant"> Nombre de places enfant (-12 ans) : </label>
+                                            <label for="nbtarifenfant"> Nombre de places enfant (-12 ans) - <?php echo $prixEnfant.' €'; ?></label>
                                             <select name="nbtarifenfant" id="nbtarifenfant">
                                                 <option value="0">0</option>
                                                 <option value="1">1</option>
@@ -114,11 +118,10 @@
                                                 <option value="9">9</option>
                                                 <option value="10">10</option>
                                             </select>
-                                            <?php echo 'x '.$prixEnfant.' €'; ?>
                                         </div>
                                         
                                         <div class="dropdowns">
-                                            <label for="idseance"> Choisissez la s&eacute;ance au Th&eacute;&acirc;tre Clavel à 19h30 : </label>
+                                            <label for="idseance"> Choisissez la s&eacute;ance au Th&eacute;&acirc;tre Clavel à 19h30</label>
                                             <select name="idseance" id="idseance">
                                             <?php
                                     
@@ -152,6 +155,7 @@
                                 </form>
                                 
                                 <div id="champsAlert"></div>
+                                <div id="champsAlert2"></div>
                                 
                         </section>
                  

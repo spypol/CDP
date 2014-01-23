@@ -166,6 +166,10 @@ $(document).ready(function(){
 
         var i = 0; var j = 0;
         var champs = '';
+        
+        $("#champsAlert").css('display', 'none');
+        $("#champsAlert2").css('display', 'none');
+        
         if($("#nomSpectateur").val() == ''){
             i++;
             champs += 'Nom ';
@@ -182,16 +186,17 @@ $(document).ready(function(){
             j++;
         }
         
-        if(i>0 && j>0){
+        if(i>0 || j>0){
             $("#champsAlert").css('display', 'block');
             if(i==1){
                 $("#champsAlert").html('Veuillez remplir le champs : ' + champs);
-            }elseif(i>1){
+            }else{
                 $("#champsAlert").html('Veuillez remplir les champs : ' + champs);
             }
             
             if(j==1){
-                $("#champsAlert").html('Veuillez sélectionner au moins une place');
+                $("#champsAlert2").css('display', 'block');
+                $("#champsAlert2").html('Veuillez sélectionner au moins une place');
             }
         }else{
             

@@ -9,6 +9,11 @@ $prixAdulte = mysql_query ($sqlPrixAdulte) or die ('Erreur SQL !'.$sqlPrixAdulte
 $prixAdulte = mysql_fetch_array($prixAdulte);
 $prixAdulte = $prixAdulte['PRIX_VALEUR'];
 
+$sqlPrixReduit = 'SELECT PRIX_VALEUR FROM T_PRIX WHERE PRIX_TARIF_ID = 4 AND PRIX_SALLE_ID = 2';
+$prixReduit = mysql_query ($sqlPrixReduit) or die ('Erreur SQL !'.$sqlPrixReduit.'<br />'.mysql_error());
+$prixReduit = mysql_fetch_array($prixReduit);
+$prixReduit = $prixReduit['PRIX_VALEUR'];
+
 $sqlPrixEnfant = 'SELECT PRIX_VALEUR FROM T_PRIX WHERE PRIX_TARIF_ID = 2 AND PRIX_SALLE_ID = 2';
 $prixEnfant = mysql_query ($sqlPrixEnfant) or die ('Erreur SQL !'.$sqlPrixEnfant.'<br />'.mysql_error());
 $prixEnfant = mysql_fetch_array($prixEnfant);
@@ -48,7 +53,24 @@ $prixEnfant = $prixEnfant['PRIX_VALEUR'];
 			<option value="9">9</option>
 			<option value="10">10</option>
 		</select>
-		<?php echo 'x '.$prixAdulte.' €'; ?>
+		<?php echo 'x '.$prixAdulte.' ï¿½'; ?>
+	</div>
+	<div class="ligne">
+		<label for="nbtarifreduit" style="width:230px; padding-right:10px;"> Nombre de places r&eacute;duit : </label>
+		<select name="nbtarifreduit" id="nbtarifreduit">
+			<option value="0">0</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+			<option value="10">10</option>
+		</select>
+		<?php echo 'x '.$prixReduit.' ï¿½'; ?>
 	</div>
 	<div class="ligne">
 		<label for="nbtarifenfant" style="width:230px; padding-right:10px;"> Nombre de places enfant (-12 ans) : </label>
@@ -65,7 +87,7 @@ $prixEnfant = $prixEnfant['PRIX_VALEUR'];
 			<option value="9">9</option>
 			<option value="10">10</option>
 		</select>
-		<?php echo 'x '.$prixEnfant.' €'; ?>
+		<?php echo 'x '.$prixEnfant.' ï¿½'; ?>
 	</div>
 	<div class="ligne">
 		<label for="nbtarifinvitation" style="width:230px; padding-right:10px;"> Nombre de places Invitation : </label>
@@ -82,10 +104,10 @@ $prixEnfant = $prixEnfant['PRIX_VALEUR'];
 			<option value="9">9</option>
 			<option value="10">10</option>
 		</select>
-		<?php echo 'x 0 €'; ?>
+		<?php echo 'x 0 ï¿½'; ?>
 	</div>
 	<div class="ligne">
-		<label for="idseance" style="float:left; width:230px; padding-right:10px;"> S&eacute;ance au Th&eacute;&acirc;tre Clavel à 21h30 : </label>
+		<label for="idseance" style="float:left; width:230px; padding-right:10px;"> S&eacute;ance au Th&eacute;&acirc;tre Clavel ï¿½ 19h30 : </label>
 		<select name="idseance" id="idseance" style="float:left;">
 		<?php
 

@@ -395,14 +395,16 @@ footer li h5{
     font-style:italic;
 }
 
-.main #acheter-cd #champsAlert{
+.main #acheter-cd #champsAlert, #champsAlert2{
+    display:none;
     font-size:150%;
     color:red;
 }
 
 .main #acheter-cd #validAchat{
-    width:100%;
+    width:40%;
     padding:3px 0 0 0;
+    margin:0 30%;
 }
 
 .main #acheter-cd #imagePaypal{
@@ -414,9 +416,31 @@ footer li h5{
 }
 
 .main #acheter-cd .form-acheter-ticket input{
-       font-size:150%;
+    font-size:150%;
 }
 
+.main #acheter-cd .dropdowns label{
+    float:none;
+    height: 30px;
+    line-height: 30px;
+    display:inline;
+}
+
+.main #acheter-cd .dropdowns select{
+    width:100%;
+    margin-left:0;
+    margin-right:0;
+    text-transform:capitalize;
+}
+
+.label-ticket{
+    display:none;
+}
+
+
+.lt-ie9 .label-ticket{
+    display:block;
+}
 
 
 .main #acheter-cd label{
@@ -680,24 +704,6 @@ footer li h5{
 	text-shadow: none;
 	margin-top:200px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .main #articles-left, #articles-right{
     width:100%;
@@ -1122,6 +1128,16 @@ ACHETER ARTICLE
     .paypal{
         margin:20px 0 20px 5%;
     }
+    
+    .main #acheter-cd .dropdowns{
+        height:70px;
+        display:block;
+        margin-bottom:10px;
+    }
+    
+    .main #acheter-cd .dropdowns label{
+        float:left;
+    }
    
 }
 
@@ -1188,6 +1204,10 @@ ACHETER ARTICLE
 
     .paypal{
         margin:20px 0 20px 20%;
+    }
+    
+    .main #acheter-cd .dropdowns select{
+
     }
 }
 
@@ -1353,6 +1373,10 @@ ACHETER ARTICLE
 
     .paypal{
         margin:20px 0 20px 25%;
+    }
+    
+    .main #acheter-cd .dropdowns select{
+
     }
 }
 

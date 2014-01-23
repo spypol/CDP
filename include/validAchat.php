@@ -98,6 +98,7 @@ $variableEncode = urlencode($encrypted);
 <section>
 <h2>Réservez vos tickets !</h2>
 <?php echo 'Le montant total à payer est le suivant : <strong>'.$montantTotal.'€</strong>'; ?>
+    
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 	 <input type="hidden" name="hosted_button_id" value="HL2L8ZJYWUHBL">  
     <input type="hidden" name="cmd" value="_xclick"> 
@@ -108,9 +109,9 @@ $variableEncode = urlencode($encrypted);
 	 <input name="lc" type="hidden" value="FR" />
 	 <input name="custom" type="hidden" value="<?php echo $maxId; ?>" />
     <input type="hidden" name="currency_code" value="EUR">  
-    <input type="hidden" name="return" value="http://www.compotedeprod.com/_achat/validation.php?c=<?php echo $variableEncode; ?>">
-	 <input name="cancel_return" type="hidden" value="http://www.compotedeprod.com/include/annulation.php" />
-	 <input name="notify_url" type="hidden" value="http://www.compotedeprod.com/include/notification.php" />
+    <input type="hidden" name="return" value="http://compotedeprod.com/achat-validation?c=<?php echo $variableEncode; ?>">
+	 <input name="cancel_return" type="hidden" value="http://compotedeprod.com/achat-annulation" />
+	 <input name="notify_url" type="hidden" value="http://www.compotedeprod.com/include/achat/notification.php" />
     <input type="image" id="imagePaypal" src="https://www.paypal.com/fr_FR/FR/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - la solution de paiement en ligne la plus simple et la plus sécurisée !">
 	<img alt="" border="0" src="https://www.paypal.com/fr_FR/i/scr/pixel.gif" width="1" height="1" class="paypalsmall"> 
 </form>

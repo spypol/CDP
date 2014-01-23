@@ -156,8 +156,8 @@
 				
 				<br />
 				<div id="chart">
-					<a href="/admin/chart" style="text-decoration:none;">
-						<img src="images/chart.png" name="chart" style="margin-left:170px; float:left;"/>
+					<a href="/admin/chart" target="_blank" style="text-decoration:none;">
+						<img src="images/chart.png" name="chart" style="margin-left:170px; margin-bottom:10px; float:left;"/>
 						<p style="float:left; margin:3px 0 0 3px;">Visualiser le graphique</p>
 					</a>
 				</div>
@@ -216,7 +216,8 @@
 						AND PRIX_TARIF_ID = PLACE_TARIF_ID
 						AND PRIX_SALLE_ID = SEANCE_SALLE_ID
 						AND PLACE_TARIF_ID = TARIF_ID
-						AND SEANCE_DATE <= "'.$laseanceid.'"';
+						AND SEANCE_DATE <= "'.$laseanceid.'"
+                        ORDER BY SEANCE_DATE ASC';
 				} else{
 					if($laseanceid == 0){
 						$sqlplace = 'SELECT SPECTATEUR_NOM, SPECTATEUR_MAIL, SPECTATEUR_ID, SPECTATEUR_PRENOM, PLACE_NOMBRE, PLACE_ACHETE, PLACE_CASH, PRIX_VALEUR, PLACE_ID, TARIF_ID, SEANCE_DATE
@@ -226,7 +227,8 @@
 						AND PLACE_SPECTATEUR_ID = SPECTATEUR_ID
 						AND PRIX_TARIF_ID = PLACE_TARIF_ID
 						AND PRIX_SALLE_ID = SEANCE_SALLE_ID
-						AND PLACE_TARIF_ID = TARIF_ID';
+						AND PLACE_TARIF_ID = TARIF_ID
+                        ORDER BY SEANCE_DATE ASC';
 					} else {
 						$sqlplace = 'SELECT SPECTATEUR_NOM, SPECTATEUR_MAIL, SPECTATEUR_ID, SPECTATEUR_PRENOM, PLACE_NOMBRE, PLACE_ACHETE, PLACE_CASH, PRIX_VALEUR, PLACE_ID, TARIF_ID, SEANCE_DATE
 						FROM T_PLACE, T_SPECTATEUR, T_PRIX, T_SEANCE, T_TARIF
@@ -236,7 +238,8 @@
 						AND PLACE_SPECTATEUR_ID = SPECTATEUR_ID
 						AND PRIX_TARIF_ID = PLACE_TARIF_ID
 						AND PRIX_SALLE_ID = SEANCE_SALLE_ID
-						AND PLACE_TARIF_ID = TARIF_ID';
+						AND PLACE_TARIF_ID = TARIF_ID
+                        ORDER BY SEANCE_DATE ASC';
 					}
 				}
 				$reponsePlace = mysql_query ($sqlplace) or die ('Erreur SQL !'.$sqlplace.'<br />'.mysql_error());
@@ -262,11 +265,13 @@
 			<br /><br /><br />		
 			<table>
 				<tr>
-					<th>N° de r&eacute;servation</th>
+					<th>No de r&eacute;servation</th>
 					<th>Paiement</th>
+                    <th>Date</th>
 					<th>Spectateur</th>
 					<th>Email</th>
 					<th>Tarif adulte</th>
+					<th>Tarif r&eacute;duit</th>
 					<th>Tarif enfant</th>
 					<th>Total</th>
 					
@@ -284,6 +289,7 @@
 						$PLACE_CASH = $row['PLACE_CASH'];
 						$PRIX_VALEUR = $row['PRIX_VALEUR'];
 						$PLACE_ID = $row['PLACE_ID'];
+                        $SEANCE_DATE = $row['SEANCE_DATE'];
 						echo '<tr>';
 						echo '<td>'.$PLACE_ID.'</td>';
 						if($PLACE_CASH == 0){
@@ -291,6 +297,7 @@
 						}else{
 							echo '<td>Ch&egrave;que</td>';
 						}
+                        echo '<td>'.switchDate($SEANCE_DATE).'</td>';
 						echo '<td>'.$SPECTATEUR_NOM.' '.$SPECTATEUR_PRENOM.'</td>';
 						echo '<td>'.$SPECTATEUR_MAIL.'</td>';
 						if($row['TARIF_ID'] == 1) {
@@ -306,6 +313,14 @@
 								echo '<td>0</td>'; 
 						}
 						}
+						if($row['TARIF_ID'] == 4){
+							echo '<td>'.$PLACE_NOMBRE.'</td>';
+							$total = $PLACE_NOMBRE * $PRIX_VALEUR;
+							$totalReduit = $totalReduit + $PLACE_NOMBRE;
+						}else{
+							echo '<td>0</td>'; 
+						}
+                        
 						if($row['TARIF_ID'] == 2){
 							echo '<td>'.$PLACE_NOMBRE.'</td>';
 							$total = $PLACE_NOMBRE * $PRIX_VALEUR;
@@ -328,6 +343,7 @@
 					<th><?php echo $i; ?></th>
 					<th></th>
 					<th><?php echo $totalAdulte; ?></th>
+					<th><?php echo $totalReduit; ?></th>
 					<th><?php echo $totalEnfant; ?></th>
 					<th><?php echo $totalTotal; ?></th>
 				</tr>

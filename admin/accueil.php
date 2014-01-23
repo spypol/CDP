@@ -342,12 +342,12 @@
 		
   </div>
 
-  <div style="float:left; color:#DDD; height:30px; text-align:left; width:800px;">
+  <div style="float:left; color:#DDD; height:30px; text-align:left; width:800px; position:absolute; bottom:10px;">
 		<?
 			include('requetes/newUser.php');
 		?>
 		<br />
-		Intranet de la com&eacute;die musicale Souviens-toi Pan!
+		Intranet de l'association Compote de Prod. Copyright 2011-2014 - Paul Pinier. 
 	</div>
 
 </body>

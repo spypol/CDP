@@ -1,4 +1,4 @@
-﻿<?php include('include/head-stp.php'); ?>
+<?php include('include/head-stp.php'); ?>
 
 		<?php include('include/slider-stp.php'); ?>
 
@@ -36,7 +36,7 @@
 							Peter Pan, ce jeune gar&ccedil;on espi&egrave;gle, refuse de grandir. Il pr&eacute;f&egrave;re s&rsquo;amuser &agrave; flotter dans les airs et affronter les pirates entour&eacute; des enfants perdus, sur une &icirc;le o&ugrave; le temps ne coule pas : le Pays de Nulle Part. 
 						</p>
 						<p> 
-							Cet endroit, Wendy, Jean Darling le bien. Deuxi&egrave;me &eacute;toile &agrave; droite et tout droit jusqu&rsquo;au matin ! Tel est le chemin &agrave; emprunter pour s&rsquo;y rendre. Enfin&hellip; dans leur imagination d&rsquo;enfants. L&rsquo;enfant aime entendre les histoires de Peter Pan que lui narre sa s&oelig;ur ain&eacute;e, Wendy. Il ne savent pas encore que leur h&eacute;ros aime se poster &agrave; la fen&ecirc;tre de leur chambre londonienne, tapi dans l&rsquo;ombre, et &eacute;couter ses propres histoires, pour ensuite les raconter aux enfants perdus. 
+							Cet endroit, Wendy, Jean Darling le connaissent bien. Deuxi&egrave;me &eacute;toile &agrave; droite et tout droit jusqu&rsquo;au matin ! Tel est le chemin &agrave; emprunter pour s&rsquo;y rendre. Enfin&hellip; dans leur imagination d&rsquo;enfants. L&rsquo;enfant aime entendre les histoires de Peter Pan que lui narre sa s&oelig;ur ain&eacute;e, Wendy. Ils ne savent pas encore que leur h&eacute;ros aime se poster &agrave; la fen&ecirc;tre de leur chambre londonienne, tapi dans l&rsquo;ombre, et &eacute;couter ses propres histoires, pour ensuite les raconter aux enfants perdus. 
 						</p>
 						<p> 
 							C&rsquo;est en cherchant son ombre, perdue un soir dans cette chambre, que Peter fait pour la premi&egrave;re fois la connaissance de Wendy et Jean, alors enchant&eacute;s de d&eacute;couvrir que Peter Pan vit et respire au-del&agrave; de leur imaginaire. Peter Pan s'envole au Pays de Nulle Part, oubliant qu'ici &agrave; Londres, les enfants ne savent pas voler. Il revient chercher Jean et Wendy avec l'aide de la F&eacute;e Clochette, et leur apprend &agrave; d&eacute;fier la pesanteur... 
