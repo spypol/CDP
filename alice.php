@@ -22,6 +22,7 @@
 				
 				<div id="audioplayer">
 					<?php include('include/musicplayer-alice.php'); ?>
+                    <!--<h3><a href="/acheter-cd">Achetez votre CD</a></h3>-->
 				</div>
 			
 				<!-------------------------- ***************** -------------------------->

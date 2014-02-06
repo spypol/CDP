@@ -34,11 +34,23 @@
                         
                         <section id="dossier-de-presse">
                             
-                            <a href="media/presse/CP 30.10.2013 Annonce de la Troupe Alice.pdf" title="Dossier de partenariat" target="_blank">
+                            <a href="media/presse/Communique de presse - 26.01.2014 - Ventes billets.pdf" title="Vente des billets" target="_blank">
                                 <img src="img/logos/pdf-small.png" title="Dossier de Presse" id="dossier-presse-image" />
                             </a>
                             <h5>
-                                <a href="media/presse/CP 30.10.2013 Annonce de la Troupe Alice.pdf" title="Dossier de partenariat" target="_blank">
+                                <a href="media/presse/Communique de presse - 26.01.2014 - Ventes billets.pdf" title="Vente des billets" target="_blank">
+                                    26.01: Les places pour la comédie musicale "Alice" sont désormais en vente !
+                                </a>  
+                            </h5>
+                            <p>
+                                Réservez dès à présent vos places en ligne sur compotedeprod.com, et recevez les par e-mail directement après achat !
+                            </p>
+                            
+                            <a href="media/presse/CP 30.10.2013 Annonce de la Troupe Alice.pdf" title="Troupe Alice" target="_blank">
+                                <img src="img/logos/pdf-small.png" title="Dossier de Presse" id="dossier-presse-image" />
+                            </a>
+                            <h5>
+                                <a href="media/presse/CP 30.10.2013 Annonce de la Troupe Alice.pdf" title="Troupe Alice" target="_blank">
                                     30.10: La troupe de la comédie musicale "Alice" est dévoilée
                                 </a>  
                             </h5>

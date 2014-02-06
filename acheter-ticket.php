@@ -58,6 +58,9 @@
                         <section>
                         
                                 <h1>Réservez vos tickets !</h1>
+                            
+                                <p>Après achat, vous recevrez directement vos billets par e-mail</p>
+                            
                                 <form action="achatValider.php" class='form-acheter-ticket' method="post" id="achat" enctype="multipart/form-data" >
                                         <label for="nomSpectateur" class="lt-ie9 label-ticket">*Nom</label>
                                         <input type="text" name="nomSpectateur" size="40" id="nomSpectateur" placeholder="*Nom" value=""/>

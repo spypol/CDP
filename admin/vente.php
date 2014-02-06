@@ -342,13 +342,14 @@
 					<th></th>
 					<th><?php echo $i; ?></th>
 					<th></th>
+                    <th></th>
 					<th><?php echo $totalAdulte; ?></th>
 					<th><?php echo $totalReduit; ?></th>
 					<th><?php echo $totalEnfant; ?></th>
 					<th><?php echo $totalTotal; ?></th>
 				</tr>
 				<tr>
-					<th colspan="7"><a href="mailto:<?php echo $emails; ?>">Envoyer un email &agrave; la liste</a></th>
+					<th colspan="9"><a href="mailto:<?php echo $emails; ?>">Envoyer un email &agrave; la liste</a></th>
 				</tr>
 			</table>
       </div>
