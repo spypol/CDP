@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 include('connectionDB.php');
 $sqlseances = 'SELECT SEANCE_ID as seanceid, SEANCE_DATE as ladate, SEANCE_HEURE as heure, SALLE_NOM as sallenom FROM T_SEANCE, T_SALLE WHERE SEANCE_SALLE_ID = SALLE_ID ORDER BY SEANCE_DATE';
@@ -53,7 +53,7 @@ $prixEnfant = $prixEnfant['PRIX_VALEUR'];
 			<option value="9">9</option>
 			<option value="10">10</option>
 		</select>
-		<?php echo 'x '.$prixAdulte.' �'; ?>
+		<?php echo 'x '.$prixAdulte.' &euro;'; ?>
 	</div>
 	<div class="ligne">
 		<label for="nbtarifreduit" style="width:230px; padding-right:10px;"> Nombre de places r&eacute;duit : </label>
@@ -70,7 +70,7 @@ $prixEnfant = $prixEnfant['PRIX_VALEUR'];
 			<option value="9">9</option>
 			<option value="10">10</option>
 		</select>
-		<?php echo 'x '.$prixReduit.' �'; ?>
+		<?php echo 'x '.$prixReduit.' &euro;'; ?>
 	</div>
 	<div class="ligne">
 		<label for="nbtarifenfant" style="width:230px; padding-right:10px;"> Nombre de places enfant (-12 ans) : </label>
@@ -87,7 +87,7 @@ $prixEnfant = $prixEnfant['PRIX_VALEUR'];
 			<option value="9">9</option>
 			<option value="10">10</option>
 		</select>
-		<?php echo 'x '.$prixEnfant.' �'; ?>
+		<?php echo 'x '.$prixEnfant.' &euro;'; ?>
 	</div>
 	<div class="ligne">
 		<label for="nbtarifinvitation" style="width:230px; padding-right:10px;"> Nombre de places Invitation : </label>
@@ -104,10 +104,10 @@ $prixEnfant = $prixEnfant['PRIX_VALEUR'];
 			<option value="9">9</option>
 			<option value="10">10</option>
 		</select>
-		<?php echo 'x 0 �'; ?>
+		<?php echo 'x 0 &euro;'; ?>
 	</div>
 	<div class="ligne">
-		<label for="idseance" style="float:left; width:230px; padding-right:10px;"> S&eacute;ance au Th&eacute;&acirc;tre Clavel � 19h30 : </label>
+		<label for="idseance" style="float:left; width:230px; padding-right:10px;"> S&eacute;ance au Th&eacute;&acirc;tre Clavel &agrave; 19h30 : </label>
 		<select name="idseance" id="idseance" style="float:left;">
 		<?php
 

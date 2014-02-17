@@ -1,8 +1,8 @@
 ﻿<?php
 
-/*-------Ce fichier sert à récupérer le message de notifaction------*/
-/*-------envoyé par Paypal avec l'ensmeble des données client-------*/
-/*-------plus l'envoie d'un mail et la mise à jour ne BDD-----------*/
+/*-------Ce fichier sert &agrave; r&eacute;cup&eacute;rer le message de notifaction------*/
+/*-------envoy&eacute; par Paypal avec l'ensmeble des donn&eacute;es client-------*/
+/*-------plus l'envoie d'un mail et la mise &agrave; jour ne BDD-----------*/
 
 /*-------------------------------------------------------------*/
 /*----------------------Fonction d'erreur----------------------*/
@@ -39,10 +39,10 @@ function envoiMail($iduser){
 	while ($da = mysql_fetch_array($donneesAchat)){
 		$tableauRecap .= '<tr>';
 		$tableauRecap .= '<td>'.$da[PLACE_NOMBRE].'</td>';
-		$tableauRecap .= '<td>'.$da[SEANCE_DATE].' à '.$da[SEANCE_HEURE].'</td>';
+		$tableauRecap .= '<td>'.$da[SEANCE_DATE].' &agrave; '.$da[SEANCE_HEURE].'</td>';
 		$tableauRecap .= '<td>'.$da[TARIF_NOM].'</td>';
-		$tableauRecap .= '<td>'.$da[PRIX_VALEUR].' €</td>';
-		$tableauRecap .= '<td>'.$da[PLACE_NOMBRE]*$da[PRIX_VALEUR].' €</td>';
+		$tableauRecap .= '<td>'.$da[PRIX_VALEUR].' &euro;</td>';
+		$tableauRecap .= '<td>'.$da[PLACE_NOMBRE]*$da[PRIX_VALEUR].' &euro;</td>';
 		$tableauRecap .= '<tr>';
 		$prixTotal = $prixTotal + $da[PLACE_NOMBRE]*$da[PRIX_VALEUR];
 	}
@@ -56,7 +56,7 @@ function envoiMail($iduser){
 	$message = "
 		<html>
 		<head>
-		  <title>Compote de Prod - Vous venez d'acheter vos places !</title>
+		  <title>Compote de Prod - Vous venez d&rsquo;acheter vos places !</title>
 		</head>
 		<body>
 			<table>
@@ -65,20 +65,20 @@ function envoiMail($iduser){
 						<img src='http://www.compotedeprod.com/img/logo-mail.png' name='stp' alt='Compote de Prod' width='300' />
 					</td>
 				</tr>
-				<tr><td colspan='5'>Billet électronique</td></tr>
+				<tr><td colspan='5'>Billet &eacute;lectronique</td></tr>
 				<tr><td colspan='5'>_______________________________________________________________________</td></tr>
 				<tr>
 					<td colspan='5'>
 						$donneesSpectateur[SPECTATEUR_PRENOM] $donneesSpectateur[SPECTATEUR_NOM]<br /><br />
 
-						L’équipe <b>Compote de Prod</b> vous remercie pour votre achat fait sur www.compotedeprod.com<br /><br />
+						L’&eacute;quipe <b>Compote de Prod</b> vous remercie pour votre achat fait sur www.compotedeprod.com<br /><br />
 
-						Merci d'imprimer cet email et de le présenter à l'entrée du théâtre afin d'accéder à votre place (le placement étant libre). Merci également d'apporter, le cas échéant, les documents justifiants vos droits à un tarif réduit.<br /><br />
+						Merci d&rsquo;imprimer cet email et de le pr&eacute;senter &agrave; l&rsquo;entr&eacute;e du th&eacute;âtre afin d&rsquo;acc&eacute;der &agrave; votre place (le placement &eacute;tant libre). Merci &eacute;galement d'apporter, le cas &eacute;ch&eacute;ant, les documents justifiants vos droits &agrave; un tarif r&eacute;duit.<br /><br />
 
-						Votre numéro de réservation est le $iduser. Conservez-le précieusement.<br />
+						Votre num&eacute;ro de r&eacute;servation est le $iduser. Conservez-le pr&eacute;cieusement.<br />
 						Vous en aurez besoin pour toute demande concernant votre commande.<br /><br />
 
-						Voici les détails de votre achat :
+						Voici les d&eacute;tails de votre achat :
 					</td>
 				</tr>
 				<tr><td colspan='5'>_______________________________________________________________________</td></tr>
@@ -104,12 +104,12 @@ function envoiMail($iduser){
 				<tr>
 					<td colspan='3'></td>
 					<td>Total</td>
-					<td>$prixTotal €</td>
+					<td>$prixTotal &euro;</td>
 				</tr>
 				<tr><td colspan='5'>_______________________________________________________________________</td></tr>
 					<tr>
 						<td colspan='5'>
-							Vous pouvez retrouver sur notre site les Mentions légales conformément à la Loi n°2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique.
+							Vous pouvez retrouver sur notre site les Mentions l&eacute;gales conform&eacute;ment &agrave; la Loi n&deg;2004-575 du 21 juin 2004 pour la confiance dans l&rsquo;&eacute;conomie num&eacute;rique.
 		<br /><br />
 							Nous vous remercions de votre visite sur notre site www.compotedeprod.com<br />
 						</td>
@@ -132,7 +132,7 @@ function envoiMail($iduser){
 include('connectionDB.php');
 
 /*-------------------------------------------------------------*/
-/*---------------Récupération des données Paypal---------------*/
+/*---------------R&eacute;cup&eacute;ration des donn&eacute;es Paypal---------------*/
 /*-------------------------------------------------------------*/
 // lire le formulaire provenant du système PayPal et ajouter 'cmd'
 $req = 'cmd=_notify-validate';
@@ -174,16 +174,16 @@ if (!$fp) {
 			// transaction valide
 			gestionErreur("Transaction Valide 1", "Statut '.$payment_status.'");
 			
-			// vérifier que payment_status a la valeur Completed
+			// v&eacute;rifier que payment_status a la valeur Completed
 			if ( $payment_status == "Completed" || $payment_status == "Pending") {
 				gestionErreur("Transaction Valide 2", "Statut Completed");
 				
-				// vérifier que txn_id n'a pas été précédemment traité: Créez une fonction qui va interroger votre base de données
+				// v&eacute;rifier que txn_id n'a pas &eacute;t&eacute; pr&eacute;c&eacute;demment trait&eacute;: Cr&eacute;ez une fonction qui va interroger votre base de donn&eacute;es
 				//if (VerifIXNID($txn_id) == 0) {
-					// vérifier que receiver_email est votre adresse email PayPal principale
+					// v&eacute;rifier que receiver_email est votre adresse email PayPal principale
 					if ( "compotedeprod@gmail.com" == $receiver_email) {
 						gestionErreur("Transaction Valide 3", "Mail de receiver OK, txn_id = '.$txn_id.'");
-						// vérifier que payment_amount et payment_currency sont corrects
+						// v&eacute;rifier que payment_amount et payment_currency sont corrects
 						//$sqlVerifTotal = 'SELECT  FROM T_PLACE WHERE PLACE_SPECTATEUR_ID =' .$id_user. '';
 						//mysql_query ($sqlVerifTotal) or die ('Erreur SQL !'.$sqlVerifTotal.'<br />'.mysql_error());	
 						
@@ -201,7 +201,7 @@ if (!$fp) {
 						gestionErreur("Transaction Non Valide 1", "Mauvaise adresse email Paypal ".$receiver_email);
 					}
 				//} else {
-				// ID de transaction déjà utilisé
+				// ID de transaction d&eacute;j&agrave; utilis&eacute;
 				//}
 			} else {
 				gestionErreur("Transaction Non Valide 2", "Echec de paiement");

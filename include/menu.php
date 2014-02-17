@@ -35,7 +35,7 @@
 						</div>
 					
 						<div class="menu-item">
-						  <h4><a href="goodies">Goodies</a></h4>
+						  <h4><a href="acheter-cd">Goodies</a></h4>
 						</div>
 						
 						<div class="menu-item">
@@ -48,7 +48,7 @@
 						
 					</nav>
                     
-                    <iframe frameborder="0" height="505px" width="170px" src="http://fr.ulule.com/alice-comediemusicale/widget.html" scrolling="no"></iframe>
+                    <!--<iframe frameborder="0" height="505px" width="170px" src="http://fr.ulule.com/alice-comediemusicale/widget.html" scrolling="no"></iframe>-->
                     
                 </div>
 				
@@ -68,6 +68,7 @@
 							<li><a href="http://www.theatre-clavel.com/" alt="Theatre Clavel" title="Clavel" target="_blank" class="bouton_theatre">Th&eacute;&acirc;tre Clavel</a></li>
 							<li><a href="http://www.vingtiemetheatre.com/" alt="Theatre Le Vingt" title="Le Vingtieme" target="_blank" class="bouton_theatre">Le Vingti&egrave;me th&eacute;&acirc;tre </a></li>		
 							<li><a href="prod" class="bouton_prod">La Prod</a></li>
+                            <li><a href="acheter-cd" class="bouton_prod">Goodies</a></li>
 							<li><a href="contact" class="bouton_contact">Contact</a></li>
 							<li><a href="acheter-ticket" class="bouton_reserver">Réservez en ligne</a></li>
 						</ul>

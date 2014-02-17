@@ -475,6 +475,19 @@ footer li h5{
 	padding:0;
 }
 
+.main #contact #code{
+    float:left;
+	width:40%;
+    text-transform:uppercase;
+}
+
+.main #contact #ecouter{
+	float:left;
+    margin-left:5%;
+    width:40%;
+    height:53px;
+}
+
 .message_vert{
 	float:none;
 	font-size:200%;
@@ -487,6 +500,10 @@ footer li h5{
 	font-size:200%;
 	font-family: 'Roboto Condensed', sans-serif;
 	color:red;
+}
+
+#code_rouge{
+    margin-left:5%;
 }
 
 .bouton-rouge{

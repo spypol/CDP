@@ -93,6 +93,17 @@ $(document).ready(function(){
 		playlistposition: 'bottom' //Playlist Location
 	});
 	
+    $('.progression-playlist-presse').mediaelementplayer({
+		audioWidth: 960, // width of audio player
+		audioHeight: 30, // height of audio player
+		startVolume: 0.5, // initial volume when the player starts
+		loop: false, // useful for <audio> player loops
+		features: ['playlistfeature', 'prevtrack', 'playpause', 'nexttrack', 'current', 'progress', 'tracks', 'duration', 'volume', 'playlist'],
+		playlist: true, //Playlist Show
+		playlistposition: 'bottom' //Playlist Location
+	});
+	
+    
 	//READMORES
 	$('#histoire').readmore({maxHeight: 465, sectionCSS: 'display: inline-block;'});
 	$('#spectacle').readmore({maxHeight: 465, sectionCSS: 'display: inline-block;'});

@@ -1,3 +1,4 @@
+<?php $url = trim($_SERVER['REQUEST_URI'], '/');?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -7,7 +8,34 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Compote de Prod - Alice</title>
-        <meta name="description" content="">
+        <meta name="description" content="<?php 
+            switch ($url) {
+                case "":
+                    echo 'Théatre Clavel, Paris, rue Clavel, Réservez places, Compote de prod, spectacles, artistes, théatres, Souviens toi, Pan!, Alice';
+                    break;
+                case "alice":
+                    echo "monde fantastique, le pays des merveilles, Alice, une méchante dame de coeur, un lapin blanc, une chenille, un chat, l’imaginaire d’Alice, Alice, grandir trop vite, les petits comme les grands, personnages fantastiques et délirants, univers tantôt fabuleux, univers tantôt inquiétant";
+                    break;
+                case "stp":
+                    echo "Peter Pan, refuse de grandir, imagination d’enfants, Souviens-toi, Pan!";
+                    break;
+                case "artistes-alice":
+                    echo "Antonio Macipe, le chat du cheshire, Julie Lemas, La reine de coeur, Alice, Marie Oppert, Véronique Hatat, La chenille, Vincent Gilliéron, Le lapin blanc, Hervé Lewandowski, Le chapelier fou, Lewis Caroll, danse, chant, Marina Pangos";
+                    break;
+                case "artistes-stp":
+                    echo "Antonio Macipe, Peter Pan, Joe Marshall, Wendy, Julie Lemas, Ludovic Fert, Maeva Clamaron, Clochette, Maud Abeloos, Mélanie Duchesne, Nicolas Tatossian, Ralph Folio, Capitaine crochet, Raphaelle Raimon";
+                    break;
+                case "prod":
+                    echo "artistes que nous soutiendrons et accompagnerons, musique, écriture, domaine artistique, projets artistiques, Compote de prod";
+                    break;
+                case "partenaires":
+                    echo "Novencia groupe, ISK Finance, mécène, dossier de mécénat";
+                    break;
+                case "presse":
+                    echo "spectacle Alice, notre spectacle, compote de prod";
+                    break;
+            }
+        ?>">>
         <meta name="viewport" content="width=device-width">
 
         <link rel="stylesheet" href="css/normalize.min.css">
