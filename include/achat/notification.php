@@ -62,7 +62,7 @@ function envoiMail($iduser){
 			<table>
 				<tr>
 					<td colspan='5' style='font-size:14px;font-weight:bold;font-family: Arial, Helvetica,sans-serif;'>
-						<img src='http://www.compotedeprod.com/img/logo-mail.png' name='stp' alt='Compote de Prod' width='300' />
+						<img src='http://www.compotedeprod.com/img/logo-mail.png' name='cdp' alt='Compote de Prod' width='300' />
 					</td>
 				</tr>
 				<tr><td colspan='5'>Billet &eacute;lectronique</td></tr>
@@ -71,9 +71,9 @@ function envoiMail($iduser){
 					<td colspan='5'>
 						$donneesSpectateur[SPECTATEUR_PRENOM] $donneesSpectateur[SPECTATEUR_NOM]<br /><br />
 
-						L’&eacute;quipe <b>Compote de Prod</b> vous remercie pour votre achat fait sur www.compotedeprod.com<br /><br />
+						L&rsquo;&eacute;quipe <b>Compote de Prod</b> vous remercie pour votre achat fait sur www.compotedeprod.com<br /><br />
 
-						Merci d&rsquo;imprimer cet email et de le pr&eacute;senter &agrave; l&rsquo;entr&eacute;e du th&eacute;âtre afin d&rsquo;acc&eacute;der &agrave; votre place (le placement &eacute;tant libre). Merci &eacute;galement d'apporter, le cas &eacute;ch&eacute;ant, les documents justifiants vos droits &agrave; un tarif r&eacute;duit.<br /><br />
+						Merci d&rsquo;imprimer cet email et de le pr&eacute;senter &agrave; l&rsquo;entr&eacute;e du th&eacute;&acirc;tre afin d&rsquo;acc&eacute;der &agrave; votre place (le placement &eacute;tant libre). Merci &eacute;galement d'apporter, le cas &eacute;ch&eacute;ant, les documents justifiants vos droits &agrave; un tarif r&eacute;duit.<br /><br />
 
 						Votre num&eacute;ro de r&eacute;servation est le $iduser. Conservez-le pr&eacute;cieusement.<br />
 						Vous en aurez besoin pour toute demande concernant votre commande.<br /><br />
@@ -122,7 +122,7 @@ function envoiMail($iduser){
 
 	echo $message;
 
-	mail($destinataires,'Compote de Prod - Votre reçu', $message, $headers);
+	mail($destinataires,'Compote de Prod - Votre recu', $message, $headers);
 
 	mysql_close();
 	

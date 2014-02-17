@@ -805,6 +805,13 @@ PARTENAIRE/PRESSE ARTICLE
 
 #partenaires-right{
     float:right;
+    height:auto;
+}
+
+#ulule{
+    margin-top:20px;
+    height:370px;
+    width:100%;
 }
 
 #partenaires-right h4{

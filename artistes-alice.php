@@ -33,6 +33,7 @@
                     <img src="_photos/troupe/alice/avatars/cecile.jpg" class="vignette artistes-alice xsmall" id="cecile" title="Cécile Clavier"/>
                     <img src="_photos/troupe/alice/avatars/caroline.jpg" class="vignette artistes-alice xsmall" id="caroline" title="Caroline Goetz"/>
                     <img src="_photos/troupe/alice/avatars/marion.jpg" class="vignette artistes-alice xsmall" id="marion" title="Marion Hunerfurst"/>
+                    <img src="_photos/troupe/alice/avatars/julienbonneau.jpg" class="vignette artistes-alice xsmall" id="julienb" title="Julien Bonneau"/>
 				</article>
                 
 				<div id="details" class="div-laptop">

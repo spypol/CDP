@@ -35,7 +35,7 @@
                     echo "spectacle Alice, notre spectacle, compote de prod";
                     break;
             }
-        ?>">>
+        ?>">
         <meta name="viewport" content="width=device-width">
 
         <link rel="stylesheet" href="css/normalize.min.css">

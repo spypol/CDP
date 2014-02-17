@@ -28,90 +28,92 @@
 		while ($da = mysql_fetch_array($donneesAchat)){
 			$tableauRecap .= '<tr>';
 			$tableauRecap .= '<td>'.$da[PLACE_NOMBRE].'</td>';
-			$tableauRecap .= '<td>'.$da[SEANCE_DATE].' à '.$da[SEANCE_HEURE].'</td>';
+			$tableauRecap .= '<td>'.$da[SEANCE_DATE].' &agrave; '.$da[SEANCE_HEURE].'</td>';
 			$tableauRecap .= '<td>'.$da[TARIF_NOM].'</td>';
-			$tableauRecap .= '<td>'.$da[PRIX_VALEUR].' €</td>';
-			$tableauRecap .= '<td>'.$da[PLACE_NOMBRE]*$da[PRIX_VALEUR].' €</td>';
+			$tableauRecap .= '<td>'.$da[PRIX_VALEUR].' &euro;</td>';
+			$tableauRecap .= '<td>'.$da[PLACE_NOMBRE]*$da[PRIX_VALEUR].' &euro;</td>';
 			$tableauRecap .= '<tr>';
 			$prixTotal = $prixTotal + $da[PLACE_NOMBRE]*$da[PRIX_VALEUR];
 		}
 
-		$destinataires = "souvienstoipan@gmail.com,". $donneesSpectateur[SPECTATEUR_MAIL];
-		
-		$headers  = 'MIME-Version: 1.0' . "\r\n";
-		$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-		$headers .= 'From: contact@souvienstoipan.com' . "\r\n";
+		$destinataires = "compotedeprod@gmail.com,". $donneesSpectateur[SPECTATEUR_MAIL];
+	
+	$headers  = 'MIME-Version: 1.0' . "\r\n";
+	$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+	$headers .= 'From: contact@compotedeprod.com' . "\r\n";
 
-		$message = "
-			<html>
-			<head>
-			  <title>Souviens-toi Pan ! Vous venez d'acheter vos places !</title>
-			</head>
-			<body>
-				<table>
-					<tr>
-						<td colspan='5' style='font-size:14px;font-weight:bold;font-family: Arial, Helvetica,sans-serif;'>
-							<img src='http://www.souvienstoipan.com/_images/titre.png' name='stp' alt='Souviens-toi Pan !' width='300' />
-						</td>
-					</tr>
-					<tr><td colspan='5'>Billet électronique</td></tr>
-					<tr><td colspan='5'>_______________________________________________________________________</td></tr>
+	$message = "
+		<html>
+		<head>
+		  <title>Compote de Prod - Vous venez d&rsquo;acheter vos places !</title>
+		</head>
+		<body>
+			<table>
+				<tr>
+					<td colspan='5' style='font-size:14px;font-weight:bold;font-family: Arial, Helvetica,sans-serif;'>
+						<img src='http://www.compotedeprod.com/img/logo-mail.png' name='cdp' alt='Compote de Prod' width='300' />
+					</td>
+				</tr>
+				<tr><td colspan='5'>Billet &eacute;lectronique</td></tr>
+				<tr><td colspan='5'>_______________________________________________________________________</td></tr>
+				<tr>
+					<td colspan='5'>
+						$donneesSpectateur[SPECTATEUR_PRENOM] $donneesSpectateur[SPECTATEUR_NOM]<br /><br />
+
+						L&rsquo;&eacute;quipe <b>Compote de Prod</b> vous remercie pour votre achat fait sur www.compotedeprod.com<br /><br />
+
+						Merci d&rsquo;imprimer cet email et de le pr&eacute;senter &agrave; l&rsquo;entr&eacute;e du th&eacute;&acirc;tre afin d&rsquo;acc&eacute;der &agrave; votre place (le placement &eacute;tant libre). Merci &eacute;galement d'apporter, le cas &eacute;ch&eacute;ant, les documents justifiants vos droits &agrave; un tarif r&eacute;duit.<br /><br />
+
+						Votre num&eacute;ro de r&eacute;servation est le $iduser. Conservez-le pr&eacute;cieusement.<br />
+						Vous en aurez besoin pour toute demande concernant votre commande.<br /><br />
+
+						Voici les d&eacute;tails de votre achat :
+					</td>
+				</tr>
+				<tr><td colspan='5'>_______________________________________________________________________</td></tr>
+				<tr>
+					<td colspan='5'>
+						Informations personnelles :<br />                                   
+						$donneesSpectateur[SPECTATEUR_NOM] $donneesSpectateur[SPECTATEUR_PRENOM]<br />                                  
+						$donneesSpectateur[SPECTATEUR_MAIL]<br />                                        
+						$donneesSpectateur[SPECTATEUR_TEL] <br /><br />
+						Mode de paiement : virement paypal
+					</td>
+				</tr>
+				<tr>
+					<td>Nombre de place</td>
+					<td>Date</td>
+					<td>Type de place</td>
+					<td>Tarif unitaire</td>
+					<td>Total</td>
+				</tr>
+				<tr><td colspan='5'>_______________________________________________________________________</td></tr>
+				$tableauRecap
+				<tr><td colspan='5'>_______________________________________________________________________</td></tr>
+				<tr>
+					<td colspan='3'></td>
+					<td>Total</td>
+					<td>$prixTotal &euro;</td>
+				</tr>
+				<tr><td colspan='5'>_______________________________________________________________________</td></tr>
 					<tr>
 						<td colspan='5'>
-							$donneesSpectateur[SPECTATEUR_PRENOM] $donneesSpectateur[SPECTATEUR_NOM]<br /><br />
-
-							L’équipe Souviens-toi, Pan ! vous remercie pour votre achat fait sur www.souvienstoipan.com<br /><br />
-
-							Merci d'imprimer cet email et de le présenter à l'entrée du théâtre afin d'accéder à votre place (le placement étant libre).<br /><br />
-
-							Votre numéro de réservation est le $iduser. Conservez-le précieusement.<br />
-							Vous en aurez besoin pour demande concernant votre commande.<br /><br />
-
-							Voici les détails de votre achat :
+							Vous pouvez retrouver sur notre site les Mentions l&eacute;gales conform&eacute;ment &agrave; la Loi n&deg;2004-575 du 21 juin 2004 pour la confiance dans l&rsquo;&eacute;conomie num&eacute;rique.
+		<br /><br />
+							Nous vous remercions de votre visite sur notre site www.compotedeprod.com<br />
 						</td>
 					</tr>
-					<tr><td colspan='5'>_______________________________________________________________________</td></tr>
-					<tr>
-						<td colspan='5'>
-							Information personnel :<br />                                   
-							$donneesSpectateur[SPECTATEUR_NOM] $donneesSpectateur[SPECTATEUR_PRENOM]<br />                                  
-							$donneesSpectateur[SPECTATEUR_MAIL]<br />                                        
-							$donneesSpectateur[SPECTATEUR_TEL] <br /><br />
-							Mode de paiement : chèque/liquide
-						</td>
-					</tr>
-					<tr>
-						<td>Nombre de place</td>
-						<td>Date</td>
-						<td>Type de place</td>
-						<td>Tarif unitaire</td>
-						<td>Total</td>
-					</tr>
-					<tr><td colspan='5'>_______________________________________________________________________</td></tr>
-					$tableauRecap
-					<tr><td colspan='5'>_______________________________________________________________________</td></tr>
-					<tr>
-						<td colspan='3'></td>
-						<td>Total</td>
-						<td>$prixTotal €</td>
-					</tr>
-					<tr><td colspan='5'>_______________________________________________________________________</td></tr>
-						<tr>
-							<td colspan='5'>
-								Vous pouvez retrouver sur notre site les Mentions légales conformément à la Loi n°2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique.
-			<br /><br />
-								Nous vous remercions de votre visite sur notre site www.souvienstoipan.com<br />
-							</td>
-						</tr>
-				</table>
-			</body>
-			</html>
+			</table>
+		</body>
+		</html>
 
-		";
+	";
 
-		mail($destinataires,'Souviens-toi Pan ! - Votre reçu', $message, $headers);
+	echo $message;
 
-		mysql_close();
+	mail($destinataires,'Compote de Prod - Votre recu', $message, $headers);
+
+	mysql_close();
 		
 	}
 
@@ -142,90 +144,92 @@
 		while ($da = mysql_fetch_array($donneesAchat)){
 			$tableauRecap .= '<tr>';
 			$tableauRecap .= '<td>'.$da[PLACE_NOMBRE].'</td>';
-			$tableauRecap .= '<td>'.$da[SEANCE_DATE].' à '.$da[SEANCE_HEURE].'</td>';
+			$tableauRecap .= '<td>'.$da[SEANCE_DATE].' &agrave; '.$da[SEANCE_HEURE].'</td>';
 			$tableauRecap .= '<td>'.$da[TARIF_NOM].'</td>';
-			$tableauRecap .= '<td>'.$da[PRIX_VALEUR].' €</td>';
-			$tableauRecap .= '<td>'.$da[PLACE_NOMBRE]*$da[PRIX_VALEUR].' €</td>';
+			$tableauRecap .= '<td>'.$da[PRIX_VALEUR].' &euro;</td>';
+			$tableauRecap .= '<td>'.$da[PLACE_NOMBRE]*$da[PRIX_VALEUR].' &euro;</td>';
 			$tableauRecap .= '<tr>';
 			$prixTotal = $prixTotal + $da[PLACE_NOMBRE]*$da[PRIX_VALEUR];
 		}
 
-		$destinataires = "souvienstoipan@gmail.com,". $donneesSpectateur[SPECTATEUR_MAIL];
-		
-		$headers  = 'MIME-Version: 1.0' . "\r\n";
-		$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-		$headers .= 'From: contact@souvienstoipan.com' . "\r\n";
+		$destinataires = "compotedeprod@gmail.com,". $donneesSpectateur[SPECTATEUR_MAIL];
+	
+	$headers  = 'MIME-Version: 1.0' . "\r\n";
+	$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+	$headers .= 'From: contact@compotedeprod.com' . "\r\n";
 
-		$message = "
-			<html>
-			<head>
-			  <title>Souviens-toi Pan ! Votre Invitation !</title>
-			</head>
-			<body>
-				<table>
-					<tr>
-						<td colspan='5' style='font-size:14px;font-weight:bold;font-family: Arial, Helvetica,sans-serif;'>
-							<img src='http://www.souvienstoipan.com/_images/titre.png' name='stp' alt='Souviens-toi Pan !' width='300' />
-						</td>
-					</tr>
-					<tr><td colspan='5'>Billet électronique</td></tr>
-					<tr><td colspan='5'>_______________________________________________________________________</td></tr>
+	$message = "
+		<html>
+		<head>
+		  <title>Compote de Prod - Votre invitation !</title>
+		</head>
+		<body>
+			<table>
+				<tr>
+					<td colspan='5' style='font-size:14px;font-weight:bold;font-family: Arial, Helvetica,sans-serif;'>
+						<img src='http://www.compotedeprod.com/img/logo-mail.png' name='cdp' alt='Compote de Prod' width='300' />
+					</td>
+				</tr>
+				<tr><td colspan='5'>Billet &eacute;lectronique</td></tr>
+				<tr><td colspan='5'>_______________________________________________________________________</td></tr>
+				<tr>
+					<td colspan='5'>
+						$donneesSpectateur[SPECTATEUR_PRENOM] $donneesSpectateur[SPECTATEUR_NOM]<br /><br />
+
+						L&rsquo;&eacute;quipe <b>Compote de Prod</b> vous remercie pour votre achat fait sur www.compotedeprod.com<br /><br />
+
+						Merci d&rsquo;imprimer cet email et de le pr&eacute;senter &agrave; l&rsquo;entr&eacute;e du th&eacute;&acirc;tre afin d&rsquo;acc&eacute;der &agrave; votre place (le placement &eacute;tant libre). Merci &eacute;galement d'apporter, le cas &eacute;ch&eacute;ant, les documents justifiants vos droits &agrave; un tarif r&eacute;duit.<br /><br />
+
+						Votre num&eacute;ro de r&eacute;servation est le $iduser. Conservez-le pr&eacute;cieusement.<br />
+						Vous en aurez besoin pour toute demande concernant votre commande.<br /><br />
+
+						Voici les d&eacute;tails de votre achat :
+					</td>
+				</tr>
+				<tr><td colspan='5'>_______________________________________________________________________</td></tr>
+				<tr>
+					<td colspan='5'>
+						Informations personnelles :<br />                                   
+						$donneesSpectateur[SPECTATEUR_NOM] $donneesSpectateur[SPECTATEUR_PRENOM]<br />                                  
+						$donneesSpectateur[SPECTATEUR_MAIL]<br />                                        
+						$donneesSpectateur[SPECTATEUR_TEL] <br /><br />
+						Mode de paiement : virement paypal
+					</td>
+				</tr>
+				<tr>
+					<td>Nombre de place</td>
+					<td>Date</td>
+					<td>Type de place</td>
+					<td>Tarif unitaire</td>
+					<td>Total</td>
+				</tr>
+				<tr><td colspan='5'>_______________________________________________________________________</td></tr>
+				$tableauRecap
+				<tr><td colspan='5'>_______________________________________________________________________</td></tr>
+				<tr>
+					<td colspan='3'></td>
+					<td>Total</td>
+					<td>$prixTotal &euro;</td>
+				</tr>
+				<tr><td colspan='5'>_______________________________________________________________________</td></tr>
 					<tr>
 						<td colspan='5'>
-							$donneesSpectateur[SPECTATEUR_PRENOM] $donneesSpectateur[SPECTATEUR_NOM]<br /><br />
-
-							L’équipe Souviens-toi, Pan ! vous remercie pour l'intérêt que vous lui portez.<br /><br />
-
-							Merci d'imprimer cet email et de le présenter à l'entrée du théâtre afin d'accéder à votre place (le placement étant libre).<br /><br />
-
-							Votre numéro de réservation est le $iduser. Conservez-le précieusement.<br />
-							Vous en aurez besoin pour demande concernant votre commande.<br /><br />
-
-							Voici les détails de votre invitation :
+							Vous pouvez retrouver sur notre site les Mentions l&eacute;gales conform&eacute;ment &agrave; la Loi n&deg;2004-575 du 21 juin 2004 pour la confiance dans l&rsquo;&eacute;conomie num&eacute;rique.
+		<br /><br />
+							Nous vous remercions de votre visite sur notre site www.compotedeprod.com<br />
 						</td>
 					</tr>
-					<tr><td colspan='5'>_______________________________________________________________________</td></tr>
-					<tr>
-						<td colspan='5'>
-							Information personnel :<br />                                   
-							$donneesSpectateur[SPECTATEUR_NOM] $donneesSpectateur[SPECTATEUR_PRENOM]<br />                                  
-							$donneesSpectateur[SPECTATEUR_MAIL]<br />                                        
-							$donneesSpectateur[SPECTATEUR_TEL] <br /><br />
-							Mode de paiement : N/A
-						</td>
-					</tr>
-					<tr>
-						<td>Nombre de place</td>
-						<td>Date</td>
-						<td>Type de place</td>
-						<td>Tarif unitaire</td>
-						<td>Total</td>
-					</tr>
-					<tr><td colspan='5'>_______________________________________________________________________</td></tr>
-					$tableauRecap
-					<tr><td colspan='5'>_______________________________________________________________________</td></tr>
-					<tr>
-						<td colspan='3'></td>
-						<td>Total</td>
-						<td>$prixTotal €</td>
-					</tr>
-					<tr><td colspan='5'>_______________________________________________________________________</td></tr>
-						<tr>
-							<td colspan='5'>
-								Vous pouvez retrouver sur notre site les Mentions légales conformément à la Loi n°2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique.
-			<br /><br />
-								Pour découvrir l'univers de 'Souviens-toi, Pan!', n'hésitez pas à visiter notre site <a href='http://www.souvienstoipan.com'>www.souvienstoipan.com</a><br />
-							</td>
-						</tr>
-				</table>
-			</body>
-			</html>
+			</table>
+		</body>
+		</html>
 
-		";
+	";
 
-		mail($destinataires,'Souviens-toi Pan ! - Votre reçu', $message, $headers);
+	echo $message;
 
-		mysql_close();
+	mail($destinataires,'Compote de Prod - Votre recu', $message, $headers);
+
+	mysql_close();
 		
 	}
 
