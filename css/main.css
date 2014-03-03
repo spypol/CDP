@@ -777,7 +777,7 @@ PARTENAIRE/PRESSE ARTICLE
 }
 
 #dossier-de-partenariat{
-    text-align:center;
+    text-align:left;
     margin:35px 0 20px 0;
 }
 
@@ -808,28 +808,33 @@ PARTENAIRE/PRESSE ARTICLE
     height:auto;
 }
 
+#partenaires-right #mecenes{
+    margin-top:30px;
+}
+
 #ulule{
     margin-top:20px;
     height:370px;
     width:100%;
 }
 
-#partenaires-right h4{
-   text-align:center;
+#partenaires-left h1{
+   text-align:left;
 }
 
-#partenaires-right a{
+#partenaires-left a{
     color: #333333;
     text-decoration: none;
 }
 
-#partenaires-right a:hover{
+#partenaires-left a:hover{
     color:red;
     text-decoration: none;
 }
 
-#partenaires-right #partenaires-logos{
-    margin:20px;
+#partenaires-right #partenaires-logos img{
+    margin:0px 10%;
+    width:80%;
 }
 
 

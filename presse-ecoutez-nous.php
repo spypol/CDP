@@ -9,7 +9,7 @@
 
 <?php include('include/head-alice.php'); ?>
 
-		<?php include('include/slider.php'); ?>
+		<?php include('include/slider-alice.php'); ?>
 
         <div class="main-container">
             <div class="main wrapper clearfix">
@@ -35,7 +35,7 @@
 									if ($code != 'FREEPRESSE2014') {
                                         
                                         ?>
-                                            <p>Entrez le code qui vous a éyé envoyé pour écouter trois chansons extraites de la comédie musicale Alice !</p>
+                                            <p>Entrez le code qui vous a été envoyé pour écouter trois chansons extraites de la comédie musicale Alice !</p>
                                             <form method="post" action="presse-ecoutez-nous">
                         
                                                 <input name="code" type="text" placeholder="CODE" id="code" value="<?php echo $code; ?>">
@@ -54,8 +54,8 @@
                                         <div class="responsive-audio progression-small responsive-wrapper" style="max-width:99%;">
                                             <audio class="progression-playlist-presse progression-skin progression-default-dark progression-audio-player" controls="controls" preload="none">
                                                 
-                                                <source src="media/presse/musiques/01---L%C3%A0-pour-Chat-(instrumental).mp3" title="Là pour Chat !" type="audio/mp3"/>
-                                                <source src="media/presse/musiques/02---Le-Po%C3%A8me-du-Crocodile-(instrumental).mp3" title="Le Poème du Crocodile" type="audio/mp3"/>
+                                                <source src="media/presse/musiques/01 - La pour Chat.mp3" title="Là pour Chat !" type="audio/mp3"/>
+                                                <source src="media/presse/musiques/02 - Le Poeme du Crocodile.mp3" title="Le Poème du Crocodile" type="audio/mp3"/>
                                                 <source src="media/presse/musiques/05---2014.02.16---Mix-v2.1.mp3" title="En retard !" type="audio/mp3"/>
                                             </audio>
                                         </div>
@@ -64,7 +64,7 @@
                                     }
 								} else {
                                     ?>
-                                        <p>Entrez le code qui vous a éyé envoyé pour écouter trois chansons extraites de la comédie musicale Alice !</p>
+                                        <p>Entrez le code qui vous a été envoyé pour écouter trois chansons extraites de la comédie musicale Alice !</p>
                                         <form method="post" action="presse-ecoutez-nous">
                     
                                             <input name="code" type="text" placeholder="CODE" id="code" value="<?php echo $code; ?>">

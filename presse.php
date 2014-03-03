@@ -75,11 +75,11 @@ musical adapté aux petits comme aux grands...
                             
                             
                         
-                            <a href="media/partenaire/CDP%20-%20Dossier%20de%20partenariat.pdf" title="Dossier de partenariat" target="_blank">
+                            <a href="media/presse/DOSSIER%20DE%20PRESSE%20ADPM.pdf" title="Dossier de presse" target="_blank">
                                 <img src="img/logos/pdf-small.png" title="Dossier de Presse" id="dossier-presse-image" />
                             </a>
                             <h5>
-                                <a href="media/partenaire/CP 30.10.2013 Annonce de la Troupe Alice.pdf" title="Dossier de partenariat" target="_blank">
+                                <a href="media/presse/DOSSIER%20DE%20PRESSE%20ADPM.pdf" title="Dossier de presse" target="_blank">
                                     Téléchargez notre dossier de presse
                                 </a>    
                             </h5>

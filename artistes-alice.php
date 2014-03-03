@@ -34,6 +34,7 @@
                     <img src="_photos/troupe/alice/avatars/caroline.jpg" class="vignette artistes-alice xsmall" id="caroline" title="Caroline Goetz"/>
                     <img src="_photos/troupe/alice/avatars/marion.jpg" class="vignette artistes-alice xsmall" id="marion" title="Marion Hunerfurst"/>
                     <img src="_photos/troupe/alice/avatars/julienbonneau.jpg" class="vignette artistes-alice xsmall" id="julienb" title="Julien Bonneau"/>
+                    <img src="_photos/troupe/alice/avatars/alban.jpg" class="vignette artistes-alice xsmall" id="alban" title="Alban Jarossay"/>
 				</article>
                 
 				<div id="details" class="div-laptop">
@@ -61,6 +62,8 @@
                     <?php include('include/artistes/cecile.php'); ?>
                     <?php include('include/artistes/caroline.php'); ?>
                     <?php include('include/artistes/marion.php'); ?>
+                    <?php include('include/artistes/julienb.php'); ?>
+                    <?php include('include/artistes/alban.php'); ?>
                 </div>
                 
 			</div>

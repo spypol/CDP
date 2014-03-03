@@ -13,8 +13,9 @@
 					<!-------------------------- PARTENAIRE COLUMN -------------------------->
 					<!-------------------------- ***************** -------------------------->
 					<article id="partenaires-left">
-						<section>
-							<h1>Partenaires</h1>
+                        <section>
+				            <h1><a href="contact.php" title="Devenez Partenaire">Devenez Partenaire !</a></h1>
+						
                             <h4>Pour aider Alice à monter sur scène, devenez Mécène !</h4>
                             <p>   
                                 Dans notre dossier de Mécénat, nous vous présentons notre démarche, notre état d'avancement, et les personnes de talent qui portent ce projet ambitieux.
@@ -24,10 +25,15 @@
                             </p>
 						</section>
                         
-                        <section id="dossier-de-partenariat">
-                            <h4>Téléchargez notre dossier de Mécénat</h4>
-                            <a href="media/partenaire/CDP%20-%20Dossier%20de%20partenariat.pdf" title="Dossier de partenariat" target="_blank"><img src="img/logos/pdf.png" title="Dossier de Partenariat" /></a>
+                        <section id="dossier-de-presse">
+                            <a href="media/partenaire/CDP%20-%20Dossier%20de%20partenariat.pdf" title="Dossier de partenariat" target="_blank">
+                                <img src="img/logos/pdf-small.png" title="Dossier de Partenariat" id="dossier-presse-image" />
+                            </a>
+                            <h5><a href="media/partenaire/CDP%20-%20Dossier%20de%20partenariat.pdf" title="Dossier de partenariat" target="_blank">Téléchargez notre dossier de Mécénat</a></h5>
+                            
+                            <iframe frameborder="0" src="http://fr.ulule.com/alice-comediemusicale/widget.html" scrolling="no" id="ulule"></iframe>
                         </section>
+                        
                         
 					</article>
 		
@@ -40,12 +46,16 @@
 					<!-------------------------- ***************** -------------------------->
 					<article id="partenaires-right">
 						<section id="partenaires-logos">
-				            <h4><a href="contact.php" title="Devenez Partenaire">Devenez Partenaire !</a></h4>
                             
+                            <h1>Notre partenaire officiel</h1>
+                            <a href="http://www.up-consulting.fr/" title="UP Consulting" target="_blank"><img src="img/logos/up.png" title="Up Consulting" /></a>
+                            
+                            
+                            <h1 id="mecenes">Nos mécènes</h1>
                             <a href="http://www.novencia.com/" title="Novencia" target="_blank"><img src="img/logos/Novencia.jpg" title="Novencia" /></a>
                             <img src="img/logos/logo_iskfinance_couleur.jpg" title="ISK Finance" />
-                            <iframe frameborder="0" src="http://fr.ulule.com/alice-comediemusicale/widget.html" scrolling="no" id="ulule"></iframe>
-						</section>
+                            
+                        </section>
 					</article>
 		
 				</div>	
