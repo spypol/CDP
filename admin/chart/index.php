@@ -1,5 +1,3 @@
-﻿
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
@@ -54,7 +52,7 @@ h1{
 						$ladate = switchDate($row['ladate']);
 						$seanceid = $row['seanceid'];
 
-						$sqlNbPlace = ' SELECT SUM( place_nombre ) AS nbplaces FROM T_PLACE WHERE place_achete =1 AND place_seance_id = ' . $seanceid;
+						$sqlNbPlace = ' SELECT SUM( place_nombre ) AS nbplaces FROM T_PLACE WHERE place_achete =1 AND PLACE_TARIF_ID != 3 AND place_seance_id = ' . $seanceid;
 						$nbPlace = mysql_query ($sqlNbPlace) or die ('Erreur SQL !'.$sqlNbPlace.'<br />'.mysql_error());
 						$nbPlace = mysql_fetch_array($nbPlace);
 						$nbPlace = $nbPlace['nbplaces'];

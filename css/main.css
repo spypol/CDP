@@ -239,6 +239,18 @@ body {
     box-shadow: none;
 }
 
+.gallery-alice-wrapper{
+    margin-top:15px !important;
+}
+
+.gallery-alice{
+    height:125px;
+}
+
+.gallery-alice img{
+    margin-top:-50px;
+}
+
 .cdp-social{
 	cursor: pointer;
 	color: #aaa;
@@ -294,6 +306,10 @@ body {
 .main #audioplayer{
 	margin-left:1%;
 	margin-bottom:25px;
+}
+
+#audioplayer .mejs-inner{
+    height:100px;
 }
 
 .main #audioplayer #social-player{
@@ -907,6 +923,33 @@ PARTENAIRE/PRESSE ARTICLE
     float:right;
 }
 
+.main #photos h4{
+    margin-left:10px;
+}
+
+.main #photos .gallery-alice{
+   position: relative;
+    overflow: hidden;
+}
+
+.main #photos .gallery-alice h4{
+    margin-left:10px;
+    position: absolute; 
+    top: 10px; 
+    left: 10px;
+    color: #eee;
+    font-size: 150%;
+    text-shadow: 1px 1px 1px #555;
+}
+
+.main #photos .gallery-alice .invisible, .main #photos .gallery-alice .invisible img{
+    display:none;
+}
+
+.main #photos .gallery-alice-wrapper .preview-image{
+    height:100px;
+}
+
 .main article img {
     width:100%;
 }
@@ -1000,17 +1043,6 @@ ACHETER ARTICLE
     text-shadow: 0px 1px 1px #000;
     margin:10px;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 /* ==========================================================================
    Media Queries
@@ -1237,6 +1269,10 @@ ACHETER ARTICLE
     
     .main #acheter-cd .dropdowns select{
 
+    }
+    
+    .main #photos .gallery-alice h4{
+        font-size: 200%;
     }
 }
 

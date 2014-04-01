@@ -288,32 +288,37 @@
 						$PLACE_ACHETE = $row['PLACE_ACHETE'];
 						$PLACE_CASH = $row['PLACE_CASH'];
 						$PRIX_VALEUR = $row['PRIX_VALEUR'];
+						$TARIF_ID = $row['TARIF_ID'];
 						$PLACE_ID = $row['PLACE_ID'];
                         $SEANCE_DATE = $row['SEANCE_DATE'];
 						echo '<tr>';
 						echo '<td>'.$PLACE_ID.'</td>';
-						if($PLACE_CASH == 0){
-							echo '<td>Paypal</td>';
-						}else{
-							echo '<td>Ch&egrave;que</td>';
-						}
+						if($TARIF_ID == 3){
+                             echo '<td>Invitation</td>';
+                        }else{
+                            if($PLACE_CASH == 0){
+                                echo '<td>Paypal</td>';
+                            }else{
+                                echo '<td>Ch&egrave;que</td>';
+                            }
+                        }
                         echo '<td>'.switchDate($SEANCE_DATE).'</td>';
 						echo '<td>'.$SPECTATEUR_NOM.' '.$SPECTATEUR_PRENOM.'</td>';
 						echo '<td>'.$SPECTATEUR_MAIL.'</td>';
-						if($row['TARIF_ID'] == 1) {
+						if($TARIF_ID == 1) {
 							echo '<td>'.$PLACE_NOMBRE.'</td>';
 							$total = $PLACE_NOMBRE * $PRIX_VALEUR;
 							$totalAdulte = $totalAdulte + $PLACE_NOMBRE;
 						} else {
 					 		//echo '<td>0</td>';
-							if($row['TARIF_ID'] == 3){
+							if($TARIF_ID == 3){
 								echo '<td>'.$PLACE_NOMBRE.'</td>';
 								$total = 0;
 							}else{
 								echo '<td>0</td>'; 
 						}
 						}
-						if($row['TARIF_ID'] == 4){
+						if($TARIF_ID == 4){
 							echo '<td>'.$PLACE_NOMBRE.'</td>';
 							$total = $PLACE_NOMBRE * $PRIX_VALEUR;
 							$totalReduit = $totalReduit + $PLACE_NOMBRE;
@@ -321,7 +326,7 @@
 							echo '<td>0</td>'; 
 						}
                         
-						if($row['TARIF_ID'] == 2){
+						if($TARIF_ID == 2){
 							echo '<td>'.$PLACE_NOMBRE.'</td>';
 							$total = $PLACE_NOMBRE * $PRIX_VALEUR;
 							$totalEnfant = $totalEnfant + $PLACE_NOMBRE;

@@ -20,10 +20,20 @@ $(document).ready(function(){
 		pauseTime: 3000
 	});
 	
-	$('#photos-alice').nivoSlider({
-		controlNav: false,
-		pauseTime: 3000
-	});
+	//$('#photos-alice-casting').nivoSlider({
+	//	controlNav: false,
+	//	pauseTime: 30000
+	//});
+	
+	//$('#photos-alice-enregistrement').nivoSlider({
+	//	controlNav: false,
+	//	pauseTime: 30000
+	//});
+    
+	//$('#photos-alice-filage-technique').nivoSlider({
+	//	controlNav: false,
+	//	pauseTime: 30000
+	//});
 	
 	$('#slider-homepage').nivoSlider({
 		controlNav: false,

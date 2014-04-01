@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 include('connectionDB.php');
 $sqlseances = 'SELECT SEANCE_ID as seanceid, SEANCE_DATE as ladate, SEANCE_HEURE as heure, SALLE_NOM as sallenom FROM T_SEANCE, T_SALLE WHERE SEANCE_SALLE_ID = SALLE_ID ORDER BY SEANCE_DATE';
