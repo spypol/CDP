@@ -12,9 +12,7 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'cdp' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'cdp' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( __( 'Theme: %1$s by %2$s.', 'cdp' ), 'cdp', '<a href="http://underscores.me/" rel="designer">Underscores.me</a>' ); ?>
+			<span id="copyright">Blog de Compote de Prod  © 2014</span>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->

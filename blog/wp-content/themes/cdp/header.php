@@ -16,6 +16,7 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
 <?php wp_head(); ?>
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,300italic,700,400italic' rel='stylesheet' type='text/css'>
 </head>
 
 <body <?php body_class(); ?>>
@@ -23,7 +24,13 @@
 	<header id="masthead" class="site-header" role="banner">
 		<div class="site-branding">
 			<aside id="search" class="widget widget_search">
-				<?php get_search_form(); ?>
+				<img src="<?php echo get_template_directory_uri() . '/img/search.png' ?>" title="Rechercher" id="search-img"/> 
+                <?php get_search_form(); ?>
+            </aside>
+            <aside id="social" class="widget widget_social">
+				<img src="<?php echo get_template_directory_uri() . '/img/rss.png' ?>" title="RSS" id="social-img"/>
+				<img src="<?php echo get_template_directory_uri() . '/img/facebook.png' ?>" title="Facebook" id="social-img"/>
+				<img src="<?php echo get_template_directory_uri() . '/img/twitter.png' ?>" title="Twitter" id="social-img"/>
             </aside>
 		</div>
 	</header><!-- #masthead -->
