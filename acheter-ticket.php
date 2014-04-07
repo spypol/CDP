@@ -58,6 +58,12 @@
                         <section>
                         
                                 <h1>Réservez vos tickets !</h1>
+                                <span id="billetreduc">
+                                    Ou directement sur 
+                                    <a href="http://www.billetreduc.com/110043/evt.htm?nr=1" title="BilletReduc">
+                                        <img src="img/Billetreduc.png" name="BilletReduc" alt="BilletReduc" id="billetreduc-img" />
+                                    </a>
+                                </span>
                             
                                 <p>Après achat, vous recevrez directement vos billets par e-mail</p>
                             
