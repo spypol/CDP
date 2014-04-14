@@ -13,7 +13,8 @@
             <?php if ( ! post_password_required() && ( comments_open() || '0' != get_comments_number() ) ) : ?>
                 <span class="comments-link">
                     <img src="<?php echo get_template_directory_uri() . '/img/comment.png' ?>" title="Comment" id="comment-img"/>
-                    <?php comments_popup_link( __( '', 'cdp' ), __( '1 ', 'cdp' ), __( '% ', 'cdp' ) ); ?>
+                    <?php //comments_popup_link( __( '', 'cdp' ), __( '1 ', 'cdp' ), __( '% ', 'cdp' ) ); ?>
+                    <a href="<?php the_permalink(); ?>#disqus_thread" rel="bookmark"></a>
                 </span>
             <?php endif; ?>
 
@@ -56,7 +57,7 @@
 	</div><!-- .entry-summary -->
 	<?php else : ?>
 	<div class="entry-content">
-		<?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'cdp' ) ); ?>
+		<?php the_content( __( 'Continuer la lecture <span class="meta-nav">&rarr;</span>', 'cdp' ) ); ?>
 		<?php
 			wp_link_pages( array(
 				'before' => '<div class="page-links">' . __( 'Pages:', 'cdp' ),

@@ -795,3 +795,26 @@ input, input[type="password"], input[type="search"]{
     margin:8px 0 0 350px;
 }
 
+.entry-content a{
+    text-decoration: none;
+    color: #404040;
+    border-bottom: 1px solid #404040;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #404040;
+}
+
+.entry-content a:hover, .nav-links a:hover{
+    background-color: #404040;
+    color:#fff;
+    
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+
+
