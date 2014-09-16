@@ -13,12 +13,13 @@
 			<div id="articles">
 				<article id="photo-vignettes" class="div-laptop">					
 				    <h1>Les Com&eacute;diens</h1>
-                    <img src="_photos/troupe/alice/avatars/antonio.jpg" class="vignette artistes-alice" id="antonio" title="Antonio Macipe" />
-                    <img src="_photos/troupe/alice/avatars/julie.jpg" class="vignette artistes-alice" id="julie" title="Julie Lemas" />
-                    <img src="_photos/troupe/alice/avatars/marie.jpg" class="vignette artistes-alice" id="marie" title="Marie Oppert" />
-                    <img src="_photos/troupe/alice/avatars/veronique.jpg" class="vignette artistes-alice" id="veronique" title="Véronique Hatat" />
-                    <img src="_photos/troupe/alice/avatars/vincent.jpg" class="vignette artistes-alice" id="vincent" title="Vincent Gilliéron" />
-                    <img src="_photos/troupe/alice/avatars/herve.jpg" class="vignette artistes-alice" id="herve" title="Hervé Lewandowski" />
+                    <img src="_photos/troupe/alice/avatars/antonio.jpg" class="vignette artistes-alice xsmall" id="antonio" title="Antonio Macipe" />
+                    <img src="_photos/troupe/alice/avatars/julie.jpg" class="vignette artistes-alice xsmall" id="julie" title="Julie Lemas" />
+                    <img src="_photos/troupe/alice/avatars/marie.jpg" class="vignette artistes-alice xsmall" id="marie" title="Marie Oppert" />
+                    <img src="_photos/troupe/alice/avatars/veronique.jpg" class="vignette artistes-alice xsmall" id="veronique" title="Véronique Hatat" />
+                    <img src="_photos/troupe/alice/avatars/vincent.jpg" class="vignette artistes-alice xsmall" id="vincent" title="Vincent Gilliéron" />
+                    <img src="_photos/troupe/alice/avatars/herve.jpg" class="vignette artistes-alice xsmall" id="herve" title="Hervé Lewandowski" />
+                    <img src="_photos/troupe/alice/avatars/anthony.jpg" class="vignette artistes-alice xsmall" id="anthony" title="Anthony Fabien" />
                 </article>
                 
                 <article id="photo-vignettes" class="div-laptop">

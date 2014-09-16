@@ -34,12 +34,24 @@
                         
                         <section id="dossier-de-presse">
                             
+                            <a href="media/presse/Communiquee de presse-27052014.pdf" title="Le premier clip de la comédie musicale «Alice» !" target="_blank">
+                                <img src="img/logos/pdf-small.png" title="Dossier de Presse" id="dossier-presse-image" />
+                            </a>
+                            <h5>
+                                <a href="media/presse/Communiquee de presse-27052014.pdf" title="Le premier clip de la comédie musicale «Alice» !" target="_blank">
+                                    27.05 : Le premier clip de la comédie musicale «Alice» !
+                                </a>  
+                            </h5>
+                            <p>
+                                Réservez dès à présent vos places en ligne sur compotedeprod.com, et recevez les par e-mail directement après achat !
+                            </p>
+                            
                             <a href="media/presse/Communique de presse - 26.01.2014 - Ventes billets.pdf" title="Vente des billets" target="_blank">
                                 <img src="img/logos/pdf-small.png" title="Dossier de Presse" id="dossier-presse-image" />
                             </a>
                             <h5>
                                 <a href="media/presse/Communique de presse - 26.01.2014 - Ventes billets.pdf" title="Vente des billets" target="_blank">
-                                    26.01: Les places pour la comédie musicale "Alice" sont désormais en vente !
+                                    26.01 : Les places pour la comédie musicale "Alice" sont désormais en vente !
                                 </a>  
                             </h5>
                             <p>
@@ -51,7 +63,7 @@
                             </a>
                             <h5>
                                 <a href="media/presse/CP 30.10.2013 Annonce de la Troupe Alice.pdf" title="Troupe Alice" target="_blank">
-                                    30.10: La troupe de la comédie musicale "Alice" est dévoilée
+                                    30.10 : La troupe de la comédie musicale "Alice" est dévoilée
                                 </a>  
                             </h5>
                             <p>
@@ -64,7 +76,7 @@
                             </a>
                             <h5>
                                 <a href="media/presse/CP 10.07.2013 Compote de Prod presente Alice.pdf" title="Dossier de Presse 10.07" target="_blank">
-                                    10.07: Compote de Prod présente sa nouvelle comédie musicale, Alice
+                                    10.07 : Compote de Prod présente sa nouvelle comédie musicale, Alice
                                 </a>
                             </h5>
                             <p>
@@ -99,43 +111,36 @@ musical adapté aux petits comme aux grands...
 						<section>
 				            <h1>Ils en parlent</h1>
                             
-                            <div class="slider-wrapper theme-default gallery">
-								<div id="photos-alice" class="nivoSlider">
-                                    <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0772.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0772.jpg" /></a>
-                                    <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0719.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0719.jpg" /></a>
-                                    <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0671.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0671.jpg" /></a>
-                                    <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0675.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0675.jpg" /></a>
-                                    <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0679.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0679.jpg" /></a>
-                                    <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0689.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0689.jpg" /></a>
-                                    <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0697.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0697.jpg" /></a>
-                                    <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0700.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0700.jpg" /></a>
-                                    <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0701.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0701.jpg" /></a>
-                                    <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0716.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0716.jpg" /></a>
-                                    <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0766.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0766.jpg" /></a>
-                                    <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0773.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0773.jpg" /></a>
-                                    <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0776.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0776.jpg" /></a>
-                                    <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0781.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0781.jpg" /></a>
-                                    <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0782.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0782.jpg" /></a>
-                                    <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0786.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0786.jpg" /></a>
-                                    <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0828.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0828.jpg" /></a>
-                                    <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0843.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0843.jpg" /></a>
-                                    <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0844.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0844.jpg" /></a>
-                                    <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0848.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0848.jpg" /></a>
-                                    <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0853.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0853.jpg" /></a>
-                                    <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0572.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0572.jpg" /></a>
-                                    <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0606.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0606.jpg" /></a>
-                                    <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0653.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0653.jpg" /></a>
-                                    <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0655.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0655.jpg" /></a>
-                                    <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0854.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0854.jpg" /></a>
-                                    <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0855.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0855.jpg" /></a>
-                                    <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0858.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0858.jpg" /></a>
-                                    <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0861.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0861.jpg" /></a>
-                                    <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0863.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0863.jpg" /></a>
-                                    <a href="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0880.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/CASTINGS/ALICE2013/2013-10-26-Alice-(casting)-0880.jpg" /></a>
-								</div>
-							</div>
+                            <h5><a href="http://www.regardencoulisse.com/alice/" title="Regard en Coulisse" target="_blank">
+                                Regard en coulisses, 07/04/2014
+                            </a></h5>
+                            <p>"La jeune Marie Oppert est véritablement la révélation de ce spectacle. Excellente comédienne, parfaite chanteuse, drôle, pétillante et craquante, la jeune artiste qui faisait partie de la distribution de Street Scene l’an dernier au Châtelet est plus vraie que nature dans le rôle de la petite fille impatiente de grandir."</p>
                             
+                            <h5><a href="https://www.facebook.com/159036774295626/photos/a.226442740888362.1073741854.159036774295626/226442744221695/?type=1&theater" title="20 Minutes" target="_blank">
+                                20 minutes, 16/04/2014
+                            </a></h5>
+                            <p>"Une création 100% originale, mettant en scène une héroïne moderne et effrontée, sur une partition aux sonorités cuivrées et jazzy."</p>
                             
+                            <h5><a href="http://infos-75.com/culture-spectacles/sortie-critique-comedie-musicale-alice/" title="Infos-75.com" target="_blank">
+                                Infos-75.com, 04/05/2014
+                            </a></h5>
+                            <p>"Définitivement Alice est une merveille! [...] Musicalement, artistiquement, "chorégraphiquement", c'est un vrai bonheur et on garde en partant la pêche que l’on a cueilli en assistant à cette production."</p>
+                            
+                            <h5><a href="http://www.arkult.fr/2014/05/alice-une-merveille-en-ce-pays/" title="Arkult" target="_blank">
+                                Arklut, 06/05/2014
+                            </a></h5>
+                            <p>"Plus d’un mois a passé depuis la première … et le succès se confirme pour Alice ! [...] Humour, excentricité et bonne humeur : voici trois des ingrédients de cette nouvelle recette made by Compote de Prod (avec des vrais morceaux à l'intérieur...)."</p>
+                            
+                            <h5><a href="http://www.musicalavenue.fr/Critiques/Spectacle/Critique-Alice-au-Theatre-Clavel-jusquau-26-juin
+" title="Musical Avenue" target="_blank">
+                                Musical Avenue, 07/05/2014
+                            </a></h5>
+                            <p>"Une petite gorgée à base de swing et d’émotions à avaler sans modération."</p>
+                            
+                            <h5><a href="http://poetrymusicalmedia.wordpress.com/2014/05/28/les-reves-dalice" title="Poetry Musical Media" target="_blank">
+                                PoetryMusicalMedia, 28/05/2014
+                            </a></h5>
+                            <p>"Le spectacle enchanté nous emmène dans un univers incroyable, poétique et romanesque."</p>
                             
 						</section>
 					</article>

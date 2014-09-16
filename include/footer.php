@@ -4,6 +4,7 @@
         <div class="footer-container">
             <footer class="wrapper">
 				<ul>
+					<li><a href="blog">Blog</a></li>
 					<li><a href="goodies">Goodies</a></li>
 					<li><a href="contact">Contact</a></li>
 					<li><a href="partenaires">Partenaires</a></li>

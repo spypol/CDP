@@ -49,7 +49,7 @@
                     echo "Goodies Compote de Prod";
                     break;
                 case "presse-ecoutez-nous":
-                    echo "Ecoutez nos trois chansons en avant première";
+                    echo "Ecoutez nos cinq chansons en avant première";
                     break;
             }
         ?>

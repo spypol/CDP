@@ -28,11 +28,13 @@
                 <?php get_search_form(); ?>
             </aside>
             <aside id="social" class="widget widget_social">
-				<img src="<?php echo get_template_directory_uri() . '/img/rss.png' ?>" title="RSS" id="social-img"/>
-				<img src="<?php echo get_template_directory_uri() . '/img/facebook.png' ?>" title="Facebook" id="social-img"/>
-				<img src="<?php echo get_template_directory_uri() . '/img/twitter.png' ?>" title="Twitter" id="social-img"/>
+				<a href="<?php echo get_bloginfo( 'siteurl' ); ?>/feed"><img src="<?php echo get_template_directory_uri() . '/img/rss.png' ?>" title="RSS" id="social-img"/></a>
+				<a href="https://www.facebook.com/pages/Compote-de-Prod/130947013631437"><img src="<?php echo get_template_directory_uri() . '/img/facebook.png' ?>" title="Facebook" id="social-img"/></a>
+				<a href="http://compotedeprod.com"><img src="<?php echo get_template_directory_uri() . '/img/compotedeprod.png' ?>" title="Compote de Prod" id="social-img"/></a>
             </aside>
 		</div>
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">
+        
+        

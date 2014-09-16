@@ -1,3 +1,4 @@
+
 /*
 Theme Name: cdp
 Theme URI: http://underscores.me/
@@ -428,7 +429,7 @@ a:active {
 .site-main .comment-navigation,
 .site-main .paging-navigation,
 .site-main .post-navigation {
-	margin: 0 0 1.5em;
+	margin: 0 1em 1.5em;
 	overflow: hidden;
 }
 .comment-navigation .nav-previous,
@@ -563,7 +564,7 @@ a:active {
 .page-content,
 .entry-content,
 .entry-summary {
-	margin: 1em 0 0;
+	margin: 1em 1em 0;
 }
 .page-links {
 	clear: both;
@@ -575,7 +576,7 @@ a:active {
 --------------------------------------------------------------*/
 .blog .format-aside .entry-title,
 .archive .format-aside .entry-title {
-	display: none;
+	display: block;
 }
 
 /*--------------------------------------------------------------
@@ -611,7 +612,7 @@ a:active {
 	padding: 0;
 }
 .wp-caption {
-	border: 1px solid #ccc;
+	/*border: 1px solid #ccc;*/
 	margin-bottom: 1.5em;
 	max-width: 100%;
 }
@@ -622,9 +623,11 @@ a:active {
 }
 .wp-caption-text {
 	text-align: center;
+    font-size: 80%;
+    font-style: italic;
 }
 .wp-caption .wp-caption-text {
-	margin: 0.8075em 0;
+	margin: 0.3075em 0 0.8075em 0;
 }
 .site-main .gallery {
 	margin-bottom: 1.5em;
@@ -661,12 +664,12 @@ object {
 
 .site-branding, .main-navigation, .site-info{
     margin: 0 auto;
-    width:960px;
+    width:100%;
 }
 
 .site-branding, .site-info{
     padding:10px 0;
-    height:60px;
+    height:auto;
 }
 
 .site-branding img{
@@ -678,7 +681,9 @@ object {
 }
 
 #social{
-    float:right;
+    margin-left: 5%;
+    margin-bottom: 12px;
+    float:left;
 }
 
 #search-img{
@@ -690,32 +695,32 @@ object {
 }
 
 .site-branding #search{
-    margin-left:250px;
+    margin-left:5%;
+    width: 90%;
 }
 
 #content{
     margin: 0 auto;
-    width:960px;
+    width:100%;
 }
 
 #CDP-logo{
-    float:left;
-    margin-top:50px;
-    width:250px;
+    float:none;
+    margin-top:10px;
 }
 
 #primary{
-    float:right;
-    margin-top: 50px;
-    margin-right:50px;
-    width: 600px;
+    width: 100%;
 }
 
 #secondary{
-    float: left;
-    padding: 0;
-    height:800px;
-    width:250px;
+    text-align: center;
+}
+
+#secondary img{
+    max-width: 100%;
+    height: auto;
+    margin-left: 0;
 }
 
 .search-form, .search-field{
@@ -725,12 +730,14 @@ object {
     font-size:120%;
     color: #FFF;
     float:left;
+    width: 50%;
 }
 
 input, input[type="password"], input[type="search"]{
     background-color: transparent;
     border: 0px;
     color: #FFF !important;
+    width: 99%;
 }
 
 ::-webkit-input-placeholder { /* WebKit browsers */
@@ -746,14 +753,18 @@ input, input[type="password"], input[type="search"]{
     color:    #FFF;
 }
 
-.entry-title{
+.entry-title, h1{
     font-weight: 700;
-    font-size: 200%;
+    font-size: 100%;
     max-width:550px;
+}
+
+.entry-title{
     position:absolute;
     z-index:1;
     margin-top:-20px;
     margin-left:15px;
+    margin-right: 15px;
 }
 
 .entry-title a{
@@ -779,11 +790,16 @@ input, input[type="password"], input[type="search"]{
     color: #000;
 }
 
+.entry-meta .cat-links{
+    font-style: italic;
+}
+
 .link-img{
     display:block;
     position: relative;
     z-index:0;
     overflow: hidden;
+    width:100%;
 }
 
 #copyright{
@@ -792,7 +808,7 @@ input, input[type="password"], input[type="search"]{
     color: #FFF;
     font-size: 110%;
     float:left;
-    margin:8px 0 0 350px;
+    margin:8px 0 0 10%;
 }
 
 .entry-content a{
@@ -816,5 +832,97 @@ input, input[type="password"], input[type="search"]{
     transition: all .3s;
 }
 
+#disqus_thread{
+    margin:1em;
+}
 
 
+
+@media only screen and (min-width: 400px) {
+
+    .entry-title, h1{
+        font-size: 150%;
+    }
+
+}
+
+@media only screen and (min-width: 580px) {
+
+
+}
+
+@media only screen and (min-width: 980px) {
+    
+    .site-branding, .main-navigation, .site-info{
+        margin: 0 auto;
+        width:960px;
+    }
+    
+    #social{
+        float:right;
+    }
+    
+    input, input[type="password"], input[type="search"]{
+        width: auto;
+    }
+    
+    #content{
+        margin: 0 auto;
+        width:960px;
+    }
+    
+    .page-content,
+    .entry-content,
+    .entry-summary {
+        margin: 1em 0 0;
+    }
+    
+    
+    .site-branding #search{
+        margin-left:5%;
+        width: auto;
+    }
+    
+    .site-branding, .site-info{
+        padding:10px 0;
+        height:60px;
+    }
+    
+    #secondary{
+        float: left;
+        padding: 0;
+        height:800px;
+        width:250px;
+    }
+    
+    #secondary img{
+        margin-left: 0%;
+    }
+    
+    #primary{
+        float:right;
+        margin-top: 50px;
+        margin-right:50px;
+        width: 600px;
+    }
+    
+    #CDP-logo{
+        float:left;
+        margin-top:50px;
+        width:250px;
+        margin-left: 0;
+    }
+    
+    .entry-title, h1{
+        font-size: 200%;
+    }
+    
+    #copyright{
+        margin:8px 0 0 350px;
+    }
+    
+    .navigation, #disqus_thread{
+        margin:0;
+    }
+
+}

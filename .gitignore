@@ -2,7 +2,7 @@ _photos/*
 img/*
 wordpress/*
 bootstrap/*
-blog*
+blog/
 
 *.png
 *.jpg

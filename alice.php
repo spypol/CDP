@@ -106,7 +106,7 @@
                             
                             <div class="slider-wrapper theme-default gallery gallery-alice-wrapper">
 								<div id="photos-alice-enregistrement" class="gallery-alice">
-                                <h4>Enregistrements</h4>
+                                    <h4>Enregistrements</h4>
                                     <a href="_photos/ENREGISTREMENTS/DSC_8009.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/ENREGISTREMENTS/DSC_8009.jpg" /></a>
                                     <a href="_photos/ENREGISTREMENTS/DSC_8011.jpg" data-lightbox-gallery="gallery-alice" class="preview-image invisible"><img src="_photos/ENREGISTREMENTS/DSC_8011.jpg" /></a>
                                     <a href="_photos/ENREGISTREMENTS/DSC_8012.jpg" data-lightbox-gallery="gallery-alice" class="preview-image invisible"><img src="_photos/ENREGISTREMENTS/DSC_8012.jpg" /></a>
@@ -127,7 +127,7 @@
                             
                             <div class="slider-wrapper theme-default gallery gallery-alice-wrapper">
 								<div id="photos-alice-filage-technique" class="gallery-alice">
-                                <h4>Filage Technique</h4>
+                                    <h4>Filage Technique</h4>
                                     <a href="_photos/FILAGES/2013_03_23_filage_alice_1.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/FILAGES/2013_03_23_filage_alice_1.jpg" /></a>
                                 <a href="_photos/FILAGES/2013_03_23_filage_alice_10.jpg" data-lightbox-gallery="gallery-alice" class="preview-image invisible"><img src="_photos/FILAGES/2013_03_23_filage_alice_10.jpg" /></a>
                                 <a href="_photos/FILAGES/2013_03_23_filage_alice_12.jpg" data-lightbox-gallery="gallery-alice" class="preview-image invisible"><img src="_photos/FILAGES/2013_03_23_filage_alice_12.jpg" /></a>
@@ -152,7 +152,7 @@
                             
                             <div class="slider-wrapper theme-default gallery gallery-alice-wrapper">
 								<div id="photos-alice-premiere" class="gallery-alice">
-                                <h4>Première</h4>
+                                    <h4>Première</h4>
                                     <a href="_photos/PREMIERE/DSC_7713.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/PREMIERE/DSC_7713.jpg" /></a>
                                     <a href="_photos/PREMIERE/DSC_7707.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/PREMIERE/DSC_7707.jpg" /></a>
                                     <a href="_photos/PREMIERE/DSC_7744.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/PREMIERE/DSC_7744.jpg" /></a>
@@ -168,13 +168,44 @@
 							     </div>
 							</div>
                             
+                            <div class="slider-wrapper theme-default gallery gallery-alice-wrapper">
+								<div id="photos-alice-continue" class="gallery-alice">
+                                    <h4>Alice continue...</h4>
+                                    <a href="_photos/05152014/IMG_7197b.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/05152014/IMG_7197b.jpg" /></a>
+                                    <a href="_photos/05152014/IMG_6988b.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/05152014/IMG_6988b.jpg" /></a>
+                                    <a href="_photos/05152014/IMG_6996b.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/05152014/IMG_6996b.jpg" /></a>
+                                    <a href="_photos/05152014/IMG_7004b.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/05152014/IMG_7004b.jpg" /></a>
+                                    <a href="_photos/05152014/IMG_7006b.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/05152014/IMG_7006b.jpg" /></a>
+                                    <a href="_photos/05152014/IMG_7024b.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/05152014/IMG_7024b.jpg" /></a>
+                                    <a href="_photos/05152014/IMG_7031b.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/05152014/IMG_7031b.jpg" /></a>
+                                    <a href="_photos/05152014/IMG_7040b.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/05152014/IMG_7040b.jpg" /></a>
+                                    <a href="_photos/05152014/IMG_7043b.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/05152014/IMG_7043b.jpg" /></a>
+                                    <a href="_photos/05152014/IMG_7060b.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/05152014/IMG_7060b.jpg" /></a>
+                                    <a href="_photos/05152014/IMG_7070b.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/05152014/IMG_7070b.jpg" /></a>
+                                    <a href="_photos/05152014/IMG_7076b.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/05152014/IMG_7076b.jpg" /></a>
+                                    <a href="_photos/05152014/IMG_7083b.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/05152014/IMG_7083b.jpg" /></a>
+                                    <a href="_photos/05152014/IMG_7089b.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/05152014/IMG_7089b.jpg" /></a>
+                                    <a href="_photos/05152014/IMG_7100b.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/05152014/IMG_7100b.jpg" /></a>
+                                    <a href="_photos/05152014/IMG_7103b.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/05152014/IMG_7103b.jpg" /></a>
+                                    <a href="_photos/05152014/IMG_7109b.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/05152014/IMG_7109b.jpg" /></a>
+                                    <a href="_photos/05152014/IMG_7130b.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/05152014/IMG_7130b.jpg" /></a>
+                                    <a href="_photos/05152014/IMG_7133b.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/05152014/IMG_7133b.jpg" /></a>
+                                    <a href="_photos/05152014/IMG_7140b.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/05152014/IMG_7140b.jpg" /></a>
+                                    <a href="_photos/05152014/IMG_7141b.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/05152014/IMG_7141b.jpg" /></a>
+                                    <a href="_photos/05152014/IMG_7149b.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/05152014/IMG_7149b.jpg" /></a>
+                                    <a href="_photos/05152014/IMG_7150b.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/05152014/IMG_7150b.jpg" /></a>
+                                    <a href="_photos/05152014/IMG_7169b.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/05152014/IMG_7169b.jpg" /></a>
+                                    <a href="_photos/05152014/IMG_7173b.jpg" data-lightbox-gallery="gallery-alice" class="preview-image"><img src="_photos/05152014/IMG_7173b.jpg" /></a>
+							     </div>
+							</div>
+                            
 						</section>
 					</article>
 					
 					<article id="video">
 						<section>
 							<h1>Vid&eacute;os</h1>
-							<iframe class="playerVimeo" src="//player.vimeo.com/video/87292430?title=0&amp;byline=0&amp;portrait=0" width="650" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+							<iframe class="playerVimeo" src="//player.vimeo.com/video/96253334?title=0&amp;byline=0&amp;portrait=0" width="650" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 						</section>
 					</article>
 					

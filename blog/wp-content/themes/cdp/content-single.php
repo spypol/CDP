@@ -22,7 +22,8 @@
                 <?php
                     /* translators: used between list items, there is a space after the comma */
                     $categories_list = get_the_category_list( __( ' // ', 'cdp' ) );
-                    if ( $categories_list && cdp_categorized_blog() ) :
+                    //if ( $categories_list && cdp_categorized_blog() ) :
+                    if ( $categories_list ) :
                 ?>
                 <span class="cat-links">
                     <?php printf( __( ' %1$s', 'cdp' ), $categories_list ); ?>

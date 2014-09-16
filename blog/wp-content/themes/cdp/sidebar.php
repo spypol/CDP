@@ -7,6 +7,8 @@
 ?>
 	<div id="secondary" class="widget-area" role="complementary">
         
-        <img src="<?php echo get_template_directory_uri() . '/logo_compote_de_prod_noir.jpg' ?>" title="Compote de Prod" id="CDP-logo"/>
+        <a href="<?php echo get_site_url(); ?>" name="Compote de Blog">
+            <img src="<?php echo get_template_directory_uri() . '/logo_compote_de_blog.png' ?>" title="Compote de Prod" id="CDP-logo"/>
+        </a>
         
 	</div><!-- #secondary -->

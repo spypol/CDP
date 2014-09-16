@@ -30,18 +30,19 @@
 					<!-------------------------- *************** -------------------------->
 					<article id="acheter-cd-alice">
 						<section>
-							<h1>Le 2 titres d'Alice en vente ici!</h1>
+							<h1>L'album d'Alice en vente ici !</h1>
                             
-                            <p>Comme Alice, laissez-vous guider par le Chat du Cheshire et la Chenille, jazzy et sensuelle. Saurez-vous reconnaitre et attraper le Lapin Blanc ? Pour le savoir achetez le CD 2 titres de la comédie musicale "Alice" et découvrez les toutes premières chansons interprétées par la troupe.</p>
+                            <p>Comme Alice, laissez-vous guider par le Chat du Cheshire et la Chenille, jazzy et sensuelle. Saurez-vous reconnaitre et attraper le Lapin Blanc ? Pour le savoir achetez l'album de la comédie musicale "Alice" et découvrez toutes les chansons interprétées par la troupe.</p>
                             <img src="img/cd-alice.png" title="CD Alice" id="cd-alice" />
                             
                             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" class="paypal">
-                                <label>Prix unitaire: 5€ (frais d'envoi offerts)</label>
+                                <label>Prix unitaire: 10€ (frais d'envoi offerts)</label>
                                 <input type="hidden" name="cmd" value="_s-xclick">
-                                <input type="hidden" name="hosted_button_id" value="4CNCW9MCVYCGJ">
+                                <input type="hidden" name="hosted_button_id" value="GNT84J3AWEDW4">
                                 <input type="image" src="https://www.paypalobjects.com/fr_FR/FR/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - la solution de paiement en ligne la plus simple et la plus sécurisée !">
-                                <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1" class="paypalsmall">
+                                <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
                             </form>
+
 
 
                             
