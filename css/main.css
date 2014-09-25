@@ -612,6 +612,11 @@ footer li h5{
     width:85px;
 }
 
+#photo-vignettes .xxsmall{
+    margin: 10px 7px 7px 20px;
+    width:60px;
+}
+
 #photo-vignettes .xsmall:hover{
     /*border:2px solid white;
     margin:8px 8px 5px 18px;*/
@@ -1285,6 +1290,10 @@ ACHETER ARTICLE
         width:65px;
     }
 
+    #photo-vignettes .xsmall{
+        width:45px;
+    }
+
     .paypal{
         margin:20px 0 20px 20%;
     }
@@ -1452,6 +1461,10 @@ ACHETER ARTICLE
 
     #photo-vignettes .xsmall{
         width:85px;
+    }
+    
+    #photo-vignettes .xsmall{
+        width:65px;
     }
 
     #acheter-cd-stp, #acheter-cd-alice{
