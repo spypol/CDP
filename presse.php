@@ -18,6 +18,21 @@
                             <p>   
                                 Vous êtes journaliste, blogueur, et souhaitez avoir plus d’informations sur le spectacle Alice ? Cet espace vous est dédié. Vous y trouverez tous nos communiqués de presse, nos actualités, ainsi qu’un dossier de presse complet présentant notre spectacle.
                             </p>    
+                            
+                        </section>
+                        <section id="dossier-de-presse">
+                            <a href="media/presse/Dossier de presse Alice.pdf" title="Dossier de presse" target="_blank">
+                                <img src="img/logos/pdf-small.png" title="Dossier de Presse" id="dossier-presse-image" />
+                            </a>
+                            <h5>
+                                <a href="media/presse/Dossier de presse Alice.pdf" title="Dossier de presse" target="_blank">
+                                    Téléchargez notre dossier de presse complet présentant notre spectacle
+                                </a>    
+                            </h5>
+                        </section>
+
+                        <section>
+                            
                             <p>
                                 N’hésitez pas à nous contacter pour toutes demandes de documentation ou interviews :
                             </p>
@@ -33,17 +48,6 @@
 						</section>
                         
                         <section id="dossier-de-presse">
-                            
-                            <a href="media/presse/Dossier de presse Alice.pdf" title="Dossier de presse" target="_blank">
-                                <img src="img/logos/pdf-small.png" title="Dossier de Presse" id="dossier-presse-image" />
-                            </a>
-                            <h5>
-                                <a href="media/presse/Dossier de presse Alice.pdf" title="Dossier de presse" target="_blank">
-                                    Téléchargez notre dossier de presse complet présentant notre spectacle
-                                </a>    
-                            </h5>
-                            
-                            <br />
                             
                             <a href="media/presse/Communique de presse - 29092014.pdf" title="Découvrez le teaser de la comédie musicale Alice!" target="_blank">
                                 <img src="img/logos/pdf-small.png" title="Communiqué de Presse" id="dossier-presse-image" />
