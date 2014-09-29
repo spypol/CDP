@@ -27,31 +27,64 @@
                             </p>
                             <p>
                                 Par téléphone :<br />
-                                Lucie Foineau (Attachée de presse) : 06 59 38 48 92 <br />
+                                <a href="mailto:marion.brun@compotedeprod.com">Marion Brun</a> (Attachée de presse) : 06 61 44 47 99 <br />
                                 Julien Bonneau (Responsable de la Communication) : 06 78 98 65 52 <br />
                             </p>
 						</section>
                         
                         <section id="dossier-de-presse">
                             
-                            <a href="media/presse/Communiquee de presse-27052014.pdf" title="Le premier clip de la comédie musicale «Alice» !" target="_blank">
+                            <a href="media/presse/Dossier de presse Alice.pdf" title="Dossier de presse" target="_blank">
                                 <img src="img/logos/pdf-small.png" title="Dossier de Presse" id="dossier-presse-image" />
+                            </a>
+                            <h5>
+                                <a href="media/presse/Dossier de presse Alice.pdf" title="Dossier de presse" target="_blank">
+                                    Téléchargez notre dossier de presse complet présentant notre spectacle
+                                </a>    
+                            </h5>
+                            
+                            <br />
+                            
+                            <a href="media/presse/Communique de presse - 29092014.pdf" title="Découvrez le teaser de la comédie musicale Alice!" target="_blank">
+                                <img src="img/logos/pdf-small.png" title="Communiqué de Presse" id="dossier-presse-image" />
+                            </a>
+                            <h5>
+                                <a href="media/presse/Communique de presse - 29092014.pdf" title="Découvrez le teaser de la comédie musicale Alice!" target="_blank">
+                                    30.09.14 : Découvrez le teaser de la comédie musicale «Alice»!
+                                </a>  
+                            </h5>
+                            <p>Découvrez le teaser de cette nouvelle saison, sur le lien ci-contre : <a href="https://www.youtube.com/watch?v=D9JfjfCNPKs&list=UUMjN2mNvFje6pDUwvsp4K7Q" >https://www.youtube.com/watch?v=D9JfjfCNPKs&list=UUMjN2mNvFje6pDUwvsp4K7Q</a> 
+ </p>
+                            
+
+                            <a href="media/presse/CP 15.09.2014 - Communique de presse.pdf" title="Nouvelle saison pour «Alice», la comédie musicale!" target="_blank">
+                                <img src="img/logos/pdf-small.png" title="Communiqué de Presse" id="dossier-presse-image" />
+                            </a>
+                            <h5>
+                                <a href="media/presse/CP 15.09.2014 - Communique de presse.pdf" title="Nouvelle saison pour «Alice», la comédie musicale !" target="_blank">
+                                    15.09.14 : Nouvelle saison pour «Alice», la comédie musicale !
+                                </a>  
+                            </h5>
+                            <p>Forte de son succès durant sa première saison, la comédie musicale «Alice» prolonge ses dates au théâtre Clavel, du 15 Septembre et 24 Novembre 2014, tous les Lundis, à 19h30. 
+ </p>
+                            
+                            <a href="media/presse/Communiquee de presse-27052014.pdf" title="Le premier clip de la comédie musicale «Alice» !" target="_blank">
+                                <img src="img/logos/pdf-small.png" title="Communiqué de Presse" id="dossier-presse-image" />
                             </a>
                             <h5>
                                 <a href="media/presse/Communiquee de presse-27052014.pdf" title="Le premier clip de la comédie musicale «Alice» !" target="_blank">
-                                    27.05 : Le premier clip de la comédie musicale «Alice» !
+                                    27.05.14 : Le premier clip de la comédie musicale «Alice» !
                                 </a>  
                             </h5>
-                            <p>
-                                Réservez dès à présent vos places en ligne sur compotedeprod.com, et recevez les par e-mail directement après achat !
-                            </p>
+                            
+                            <p>Depuis plus d’un mois au Théâtre Clavel (Paris), la comédie musicale «Alice» se révèle être un véritable succès. Aujourd’hui, la troupe est fière de vous présenter son premier clip vidéo, dévoilant le titre «Riche du temps» !</p>
                             
                             <a href="media/presse/Communique de presse - 26.01.2014 - Ventes billets.pdf" title="Vente des billets" target="_blank">
-                                <img src="img/logos/pdf-small.png" title="Dossier de Presse" id="dossier-presse-image" />
+                                <img src="img/logos/pdf-small.png" title="Communiqué de Presse" id="dossier-presse-image" />
                             </a>
                             <h5>
                                 <a href="media/presse/Communique de presse - 26.01.2014 - Ventes billets.pdf" title="Vente des billets" target="_blank">
-                                    26.01 : Les places pour la comédie musicale "Alice" sont désormais en vente !
+                                    26.01.14 : Les places pour la comédie musicale "Alice" sont désormais en vente !
                                 </a>  
                             </h5>
                             <p>
@@ -59,11 +92,11 @@
                             </p>
                             
                             <a href="media/presse/CP 30.10.2013 Annonce de la Troupe Alice.pdf" title="Troupe Alice" target="_blank">
-                                <img src="img/logos/pdf-small.png" title="Dossier de Presse" id="dossier-presse-image" />
+                                <img src="img/logos/pdf-small.png" title="Communiqué de Presse" id="dossier-presse-image" />
                             </a>
                             <h5>
                                 <a href="media/presse/CP 30.10.2013 Annonce de la Troupe Alice.pdf" title="Troupe Alice" target="_blank">
-                                    30.10 : La troupe de la comédie musicale "Alice" est dévoilée
+                                    30.10.13 : La troupe de la comédie musicale "Alice" est dévoilée
                                 </a>  
                             </h5>
                             <p>
@@ -72,11 +105,11 @@
                             </p>
                             
                             <a href="media/presse/CP 10.07.2013 Compote de Prod presente Alice.pdf" title="Dossier de Presse 10.07" target="_blank">
-                                <img src="img/logos/pdf-small.png" title="Dossier de Presse" id="dossier-presse-image" />
+                                <img src="img/logos/pdf-small.png" title="Communiqué de Presse" id="dossier-presse-image" />
                             </a>
                             <h5>
                                 <a href="media/presse/CP 10.07.2013 Compote de Prod presente Alice.pdf" title="Dossier de Presse 10.07" target="_blank">
-                                    10.07 : Compote de Prod présente sa nouvelle comédie musicale, Alice
+                                    10.07.13 : Compote de Prod présente sa nouvelle comédie musicale, Alice
                                 </a>
                             </h5>
                             <p>
@@ -84,17 +117,6 @@
 (Paris). Cette création originale, adaptée du roman de Lewis Carroll, est un spectacle
 musical adapté aux petits comme aux grands...
                             </p>
-                            
-                            
-                        
-                            <a href="media/presse/DOSSIER%20DE%20PRESSE%20ADPM.pdf" title="Dossier de presse" target="_blank">
-                                <img src="img/logos/pdf-small.png" title="Dossier de Presse" id="dossier-presse-image" />
-                            </a>
-                            <h5>
-                                <a href="media/presse/DOSSIER%20DE%20PRESSE%20ADPM.pdf" title="Dossier de presse" target="_blank">
-                                    Téléchargez notre dossier de presse
-                                </a>    
-                            </h5>
                             
                         </section>
                         
