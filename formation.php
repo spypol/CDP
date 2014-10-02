@@ -37,6 +37,7 @@
         <div class="main wrapper clearfix">
             
             <div class="col col-1">
+                <img src="img/formation/group-people.jpg" Title="Devenez l'acteur de vos projets" id="group-people" />
                 <h1>Devenez l’acteur de vos projets !</h1>
                 <p>Formation en gestion de projets et communication</p>
             </div>
@@ -44,64 +45,283 @@
             <div class="col col-2">
                 <h1>Compote de Prod vous accompagne</h1>
                 <p>Vous êtes artiste et vous souhaitez monter vos propres spectacles ?
-                Mais comment promouvoir mon spectacle ? Quels outils ? Quelles méthodes ?
-                Comment gérer mon budget ? Mes équipes ? Tant de questions que vous devez vous poser !
-                Compote de prod’ répond à vos questions en vous proposant des formations spécialisées dans le domaine artistique.
-                Nos formateurs vous guiderons tout au long de votre projet.
+
+Mais comment promouvoir mon spectacle ? Quels outils ? Quelles méthodes ?
+
+Comment gérer mon budget ? Mes équipes ? Tant de questions que vous devez vous poser !
+
+Forte de son expérience de production dans des spectacles de qualité, Compote de Prod’ répond à vos questions en vous proposant des formations spécialisées dans le domaine artistique.
+
+Nos formateurs vous guideront tout au long de votre projet.
                 </p>
             </div>	
             
             <div class="col col-3">
                 <h1>Témoignages</h1>
-                <p>Julien Bonneau - Directeur CDP Formation
-Enseignant en gestion de projet à Telecom Ecole de Management
-"Au travers de ces formations, nous avons souhaité vous donner tous les clefs qui vous permettront de faire naître et surtout prospérer vos projets."
+                <p>
+                    <img src="img/formation/boneau.jpg" title="Julien Bonneau" />
+                    <b>Julien Bonneau </b> <br /> <i>Directeur CDP Formation</i>
+                    <i>Enseignant en gestion de projet à Telecom Ecole de Management</i><br />
+                    "Au travers de ces formations, nous avons souhaité vous donner tous les clefs qui vous permettront de faire naître et surtout prospérer vos projets."
+                </p>
+                
+                <p>
+                    <img src="img/formation/pangos.jpg" title="Marina Pangos" />
+                    <b>Marina Pangos </b> <br /> <i>Comédienne - Metteur en Scène</i> <br />
+                    "Compote de Prod m’a fait confiance pour mettre en scène leurs spectacles. A leur côté  j’ai découvert la gestion des différentes équipes, d’un planning ou encore d’un budget, cela demande beaucoup de responsabilités et d’organisation. Cette expérience m’a permis de m’affirmer en tant qu’Artiste !"
                 </p>
             </div>	  
             
             <div class="col col-4">
                 <h1>CDP Formation pour vous accompagner</h1>
-                <p>Compote de Prod’ a fait ses débuts en produisant des spectacles vivants tels que « Peter Pan et les Pirates » et « Alice, la comédie musicale ».
-Le monde du spectacle est donc bien connu, tout comme la gestion de projet qu’il exerce au quotidient dans de grandes entreprises internationales.
-Ainsi, bénéficiant d’une équipe pleine d’ambition, Compote de Prod’ souhaite mettre son savoir aux services des intermittents du spectacle afin de les aider à accomplir leur projet, en proposant des formations en  :
-•	Gestion et Management de projet
-•	Communication et Plan média
-
-Mais également en proposant des séances de coaching afin de faire un suivi personnalisé de vos projets.
-</p>
+                <p>Compote de Prod a fait ses débuts en produisant des spectacles vivants tels que « Peter Pan et les Pirates » et « Alice, la comédie musicale ».</p>
+                <p>Nous maîtrisons donc bien le monde du spectacle tout comme comme la gestion de projet exercée au quotidient dans de grandes entreprises internationales.</p>
+                <p>Bénéficiant d’une équipe dynamique et expérimentée, Compote de Prod’ souhaite mettre son savoir-faire aux services des intermittents du spectacle afin de les aider à accomplir leur projet, en proposant des formations en  :</p>
+                        <p>
+                •	Gestion et Management de projet<br />
+                •	Communication et Plan média<br /></p>
+                <p>
+                Mais également en proposant des séances de coaching afin de faire un suivi personnalisé de vos projets.
+                </p>
             </div>
 
             <div class="col col-5">
-                <h1>Nos valeurs</h1>
-                <p>•	La qualité de nos offres : l'excellence de nos productions musicales sera une vitrine pour l'ensemble de Compote de Prod
-•	La synergie de nos activités et leur complémentarité permettront d'offrir des prestations attractives et compétitives
-•	L’originalité 
-Compote de Prod’ soutient l’association CDP Fondation qui a pour objectif de permettre un accès pour tous à la culture. 
-                </p>
                 
                 <h1>Des formations adaptées</h1>
-                <p>Parce que nous savons qu’il peut être difficile de se lancer dans l’autogestion, nous vous proposons des formations adaptées à vos objectifs. Vous pourrez donc réaliser votre programme sur mesure et ainsi évoluer sereinement dans vos projets professionnels.
+                <p>
+                    Parce que nous savons qu’il peut être difficile de se lancer dans l’autogestion, nous vous proposons des formations adaptées à vos objectifs. Vous pourrez donc réaliser votre programme sur                         mesure et ainsi évoluer sereinement dans vos projets professionnels.
+                </p>
+                <h1>Coaching</h1>
+                <p>
+                    Pour un suivi personnalisé vos projets, Compote de Prod vous propose des séances de coaching où nous suiverons avec vous toutes les étapes de construction de votre spectacle lors de séances                       individuelles.
                 </p>
             </div>	
             
             <div class="col col-6">
                 <h1>Nos formations répondent à vos questions</h1>
-                <p>Management de projet : Budget ? Equipe ? ça se manage ?
-Gestion financière : Quels  financements pour mon projet ?
-Gestion administrative et contractuelle : Comment éviter les nuits blanches ? 
-Plan de communication : Sur quels supports être présent ? Quels prestataires ? Quand communiquer et pour quel budget ?
-Le web et les réseaux sociaux : Que faire au-delà de mon compte facebook ? Comment optimiser mon référencement ?
-Plan Média : Presse ? Partenariat ? Publicité ? Qui et pour quel budget ?
-Relation presse : L’attaché de presse est-il indispensable ?
-Créer son site web : Plus besoin d’être ingénieur pour savoir faire un site ?
-Media Training : Comment répondre aux journalistes et présenter son projet à des investisseurs ?
-Design et Graphisme : Quel logo pour mon spectacle ? Comment faire mon affiche ?
-Leadership : Comment gérer les susceptibilités de chacun ?
+                <p>
+                    <ul>
+                        <li>Management de projet (Formation fondamentale) : Budget ? Équipe ? Ça se manage ?</li>
+                        <li>Gestion financière (approfondissement) : Quels  financements pour mon projet ?</li>
+                        <li>Gestion administrative et contractuelle (approfondissement) : Comment éviter les nuits blanches ? </li>
+                        <li>Plan de communication (Formation fondamentale) : Sur quels supports être présent ? Quels prestataires ? Quand communiquer et pour quel budget ?</li>
+                        <li>Le web et les réseaux sociaux (approfondissement) : Que faire au-delà de mon compte facebook ? Comment optimiser mon référencement ?</li>
+                        <li>Plan Média (approfondissement) : Presse ? Partenariat ? Publicité ? Qui et pour quel budget ?</li>
+                        <li>Relation presse (approfondissement) : L’attaché de presse est-il indispensable ?</li>
+                        <li>Créer son site web (approfondissement) : Plus besoin d’être ingénieur pour savoir faire un site ?</li>
+                        <li>Media Training (approfondissement) : Comment répondre aux journalistes et présenter son projet à des investisseurs ?</li>
+                        <li>Design et Graphisme (approfondissement) : Quel logo pour mon spectacle ? Comment faire mon affiche ?</li>
+                        <li>Leadership (approfondissement) : Comment gérer les susceptibilités de chacun ?</li>
+                    </ul>
                 </p>
-            </div>	
+            </div>
+        
+            <div class="col-7">
+                <h1>Calendrier des formations</h1>
+                <table>
+                    <tr>
+                        <th>Formation</th>
+                        <th>Type</th>
+                        <th>Date #1</th>
+                        <th>Date #2</th>
+                        <th>Date #3</th>
+                    </tr>
+                    <tr>
+                        <td>Management de projet</td>
+                        <td>Généraliste</td>
+                        <td>18/10/2014
+                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="hosted_button_id" value="CWDCK2PFV9AKQ">
+                            <input type="image" src="http://compotedeprod.com/img/formation/paypal.png" border="0" name="submit" alt="PayPal - la solution de paiement en ligne la plus simple et la plus sécurisée !">
+                            <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+                        </td>
+                        <td>08/11/2014 
+                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="hosted_button_id" value="CWDCK2PFV9AKQ">
+                            <input type="image" src="http://compotedeprod.com/img/formation/paypal.png" border="0" name="submit" alt="PayPal - la solution de paiement en ligne la plus simple et la plus sécurisée !">
+                            <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+                        </td>
+                        <td>06/12/2014
+                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="hosted_button_id" value="CWDCK2PFV9AKQ">
+                            <input type="image" src="http://compotedeprod.com/img/formation/paypal.png" border="0" name="submit" alt="PayPal - la solution de paiement en ligne la plus simple et la plus sécurisée !">
+                            <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Gestion financière</td>
+                        <td>Approndie</td>
+                        <td>25/10/2014
+                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="hosted_button_id" value="CWDCK2PFV9AKQ">
+                            <input type="image" src="http://compotedeprod.com/img/formation/paypal.png" border="0" name="submit" alt="PayPal - la solution de paiement en ligne la plus simple et la plus sécurisée !">
+                            <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+                        </td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Gestion administrative et contrat</td>
+                        <td>Approndie</td>
+                        <td>15/11/2014
+                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="hosted_button_id" value="CWDCK2PFV9AKQ">
+                            <input type="image" src="http://compotedeprod.com/img/formation/paypal.png" border="0" name="submit" alt="PayPal - la solution de paiement en ligne la plus simple et la plus sécurisée !">
+                            <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+                        </td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Gestion d'équipe / Leadership</td>
+                        <td>Approndie</td>
+                        <td>13/12/2014
+                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="hosted_button_id" value="CWDCK2PFV9AKQ">
+                            <input type="image" src="http://compotedeprod.com/img/formation/paypal.png" border="0" name="submit" alt="PayPal - la solution de paiement en ligne la plus simple et la plus sécurisée !">
+                            <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+                        </td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Plan de communication</td>
+                        <td>Généraliste</td>
+                        <td>18/10/2014
+                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="hosted_button_id" value="CWDCK2PFV9AKQ">
+                            <input type="image" src="http://compotedeprod.com/img/formation/paypal.png" border="0" name="submit" alt="PayPal - la solution de paiement en ligne la plus simple et la plus sécurisée !">
+                            <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+                        </td>
+                        <td>08/11/2014
+                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="hosted_button_id" value="CWDCK2PFV9AKQ">
+                            <input type="image" src="http://compotedeprod.com/img/formation/paypal.png" border="0" name="submit" alt="PayPal - la solution de paiement en ligne la plus simple et la plus sécurisée !">
+                            <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+                        </td>
+                        <td>06/12/2014
+                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="hosted_button_id" value="CWDCK2PFV9AKQ">
+                            <input type="image" src="http://compotedeprod.com/img/formation/paypal.png" border="0" name="submit" alt="PayPal - la solution de paiement en ligne la plus simple et la plus sécurisée !">
+                            <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Etre présent sur les réseaux sociaux et le web</td>
+                        <td>Approndie</td>
+                        <td>25/10/2014
+                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="hosted_button_id" value="CWDCK2PFV9AKQ">
+                            <input type="image" src="http://compotedeprod.com/img/formation/paypal.png" border="0" name="submit" alt="PayPal - la solution de paiement en ligne la plus simple et la plus sécurisée !">
+                            <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+                        </td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Plan Media</td>
+                        <td>Approndie</td>
+                        <td>22/11/2014
+                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="hosted_button_id" value="CWDCK2PFV9AKQ">
+                            <input type="image" src="http://compotedeprod.com/img/formation/paypal.png" border="0" name="submit" alt="PayPal - la solution de paiement en ligne la plus simple et la plus sécurisée !">
+                            <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+                        </td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Relation Presse</td>
+                        <td>Approndie</td>
+                        <td>29/11/2014
+                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="hosted_button_id" value="CWDCK2PFV9AKQ">
+                            <input type="image" src="http://compotedeprod.com/img/formation/paypal.png" border="0" name="submit" alt="PayPal - la solution de paiement en ligne la plus simple et la plus sécurisée !">
+                            <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+                        </td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Créer son site web</td>
+                        <td>Approndie</td>
+                        <td>13/12/2014
+                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="hosted_button_id" value="CWDCK2PFV9AKQ">
+                            <input type="image" src="http://compotedeprod.com/img/formation/paypal.png" border="0" name="submit" alt="PayPal - la solution de paiement en ligne la plus simple et la plus sécurisée !">
+                            <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+                        </td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Media Training</td>
+                        <td>Approndie</td>
+                        <td>20/12/2014
+                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="hosted_button_id" value="CWDCK2PFV9AKQ">
+                            <input type="image" src="http://compotedeprod.com/img/formation/paypal.png" border="0" name="submit" alt="PayPal - la solution de paiement en ligne la plus simple et la plus sécurisée !">
+                            <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+                        </td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Design et Graphisme</td>
+                        <td>Approndie</td>
+                        <td>20/12/2014
+                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="hosted_button_id" value="CWDCK2PFV9AKQ">
+                            <input type="image" src="http://compotedeprod.com/img/formation/paypal.png" border="0" name="submit" alt="PayPal - la solution de paiement en ligne la plus simple et la plus sécurisée !">
+                            <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+                        </td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
 
         </div> <!-- #main -->
     </div> <!-- #main-container -->
+
+    <div class="footer-container footer-formation">
+        <footer class="wrapper">
+            <ul>
+                <li><h5>Compote de Prod Formation - Copyright 2012/2014</h5></li>
+            </ul>
+        </footer>
+    </div>
+
 		
         <!-------------------------- **************** -------------------------->
 		<!-------------------------- JAVASCRIPT CALLS -------------------------->

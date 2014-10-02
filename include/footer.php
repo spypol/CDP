@@ -9,7 +9,7 @@
 					<li><a href="contact">Contact</a></li>
 					<li><a href="partenaires">Partenaires</a></li>
 					<li><a href="presse">Presse</a></li>
-					<li><h5>Compote de Prod - Copyright 2012/2013</h5></li>
+					<li><h5>Compote de Prod - Copyright 2012/2014</h5></li>
 				</ul>
             </footer>
         </div>
