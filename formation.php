@@ -29,7 +29,16 @@
 
      <div class="header-container">
         <header class="wrapper clearfix header">
-            <img src="img/logo_compote_de_prod_formation.png" title="Compote de Prod Formation" id="logo-cdp-formation" />
+            <div id="logos">
+                <img src="img/logo_compote_de_prod_formation.png" title="Compote de Prod Formation" id="logo-cdp-formation" />
+                <a href="/"><img src="img/logo_compote_de_prod_noir.jpg" title="Compote de Prod Formation" id="logo-cdp" /></a>
+            </div>
+            
+            <div id="links">
+                <a href="#formations" id="link-img-formations"><img src="img/formation/calendar.png" id="calendar" /></a>
+                <a href="#formations" id="link-formations">Accéder au calendrier des formations</a>
+            </div>
+            
         </header>
     </div>
 
@@ -62,7 +71,7 @@ Nos formateurs vous guideront tout au long de votre projet.
                     <img src="img/formation/boneau.jpg" title="Julien Bonneau" />
                     <b>Julien Bonneau </b> <br /> <i>Directeur CDP Formation</i>
                     <i>Enseignant en gestion de projet à Telecom Ecole de Management</i><br />
-                    "Au travers de ces formations, nous avons souhaité vous donner tous les clefs qui vous permettront de faire naître et surtout prospérer vos projets."
+                    "Au travers de ces formations, nous avons souhaité vous donner toutes les clefs qui vous permettront de faire naître et surtout prospérer vos projets."
                 </p>
                 
                 <p>
@@ -75,7 +84,7 @@ Nos formateurs vous guideront tout au long de votre projet.
             <div class="col col-4">
                 <h1>CDP Formation pour vous accompagner</h1>
                 <p>Compote de Prod a fait ses débuts en produisant des spectacles vivants tels que « Peter Pan et les Pirates » et « Alice, la comédie musicale ».</p>
-                <p>Nous maîtrisons donc bien le monde du spectacle tout comme comme la gestion de projet exercée au quotidient dans de grandes entreprises internationales.</p>
+                <p>Nous maîtrisons donc bien le monde du spectacle tout comme comme la gestion de projet exercée au quotidien dans de grandes entreprises internationales.</p>
                 <p>Bénéficiant d’une équipe dynamique et expérimentée, Compote de Prod’ souhaite mettre son savoir-faire aux services des intermittents du spectacle afin de les aider à accomplir leur projet, en proposant des formations en  :</p>
                         <p>
                 •	Gestion et Management de projet<br />
@@ -89,11 +98,11 @@ Nos formateurs vous guideront tout au long de votre projet.
                 
                 <h1>Des formations adaptées</h1>
                 <p>
-                    Parce que nous savons qu’il peut être difficile de se lancer dans l’autogestion, nous vous proposons des formations adaptées à vos objectifs. Vous pourrez donc réaliser votre programme sur                         mesure et ainsi évoluer sereinement dans vos projets professionnels.
+                    Parce que nous savons qu’il peut être difficile de se lancer dans l’autogestion, nous vous proposons des formations adaptées à vos objectifs. Vous pourrez donc réaliser votre programme sur mesure et ainsi évoluer sereinement dans vos projets professionnels.
                 </p>
                 <h1>Coaching</h1>
                 <p>
-                    Pour un suivi personnalisé vos projets, Compote de Prod vous propose des séances de coaching où nous suiverons avec vous toutes les étapes de construction de votre spectacle lors de séances                       individuelles.
+                    Pour un suivi personnalisé vos projets, Compote de Prod vous propose des séances de coaching où nous suiverons avec vous toutes les étapes de construction de votre spectacle lors de séances individuelles.
                 </p>
             </div>	
             
@@ -101,23 +110,23 @@ Nos formateurs vous guideront tout au long de votre projet.
                 <h1>Nos formations répondent à vos questions</h1>
                 <p>
                     <ul>
-                        <li>Management de projet (Formation fondamentale) : Budget ? Équipe ? Ça se manage ?</li>
-                        <li>Gestion financière (approfondissement) : Quels  financements pour mon projet ?</li>
-                        <li>Gestion administrative et contractuelle (approfondissement) : Comment éviter les nuits blanches ? </li>
-                        <li>Plan de communication (Formation fondamentale) : Sur quels supports être présent ? Quels prestataires ? Quand communiquer et pour quel budget ?</li>
-                        <li>Le web et les réseaux sociaux (approfondissement) : Que faire au-delà de mon compte facebook ? Comment optimiser mon référencement ?</li>
-                        <li>Plan Média (approfondissement) : Presse ? Partenariat ? Publicité ? Qui et pour quel budget ?</li>
-                        <li>Relation presse (approfondissement) : L’attaché de presse est-il indispensable ?</li>
-                        <li>Créer son site web (approfondissement) : Plus besoin d’être ingénieur pour savoir faire un site ?</li>
-                        <li>Media Training (approfondissement) : Comment répondre aux journalistes et présenter son projet à des investisseurs ?</li>
-                        <li>Design et Graphisme (approfondissement) : Quel logo pour mon spectacle ? Comment faire mon affiche ?</li>
-                        <li>Leadership (approfondissement) : Comment gérer les susceptibilités de chacun ?</li>
+                        <li>Management de projet (Formation fondamentale) : <br />Budget ? Équipe ? Ça se manage ?</li>
+                        <li>Gestion financière (approfondissement) : <br />Quels  financements pour mon projet ?</li>
+                        <li>Gestion administrative et contractuelle (approfondissement) : <br />Comment éviter les nuits blanches ? </li>
+                        <li>Plan de communication (Formation fondamentale) : <br />Sur quels supports être présent ? Quels prestataires ? Quand communiquer et pour quel budget ?</li>
+                        <li>Le web et les réseaux sociaux (approfondissement) : <br />Que faire au-delà de mon compte facebook ? Comment optimiser mon référencement ?</li>
+                        <li>Plan Média (approfondissement) : <br />Presse ? Partenariat ? Publicité ? Qui et pour quel budget ?</li>
+                        <li>Relation presse (approfondissement) : <br />L’attaché de presse est-il indispensable ?</li>
+                        <li>Créer son site web (approfondissement) : <br />Plus besoin d’être ingénieur pour savoir faire un site ?</li>
+                        <li>Media Training (approfondissement) : <br />Comment répondre aux journalistes et présenter son projet à des investisseurs ?</li>
+                        <li>Design et Graphisme (approfondissement) : <br />Quel logo pour mon spectacle ? Comment faire mon affiche ?</li>
+                        <li>Leadership (approfondissement) : <br />Comment gérer les susceptibilités de chacun ?</li>
                     </ul>
                 </p>
             </div>
         
-            <div class="col-7">
-                <h1>Calendrier des formations</h1>
+            <div class="col-7" id="formations">
+                <h1>Calendrier des formations - 98€ TTC par formation</h1>
                 <table>
                     <tr>
                         <th>Formation</th>

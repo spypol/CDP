@@ -3,10 +3,50 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-#logo-cdp-formation{
-    margin: 30px 0 0 0;
-    max-width:300px;
+#logos{
+    display:block;
     width:100%;
+}
+
+#links{
+    display: block;
+    padding:10px 10px 0 10px;
+    width:70%;
+}
+
+#logo-cdp-formation{
+    display:inline-block;
+    float: none;
+    max-width:300px;
+    text-align: center;
+    width: 70%;
+}
+
+#logo-cdp{
+    display: block;
+    float: right;
+    margin: 25px 0 30px 0;
+    max-width:150px;
+    width: 30%;
+}
+
+#link-formations{
+    color: inherit;
+    display: block; 
+    float: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;    
+}
+
+#link-img-formations{
+    display: block;
+    float: left;
+}
+
+#link-img-formations #calendar{
+    margin-right:6px;
+    width:25px;
 }
 
 .col{
@@ -49,7 +89,7 @@ body {
     line-height: 1.4em;
 }
 
-.col-1{
+.col-1, .col-3{
     background:none;
     color: #18aae6;
 }
@@ -141,6 +181,7 @@ body {
 }
 
 @media only screen and (min-width: 1140px) {
+    
     .col{
         border:8px solid #ace0f6;
         height:350px;
@@ -159,12 +200,43 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
+    
+    #links{
+        width:100%;
+    }
+    
+    #links{
+        padding:0;
+    }
+    
+    #logo-cdp-formation{
+        margin: 10px 0 0 0;
+        max-width:300px;
+    }
+
+    #logo-cdp{
+        margin: 35px 30px 0 20px;
+    }
+
+    #link-formations{
+        display: block;
+        margin: 65px 0 0 0;
+    }
+    
     .col-1 img{
         width:auto;
     }
 }
 
 @media only screen and (min-width: 480px) {
+    
+    #logo-cdp-formation{
+        float: left;
+    }
+    
+    #logo-cdp{
+        float:left;
+    }
     
     .col{
         padding:5px 5%;
