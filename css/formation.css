@@ -126,6 +126,16 @@ body {
     width:96% !important;
 }
 
+.col-7 p{
+    line-height: 1.4em;
+}
+
+.col-7 p a{
+    color: #18aae6;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
 .col-7 input[type=image]{
     width:30px;
 }

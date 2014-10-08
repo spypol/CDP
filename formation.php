@@ -59,7 +59,7 @@ Mais comment promouvoir mon spectacle ? Quels outils ? Quelles méthodes ?
 
 Comment gérer mon budget ? Mes équipes ? Tant de questions que vous devez vous poser !
 
-Forte de son expérience de production dans des spectacles de qualité, Compote de Prod’ répond à vos questions en vous proposant des formations spécialisées dans le domaine artistique.
+Forte de son expérience de production dans des spectacles de qualité, Compote de Prod répond à vos questions en vous proposant des formations spécialisées dans le domaine artistique.
 
 Nos formateurs vous guideront tout au long de votre projet.
                 </p>
@@ -102,12 +102,13 @@ Nos formateurs vous guideront tout au long de votre projet.
                 </p>
                 <h1>Coaching</h1>
                 <p>
-                    Pour un suivi personnalisé vos projets, Compote de Prod vous propose des séances de coaching où nous suiverons avec vous toutes les étapes de construction de votre spectacle lors de séances individuelles.
+                    Pour un suivi personnalisé de vos projets, Compote de Prod vous propose des séances de coaching où nous suiverons avec vous toutes les étapes de construction de votre spectacle lors de séances individuelles.
                 </p>
             </div>	
             
             <div class="col col-6">
                 <h1>Nos formations répondent à vos questions</h1>
+                
                 <p>
                     <ul>
                         <li>Management de projet (Formation fondamentale) : <br />Budget ? Équipe ? Ça se manage ?</li>
@@ -127,6 +128,11 @@ Nos formateurs vous guideront tout au long de votre projet.
         
             <div class="col-7" id="formations">
                 <h1>Calendrier des formations - 98€ TTC par formation</h1>
+                
+                <p>Pour vous inscrire à une session de formation, il vous suffit de cliquer sur le lien Paypal à la date de votre choix. <br />
+                    Une fois le paiement effectué, un mail de confirmation vous sera envoyé pour valider votre inscription. <br />
+                    Pour toute question, envoyez un mail à <a href="mailto:contact@compotedeprod.com">contact@compotedeprod.com</a></p>
+                
                 <table>
                     <tr>
                         <th>Formation</th>
