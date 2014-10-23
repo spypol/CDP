@@ -20,6 +20,8 @@
                     <img src="_photos/troupe/alice/avatars/vincent.jpg" class="vignette artistes-alice xsmall" id="vincent" title="Vincent Gilliéron" />
                     <img src="_photos/troupe/alice/avatars/herve.jpg" class="vignette artistes-alice xsmall" id="herve" title="Hervé Lewandowski" />
                     <img src="_photos/troupe/alice/avatars/anthony.jpg" class="vignette artistes-alice xsmall" id="anthony" title="Anthony Fabien" />
+                    <img src="_photos/troupe/alice/avatars/morgane.jpg" class="vignette artistes-alice xsmall" id="morgane" title="Morgane L'Hostis Parisot" />
+                    <img src="_photos/troupe/alice/avatars/anneflore.jpg" class="vignette artistes-alice xsmall" id="anneflore" title="Anne-Flore Roublique" />
                 </article>
                 
                 <article id="photo-vignettes" class="div-laptop">
@@ -52,6 +54,7 @@
                     <?php include('include/artistes/veronique.php'); ?>
                     <?php include('include/artistes/vincent.php'); ?>
                     <?php include('include/artistes/herve.php'); ?>
+                    <?php include('include/artistes/morgane.php'); ?>
                     
                     <h1>La Cr&eacute;ation</h1>
                     <?php include('include/artistes/julien.php'); ?>

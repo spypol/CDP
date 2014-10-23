@@ -49,7 +49,18 @@
                         
                         <section id="dossier-de-presse">
                             
-                            <a href="media/presse/Communique de presse - 29092014.pdf" title="Découvrez le teaser de la comédie musicale Alice!" target="_blank">
+                            <a href="media/presse/Communique de presse P3 22_10_14.pdf" title="Compote de Prod présente ses nouveaux artistes !" target="_blank">
+                                <img src="img/logos/pdf-small.png" title="Communiqué de Presse" id="dossier-presse-image" />
+                            </a>
+                            <h5>
+                                <a href="media/presse/Communique de presse P3 22_10_14.pdf" title="Compote de Prod présente ses nouveaux artistes !" target="_blank">
+                                    22.10.14 : Compote de Prod présente ses nouveaux artistes !
+                                </a>  
+                            </h5>
+                            <p>L'équipe de Compote de prod est fère de vous présenter ses nouveaux artistes.</a> 
+ </p>
+                            
+<a href="media/presse/Communique de presse - 29092014.pdf" title="Découvrez le teaser de la comédie musicale Alice!" target="_blank">
                                 <img src="img/logos/pdf-small.png" title="Communiqué de Presse" id="dossier-presse-image" />
                             </a>
                             <h5>
