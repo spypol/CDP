@@ -21,11 +21,11 @@
                             
                         </section>
                         <section id="dossier-de-presse">
-                            <a href="media/presse/Dossier de presse Alice.pdf" title="Dossier de presse" target="_blank">
+                            <a href="media/presse/Dossier de presse Alice 151014.pdf" title="Dossier de presse" target="_blank">
                                 <img src="img/logos/pdf-small.png" title="Dossier de Presse" id="dossier-presse-image" />
                             </a>
                             <h5>
-                                <a href="media/presse/Dossier de presse Alice.pdf" title="Dossier de presse" target="_blank">
+                                <a href="media/presse/Dossier de presse Alice 151014.pdf" title="Dossier de presse" target="_blank">
                                     Téléchargez notre dossier de presse complet présentant notre spectacle
                                 </a>    
                             </h5>

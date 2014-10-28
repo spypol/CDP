@@ -1404,6 +1404,10 @@ ACHETER ARTICLE
 		  -ms-transition: height 1s ease;
 			  transition: height 1s ease;
 	}
+    
+    .menu-item .menu-item-shorter a{
+        font-size: 90%;
+    }
 
 	/*.menu-item-2:hover ul {
 	  height: 90px;

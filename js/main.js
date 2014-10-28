@@ -14,6 +14,15 @@ $(document).ready(function(){
         }
     });
     
+    $(".menu-item-3").click(function(e){ 
+        $ul = $(this).children("ul");
+        if($ul.height() > 0){
+            $ul.css("height", "0px");
+        } else {
+            $ul.css("height", "130px");
+        }
+    });
+    
 	//NIVOSLIDER
 	$('#photos-stp').nivoSlider({
 		controlNav: false,
@@ -118,8 +127,8 @@ $(document).ready(function(){
 	$('#histoire').readmore({maxHeight: 465, sectionCSS: 'display: inline-block;'});
 	$('#spectacle').readmore({maxHeight: 465, sectionCSS: 'display: inline-block;'});
   
-    //ARTISTES-ALICE
-    function displayArtisteAlice(artiste){
+    //DISPLAY ARTISTES
+    function displayArtiste(artiste){
 		$("#details").html("<img src='img/preloader.gif' class='preloader'>");
 
 		$.ajax({
@@ -135,27 +144,17 @@ $(document).ready(function(){
     
     $(".artistes-alice").click(function(e){
 		nom = this.id;
-		displayArtisteAlice(nom);
+		displayArtiste(nom);
 	});
     
-    //ARTISTES-STP
-    function displayArtisteSTP(artiste){
-		$("#artiste-details").html("<img src='img/preloader.gif' class='preloader'>");
-
-		$.ajax({
-		  url: "include/artistes/stp/"+artiste+".php",
-		  cache: false,
-		  success: function(html){
-			$("#artiste-details").html(html);
-		  }
-		});
-
-		$("#artiste-details").fadeIn("slow");
-	}
-    
-    $(".artistes-stp").click(function(e){
+    $(".artistes-ppp").click(function(e){
 		nom = this.id;
-		displayArtisteSTP(nom);
+		displayArtiste(nom);
+	});
+    
+    $(".artistes-cdp").click(function(e){
+		nom = this.id;
+		displayArtiste(nom);
 	});
     
     //PRODUCTION

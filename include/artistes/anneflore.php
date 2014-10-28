@@ -2,7 +2,7 @@
 <article id="artiste-details">
     <img src="_photos/troupe/alice/avatars/anneflore.jpg" class="portrait"/>
     <span class="details-infos" id="details-name">Anne-Flore Roublique</span>
-    <span class="details-infos">Alice doublure</span>
+    <span class="details-infos">Doublure Alice</span>
 
 
     

@@ -10,15 +10,16 @@
 						  <h4><a>Nos Spectacles</a></h4>
 						  <ul>
 							<li><a href="alice">Alice</a></li>
-							<li><a href="stp">Souviens-toi, Pan !</a></li>		
+							<li class="menu-item-shorter"><a href="peter-pan-et-les-pirates">Peter Pan et les Pirates !</a></li>		
 						  </ul>
 						</div>
 						
-						<div class="menu-item menu-item-2">
+						<div class="menu-item menu-item-3">
 						  <h4><a>Nos Artistes</a></h4>
 						   <ul>
 							<li><a href="artistes-alice">Alice</a></li>
-							<li><a href="artistes-stp">Souviens-toi, Pan !</a></li>		
+							<li class="menu-item-shorter"><a href="artistes-ppp">Peter Pan et les Pirates !</a></li>		
+							<li><a href="artistes-cdp">Compote de Prod</a></li>		
 						  </ul>
 						</div>
 						
@@ -62,9 +63,10 @@
 					<nav>
 						<ul>
                             <li><a href="alice" class="bouton_spectacle">Nos Spectacles - Alice</a></li>
-							<li><a href="stp" class="bouton_spectacle">Nos Spectacles - Souviens-toi, Pan !</a></li>
+							<li><a href="peter-pan-et-les-pirates" class="bouton_spectacle">Nos Spectacles - Peter Pan et les Pirates !</a></li>
 							<li><a href="artistes-alice" class="bouton_artiste">Nos Artistes - Alice</a></li>
-							<li><a href="artistes-stp" class="bouton_artiste">Nos Artistes - Souviens-toi, Pan !</a></li>
+							<li><a href="artistes-ppp" class="bouton_artiste">Nos Artistes - Peter Pan et les Pirates !</a></li>
+							<li><a href="artistes-cdp" class="bouton_artiste">Nos Artistes - Compote de Prod</a></li>
 							<li><a href="http://www.theatre-clavel.com/" alt="Theatre Clavel" title="Clavel" target="_blank" class="bouton_theatre">Th&eacute;&acirc;tre Clavel</a></li>
 							<li><a href="http://www.vingtiemetheatre.com/" alt="Theatre Le Vingt" title="Le Vingtieme" target="_blank" class="bouton_theatre">Le Vingti&egrave;me th&eacute;&acirc;tre </a></li>		
 							<li><a href="prod" class="bouton_prod">La Prod</a></li>
