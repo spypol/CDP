@@ -43,9 +43,9 @@
 					<!-------------------------- *************** -------------------------->
 					<article id="stp">
 						<section>
-							<h1 class="homepage"><a href="stp" alt="Souvienstoipan" title="Souviens-toi, Pan!">Souviens-toi, Pan !</a></h1>
+							<h1 class="homepage"><a href="peter-pan-et-les-pirates" alt="Peter Pan et les Pirates !" title="Peter Pan et les Pirates !">Peter Pan et les Pirates !</a></h1>
 							<span class="infos">Juin 2011</span>
-							<a href="stp" alt="Souvienstoipan" title="Souviens-toi, Pan!"><img src="img/STP_encart.jpg" class="img_header" /></a>
+							<a href="stp" alt="Peter Pan et les Pirates" title="Peter Pan et les Pirates !"><img src="img/STP_encart.jpg" class="img_header" /></a>
 														
 							<p>
 								2 ans apr&egrave;s la fin de l&rsquo;aventure <b>&quot;Souviens-toi, Pan !&quot;</b>, venez red&eacute;couvrir les aventures de Peter au travers des chansons de ce spectacle. Un pur moment d&rsquo;&eacute;vasion qui emportera les petits comme les grands au pays de Nulle Part.

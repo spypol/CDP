@@ -1,6 +1,6 @@
-<?php include('include/head-stp.php'); ?>
+<?php include('include/head-ppp.php'); ?>
 
-		<?php include('include/slider-stp.php'); ?>
+		<?php include('include/slider-ppp.php'); ?>
 
         <div class="main-container">
             <div class="main wrapper clearfix">
@@ -33,20 +33,15 @@
 						<h1>L'histoire</h1>
 						<!--<img src="img/STP_A5_internet.jpg" class="img_header" />-->
 						<p>
-							Peter Pan, ce jeune gar&ccedil;on espi&egrave;gle, refuse de grandir. Il pr&eacute;f&egrave;re s&rsquo;amuser &agrave; flotter dans les airs et affronter les pirates entour&eacute; des enfants perdus, sur une &icirc;le o&ugrave; le temps ne coule pas : le Pays de Nulle Part. 
-						</p>
-						<p> 
-							Cet endroit, Wendy, Jean Darling le connaissent bien. Deuxi&egrave;me &eacute;toile &agrave; droite et tout droit jusqu&rsquo;au matin ! Tel est le chemin &agrave; emprunter pour s&rsquo;y rendre. Enfin&hellip; dans leur imagination d&rsquo;enfants. L&rsquo;enfant aime entendre les histoires de Peter Pan que lui narre sa s&oelig;ur ain&eacute;e, Wendy. Ils ne savent pas encore que leur h&eacute;ros aime se poster &agrave; la fen&ecirc;tre de leur chambre londonienne, tapi dans l&rsquo;ombre, et &eacute;couter ses propres histoires, pour ensuite les raconter aux enfants perdus. 
-						</p>
-						<p> 
-							C&rsquo;est en cherchant son ombre, perdue un soir dans cette chambre, que Peter fait pour la premi&egrave;re fois la connaissance de Wendy et Jean, alors enchant&eacute;s de d&eacute;couvrir que Peter Pan vit et respire au-del&agrave; de leur imaginaire. Peter Pan s'envole au Pays de Nulle Part, oubliant qu'ici &agrave; Londres, les enfants ne savent pas voler. Il revient chercher Jean et Wendy avec l'aide de la F&eacute;e Clochette, et leur apprend &agrave; d&eacute;fier la pesanteur... 
-						</p>
-						<p>
-							Voler, quand on a une &acirc;me aussi innocente et l&eacute;g&egrave;re que celle d'un enfant, n'est d'aucune difficult&eacute; et ils s'&eacute;vadent ainsi vers l'&icirc;le de leurs r&ecirc;ves. Pirates et indiens, b&ecirc;tes sauvages et imaginaires, for&ecirc;t et monde marin, milles aventures les attendent! Mais dans ce monde qui leur est totalement inconnu, ce ne sont pas les seuls dangers car l&agrave; o&ugrave; le temps ne coule pas, les souvenirs, m&ecirc;me les plus forts, s'&eacute;vanouissent... 
-						</p>
-						
-						<p> 
-							Aujourd&rsquo;hui, les ann&eacute;es ont pass&eacute; depuis les aventures que nous connaissons tous, et les rescap&eacute;s de cette aventure se souviennent&hellip; C&rsquo;est ainsi que commence cette version originale, &agrave; travers les souvenirs d&rsquo;un vieil homme ressassant une &eacute;poque qui n&rsquo;est plus.
+								Peter Pan, ce jeune garçon espiègle, refuse de grandir. Il préfère s’amuser à flotter dans les airs et affronter les pirates, sur une île où le temps ne coule pas : le Pays de Nulle Part. 
+</p><p>
+Cet endroit, Wendy le connait bien. Deuxième étoile à droite et tout droit jusqu’au matin ! Tel est le chemin à emprunter pour s’y rendre. Enfin... dans son imagination d’enfant !
+</p><p>
+Si Wendy aime les histoires pour s’endormir, elle ne sait pas encore que son héros aime se poster à la fenêtre de sa chambre londonienne, tapi dans l’ombre pour écouter ses propres aventures.
+</p><p>
+C’est en cherchant son ombre, perdue un soir dans cette chambre, que Peter fait pour la première fois la connaissance de Wendy, alors enchantée de découvrir que Peter Pan vit et respire au delà de son imaginaire. 
+</p><p>
+Peter Pan s’envole au Pays de Nulle Part, oubliant qu’ici à Londres, les enfants ne savent pas voler. Il revient chercher Wendy avec l’aide de la Fée Clochette, et lui apprend à défier l’apesanteur...
 						</p>
 					</article>
 					

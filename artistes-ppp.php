@@ -1,6 +1,6 @@
-<?php include('include/head-stp.php'); ?>
+<?php include('include/head-ppp.php'); ?>
 
-		<?php include('include/slider-stp.php'); ?>
+		<?php include('include/slider-ppp.php'); ?>
 
         <div class="main-container">
             <div class="main wrapper clearfix">

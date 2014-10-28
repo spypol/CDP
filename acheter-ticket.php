@@ -130,7 +130,7 @@
                                         </div>
                                         
                                         <div class="dropdowns">
-                                            <label for="idseance"> Choisissez la s&eacute;ance au Th&eacute;&acirc;tre Clavel à 19h30</label>
+                                            <label for="idseance">Choisissez la séance au Théâtre Clavel à 19h30 (ATTENTION, le Samedi 8 Novembre la séance est à 10h30)</label>
                                             <select name="idseance" id="idseance">
                                             <?php
                                     
