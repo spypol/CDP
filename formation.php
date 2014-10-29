@@ -59,7 +59,7 @@ Mais comment promouvoir mon spectacle ? Quels outils ? Quelles méthodes ?
 
 Comment gérer mon budget ? Mes équipes ? Tant de questions que vous devez vous poser !
 
-Forte de son expérience de production dans des spectacles de qualité, Compote de Prod répond à vos questions en vous proposant des formations spécialisées dans le domaine artistique.
+Fort de son expérience de production dans des spectacles de qualité, Compote de Prod répond à vos questions en vous proposant des formations spécialisées dans le domaine artistique.
 
 Nos formateurs vous guideront tout au long de votre projet.
                 </p>
@@ -83,9 +83,9 @@ Nos formateurs vous guideront tout au long de votre projet.
             
             <div class="col col-4">
                 <h1>CDP Formation pour vous accompagner</h1>
-                <p>Compote de Prod a fait ses débuts en produisant des spectacles vivants tels que « Peter Pan et les Pirates » et « Alice, la comédie musicale ».</p>
-                <p>Nous maîtrisons donc bien le monde du spectacle tout comme comme la gestion de projet exercée au quotidien dans de grandes entreprises internationales.</p>
-                <p>Bénéficiant d’une équipe dynamique et expérimentée, Compote de Prod’ souhaite mettre son savoir-faire aux services des intermittents du spectacle afin de les aider à accomplir leur projet, en proposant des formations en  :</p>
+                <p>Compote de Prod a fait ses débuts en produisant des spectacles vivants tels que «Peter Pan et les Pirates» et «Alice, la comédie musicale».</p>
+                <p>Nous avons transposé au monde du spectacle les méthodes de gestion de projet  exercées au quotidien dans de grandes entreprises internationales.</p>
+                <p>Bénéficiant d’une équipe dynamique et expérimentée, Compote de Prod souhaite mettre son savoir-faire au service des intermittents du spectacle afin de les aider à accomplir leur projet, en proposant des formations en  :</p>
                         <p>
                 •	Gestion et Management de projet<br />
                 •	Communication et Plan média<br /></p>
@@ -107,7 +107,7 @@ Nos formateurs vous guideront tout au long de votre projet.
             </div>	
             
             <div class="col col-6">
-                <h1>Nos formations répondent à vos questions</h1>
+                <h1>Les questions qui nous sont fréquemment posées</h1>
                 
                 <p>
                     <ul>
@@ -118,10 +118,10 @@ Nos formateurs vous guideront tout au long de votre projet.
                         <li>Le web et les réseaux sociaux (approfondissement) : <br />Que faire au-delà de mon compte facebook ? Comment optimiser mon référencement ?</li>
                         <li>Plan Média (approfondissement) : <br />Presse ? Partenariat ? Publicité ? Qui et pour quel budget ?</li>
                         <li>Relation presse (approfondissement) : <br />L’attaché de presse est-il indispensable ?</li>
-                        <li>Créer son site web (approfondissement) : <br />Plus besoin d’être ingénieur pour savoir faire un site ?</li>
-                        <li>Media Training (approfondissement) : <br />Comment répondre aux journalistes et présenter son projet à des investisseurs ?</li>
+                        <li>Créer son site web (approfondissement) : <br />Quelle plateforme web choisir pour faire un site facilement</li>
+                        <li>Media Training (approfondissement) : <br />Comment répondre aux journalistes et présenter son projet à des mécènes ?</li>
                         <li>Design et Graphisme (approfondissement) : <br />Quel logo pour mon spectacle ? Comment faire mon affiche ?</li>
-                        <li>Leadership (approfondissement) : <br />Comment gérer les susceptibilités de chacun ?</li>
+                        <li>Leadership (approfondissement) : <br />Comment composer avec les susceptibilités de chacun ?</li>
                     </ul>
                 </p>
             </div>
@@ -171,7 +171,7 @@ Nos formateurs vous guideront tout au long de votre projet.
                     </tr>
                     <tr>
                         <td>Gestion financière</td>
-                        <td>Approndie</td>
+                        <td>Approfondie</td>
                         <td>25/10/2014
                             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                             <input type="hidden" name="cmd" value="_s-xclick">
@@ -185,7 +185,7 @@ Nos formateurs vous guideront tout au long de votre projet.
                     </tr>
                     <tr>
                         <td>Gestion administrative et contrat</td>
-                        <td>Approndie</td>
+                        <td>Approfondie</td>
                         <td>15/11/2014
                             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                             <input type="hidden" name="cmd" value="_s-xclick">
@@ -199,7 +199,7 @@ Nos formateurs vous guideront tout au long de votre projet.
                     </tr>
                     <tr>
                         <td>Gestion d'équipe / Leadership</td>
-                        <td>Approndie</td>
+                        <td>Approfondie</td>
                         <td>13/12/2014
                             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                             <input type="hidden" name="cmd" value="_s-xclick">
@@ -241,7 +241,7 @@ Nos formateurs vous guideront tout au long de votre projet.
                     </tr>
                     <tr>
                         <td>Etre présent sur les réseaux sociaux et le web</td>
-                        <td>Approndie</td>
+                        <td>Approfondie</td>
                         <td>25/10/2014
                             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                             <input type="hidden" name="cmd" value="_s-xclick">
@@ -255,7 +255,7 @@ Nos formateurs vous guideront tout au long de votre projet.
                     </tr>
                     <tr>
                         <td>Plan Media</td>
-                        <td>Approndie</td>
+                        <td>Approfondie</td>
                         <td>22/11/2014
                             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                             <input type="hidden" name="cmd" value="_s-xclick">
@@ -269,7 +269,7 @@ Nos formateurs vous guideront tout au long de votre projet.
                     </tr>
                     <tr>
                         <td>Relation Presse</td>
-                        <td>Approndie</td>
+                        <td>Approfondie</td>
                         <td>29/11/2014
                             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                             <input type="hidden" name="cmd" value="_s-xclick">
@@ -283,7 +283,7 @@ Nos formateurs vous guideront tout au long de votre projet.
                     </tr>
                     <tr>
                         <td>Créer son site web</td>
-                        <td>Approndie</td>
+                        <td>Approfondie</td>
                         <td>13/12/2014
                             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                             <input type="hidden" name="cmd" value="_s-xclick">
@@ -297,7 +297,7 @@ Nos formateurs vous guideront tout au long de votre projet.
                     </tr>
                     <tr>
                         <td>Media Training</td>
-                        <td>Approndie</td>
+                        <td>Approfondie</td>
                         <td>20/12/2014
                             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                             <input type="hidden" name="cmd" value="_s-xclick">
@@ -311,7 +311,7 @@ Nos formateurs vous guideront tout au long de votre projet.
                     </tr>
                     <tr>
                         <td>Design et Graphisme</td>
-                        <td>Approndie</td>
+                        <td>Approfondie</td>
                         <td>20/12/2014
                             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                             <input type="hidden" name="cmd" value="_s-xclick">

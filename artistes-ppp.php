@@ -23,10 +23,19 @@
                     
                     <article id="photo-vignettes" class="div-laptop">
                         <h1>La Cr&eacute;ation</h1>
-                        <img src="_photos/troupe/ALICE/avatars/juliengoetz.jpg" class="vignette artistes-ppp" id="julien" title="Julien Goetz"/>
-                        <img src="_photos/troupe/STP/170/rita.jpg" class="vignette artistes-ppp" id="rita" title="Rita Lalle"/>
-                        <img src="_photos/troupe/STP/170/greg.jpg" class="vignette artistes-ppp" id="greg" title="Gregory Pennaneac'h"/>
-                        <img src="_photos/troupe/STP/170/patrick.jpg" class="vignette artistes-ppp" id="patrick" title="Patrick Bernard"/>
+                        <img src="_photos/troupe/alice/avatars/juliengoetz.jpg" class="vignette artistes-alice xxsmall" id="julien" title="Julien Goetz"/>
+                        <img src="_photos/troupe/alice/avatars/marina.jpg" class="vignette artistes-alice xxsmall" id="marina" title="Marina Pangos"/>
+                        <img src="_photos/troupe/alice/avatars/sarah.jpg" class="vignette artistes-alice xxsmall" id="sarah" title="Sarah Perahim"/>
+                        <img src="_photos/troupe/alice/avatars/nicolaslaustriat.jpg" class="vignette artistes-alice xxsmall" id="nicolas" title="Nicolas Laustriat"/>
+                        <img src="_photos/troupe/alice/avatars/benjaminlandrot.jpg" class="vignette artistes-alice xxsmall" id="benjamin" title="Benjamin Landrot"/>
+                        <img src="_photos/troupe/alice/avatars/beatrice.jpg" class="vignette artistes-alice xxsmall" id="beatrice" title="Béatrice Han Ching"/>
+                        <img src="_photos/troupe/alice/avatars/vincentp.jpg" class="vignette artistes-alice xxsmall" id="vincentp" title="Vincent Para"/>
+                        <img src="_photos/troupe/alice/avatars/cecile.jpg" class="vignette artistes-alice xxsmall" id="cecile" title="Cécile Clavier"/>
+                        <img src="_photos/troupe/alice/avatars/caroline.jpg" class="vignette artistes-alice xxsmall" id="caroline" title="Caroline Goetz"/>
+                        <img src="_photos/troupe/alice/avatars/marion.jpg" class="vignette artistes-alice xxsmall" id="marion" title="Marion Hunerfurst"/>
+                        <img src="_photos/troupe/alice/avatars/julienbonneau.jpg" class="vignette artistes-alice xxsmall" id="julienb" title="Julien Bonneau"/>
+                        <img src="_photos/troupe/alice/avatars/alban.jpg" class="vignette artistes-alice xxsmall" id="alban" title="Alban Jarossay"/>
+                        <img src="_photos/troupe/alice/avatars/foteini.jpg" class="vignette artistes-alice xxsmall" id="foteini" title="Foteini Pangos"/>
                     </article>
                     
                     
@@ -52,20 +61,19 @@
                         </article>
                         
                         <h1>La Cr&eacute;ation</h1>
-                        
-                        <article id="artiste-details">
-                            <?php include('include/artistes/julien.php'); ?>
-                        </article> 
-                        <article id="artiste-details">
-                            <?php include('include/artistes/rita.php'); ?>
-                        </article>
-                        <article id="artiste-details">
-                            <?php include('include/artistes/greg.php'); ?>
-                        </article>
-                        <article id="artiste-details">
-                            <?php include('include/artistes/patrick.php'); ?>
-                        </article>
-                        <article id="artiste-details">
+                        <?php include('include/artistes/julien.php'); ?>
+                        <?php include('include/artistes/marina.php'); ?>
+                        <?php include('include/artistes/sarah.php'); ?>
+                        <?php include('include/artistes/nicolas.php'); ?>
+                        <?php include('include/artistes/benjamin.php'); ?>
+                        <?php include('include/artistes/beatrice.php'); ?>
+                        <?php include('include/artistes/vincentp.php'); ?>
+                        <?php include('include/artistes/cecile.php'); ?>
+                        <?php include('include/artistes/caroline.php'); ?>
+                        <?php include('include/artistes/marion.php'); ?>
+                        <?php include('include/artistes/julienb.php'); ?>
+                        <?php include('include/artistes/alban.php'); ?>
+                        <?php include('include/artistes/foteini.php'); ?>
                     </div>
                 </div>    
             </div> <!-- #main -->
