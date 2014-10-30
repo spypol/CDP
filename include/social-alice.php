@@ -6,6 +6,7 @@
 						data-show-faces="false" 
 						data-header="false" 
 						data-stream="true" 
-						data-show-border="true">
+						data-show-border="true"
+                        data-height="610">
 					</div>
                 </article>

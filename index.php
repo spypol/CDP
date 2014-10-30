@@ -33,7 +33,7 @@
 						
 						<footer>
 							<a href="https://www.facebook.com/pages/Alice-la-com%C3%A9die-musicale/159036774295626" title="Alice sur Facebook" target="_blank"><i class="fa fa-facebook fa-2x cdp-social"></i></a>
-							<a href="https://twitter.com/SouviensToiPan" title="Compote de Prod" target="_blank"><i class="fa fa-twitter fa-2x cdp-social"></i></a>
+							<!--<a href="https://twitter.com/SouviensToiPan" title="Compote de Prod" target="_blank"><i class="fa fa-twitter fa-2x cdp-social"></i></a>-->
 				            <a href="https://vimeo.com/user19629236/videos" title="Videos sur Vimeo" target="_blank"><i class="fa fa-vimeo-square fa-2x cdp-social"></i></a>
 						</footer>
 					</article>
@@ -44,7 +44,7 @@
 					<article id="stp">
 						<section>
 							<h1 class="homepage"><a href="peter-pan-et-les-pirates" alt="Peter Pan et les Pirates !" title="Peter Pan et les Pirates !">Peter Pan et les Pirates !</a></h1>
-							<span class="infos">Juin 2011</span>
+							<span class="infos">3 Décembre 2014</span>
 							<a href="stp" alt="Peter Pan et les Pirates" title="Peter Pan et les Pirates !"><img src="img/STP_encart.jpg" class="img_header" /></a>
 														
 							<p>
@@ -53,9 +53,9 @@
 							
 							<footer>
 								<a href="https://www.facebook.com/pages/Compote-de-Prod/130947013631437" title="Compote de Prod" target="_blank"><i class="fa fa-facebook fa-2x cdp-social"></i></a>
-								<a href="https://twitter.com/SouviensToiPan" title="Compote de Prod" target="_blank"><i class="fa fa-twitter fa-2x cdp-social"></i></a>
+								<!--<a href="https://twitter.com/SouviensToiPan" title="Compote de Prod" target="_blank"><i class="fa fa-twitter fa-2x cdp-social"></i></a>-->
 								<a href="https://vimeo.com/user19629236/videos" title="Videos sur Vimeo" target="_blank"><i class="fa fa-vimeo-square fa-2x cdp-social"></i></a>
-                                <a href="http://www.youtube.com/user/SouvienstoiPan?feature=watch" title="Videos sur Youtube" target="_blank"><i class="fa fa-youtube-play fa-2x cdp-social"></i></a>
+                                <!--<a href="http://www.youtube.com/user/SouvienstoiPan?feature=watch" title="Videos sur Youtube" target="_blank"><i class="fa fa-youtube-play fa-2x cdp-social"></i></a>-->
 							</footer>
 						</section>
 						

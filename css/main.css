@@ -764,11 +764,13 @@ footer li h5{
     width:100%;
 }
 
-
-
 .main article h1, p, .infos{
     margin-left:10px;
     margin-right:10px;
+}
+
+.main article h1, .infos{
+    text-transform:uppercase;
 }
 
 .main article h1, p{
@@ -939,6 +941,10 @@ PARTENAIRE/PRESSE ARTICLE
     margin-top:15px;
     float:right;
     height:auto;
+}
+
+.main #articles #video .fluid-width-video-wrapper{
+    margin:10px 0;
 }
 
 /* ====================

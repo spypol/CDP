@@ -124,7 +124,7 @@ $(document).ready(function(){
 	
     
 	//READMORES
-	$('#histoire').readmore({maxHeight: 465, sectionCSS: 'display: inline-block;'});
+	//$('#histoire').readmore({maxHeight: 465, sectionCSS: 'display: inline-block;'});
 	$('#spectacle').readmore({maxHeight: 465, sectionCSS: 'display: inline-block;'});
   
     //DISPLAY ARTISTES

@@ -17,14 +17,17 @@
                 case "alice":
                     echo "La Comédie Musicale Alice ! ";
                     break;
-                case "stp":
-                    echo "La Comédie Musicale Souviens-toi, Pan !";
+                case "ppp":
+                    echo "La Comédie Musicale Peter Pan et les Pirates !";
+                    break;
+                case "peter-pan-et-les-pirates":
+                    echo "La Comédie Musicale Peter Pan et les Pirates !";
                     break;
                 case "artistes-alice":
                     echo "Les Artistes de la Comédie Musicale Alice !";
                     break;
-                case "artistes-stp":
-                    echo "Les artistes de la Comédie Musicale Souviens-toi, Pan !";
+                case "artistes-ppp":
+                    echo "Les artistes de la Comédie Musicale Peter Pan et les Pirates !";
                     break;
                 case "prod":
                     echo "Compote de Prod - Production";
@@ -62,13 +65,13 @@
                 case "alice":
                     echo "Alice aux pays des merveilles est une nouvelle comédie musicale à Paris produit par Compote de Prod (producteur de Souviens toi, Pan!). A travers, le monde fantastique d’Alice, tous les personnages loufoques (la méchantereine de coeur, le lapin blanc, la chenille, le chat du cheshire ou le chapelier fou) évoluent en chansons et danses, aﬁn de faire prendre conscience à l'héroïne de Lewis Caroll qu’il n’est pas toujours bon de grandir trop vite. Joué dans les théâtres de Paris, au Théatre Clavel ainsi qu’au Vingtième Théâtre, ce spectacle nous plonge au sein de notre imaginaire d’enfant, dans une musique d’ambiance jazz, dans le style des comédies musicales de Broadway. Un merveilleux spectacle musicale, pour les petits et les grands, avec des artistes de paris.";
                     break;
-                case "stp":
-                    echo "La comédie musicale Souviens toi, Pan! raconte la formidable histoire «Peter Pan» de l’auteur James Mattew Barrie. Peter Pan est un petit garçon qui refuse de grandir. En cherchant son ombre, il rencontre Wendy et Jean, il les emmène au pays imaginaire où il vont découvrir de nombreux personnages mystérieux.";
+                case "peter-pan-et-les-pirates":
+                    echo "La comédie musicale Peter Pan et les Pirates raconte la formidable histoire «Peter Pan» de l’auteur James Mattew Barrie. Peter Pan est un petit garçon qui refuse de grandir. En cherchant son ombre, il rencontre Wendy et Jean, il les emmène au pays imaginaire où il vont découvrir de nombreux personnages mystérieux.";
                     break;
                 case "artistes-alice":
                     echo "La comédie musicale Alice est mise en scène par Marina Pangos et interprétée par des artiste de Paris, comédiens et chanteurs tels que Antonio Macipe (le chat du cheshire), Julie Lemas (la reine de coeur), Marie Oppert (Alice), Véronique Hatat (la chenille), Vincent Gilliéron (le lapin blanc) et Hervé Lewandowski (le chapelier fou et Lewis Caroll).";
                     break;
-                case "artistes-stp":
+                case "artistes-ppp":
                     echo "La comédie musicale Souviens toi, Pan! est mise en scène par Grégory Pennaneac’h et interprétée par des artiste de Paris, comédiens et chanteurs tels que Antonio Macipe (Peter Pan), Joe Marshall (Wendy), Julie Lemas (Mouche), Ludovic Fert (Jean), Maeva Clamaron (Clochette), Maud Abeloos (Lily), Mélanie Duschene (Poussière), Nicolas Tatossian (la narrateur), Ralph Folio (Capitaine Crochet) et Raphaelle Raimon (chef indienne).";
                     break;
                 case "prod":

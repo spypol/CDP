@@ -13,9 +13,9 @@
 				</div>-->
 				
 				<div class="slider-wrapper theme-default">
-					<div id="slider-alice" class="nivoSlider">
+					<!--<div id="slider-alice" class="nivoSlider">-->
 						 <a href="acheter-ticket"><img src="img/slide_alice1_oct_2014.png" /></a>
-					</div>
+					<!--</div>-->
 				</div>
 
             </header>
