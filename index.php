@@ -39,7 +39,7 @@
 					</article>
 					
 					<!-------------------------- *************** -------------------------->
-					<!-------------------------- LEFT STP COLUMN -------------------------->
+					<!-------------------------- LEFT PPP COLUMN -------------------------->
 					<!-------------------------- *************** -------------------------->
 					<article id="stp">
 						<section>
@@ -52,7 +52,7 @@
 							</p>
 							
 							<footer>
-								<a href="https://www.facebook.com/pages/Compote-de-Prod/130947013631437" title="Compote de Prod" target="_blank"><i class="fa fa-facebook fa-2x cdp-social"></i></a>
+								<a href=" https://www.facebook.com/peterpanetlespirates?fref=ts" title="Compote de Prod" target="_blank"><i class="fa fa-facebook fa-2x cdp-social"></i></a>
 								<!--<a href="https://twitter.com/SouviensToiPan" title="Compote de Prod" target="_blank"><i class="fa fa-twitter fa-2x cdp-social"></i></a>-->
 								<a href="https://vimeo.com/user19629236/videos" title="Videos sur Vimeo" target="_blank"><i class="fa fa-vimeo-square fa-2x cdp-social"></i></a>
                                 <!--<a href="http://www.youtube.com/user/SouvienstoiPan?feature=watch" title="Videos sur Youtube" target="_blank"><i class="fa fa-youtube-play fa-2x cdp-social"></i></a>-->

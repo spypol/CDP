@@ -107,7 +107,7 @@ Nos formateurs vous guideront tout au long de votre projet.
             </div>	
             
             <div class="col col-6">
-                <h1>Les questions qui nous sont fréquemment posées</h1>
+                <h1>Nos formations répondent à vos questions</h1>
                 
                 <p>
                     <ul>
@@ -121,7 +121,7 @@ Nos formateurs vous guideront tout au long de votre projet.
                         <li>Créer son site web (approfondissement) : <br />Quelle plateforme web choisir pour faire un site facilement</li>
                         <li>Media Training (approfondissement) : <br />Comment répondre aux journalistes et présenter son projet à des mécènes ?</li>
                         <li>Design et Graphisme (approfondissement) : <br />Quel logo pour mon spectacle ? Comment faire mon affiche ?</li>
-                        <li>Leadership (approfondissement) : <br />Comment composer avec les susceptibilités de chacun ?</li>
+                        <li>Leadership (approfondissement) : <br />Comment gérer avec les susceptibilités de chacun ?</li>
                     </ul>
                 </p>
             </div>

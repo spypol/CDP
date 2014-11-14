@@ -148,7 +148,17 @@ musical adapté aux petits comme aux grands...
 						<section>
 				            <h1>Ils en parlent</h1>
                             
-                            <h5><a href="http://www.regardencoulisse.com/alice/" title="Regard en Coulisse" target="_blank">
+                            <h5><a href="http://poetrymusicalmedia.wordpress.com/2014/11/03/lambitieuse-troupe-dalice-sous-les-feux-des-projecteurs-au-theatre-clavel/" title="Théâtrothèque" target="_blank">
+                                PoetryMusicalMedia, 3/11/2014
+                            </a></h5>
+                            <p>"Marina Pangos (metteur en scène) nous plonge dans une ambiance fantastique et nous transmet des messages de sagesse à travers ce spectacle. Cette comédie musicale tonique, pleine de fantaisie, de poésie et d’humour nous donne un regard neuf de ce conte intemporel de Lewis Carroll en 1865, Alice au Pays des Merveilles."</p>
+                            
+                            <h5><a href="http://www.theatrotheque.com/web/article4198.html" title="Théâtrothèque" target="_blank">
+                                Théâtrothèque, 30/10/2014
+                            </a></h5>
+                            <p>"Les numéros chantés sont endiablés. Avec une mention spéciale à Hervé Lewandowski dans le rôle du Chapelier fou, qui nous offre une sacrée performance d’acteur, chanteur et danseur. Un pur régal. Costumes, lumières, décors et artistes nous entraînent dans une aventure décalée. Les musiques sont belles et envoutantes et émouvantes… "</p>
+                            
+                             <h5><a href="http://www.regardencoulisse.com/alice/" title="Regard en Coulisse" target="_blank">
                                 Regard en coulisses, 07/04/2014
                             </a></h5>
                             <p>"La jeune Marie Oppert est véritablement la révélation de ce spectacle. Excellente comédienne, parfaite chanteuse, drôle, pétillante et craquante, la jeune artiste qui faisait partie de la distribution de Street Scene l’an dernier au Châtelet est plus vraie que nature dans le rôle de la petite fille impatiente de grandir."</p>

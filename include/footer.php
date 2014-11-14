@@ -5,7 +5,7 @@
             <footer class="wrapper">
 				<ul>
 					<li><a href="blog">Blog</a></li>
-					<li><a href="goodies">Goodies</a></li>
+					<li><a href="formation">Formations</a></li>
 					<li><a href="contact">Contact</a></li>
 					<li><a href="partenaires">Partenaires</a></li>
 					<li><a href="presse">Presse</a></li>
