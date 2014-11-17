@@ -3,15 +3,23 @@
 include('connectionDB.php');
 
 function switchDate($usDate){
+    $dates = array();
 	$usDate = explode('-', $usDate);
-	$dates = $usDate[2].'/'.$usDate[1].'/'.$usDate[0];
+	if($usDate[0] != ''){
+        $dates = $usDate[2].'/'.$usDate[1].'/'.$usDate[0];
+    } else { 
+        $dates = '';
+    }
 	return $dates;
 }
 
 $sqlsalles = 'SELECT SALLE_ID as id, SALLE_NOM as nom FROM T_SALLE';
 $reponseSalles = mysql_query ($sqlsalles) or die ('Erreur SQL !'.$sqlsalles.'<br />'.mysql_error());
 
-$sqlseances = 'SELECT SEANCE_ID as id, SEANCE_DATE as ladate, SEANCE_HEURE as heure, SALLE_NOM as sallenom, SEANCE_COMPLETE as complete FROM T_SEANCE, T_SALLE WHERE SEANCE_SALLE_ID = SALLE_ID';
+$sqlspectacles = 'SELECT SPECTACLE_ID as idSpectacle, SPECTACLE_NAME as nomSpectacle FROM T_SPECTACLE ORDER BY idSpectacle desc';
+$reponseSpectacles = mysql_query ($sqlspectacles) or die ('Erreur SQL !'.$sqlspectacles.'<br />'.mysql_error());
+
+$sqlseances = 'SELECT SEANCE_ID as id, SEANCE_DATE as ladate, SEANCE_HEURE as heure, SALLE_NOM as sallenom, SEANCE_COMPLETE as complete, SEANCE_SPECTACLE_ID as spectacle_id, SPECTACLE_NAME as nomSpectacle FROM T_SEANCE, T_SALLE, T_SPECTACLE WHERE SEANCE_SALLE_ID = SALLE_ID AND SEANCE_SPECTACLE_ID = SPECTACLE_ID';
 $reponseSeances = mysql_query ($sqlseances) or die ('Erreur SQL !'.$sqlseances.'<br />'.mysql_error());
 
 ?>
@@ -25,6 +33,17 @@ $reponseSeances = mysql_query ($sqlseances) or die ('Erreur SQL !'.$sqlseances.'
         	while ($row1=mysql_fetch_array($reponseSalles)){ 
 				$nom = utf8_encode($row1['nom']);
 				echo '<option value="'.$row1['id'].'">'.$nom.'</option>';
+        	}
+		?>
+		</select>
+     </div>
+    <div class="ligne">
+     	<label for="nomSpectacle">Choisir un spectacle : </label>
+		<select name="nomSpectacle" id="nomSpectacle" style="margin-left:15px;">
+        <?php 
+        	while ($row1=mysql_fetch_array($reponseSpectacles)){ 
+				$nom = utf8_encode($row1['nomSpectacle']);
+				echo '<option value="'.$row1['idSpectacle'].'">'.$nom.'</option>';
         	}
 		?>
 		</select>
@@ -64,11 +83,12 @@ $reponseSeances = mysql_query ($sqlseances) or die ('Erreur SQL !'.$sqlseances.'
     	 <?php 
         	while ($row=mysql_fetch_array($reponseSeances)){ 
 				$sallenom = utf8_encode($row['sallenom']);
+				$nomSpectacle = utf8_encode($row['nomSpectacle']);
 				$id = $row['id'];
 				$ladate = switchDate($row['ladate']);
 				$heure = $row['heure'];
 				$complete = $row['complete'];
-				echo '<li id="'.$id.'"><strong>'.$sallenom.'</strong> '.$ladate.' &agrave; '.$heure.'';
+				echo '<li id="'.$id.'">'.$nomSpectacle.'- <strong>'.$sallenom.'</strong> '.$ladate.' &agrave; '.$heure.'';
 				if($complete == 1){
 					echo '<img src="images/complet.png" name="seancecomplete" alt="Seance Complete" width="15" id="'.$id.'_s" class="completer" style="padding-left:5px; cursor:pointer;"/></li>';
 				} else {

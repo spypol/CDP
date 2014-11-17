@@ -197,6 +197,10 @@
 			}
 		</style>
 		<?php
+            
+            $laseanceid = "";
+            $listeplaceachete = "";
+
 			if(isset($_POST['laseance'])){
 				
 				$laseanceid = $_POST['laseance'];
@@ -280,6 +284,11 @@
 					$totalTotal = 0;
 					$i = 0;
 					$emails = '';
+                    $totalAdulte= '';
+                    $total = '';
+                    $totalReduit = '';
+                    $totalEnfant = '';
+                
 					while ($row=mysql_fetch_array($reponsePlace)){
 						$SPECTATEUR_NOM = $row['SPECTATEUR_NOM'];
 						$SPECTATEUR_PRENOM = $row['SPECTATEUR_PRENOM'];

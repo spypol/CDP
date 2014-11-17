@@ -473,6 +473,12 @@ footer li h5{
     text-align: left;
 }
 
+.main #acheter-cd #billetreduc a{
+    color:inherit;
+    text-decoration: none;
+    font-size: 70%;
+}
+
 .main #acheter-cd #billetreduc-img{
     width: 150px;
     margin-left:10px;

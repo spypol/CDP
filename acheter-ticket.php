@@ -9,10 +9,15 @@
     
     //include $_SERVER['DOCUMENT_ROOT']."connection.php";
     include('connectionDB.php');
+
+    $lejour = "";
+
+    if(isset($_GET['next']))
+    {
+          $lejour = $_GET["jour"];
+    }
     
-    $lejour = $_GET["jour"];
-    
-    $sqlseances = 'SELECT SEANCE_ID as seanceid, SEANCE_DATE as ladate, SEANCE_HEURE as heure, SALLE_NOM as sallenom FROM T_SEANCE, T_SALLE WHERE SEANCE_SALLE_ID = SALLE_ID AND SEANCE_COMPLETE = 0 ORDER BY SEANCE_DATE';
+    $sqlseances = 'SELECT SEANCE_ID as seanceid, SEANCE_DATE as ladate, SEANCE_HEURE as heure, SALLE_NOM as sallenom, SPECTACLE_NAME as spectaclenom FROM T_SEANCE, T_SALLE, T_SPECTACLE WHERE SEANCE_SALLE_ID = SALLE_ID AND SEANCE_SPECTACLE_ID = SPECTACLE_ID AND SEANCE_COMPLETE = 0 ORDER BY SEANCE_DATE';
     $reponseSeances = mysql_query ($sqlseances) or die ('Erreur SQL !'.$sqlseances.'<br />'.mysql_error());
     
     if($lejour > 0){
@@ -60,8 +65,12 @@
                                 <h1>Réservez vos tickets !</h1>
                                 <span id="billetreduc">
                                     Ou directement sur 
-                                    <a href="http://www.billetreduc.com/110043/evt.htm?nr=1" title="BilletReduc">
-                                        <img src="img/Billetreduc.png" name="BilletReduc" alt="BilletReduc" id="billetreduc-img" />
+                                    <a href="http://www.billetreduc.com/110043/evt.htm?nr=1" title="BilletReduc" target="_blank">
+                                        <img src="img/Billetreduc.png" name="BilletReduc" alt="BilletReduc" id="billetreduc-img" /> Alice
+                                    </a>
+                                    
+                                    <a href="http://www.billetreduc.com/126912/evt.htm?nr=1" title="BilletReduc" target="_blank">
+                                        <img src="img/Billetreduc.png" name="BilletReduc" alt="BilletReduc" id="billetreduc-img" /> Peter Pan et les Pirates
                                     </a>
                                 </span>
                             
@@ -139,6 +148,7 @@
                                                     $heure = $row['heure'];
                                                     $ladate = switchDate($row['ladate']);
                                                     $seanceid = $row['seanceid'];
+                                                    $spectaclenom = utf8_encode($row['spectaclenom']);
                                                     
                                                     
                                                     $sqlNbPlace = ' SELECT SUM( place_nombre ) AS nbplaces FROM T_PLACE WHERE place_achete =1 AND place_seance_id = ' . $seanceid;
@@ -148,9 +158,9 @@
                                                     
                                                     if($nbPlace <= 80){
                                                         if($lejour > 0 && $IDseancechoisie == $seanceid){
-                                                            echo '<option value="'.$seanceid.'" selected>'.$ladate.'</option>';
+                                                            echo '<option value="'.$seanceid.'" selected>'.$spectaclenom.' - '.$ladate.' à '.$heure.'</option>';
                                                         } else {
-                                                            echo '<option value="'.$seanceid.'">'.$ladate.'</option>';
+                                                            echo '<option value="'.$seanceid.'">'.$spectaclenom.' - '.$ladate.' à '.$heure.'</option>';
                                                         }
                                                     }
                                                 }

@@ -49,7 +49,19 @@
                         
                         <section id="dossier-de-presse">
                             
-                            <a href="media/presse/Communique de presse P3 22_10_14.pdf" title="Compote de Prod présente ses nouveaux artistes !" target="_blank">
+                            <a href="media/presse/Communique%CC%81%20de%20presse%20P3%20161114.pdf" title="Compote de Prod présente sa nouvelle comédie musicale Peter Pan et les Pirates !" target="_blank">
+                                <img src="img/logos/pdf-small.png" title="Communiqué de Presse" id="dossier-presse-image" />
+                            </a>
+                            <h5>
+                                <a href="media/presse/Communique%CC%81%20de%20presse%20P3%20161114.pdf" title="Compote de Prod présente sa nouvelle comédie musicale Peter Pan et les Pirates!" target="_blank">
+                                    16.11.14 : Compote de Prod présente sa nouvelle comédie musicale «Peter Pan et les Pirates» !
+                                </a>  
+                            </h5>
+                            <p>Après l’immense succès d’ «Alice» qui terminera sa deuxième saison le 24 Novembre
+2014, Compote de Prod présentera son nouveau spectacle musical «Peter Pan et les Pirates», le
+03 Décembre, au Théâtre Clavel (18e).</p>
+                    
+                    <a href="media/presse/Communique de presse P3 22_10_14.pdf" title="Compote de Prod présente ses nouveaux artistes !" target="_blank">
                                 <img src="img/logos/pdf-small.png" title="Communiqué de Presse" id="dossier-presse-image" />
                             </a>
                             <h5>
@@ -57,8 +69,7 @@
                                     22.10.14 : Compote de Prod présente ses nouveaux artistes !
                                 </a>  
                             </h5>
-                            <p>L'équipe de Compote de prod est fère de vous présenter ses nouveaux artistes.</a> 
- </p>
+                            <p>L'équipe de Compote de prod est fère de vous présenter ses nouveaux artistes.</p>
                             
 <a href="media/presse/Communique de presse - 29092014.pdf" title="Découvrez le teaser de la comédie musicale Alice!" target="_blank">
                                 <img src="img/logos/pdf-small.png" title="Communiqué de Presse" id="dossier-presse-image" />

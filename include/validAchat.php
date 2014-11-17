@@ -21,11 +21,15 @@ include('connectionDB.php');
 $sqlSpectateur = 'INSERT INTO T_SPECTATEUR (SPECTATEUR_NOM, SPECTATEUR_PRENOM, SPECTATEUR_MAIL, SPECTATEUR_TEL) VALUES ("'.$nomSpectateur.'", "'.$prenomSpectateur.'", "'.$mailSpectateur.'", "'.$telSpectateur.'")';
 
 $sqlMaxId = 'SELECT MAX(SPECTATEUR_ID) as maxId from T_SPECTATEUR';
+$spectacle = 'SELECT SPECTACLE_id from T_SPECTACLE, T_SEANCE where spectacle_id = seance_spectacle_id and seance_id = '.$idseance;
 
 mysql_query ($sqlSpectateur) or die ('Erreur SQL !'.$sqlSpectateur.'<br />'.mysql_error());
 $maxId = mysql_query ($sqlMaxId) or die ('Erreur SQL !'.$sqlMaxId.'<br />'.mysql_error());
 $maxId = mysql_fetch_array($maxId);
 $maxId = $maxId['maxId'];
+$spectacleID = mysql_query ($spectacle) or die ('Erreur SQL !'.$spectacle.'<br />'.mysql_error());
+$spectacleID = mysql_fetch_array($spectacleID);
+$spectacleID = $spectacleID['SPECTACLE_id'];
 
 if($nbtarifadulte != 0){
 	$sqlPlaceAdulte = 'INSERT INTO T_PLACE (PLACE_SPECTATEUR_ID, PLACE_SEANCE_ID, PLACE_TARIF_ID, PLACE_NOMBRE, PLACE_ACHETE) VALUES ("'.$maxId.'", "'.$idseance.'", 1, '.$nbtarifadulte.', 0)';
@@ -98,23 +102,42 @@ $variableEncode = urlencode($encrypted);
 <section>
 <h2>Réservez vos tickets !</h2>
 <?php echo 'Le montant total à payer est le suivant : <strong>'.$montantTotal.'€</strong>'; ?>
-    
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-	 <input type="hidden" name="hosted_button_id" value="HL2L8ZJYWUHBL">  
-    <input type="hidden" name="cmd" value="_xclick"> 
-    <input type="hidden" name="business" value="compotedeprod@gmail.com">  
-    <input type="hidden" name="item_name" value="Billets de la comedie musicale Alice">  
-    <input type="hidden" name="amount" value="<?php echo $montantTotal; ?>">  
-    <input type="hidden" name="no_note" value="1">  
-	 <input name="lc" type="hidden" value="FR" />
-	 <input name="custom" type="hidden" value="<?php echo $maxId; ?>" />
-    <input type="hidden" name="currency_code" value="EUR">  
-    <input type="hidden" name="return" value="http://compotedeprod.com/achat-validation?c=<?php echo $variableEncode; ?>">
-	 <input name="cancel_return" type="hidden" value="http://compotedeprod.com/achat-annulation" />
-	 <input name="notify_url" type="hidden" value="http://www.compotedeprod.com/include/achat/notification.php" />
-    <input type="image" id="imagePaypal" src="https://www.paypal.com/fr_FR/FR/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - la solution de paiement en ligne la plus simple et la plus sécurisée !">
-	<img alt="" border="0" src="https://www.paypal.com/fr_FR/i/scr/pixel.gif" width="1" height="1" class="paypalsmall"> 
-</form>
+
+<?php if($spectacleID == 1){ ?>
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+         <input type="hidden" name="hosted_button_id" value="HL2L8ZJYWUHBL">  
+        <input type="hidden" name="cmd" value="_xclick"> 
+        <input type="hidden" name="business" value="compotedeprod@gmail.com">  
+        <input type="hidden" name="item_name" value="Billets de la comedie musicale Alice">  
+        <input type="hidden" name="amount" value="<?php echo $montantTotal; ?>">  
+        <input type="hidden" name="no_note" value="1">  
+         <input name="lc" type="hidden" value="FR" />
+         <input name="custom" type="hidden" value="<?php echo $maxId; ?>" />
+        <input type="hidden" name="currency_code" value="EUR">  
+        <input type="hidden" name="return" value="http://compotedeprod.com/achat-validation?c=<?php echo $variableEncode; ?>">
+         <input name="cancel_return" type="hidden" value="http://compotedeprod.com/achat-annulation" />
+         <input name="notify_url" type="hidden" value="http://www.compotedeprod.com/include/achat/notification.php" />
+        <input type="image" id="imagePaypal" src="https://www.paypal.com/fr_FR/FR/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - la solution de paiement en ligne la plus simple et la plus sécurisée !">
+        <img alt="" border="0" src="https://www.paypal.com/fr_FR/i/scr/pixel.gif" width="1" height="1" class="paypalsmall"> 
+    </form>
+<?php } elseif($spectacleID == 2) { ?>
+     <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+         <input type="hidden" name="hosted_button_id" value="T7G9TG27CEBQ6">  
+        <input type="hidden" name="cmd" value="_xclick"> 
+        <input type="hidden" name="business" value="compotedeprod@gmail.com">  
+        <input type="hidden" name="item_name" value="Billets de la comedie musicale Peter Pan et les Pirates">  
+        <input type="hidden" name="amount" value="<?php echo $montantTotal; ?>">  
+        <input type="hidden" name="no_note" value="1">  
+         <input name="lc" type="hidden" value="FR" />
+         <input name="custom" type="hidden" value="<?php echo $maxId; ?>" />
+        <input type="hidden" name="currency_code" value="EUR">  
+        <input type="hidden" name="return" value="http://compotedeprod.com/achat-validation-ppp?c=<?php echo $variableEncode; ?>">
+         <input name="cancel_return" type="hidden" value="http://compotedeprod.com/achat-annulation-ppp" />
+         <input name="notify_url" type="hidden" value="http://www.compotedeprod.com/include/achat/notification-ppp.php" />
+        <input type="image" id="imagePaypal" src="https://www.paypal.com/fr_FR/FR/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - la solution de paiement en ligne la plus simple et la plus sécurisée !">
+        <img alt="" border="0" src="https://www.paypal.com/fr_FR/i/scr/pixel.gif" width="1" height="1" class="paypalsmall"> 
+    </form>
+<?php } ?>
 
 <div id="mentionsLegales">
 	Mentions légales conformément à la <strong>Loi n°2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique.</strong>
