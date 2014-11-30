@@ -46,7 +46,7 @@
 ?>
 
 <?php include('include/head.php'); ?>
-	<?php include('include/slider-alice-static.php'); ?>
+	<?php include('include/slider-ppp-static.php'); ?>
 
         <div class="main-container">
             <div class="main wrapper clearfix">
@@ -65,12 +65,12 @@
                                 <h1>Réservez vos tickets !</h1>
                                 <span id="billetreduc">
                                     Ou directement sur 
-                                    <a href="http://www.billetreduc.com/110043/evt.htm?nr=1" title="BilletReduc" target="_blank">
+                                    <!--<a href="http://www.billetreduc.com/110043/evt.htm?nr=1" title="BilletReduc" target="_blank">
                                         <img src="img/Billetreduc.png" name="BilletReduc" alt="BilletReduc" id="billetreduc-img" /> Alice
-                                    </a>
+                                    </a>-->
                                     
                                     <a href="http://www.billetreduc.com/126912/evt.htm?nr=1" title="BilletReduc" target="_blank">
-                                        <img src="img/Billetreduc.png" name="BilletReduc" alt="BilletReduc" id="billetreduc-img" /> Peter Pan et les Pirates
+                                        <img src="img/Billetreduc.png" name="BilletReduc" alt="BilletReduc" id="billetreduc-img" /><!-- Peter Pan et les Pirates-->
                                     </a>
                                 </span>
                             
@@ -88,7 +88,7 @@
                                         <input type="tel" name="telSpectateur" size="40" id="telSpectateur" value="" placeholder="Numéro de téléphone" />
                                         
                                         <div class="dropdowns">
-                                            <label for="nbtarifadulte"> Nombre de places adulte - <?php echo $prixAdulte.' €'; ?></label>
+                                            <label for="nbtarifadulte"> Nombre de places <!--adulte--> - <?php echo $prixAdulte.' €'; ?></label>
                                             <select name="nbtarifadulte" id="nbtarifadulte">
                                                 <option value="0">0</option>
                                                 <option value="1">1</option>
@@ -104,6 +104,7 @@
                                             </select>
                                         </div>
                                         
+<!--
                                         <div class="dropdowns">
                                             <label for="nbtarifreduit"> Nombre de places tarif réduit (étudiants, chômeurs - un justificatif vous sera demandé sur place) - <?php echo $prixReduit.' €'; ?></label>
                                             <select name="nbtarifreduit" id="nbtarifreduit">
@@ -137,9 +138,10 @@
                                                 <option value="10">10</option>
                                             </select>
                                         </div>
+-->
                                         
                                         <div class="dropdowns">
-                                            <label for="idseance">Choisissez la séance au Théâtre Clavel à 19h30 (ATTENTION, le Samedi 8 Novembre la séance est à 10h30)</label>
+                                            <label for="idseance">Choisissez la séance au Théâtre Clavel</label>
                                             <select name="idseance" id="idseance">
                                             <?php
                                     
