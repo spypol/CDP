@@ -1,4 +1,4 @@
-		<!-------------------------- ****** -------------------------->
+<!-------------------------- ****** -------------------------->
 		<!-------------------------- SLIDER -------------------------->
 		<!-------------------------- ****** -------------------------->
         <div class="header-container">
@@ -6,8 +6,8 @@
 				
 				<div class="slider-wrapper theme-default">
 					<div id="slider-homepage" class="nivoSlider">
-						<a href="acheter-cd"><img src="img/slide_alice1_oct_2014.jpg" /></a>
-						<a href="acheter-ticket"><img src="img/slide_ppp.jpg" /></a>
+						<a href="alice"><img src="img/slide_alice.jpg" /></a>
+						<a href="peter-pan-et-les-pirates"><img src="img/slide_ppp.jpg" /></a>
 					</div>
 				</div>
             </header>

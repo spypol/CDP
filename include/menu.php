@@ -44,7 +44,7 @@
 						</div>
 						
 						<div class="menu-item">
-						  <h4><a href="acheter-ticket" class="bouton_reserver">Réservez en ligne</a></h4>
+						  <h4><a href="http://www.billetreduc.com/121335/evt.htm" class="bouton_reserver">Réservez en ligne</a></h4>
 						</div>
 						
 					</nav>
@@ -62,6 +62,7 @@
 				
 					<nav>
 						<ul>
+                            <li><a href="http://www.billetreduc.com/121335/evt.htm" class="bouton_reserver">Réservez en ligne</a></li>
                             <li><a href="alice" class="bouton_spectacle">Nos Spectacles - Alice</a></li>
 							<li><a href="peter-pan-et-les-pirates" class="bouton_spectacle">Nos Spectacles - Peter Pan et les Pirates !</a></li>
 							<li><a href="artistes-alice" class="bouton_artiste">Nos Artistes - Alice</a></li>
@@ -72,7 +73,6 @@
 							<li><a href="prod" class="bouton_prod">La Prod</a></li>
                             <li><a href="acheter-cd" class="bouton_prod">Goodies</a></li>
 							<li><a href="contact" class="bouton_contact">Contact</a></li>
-							<li><a href="acheter-ticket" class="bouton_reserver">Réservez en ligne</a></li>
 						</ul>
 					</nav>
                 </div>

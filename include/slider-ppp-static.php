@@ -6,7 +6,7 @@
 				
 				<div class="slider-wrapper theme-default">
 					<!--<div id="slider-stp" class="nivoSlider">-->
-						 <a href="acheter-ticket"><img src="img/slide_ppp.jpg" /></a>
+						 <a href="peter-pan-et-les-pirates"><img src="img/slide_ppp.jpg" /></a>
 					<!--</div>-->
 				</div>
 

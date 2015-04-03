@@ -36,6 +36,7 @@
                         <img src="_photos/troupe/alice/avatars/julienbonneau.jpg" class="vignette artistes-alice xxsmall" id="julienb" title="Julien Bonneau"/>
                         <img src="_photos/troupe/alice/avatars/alban.jpg" class="vignette artistes-alice xxsmall" id="alban" title="Alban Jarossay"/>
                         <img src="_photos/troupe/alice/avatars/foteini.jpg" class="vignette artistes-alice xxsmall" id="foteini" title="Foteini Pangos"/>
+                        <img src="_photos/troupe/ppp/avatars/carine.jpg" class="vignette artistes-alice xxsmall" id="carine" title="Carine Grimonpont"/>
                     </article>
                     
                     
@@ -74,6 +75,7 @@
                         <?php include('include/artistes/julienb.php'); ?>
                         <?php include('include/artistes/alban.php'); ?>
                         <?php include('include/artistes/foteini.php'); ?>
+                        <?php include('include/artistes/carine.php'); ?>
                     </div>
                 </div>    
             </div> <!-- #main -->

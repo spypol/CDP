@@ -16,17 +16,25 @@
 						<section>
 							<h1>Presse</h1>
                             <p>   
-                                Vous êtes journaliste, blogueur, et souhaitez avoir plus d’informations sur le spectacle Alice ? Cet espace vous est dédié. Vous y trouverez tous nos communiqués de presse, nos actualités, ainsi qu’un dossier de presse complet présentant notre spectacle.
+                                Vous êtes journaliste, blogueur, et souhaitez avoir plus d’informations sur les spectacles Compote de Prod ? Cet espace vous est dédié. Vous y trouverez tous nos communiqués de presse, nos actualités, ainsi que les dossiers de presse complets présentant nos spectacles.
                             </p>    
                             
                         </section>
                         <section id="dossier-de-presse">
+                            <a href="media/presse/Dossier de Presse P3 090115.pdf" title="Dossier de presse" target="_blank">
+                                <img src="img/logos/pdf-small.png" title="Dossier de Presse" id="dossier-presse-image" />
+                            </a>
+                            <h5>
+                                <a href="media/presse/Dossier de Presse P3 090115.pdf" title="Dossier de presse" target="_blank">
+                                    Téléchargez le dossier de presse complet présentant notre spectacle Peter Pan et les Pirates
+                                </a>    
+                            </h5>
                             <a href="media/presse/Dossier de presse Alice 151014.pdf" title="Dossier de presse" target="_blank">
                                 <img src="img/logos/pdf-small.png" title="Dossier de Presse" id="dossier-presse-image" />
                             </a>
                             <h5>
                                 <a href="media/presse/Dossier de presse Alice 151014.pdf" title="Dossier de presse" target="_blank">
-                                    Téléchargez notre dossier de presse complet présentant notre spectacle
+                                    Téléchargez le dossier de presse complet présentant notre spectacle  Alice
                                 </a>    
                             </h5>
                         </section>

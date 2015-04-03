@@ -14,7 +14,7 @@
 				
 				<div class="slider-wrapper theme-default">
 					<!--<div id="slider-alice" class="nivoSlider">-->
-						 <a href="acheter-ticket"><img src="img/slide_alice1_oct_2014.png" /></a>
+						 <a href="http://www.billetreduc.com/121335/evt.htm"><img src="img/slide_alice.png" /></a>
 					<!--</div>-->
 				</div>
 

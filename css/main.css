@@ -442,11 +442,16 @@ footer li h5{
     display:inline;
 }
 
-.main #acheter-cd .dropdowns select{
+.main #acheter-cd .dropdowns select, .main #contact .dropdowns select{
     width:100%;
     margin-left:0;
     margin-right:0;
-    text-transform:capitalize;
+}
+
+.main #contact .dropdowns select{
+    width:100%;
+    margin-left:0;
+    margin-right:0;
 }
 
 .label-ticket{
@@ -887,6 +892,24 @@ PARTENAIRE/PRESSE ARTICLE
 #partenaires-right #partenaires-logos img{
     margin:0px 10%;
     width:80%;
+}
+
+
+/* ====================
+    BRANDING
+==================== */
+.logo-entreprise{
+    float:left;
+    margin: 0 20px 20px 0px;
+    max-width: 200px;
+}
+
+#branding{
+    color: white;
+}
+
+#branding h1{
+    text-shadow: 0 0 0 #FFF;
 }
 
 

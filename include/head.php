@@ -110,6 +110,19 @@
 		
 		<link rel="stylesheet" href="css/main.css">
         
+        <!-- BRANDING -->
+        <?php
+            if($url == 'mediavea' || $url == 'sociacom' || $url == 'mesclado') { ?>
+            <style>
+                body { background: url(./img/bg-noel.jpg) repeat;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+                }
+            </style>
+        <?php } ?>
+        
         <!-- Adaptive Images 
         <script>document.cookie='resolution='+Math.max(screen.width,screen.height)+'; path=/';</script>-->
         
