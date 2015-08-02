@@ -29,11 +29,11 @@
                                     Téléchargez le dossier de presse complet présentant notre spectacle Peter Pan et les Pirates
                                 </a>    
                             </h5>
-                            <a href="media/presse/Dossier de presse Alice 151014.pdf" title="Dossier de presse" target="_blank">
+                            <a href="media/presse/CDP-Dossier-Presse-Alice-02042015.pdf" title="Dossier de presse" target="_blank">
                                 <img src="img/logos/pdf-small.png" title="Dossier de Presse" id="dossier-presse-image" />
                             </a>
                             <h5>
-                                <a href="media/presse/Dossier de presse Alice 151014.pdf" title="Dossier de presse" target="_blank">
+                                <a href="media/presse/CDP-Dossier-Presse-Alice-02042015.pdf" title="Dossier de presse" target="_blank">
                                     Téléchargez le dossier de presse complet présentant notre spectacle  Alice
                                 </a>    
                             </h5>
