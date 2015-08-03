@@ -1,4 +1,4 @@
-smal/* ==========================================================================
+/* ==========================================================================
    HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
    ========================================================================== */
 
@@ -329,18 +329,6 @@ body {
     display:none;
 }
 
-.main .bottom-left, .main .bottom-right{
-    margin: 15px 0 0 0;
-}
-
-.main .bottom-right {
-    float:right;
-}
-
-.main .bottom-left {
-    margin-left:auto;
-}
-
 footer ul{
 	color: #444;
 	margin:10px 0;
@@ -454,16 +442,11 @@ footer li h5{
     display:inline;
 }
 
-.main #acheter-cd .dropdowns select, .main #contact .dropdowns select{
+.main #acheter-cd .dropdowns select{
     width:100%;
     margin-left:0;
     margin-right:0;
-}
-
-.main #contact .dropdowns select{
-    width:100%;
-    margin-left:0;
-    margin-right:0;
+    text-transform:capitalize;
 }
 
 .label-ticket{
@@ -906,54 +889,6 @@ PARTENAIRE/PRESSE ARTICLE
     width:80%;
 }
 
-#partenaires-right #partenaires-logos .logosmall{
-    float: left;
-    margin:10px 10%;
-    width:30%;
-}
-
-#partenaires-right #partenaires-logos .xlogosmall{
-    float: left;
-    margin:10px 10%;
-    width:23%;
-}
-
-
-/* ====================
-    BRANDING
-==================== */
-.logo-entreprise{
-    float:left;
-    margin: 0 20px 20px 0px;
-    max-width: 200px;
-}
-
-#branding{
-    color: white;
-}
-
-#branding h1{
-    text-shadow: 0 0 0 #FFF;
-}
-
-
-/* ====================
-    BRANDING
-==================== */
-.logo-entreprise{
-    float:left;
-    margin: 0 20px 20px 0px;
-    max-width: 200px;
-}
-
-#branding{
-    color: white;
-}
-
-#branding h1{
-    text-shadow: 0 0 0 #FFF;
-}
-
 
 /* ====================
     SOCIAL ARTICLE
@@ -1149,18 +1084,6 @@ ACHETER ARTICLE
     margin:10px;
 }
 
-
-/* ====================
-EVENTS
-==================== */
-.main .events{
-    height: 250px;
-}
-
-.main .events-4{
-    
-}
-
 /* ==========================================================================
    Media Queries
    ========================================================================== */
@@ -1257,10 +1180,6 @@ EVENTS
     .main #social {
         margin-left:2%;
         display:none;
-    }
-    
-    .main .bottom-left{
-        margin-left:2%;
     }
 
     /*#acheter-cd-alice input{
@@ -1374,11 +1293,6 @@ EVENTS
     .main #social {
         margin-left:2%;
         display:block;
-    }
-    
-    .main .bottom-left{
-        margin-left:2%;
-        display: block;
     }
 
     #photo-vignettes img{

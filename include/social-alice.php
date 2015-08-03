@@ -7,6 +7,7 @@
 						data-header="false" 
 						data-stream="true" 
 						data-show-border="true"
-                        data-height="610">
+                        data-height="610"
+                        data-width="465">
 					</div>
                 </article>

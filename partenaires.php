@@ -48,12 +48,16 @@
 						<section id="partenaires-logos">
                             
                             <h1>Notre partenaire officiel</h1>
-                            <a href="http://www.up-consulting.fr/" title="UP Consulting" target="_blank"><img src="img/logos/up.png" title="Up Consulting" /></a>
+                            <a href="http://www.up-consulting.fr/" title="UP Consulting" target="_blank"><img src="img/logos/up.png" title="Up Consulting" class="xlogosmall" /></a>
+                            <a href="http://www.francebleu.fr/" title="France Bleue IDF" target="_blank"><img src="img/logos/francebleu.png" title="France Bleue IDF" class="xlogosmall" /></a>
+                            <a href="http://www.pointdencre.fr/" title="Point d'Encre" target="_blank"><img src="img/logos/pointdencre.png" title="Point d'Encre" class="logosmall" /></a>
+                            <a href="http://www.visioscene.com" title="Visioscène" target="_blank"><img src="img/logos/LogoVisioscene.jpg" title="Visioscène" class="xlogosmall" /></a>
                             
                             
                             <h1 id="mecenes">Nos mécènes</h1>
                             <a href="http://www.novencia.com/" title="Novencia" target="_blank"><img src="img/logos/Novencia.jpg" title="Novencia" /></a>
                             <img src="img/logos/logo_iskfinance_couleur.jpg" title="ISK Finance" />
+                            <a href="http://sociacom.fr/" title="Sociacom" target="_blank"><img src="img/logos/sociacom.jpg" title="Sociacom" /></a>
                             
                         </section>
 					</article>

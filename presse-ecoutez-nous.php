@@ -32,7 +32,7 @@
 							
 							<?php
 								if (isset($_POST['submit'])) {
-									if ($code != 'FREEPRESSE2014') {
+									if ($code != 'FREEPRESSE2015') {
                                         
                                         ?>
                                             <p>Entrez le code qui vous a été envoyé pour écouter cinq chansons extraites de la comédie musicale Alice !</p>
