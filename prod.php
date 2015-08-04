@@ -26,14 +26,16 @@
                     
                     <article id="photo-vignettes" class="photo-vignettes-light div-laptop">
                         <h1>L'équipe</h1>
-                        <img src="_photos/PROD2013/juliengoetz.jpg" class="vignette small prod" id="juliengoetz" title="Julien Goetz"/>
-                        <img src="_photos/PROD2013/julieniscache.jpg" class="vignette small prod" id="julieniscache" title="Julien Iscache"/>
-                        <img src="_photos/PROD2013/julienbonneau.jpg" class="vignette small prod" id="julienbonneau" title="Julien Bonneau"/>
-                        <img src="_photos/PROD2013/luciefoineau.jpg" class="vignette small prod" id="luciefoineau" title="Lucie Foineau"/>
-                        <img src="_photos/PROD2013/nicolaslaustriat.jpg" class="vignette small prod" id="nicolaslaustriat" title="Nicolas Laustriat"/>
-                        <img src="_photos/PROD2013/benjaminlandrot.jpg" class="vignette small prod" id="benjaminlandrot" title="Benjamin Landrot"/>
-                        <img src="_photos/PROD2013/paulpinier.jpg" class="vignette small prod" id="paulpinier" title="Paul Pinier"/>
-                        <img src="_photos/PROD2013/carolinegoetz.jpg" class="vignette small prod" id="carolinegoetz" title="Caroline Goetz"/>
+                        <img src="_photos/PROD2013/juliengoetz.jpg" class="vignette xsmall prod" id="juliengoetz" title="Julien Goetz"/>
+                        <img src="_photos/PROD2013/julieniscache.jpg" class="vignette xsmall prod" id="julieniscache" title="Julien Iscache"/>
+                        <img src="_photos/PROD2013/julienbonneau.jpg" class="vignette xsmall prod" id="julienbonneau" title="Julien Bonneau"/>
+                        <img src="_photos/PROD2013/luciefoineau.jpg" class="vignette xsmall prod" id="luciefoineau" title="Lucie Foineau"/>
+                        <img src="_photos/PROD2013/nicolaslaustriat.jpg" class="vignette xsmall prod" id="nicolaslaustriat" title="Nicolas Laustriat"/>
+                        <img src="_photos/PROD2013/benjaminlandrot.jpg" class="vignette xsmall prod" id="benjaminlandrot" title="Benjamin Landrot"/>
+                        <img src="_photos/PROD2013/paulpinier.jpg" class="vignette xsmall prod" id="paulpinier" title="Paul Pinier"/>
+                        <img src="_photos/PROD2013/carolinegoetz.jpg" class="vignette xsmall prod" id="carolinegoetz" title="Caroline Goetz"/>
+                        <img src="_photos/PROD2013/alaingoudey.jpg" class="vignette xsmall prod" id="alaingoudey" title="Alain Goudey"/>
+                        <img src="_photos/PROD2013/elenabravo.jpg" class="vignette xsmall prod" id="elenabravo" title="Elena Bravo"/>
                     </article>
                     
                     <div id="details">
@@ -77,6 +79,14 @@
                         
                         <article id="artiste-details" class="dark-text div-smartphone artiste-details-light">
                             <?php include('include/artistes/carolinegoetz.php'); ?>
+                        </article>
+                        
+                        <article id="artiste-details" class="dark-text div-smartphone artiste-details-light">
+                            <?php include('include/artistes/alaingoudey.php'); ?>
+                        </article>
+                        
+                        <article id="artiste-details" class="dark-text div-smartphone artiste-details-light">
+                            <?php include('include/artistes/elenabravo.php'); ?>
                         </article>
                         
                     </div>
