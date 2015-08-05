@@ -1158,8 +1158,23 @@ EVENTS
 }
 
 .main .events-4{
-    
+    height: 482px;
+    width: 23%;
 }
+
+.main .events-4 h1{
+    font-size:1.4em;
+}
+
+.main .events-4 ul{
+    list-style-image: url(../events/star.png);
+    list-style-position: outside;
+    margin-bottom: 20px;
+    padding-left:7px;
+    padding-right: 7px;
+}
+
+
 
 /* ==========================================================================
    Media Queries
